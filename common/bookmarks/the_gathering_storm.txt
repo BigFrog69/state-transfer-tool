@@ -1,0 +1,52 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "TST"
+		default = yes
+		
+		"WOD"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"FCM"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"PUP"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"ROB"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"ROO"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"TBA"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"ROK"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"SPI"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"NLA"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"LLB"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+		}
+		"SSB"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"CSS"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

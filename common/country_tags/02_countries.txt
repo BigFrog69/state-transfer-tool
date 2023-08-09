@@ -1,0 +1,13 @@
+SPI	= "countries/nationofsprite.txt"
+ROB	= "countries/RepublicOfBretain.txt"
+ROO	= "countries/RepublicOfOstryae.txt"
+TBA	= "countries/TheBarons.txt"
+
+ROK	= "countries/RepublicOfKustenkuste.txt"
+NLA	= "countries/TheMapleRepublicOfNationArmyLiberation.txt"
+WOD	= "countries/woodland.txt"
+LLB	= "countries/liberland.txt"
+SSB	= "countries/SocialistStateOfBeyron.txt"
+CSS	= "countries/People'sRepublicOfCoso.txt"
+PUP	= "countries/dictorialship_of_Proto-Uralic_people.txt"
+FCM	= "countries/French-canadian_monarchy.txt"

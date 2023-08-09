@@ -1,0 +1,21 @@
+state={
+	id=20
+	name="STATE_20"
+	provinces={
+		12 26 75 226 319 531 552 624 799 838 855 904 911 1022 1064 1085 1530 1626 1740 1842 2169 2365 2436 2579 2618 2686 2722 2790 2843 2892 3001 3104 3210 3211 3228 3232 3280 3390 3440 3532 3659 3707 3982 4399 4563 4672 4874 4911 4913 4916 4917 4919 4925 4927 4931 4934 4935 4938 4956 4964 
+	}
+	manpower=800000
+	history={
+		owner = PUP
+		core = PUP
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+#dictorialship of Proto-Uralic people

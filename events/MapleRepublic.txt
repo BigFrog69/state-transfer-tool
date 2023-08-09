@@ -1,0 +1,29 @@
+###########################
+# Maple Events
+###########################
+
+add_namespace = maple_republic
+
+country_event = {
+	id = maple_republic.1
+	title = maple_republic.1.t
+	desc = maple_republic.1.d
+	picture = GFX_report_event_bunker_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = maple_republic.1.a
+		#Put effects here
+	}
+
+	option = {
+		name = maple_republic.1.b
+
+	}
+
+	option = {
+		name = maple_republic.1.c
+
+	}
+}

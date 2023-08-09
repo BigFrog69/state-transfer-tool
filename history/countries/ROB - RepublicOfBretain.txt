@@ -1,0 +1,36 @@
+﻿capital = 3
+
+oob = "ROB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+}
+
+set_war_support = 0.1
+set_stability = 0.8
+
+recruit_character = ROB_justacasualbussinesman
+
+add_ideas = {
+	ROB_navy_bonuses
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.6.3"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 92
+	fascism = 3
+	communism = 5
+}
+

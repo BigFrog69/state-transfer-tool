@@ -1,0 +1,39 @@
+###########################
+# Beyron Events
+###########################
+
+add_namespace = Beyron
+
+country_event = {
+	id = Beyron.1
+	title = Beyron.1.t
+	desc = Beyron.1.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.1.a
+		complete_national_focus = SSB_Starting_Economy
+	}
+
+	option = {
+		name = Beyron.1.b
+
+	}
+
+	option = {
+		name = Beyron.1.c
+
+	}
+}
+
+
+
+
+
+
+
+
+
+

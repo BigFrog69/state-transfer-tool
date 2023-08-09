@@ -1,0 +1,24 @@
+characters={
+	ROO_OverShadeShadow={
+		name="OverShadeShadow"
+		portraits={
+			civilian={
+				large=GFX_portrait_ROO_OverShadeShadow
+			}
+			army={
+				small="GFX_portrait_ROO_OverShadeShadow"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

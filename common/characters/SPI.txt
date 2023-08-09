@@ -1,0 +1,19 @@
+characters={
+	SPI_king_israel={
+		name="King Israel"
+		portraits={
+			civilian={
+				large=GFX_portrait_SPI_king_israel
+			}
+			army={
+				small="GFX_portrait_SPI_king_israel"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+characters={
+	ROB_justacasualbussinesman={
+		name="Justacasualbussinesman"
+		portraits={
+			civilian={
+				large=GFX_portrait_ROB_justacasualbussinesman
+			}
+			army={
+				small="GFX_portrait_ROB_justacasualbussinesman"
+			}
+		}
+		country_leader={
+			ideology=democratic-monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+	ROB_car={
+		name="Carmander In Chief"
+		portraits={
+			civilian={
+				large=GFX_portrait_ROB_car
+			}
+			army={
+				small="GFX_portrait_ROB_car"
+			}
+		}
+	}
+
+}

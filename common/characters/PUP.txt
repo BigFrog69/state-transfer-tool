@@ -1,0 +1,20 @@
+characters={
+	PUP_Levedi={
+		name="Levedi"
+		portraits={
+			civilian={
+				large=GFX_portrait_PUP_Levedi
+			}
+			army={
+				small="GFX_portrait_PUP_Levedi"
+			}
+		}
+		country_leader={
+			ideology=Authoritarian_Regency
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

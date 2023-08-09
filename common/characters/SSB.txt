@@ -1,0 +1,20 @@
+characters={
+	SSB_bigfrrog={
+		name="bigfrrog"
+		portraits={
+			civilian={
+				large=GFX_portrait_SSB_bigfrrog
+			}
+			army={
+				small="GFX_portrait_SSB_bigfrrog"
+			}
+		}
+		country_leader={
+			ideology=Socialist_Frogism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

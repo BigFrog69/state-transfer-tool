@@ -1,0 +1,20 @@
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		3360 3741 5382 5393 
+	}
+	manpower=6200000
+	history={
+		owner = SSB
+		core = SSB
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

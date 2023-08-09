@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+		undead_population = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -1.0
+			}
+		}
+	}
+}

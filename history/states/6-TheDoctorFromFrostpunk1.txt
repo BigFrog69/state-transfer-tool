@@ -1,0 +1,20 @@
+state={
+	id=6
+	name="STATE_6"
+	provinces={
+		1252 1419 1823 4094 4252 4282 5923 5980 6074 6107 
+	}
+	manpower=6200000
+	history={
+		owner = ROK
+		core = ROK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

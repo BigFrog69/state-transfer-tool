@@ -1,0 +1,48 @@
+﻿l_english:
+ SPI:0 "Sprite Nation"
+ SPI_DEF:0 "Sprite"
+ SPI_ADJ:0 "Spritian"
+
+ ROB:0 "Republic of Bretain"
+ ROB_DEF:0 "Bretain"
+ ROB_ADJ:0 "Bretaian"
+
+ ROO:0 "Republic of Ostryae"
+ ROO_DEF:0 "Ostryae"
+ ROO_ADJ:0 "Ostryian"
+
+ TBA:0 "The Barons"
+ TBA_DEF:0 "Barons"
+ TBA_ADJ:0 "Baron"
+
+ ROK:0 "Republic of Kustenkuste"
+ ROK_DEF:0 "Kustenkuste"
+ ROK_ADJ:0 "Kustans"
+
+ NLA:0 "National Liberation Army of the Maple Republic"
+ NLA_DEF:0 "Maple Republic"
+ NLA_ADJ:0 "NLA"
+
+ WOD:0 "Woodland"
+ WOD_DEF:0 "Woodlandia"
+ WOD_ADJ:0 "Woodlandian"
+
+ LLB:0 "Liberland"
+ LLB_DEF:0 "Liberland"
+ LLB_ADJ:0 "Liberlandian"
+
+ SSB:0 "Socialist State of Beyron"
+ SSB_DEF:0 "State of Beyron"
+ SSB_ADJ:0 "Beyronian"
+
+ CSS:0 "People's Republic of Coso"
+ CSS_DEF:0 "Coso"
+ CSS_ADJ:0 "Cosoian"
+
+ PUP:0 "Dictorialship of Proto-Uralic People"
+ PUP_DEF:0 "Proto-Uralic"
+ PUP_ADJ:0 "Uralics"
+
+ FCM:0 "French-Canadian Monarchy"
+ FCM_DEF:0 "French-Canadian"
+ FCM_ADJ:0 "French-Canadian"

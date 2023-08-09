@@ -1,0 +1,42 @@
+###########################
+# Liberland Events
+###########################
+
+add_namespace = Liberland
+
+country_event = {
+	id = Liberland.1
+	title = Liberland.1.t
+	desc = Liberland.1.d
+	picture = GFX_report_event_bunker_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Liberland.1.a
+		set_popularities = {
+			chad = 65
+			democratic = 35
+		}
+
+	}
+
+	option = {
+		name = Liberland.1.b
+		set_popularities = {
+			chad = 35
+			democratic = 65
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

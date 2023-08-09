@@ -1,0 +1,206 @@
+﻿
+focus_tree = {
+	id = beyron_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SSB
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = SSB_The_Great_Purge
+		icon = GFX_goal_TheGreatPurge
+		x = 6
+		y = 0
+		cost = 1 #5
+
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_timed_idea = {
+				idea = Purge_the_traitors
+				days = 60
+			}
+			
+		}
+	}
+
+	focus = {
+		id = SSB_The_New_order
+		icon = GFX_goal_TheNewOrder
+		x = 0
+		y = 1
+		cost = 1 #10
+
+		prerequisite = { focus = SSB_The_Great_Purge }
+		relative_position_id = SSB_The_Great_Purge
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_timed_idea = {
+				idea = New_Order
+				days = 365
+			}
+		}
+	}
+
+
+	focus = {
+		id = SSB_Fix_The_Red_Council
+		icon = GFX_goal_FixTheRedCouncil
+		x = 0
+		y = 2
+		cost = 1 #5
+
+		prerequisite = { focus = SSB_The_New_order }
+		relative_position_id = SSB_The_Great_Purge
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			remove_ideas = Red_council
+			country_event = Beyron.1
+
+		}
+	}
+
+
+	focus = {
+		id = SSB_Democracy_Route
+		#icon = GFX_goal_FixTheRedCouncil
+		x = -3
+		y = 3
+		cost = 1 #5
+
+		prerequisite = { focus = SSB_Fix_The_Red_Council }
+		relative_position_id = SSB_The_Great_Purge
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_timed_idea = {
+				idea = New_Order
+				days = 365
+			}
+		}
+	}
+
+	focus = {
+		id = SSB_Communist_Route
+		#icon = GFX_goal_FixTheRedCouncil
+		x = 0
+		y = 3
+		cost = 1 #5
+
+		prerequisite = { focus = SSB_Fix_The_Red_Council }
+		relative_position_id = SSB_The_Great_Purge
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_timed_idea = {
+				idea = New_Order
+				days = 365
+			}
+		}
+	}
+
+
+	focus = {
+		id = SSB_Fascist_Route
+		#icon = GFX_goal_FixTheRedCouncil
+		x = 3
+		y = 3
+		cost = 1 #5
+
+		prerequisite = { focus = SSB_Fix_The_Red_Council }
+		relative_position_id = SSB_The_Great_Purge
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_timed_idea = {
+				idea = New_Order
+				days = 365
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = SSB_Starting_Economy
+		icon = GFX_goal_StartingEconomy
+		x = 12
+		y = 0
+		cost = 1 #5
+
+		available = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			13 = {
+				set_building_level = {
+					type = industrial_complex	
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}	
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,24 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+
+	SpriteType = {
+	name = "GFX_goal_FixTheRedCouncil"
+	texturefile = "gfx/interface/goals/FixTheRedCouncil.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_TheGreatPurge"
+	texturefile = "gfx/interface/goals/TheGreatPurge.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_TheNewOrder"
+	texturefile = "gfx/interface/goals/TheNewOrder.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_StartingEconomy"
+	texturefile = "gfx/interface/goals/StartingEconomy.dds"			
+	}
+
+
+
+}

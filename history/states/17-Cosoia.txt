@@ -1,0 +1,20 @@
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		155 665 668 895 1118 1294 1796 1919 2077 2113 2146 2405 2512 3623 3760 4344 4716 4939 4941 4950 4960 4970 4988 4990 5003 5027 5031 
+	}
+	manpower=6200000
+	history={
+		owner = CSS
+		core = CSS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+characters={
+	TBA_barondipshit={
+		name="barondipshit"
+		portraits={
+			civilian={
+				large=GFX_portrait_tba_barondipshit
+			}
+			army={
+				small="GFX_portrait_tba_barondipshit"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

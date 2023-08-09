@@ -1,0 +1,20 @@
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		279 621 802 850 934 949 1185 1192 1963 2836 2900 3110 3283 3376 3750 3775 3842 4453 4606 4718 4785 4845 6237 6245 6250 6262 6273 6276 6277 6278 6279 6284 6290 6291 6296 6299 6301 6306 6308 6317 6318 6325 6336 6350 6352 
+	}
+	manpower=6200000
+	history={
+		owner = TBA
+		core = TBA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

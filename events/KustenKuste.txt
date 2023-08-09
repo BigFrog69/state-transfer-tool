@@ -1,0 +1,36 @@
+###########################
+# Kustenkuste Events
+###########################
+
+add_namespace = Kustenkuste
+
+country_event = {
+	id = Kustenkuste.1
+	title = Kustenkuste.1.t
+	desc = Kustenkuste.1.d
+	picture = GFX_Familial_Promotion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Kustenkuste.1.a
+		add_corps_commander_role = {
+			Character = GER_Character_token
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+
+	option = {
+		name = Kustenkuste.1.b
+
+	}
+
+	option = {
+		name = Kustenkuste.1.c
+
+	}
+}

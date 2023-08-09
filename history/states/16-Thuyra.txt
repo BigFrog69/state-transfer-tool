@@ -1,0 +1,22 @@
+state={
+	id=16
+	name="STATE_16"
+	provinces={
+		825 1349 4180 6555 6556 6561 6571 6572 
+	}
+	manpower=6200000
+	history={
+		owner = ROO
+		core = ROO
+		victory_points = { 1349 10 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

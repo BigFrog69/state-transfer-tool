@@ -1,0 +1,45 @@
+characters={
+	ROK_TheDoctorFromFrostpunk={
+		name="Representative Head of Republic Schuster Päɡchampēən"
+		portraits={
+			civilian={
+				large=GFX_portrait_ROK_PoggerLeaderGlass
+			}
+			army={
+				small="GFX_portrait_ROK_PoggerLeaderGlass"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	ROK_TheDoctorFromFrostpunk2={
+		name="Comander in Chief Hans Pägsohn"
+		portraits={
+			civilian={
+				large=GFX_portrait_ROK_PoggersLeader
+			}
+			army={
+				small="GFX_portrait_ROK_PoggersLeader"
+			}
+		}
+
+	}
+
+
+	ROK_PoggerSister={
+		name="Comander in Chief Hans Pägsohn"
+		portraits={
+			civilian={
+				large=GFX_portrait_ROK_PoggerSister
+			}
+			army={
+				small="GFX_portrait_ROK_PoggerSister"
+			}
+		}
+
+	}
+}

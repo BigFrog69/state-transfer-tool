@@ -1,0 +1,19 @@
+characters={
+	WOD_woodcastle={
+		name="woodcastle"
+		portraits={
+			civilian={
+				large=GFX_portrait_WOD_woodcastle
+			}
+			army={
+				small="GFX_portrait_WOD_woodcastle"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

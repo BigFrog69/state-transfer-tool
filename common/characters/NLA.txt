@@ -1,0 +1,19 @@
+characters={
+	NLA_leader={
+		name="Justinian and his Marshal"
+		portraits={
+			civilian={
+				large=GFX_portrait_NLA_leader
+			}
+			army={
+				small="GFX_portrait_NLA_leader"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

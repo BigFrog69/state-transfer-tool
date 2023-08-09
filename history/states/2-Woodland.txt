@@ -1,0 +1,20 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		599 707 922 1020 1675 2104 2202 2322 2586 2588 2835 3395 3746 4019 4024 4027 4576 4625 5440 5464 5470 5478 5511 5524 5538 5583 
+	}
+	manpower=6200000
+	history={
+		owner = WOD
+		core = WOD
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

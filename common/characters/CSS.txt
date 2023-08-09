@@ -1,0 +1,20 @@
+characters={
+	CSS_coso2348361={
+		name="coso2348361"
+		portraits={
+			civilian={
+				large=GFX_portrait_CSS_coso2348361
+			}
+			army={
+				small="GFX_portrait_CSS_coso2348361"
+			}
+		}
+		country_leader={
+			ideology=Chadist_Liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

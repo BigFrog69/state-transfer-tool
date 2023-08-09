@@ -1,0 +1,287 @@
+Socialist State of Beyron (SSB)
+!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!
+ADD THESE SPIRITS AT THE START OF THE GAME :
+Spirits: Red council - Effect : supply consumption +10%, political power gain -0.10, infrastracture construction -30% (Never ends)
+Spirits: Old Red Army - effect : -45% Recruitable People Factor, division attack -10%, division defense -10% (Never ends)
+
+
+Leader: BigFrrog
+
+Ideology: Socialist-Frogism (91%)
+	      Fascist (4%)
+		  Democratic (5%)
+
+
+NATIONAL SPIRITS
+                                    MAIN FOCUS
+------------------------------------------------------------------------------------------------
+
+The Great Purge - 35 day focus 
+
+Effect:
+Spirit: Purge the traitors
++0.05% fascism support
++0.05% Democratic support
++0.10% stability weekly
+poilitical power gain -0.15
+(For 60 days)
+
+Description: 
+After the lost war against the Sprite Nation and Maple, our nation was left to suffer in betrayals and depression.
+We will punish all Traitors in our country and make the Socialist State of Beyron rise again!
+
+------------------------------------------------------------------------------------------------
+
+The New order - 70 day focus 
+
+Effect:
+Spirit: New Order
++0.10% communism support
++6% national drift defense
+(For 365 days)
+
+
+Description:
+We must protect our country from unwanted parties. Let the sun shine over us!
+
+------------------------------------------------------------------------------------------------
+
+Fix The Red Council - 35 day focus  !!!!!(MAKE 3 PATHS, FASCIST AT THE LEFT, COMMIE IN THE MIDDLE, DEMOCRATIC ON THE RIGHT) THERE IS NO FASCIST OR DEMOCRATIC WAY YET BUT IN THE FUTURE!!!!!!
+
+Effect:
+Remove Spirit "Red Council"
+
+EVENT: ANTI BIGFRROG COUP :
+A : GET THEM ARRESTED! - "completes focus Planned Economy"
+B : Stick with the fascist! - "starts (Player)Fascist and Commie Civil War"
+C : Long live democracy! - "starts (Player)Democratic and Commie Civil War"
+
+Discription:
+Corruption can still be seen in our Administration, we must fix these problems and make our Totalist Leader BigFrrog in cotrol of everything.
+
+                                               ECO TREE
+------------------------------------------------------------------------------------------------
+
+Planned Economy - COMPLETES AFTER EVENT
+
+Effect:
+Add 2 civilian factories
+Add 2 building slots
+
+Description:
+Lets begin our Economic tree!
+
+-------------------------------------------------------------------------------------------------
+
+Planned Economy - 35 day focus 
+
+Effect:
+Spirit: The 3 Year Plan
++5% Factory Output
++10% Construction Speed
+consumer goods -5%
+production efficiency growth -10%
+production efficency cap +5%
+(Never Ending Spirit!!)
+
+Add 2 civilian factories
+Add 2 building slots
+
+Description:
+BigFrrog lifted our nation not only technologicaly but even Economicly, It would be foolish to change paths now. The Invincible banner of the worker's liberation marches ever onwards!
+
+------------------------------------------------------------------------------------------------
+
+Civilian Plan - 70 day focus 
+
+Effect:
+Add 3 civilian factories in Capital
+Add 3 building slots in Capital
+
+Description:
+As a nation on the loser side we've been made fun of, we'll show them what we can do!
+
+------------------------------------------------------------------------------------------------
+
+Arms Production Plan - 70 day focus 
+
+Effect:
+Add 3 Military Factories in Capital
+Add 3 building slots in Capital
+Add 2 dockyards (in the little island that i own)
+
+Description:
+War is brewing. We do not know who will strike first but sooner or later we will find ourself under attack, we must prepare ourselves to be ready.
+
+------------------------------------------------------------------------------------------------
+
+All the roads lead to our Capital! - 35 day focus 
+
+Effect:
+Add level 4 infrastructure in every state i own
+Add level 5 infrastructure in my Capital
+
+Description:
+Infrastruce is needed for exporting our materials, and food, and TAKNS!!!??
+
+------------------------------------------------------------------------------------------------
+
+In need of resources - 35 day focus 
+
+Effect:
+Add 7 tungsten in my capital
+Add 9 chromium in my capital
+Add 51 Steel in my Capital
+
+Description:
+We are in a deep situation. We need more resources to produce more Tanks! *ahem* produce more LAYS
+
+------------------------------------------------------------------------------------------------
+
+Deal with Liberland - 35 day focus
+
+Effect:
+Improving Relations opinion Cost -15%
+Liberland opinion of Socialist State of Beyron +45
+Set rule : Can Create Faction
+Add 4 Oil in Capital
+
+Spirit: Liberland Oil payments
+Consumer goods +1%
+(for 730 days)
+
+Description:
+We need a better relationship between our countries, future ally might be needed
+
+------------------------------------------------------------------------------------------------
+
+Finish The Three Year Plan - 70 day focus
+
+Effect:
+Modify Spirit "The Three Year Plan" by
+Production efficency growth +5%
+Factory output +5%
+Dockyard output +5%
+
+
+Description:
+With the economy being in a horrible state when we lost the war, Our past leader "Lays Oven Baked" that has been killed. introduced The Three Year Plan. It's time to finish what we started.
+
+-------------------------------------------------------------------------------------------------
+
+Our War Machine - 70 day focus 
+
+Effect:
+Spirit: WAR MACHINE
+Consumer Goods -5%
+Military factory +20% construction speed
+Civilian factory -5% construction speed
+Fighter production cost -10%
+Submarine production cost -10%
+Destroyer production cost -10%
+(For 730 days)
+---------
+Set War Economy
+Add 4 civilian factories
+Add 4 building slots
+Add 6 Military Facotries
+Add 6 Building slots
+
+Description:
+We will make Sprite Nation and Maple nation pay for what they did to us.
+
+                                         ARMY TREE
+------------------------------------------------------------------------------------------------
+
+Army of Beyron - 35 day focus (MUTUALLY EXCLUSIVE WITH - Beyron rules the waves)
+
+Effect:
+(IF COMPLETED) Modify Spirit "Old Red Army"
+
++5% division organization
++20% max planning
+
+Description:
+Army and Navy is needed but we cant choose both.
+
+------------------------------------------------------------------------------------------------
+
+Beyron rules the waves - 35 day focus (MUTUALLY EXCLUSIVE WITH - Army of Beyron)
+
+Effect:
+(IF COMPLETED) Spirit: Focus on the Navy
+
+Convoy Raiding Efficiency +20%
+Screen Attack +5%
+Screen Defense +5%
+Capital Ship Armor +5%
+
+Description:
+Army and Navy is needed but we cant choose both.
+
+------------------------------------------------------------------------------------------------
+
+Rectruit The Workers - 70 day focus (ARMY)
+
+Effect:
+Add Spirit "Recruit The Red Workers" which grants :
++10% recruitable population factor
++5% training time
+
+Army Experience +50
+
+Description:
+We need more men to fight on our side!
+
+------------------------------------------------------------------------------------------------
+
+New Naval Warfare - 70 day focus (NAVY)
+
+Effect:
+Modify Spirit "Focus on The Navy" by :
++10% Convoy Raid Efficiency
++5% screen attack
++5% screen defense
++10% capital ship attack 
+
+Navy Experience +50
+
+Description:
+Beyron rules the waves! Navy is the way to Navy supremacy.
+
+------------------------------------------------------------------------------------------------
+
+Red Army Reorganization - 10 day focus (After completing either NAVY OR ARMY FOCUS) just put it in the middle 
+
+Effect:
+Modify Spirit "Old Red Army" by :
+Recruitable People Factor +45%
+Division attack -40%
+Division Defense -40%
+
+Description:
+Military Reorganization is needed. I would really eat Lays rn but i need to focus on this description. Our Nation is growing bigger and bigger.
+
+------------------------------------------------------------------------------------------------
+
+BigFrrogs's New Red Army - 70 day focus
+
+Effect:
+Remove Spirit "Old Red Army"
+
+Add Spirit "New Red Army" which grants :
+Division Organization +5%
+Max Planning +20%
+division attack +5%
+division defense +5%
+Surrender Limit +10%
+
+Description:
+With our army ready we can begin a conquest on our own, and strike on our enemy first. The world shall fear the Beyron Union.
+
+------------------------------------------------------------------------------------------------
+
+
+THATS IT FOR NOW

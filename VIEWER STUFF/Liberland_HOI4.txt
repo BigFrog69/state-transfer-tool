@@ -1,0 +1,135 @@
+
+LIBERLAND (LBB)
+
+
+Leader: Vit Jedlicka
+
+Ideology: Liberal-Chadism (85%)
+	  Democratic-Conservative (15%)
+
+
+NATIONAL SPIRITS
+
+
+Liberian Oil Renaissance:
+
++10% Oil Refining Efficiency
++5% Civilian Factory Construction Speed
+-10% Consumer Goods Factories
+
+Description: 
+The discovery and acquisition of new oil sources within the borders of Liberland have ushered in an era of economic resurgence and energy independence. 
+The Liberian Oil Renaissance, as it has come to be known, has not only revitalized the nation's industrial capabilities but has also strengthened its position on the global stage.
+
+
+
+Democratic Vigilance
+
+Effect:
+-15 Opinion with Fascist Countries
++10% Stability
++5% War Support
+
+Description:
+The principle of democracy and the values of individual freedoms lie at the heart of Liberian society. 
+In light of historical experiences and the global landscape, the Liberian people have developed a strong aversion to fascist ideologies and governments. 
+This sentiment, referred to as "Democratic Vigilance," serves as a cornerstone of national identity and foreign policy.
+
+
+
+War-Recovery Exhaustion
+
+Effect:
+-15% Factory Output
+-10% Construction Speed
+-20% Division Organization
++5% National Unity
+
+Description:
+The scars of a recent and intense conflict have left a lasting impact on Liberland's economy, infrastructure, and military readiness. 
+The period following a heavy war has brought about a state of "War-Recovery Exhaustion," during which the nation grapples with the daunting task of rebuilding and recuperating from the devastating toll of battle.
+
+
+
+
+
+
+
+Liberland Focus Tree:
+
+Liberland Economy and Military part of the tree:
+
+Liberland, a nation scarred by war and burdened by the aftermath, embarks on a path of recovery and renewal. With determination and strategic focus, the people of Liberland work to mend their economy, rebuild their infrastructure, and bolster their military strength.
+
+War-Torn Industry (3 focuses)
+
+
+Infrastructure Restoration (55 days): 
+Add 2 Infrastructure in my capital state
+Add 1 Civilian Factory in my capital state
+
+Description:
+Initiate a comprehensive plan to repair and upgrade the nation's infrastructure network, allowing for quicker transportation of goods and resources.
+
+
+Industrial Revitalization (55 days): 
+Add 1 Infrastructure in my 2nd state
+Add 1 Dockyard in my 2nd state state 
+Add 1 Civilian Factory in my 2nd state state
+Add +5% Factory output
+Add +5% Efficiency growth
+
+Description:
+Invest in modernization and reconstruction of damaged factories, increasing their efficiency and output.
+
+
+Resource Reclamation (35 days): 
+Add 2 Oil refineries in my oil state
+Add 1 Infrastructure in my oil state
+Add 1 Civilian in my oil state
+Add +5% Factory Output
+Add +5 Resource efficency
+
+Description:
+Establish teams to survey and reclaim resource-rich areas that were disrupted by war, ensuring a steady supply of materials for industrial production.
+Trade Expansion: Forge new trade agreements and establish trade routes to access essential resources and technologies from foreign partners.
+
+
+
+
+
+IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NOW -
+
+
+
+
+
+Rebuilding Foundations (3 focuses)
+
+Urban Rejuvenation: 
+Launch projects to rebuild cities and towns affected by the war, improving living conditions and boosting civilian morale.
+Agricultural Restoration: Implement agricultural initiatives to restore and enhance food production capabilities, ensuring a stable food supply for the nation.
+Education and Innovation: Invest in education and research to cultivate a skilled workforce and promote technological advancements, propelling Liberland's recovery.
+
+
+Rekindling Military Might (4 focuses)
+
+Training Resurgence: Revamp military training programs to rebuild the organization and effectiveness of divisions, improving division organization.
+Equipment Overhaul: Prioritize the reequipping of military units with modern and reliable weaponry, enhancing their combat capabilities.
+Strategic Mobilization: Develop plans to rapidly mobilize reserves and strengthen the armed forces during times of crisis, bolstering war support.
+Veteran Integration: Facilitate the smooth transition of war veterans into civilian life, while also tapping into their expertise to improve military strategies.
+
+
+National Unity Initiative (3 focuses)
+
+Reconciliation Efforts: Launch national campaigns to heal social divisions and unite the people behind the common goal of recovery.
+Civic Engagement: Encourage citizens to actively participate in community rebuilding projects, fostering a sense of ownership and unity.
+Cultural Renaissance: Promote cultural events, celebrations, and historical remembrances to strengthen national identity and pride.
+
+
+New Horizons (2 focuses)
+
+Global Partnerships: Establish diplomatic ties with nations that share similar values and can offer assistance in Liberland's recovery efforts.
+International Investment: Attract foreign investment to boost economic growth, leveraging international support for infrastructure and industrial projects.
+As Liberland progresses through these focuses, the nation gradually reverses the effects of the "War-Recovery Exhaustion" national spirit. 
+Each focus represents a critical step in Liberland's journey towards reclaiming its strength and standing tall as a resilient nation that emerged from the depths of conflict stronger than before.

@@ -1,0 +1,20 @@
+characters={
+	FCM_windsnake={
+		name="windsnake"
+		portraits={
+			civilian={
+				large=GFX_portrait_FCM_windsnake
+			}
+			army={
+				small="GFX_portrait_FCM_windsnake"
+			}
+		}
+		country_leader={
+			ideology=Authoritarian_Regency
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

@@ -1,0 +1,88 @@
+﻿
+focus_tree = {
+	id = Republic_of_Ostryae_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ROO
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = ROO_four_year_plan
+		icon = GFX_goal_generic_construction
+		x = 6
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_four_year_plan
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_Rebuild_the_schnellstrasse
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = ROO_four_year_plan }
+		relative_position_id = ROO_four_year_plan
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			every_controlled_state = {
+				set_building_level = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_Rebuild_the_Cities
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = ROO_four_year_plan }
+		relative_position_id = ROO_four_year_plan
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+
+
+}

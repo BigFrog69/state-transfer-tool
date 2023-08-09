@@ -1,0 +1,42 @@
+characters={
+	LLB_Alurch={
+		name="Vit Jedlicka"
+		portraits={
+			civilian={
+				large=GFX_portrait_LLB_Alurch
+			}
+			army={
+				small="GFX_portrait_LLB_Alurch"
+			}
+		}
+		country_leader={
+			ideology=Chadist_Liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	LLB_Obama={
+		name="Barack Obama"
+		portraits={
+			civilian={
+				large=GFX_portrait_LLB_Obama
+			}
+			army={
+				small="GFX_portrait_LLB_Obama"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+}
