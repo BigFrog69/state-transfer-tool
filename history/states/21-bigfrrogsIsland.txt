@@ -9,7 +9,7 @@ state={
 	
 	history={
 		owner = SSB
-		core = SSB
+		add_core_of = SSB
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3

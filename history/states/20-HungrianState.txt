@@ -9,7 +9,7 @@ state={
 	
 	history={
 		owner = PUP
-		core = PUP
+		add_core_of = PUP
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3

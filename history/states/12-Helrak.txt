@@ -9,7 +9,7 @@ state={
 	
 	history={
 		owner = TBA
-		core = TBA
+		add_core_of = TBA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

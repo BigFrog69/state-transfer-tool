@@ -9,7 +9,7 @@ state={
 	
 	history={
 		owner = ROK
-		core = ROK
+		add_core_of = ROK
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

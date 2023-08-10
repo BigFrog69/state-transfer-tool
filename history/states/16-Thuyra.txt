@@ -1,13 +1,16 @@
 state={
 	id=16
 	name="STATE_16"
+	manpower=620000
+	state_category = large_city
+
 	provinces={
 		825 1349 4180 6555 6556 6561 6571 6572 
 	}
-	manpower=6200000
+	
 	history={
 		owner = ROO
-		core = ROO
+		add_core_of = ROO
 		victory_points = { 1349 10 }
 		buildings = {
 			infrastructure = 3

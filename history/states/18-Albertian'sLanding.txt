@@ -1,14 +1,17 @@
 state={
 	id=18
 	name="STATE_18"
+	manpower=620000
+	state_category = large_city
+
 	provinces={
 		1543 4055 5604 
 	}
 	state_category = large_city
-	manpower=6200000
+	
 	history={
 		owner = NLA
-		core = NLA
+		add_core_of = NLA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
