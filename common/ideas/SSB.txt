@@ -4,6 +4,7 @@ ideas = {
 
 
 		Red_council = {
+			picture = SSB_RedCouncil
 			allowed = {
 				always = no
 			}
@@ -19,6 +20,9 @@ ideas = {
 		}
 
 		Old_Red_Army = {
+
+			picture = SSB_OldRedArmy
+
 			allowed = {
 				always = no
 			}
@@ -43,6 +47,7 @@ ideas = {
 
 
 		Purge_the_traitors = {
+			picture = SSB_TheGreatPurge2
 			allowed = {
 				always = no
 			}
@@ -61,6 +66,7 @@ ideas = {
 
 
 		New_Order = {
+			picture = SSB_NewOrder
 			allowed = {
 				always = no
 			}
@@ -73,6 +79,37 @@ ideas = {
 				drift_defence_factor = 0.06
 			}
 		}
+
+
+		SSB_Memories_of_SpriteKrieg_idea = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = SPI
+				attack_bonus_against = -0.1
+				defense_bonus_against = 0.15
+			}
+				
+			targeted_modifier = {
+				tag = NLA
+				attack_bonus_against = -0.1
+				defense_bonus_against = 0.15
+			}
+		}
+
+
+
+
+
+
+
 	}
 }
 

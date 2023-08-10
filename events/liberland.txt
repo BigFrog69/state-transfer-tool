@@ -33,10 +33,42 @@ country_event = {
 
 
 
+country_event = {
+	id = LiberlandFrogFriendship.1
+	title = LiberlandFrogFriendship.1.t
+	desc = LiberlandFrogFriendship.1.d
+	picture = GFX_report_event_bunker_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = LiberlandFrogFriendship.1.a
+		LLB = {
+			add_ideas = {
+				Liberland_Deal_idea1
+			}
+		}
+		SSB = {
+			add_ideas = {
+				Beyron_Deal_idea1
+			}
+		}
+		add_resource = {
+			type = oil
+			amount = 50
+			state = 13
+		}
+	}
+
+	option = {
+		name = LiberlandFrogFriendship.1.b
+
+	}
+
+}
 
 
-
-
+#If i accept he gets oil and i get with him into a faction. If i refuse he gets attack bonus and i get plus 10 war support
 
 
 

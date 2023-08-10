@@ -15,9 +15,19 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/TheNewOrder.dds"			
 	}
 	SpriteType = {
+	name = "GFX_goal_RedRule"
+	texturefile = "gfx/interface/goals/RedRule.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_MemoriesOfTheSpritekriegFocus"
+	texturefile = "gfx/interface/goals/MemoriesOfTheSpritekriegFocus.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_goal_StartingEconomy"
 	texturefile = "gfx/interface/goals/StartingEconomy.dds"			
 	}
+
 
 
 

@@ -9,10 +9,25 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_idea_prc_permit_opium_trade"
-		texturefile = "gfx/interface/ideas/idea_prc_permit_opium_trade.dds"
+		name = "GFX_idea_SSB_OldRedArmy"
+		texturefile = "gfx/interface/ideas/OldRedArmy.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_SSB_NewOrder"
+		texturefile = "gfx/interface/ideas/NewOrder.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SSB_MemoriesOfSpritekrieg"
+		texturefile = "gfx/interface/ideas/MemoriesOfSpritekrieg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SSB_RedCouncil"
+		texturefile = "gfx/interface/ideas/RedCouncil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SSB_TheGreatPurge2"
+		texturefile = "gfx/interface/ideas/TheGreatPurge2.dds"
+	}
 
 
 

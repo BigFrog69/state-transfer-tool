@@ -87,6 +87,8 @@ focus_tree = {
 		cost = 1 #5
 
 		prerequisite = { focus = SSB_Fix_The_Red_Council }
+		mutually_exclusive = { focus = SSB_Fascist_Route }
+		mutually_exclusive = { focus = SSB_Red_Rule }
 		relative_position_id = SSB_The_Great_Purge
 
 		ai_will_do = {
@@ -100,15 +102,37 @@ focus_tree = {
 			}
 		}
 	}
-
+	#############################################################################
 	focus = {
-		id = SSB_Communist_Route
-		#icon = GFX_goal_FixTheRedCouncil
+		id = SSB_Red_Rule
+		icon = GFX_goal_RedRule
 		x = 0
 		y = 3
 		cost = 1 #5
 
 		prerequisite = { focus = SSB_Fix_The_Red_Council }
+		mutually_exclusive = { focus = SSB_Fascist_Route }
+		mutually_exclusive = { focus = SSB_Democracy_Route }
+		relative_position_id = SSB_The_Great_Purge
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+
+	focus = {
+		id = SSB_Memories_Of_The_SpriteKrieg
+		icon = GFX_goal_MemoriesOfTheSpritekriegFocus
+		x = 0
+		y = 4
+		cost = 1 #10
+
+		prerequisite = { focus = SSB_Red_Rule }
 		relative_position_id = SSB_The_Great_Purge
 
 		ai_will_do = {
@@ -117,13 +141,13 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_timed_idea = {
-				idea = New_Order
-				days = 365
+				idea = SSB_Memories_of_SpriteKrieg_idea
+				days = 730
 			}
 		}
 	}
 
-
+	#############################################################################
 	focus = {
 		id = SSB_Fascist_Route
 		#icon = GFX_goal_FixTheRedCouncil
@@ -132,6 +156,8 @@ focus_tree = {
 		cost = 1 #5
 
 		prerequisite = { focus = SSB_Fix_The_Red_Council }
+		mutually_exclusive = { focus = SSB_Red_Rule }
+		mutually_exclusive = { focus = SSB_Democracy_Route }
 		relative_position_id = SSB_The_Great_Purge
 
 		ai_will_do = {
@@ -184,6 +210,38 @@ focus_tree = {
 
 
 
+
+
+
+
+
+
+	focus = {
+		id = SSB_Befriend_Liberland
+		icon = GFX_goal_StartingEconomy
+		x = 12
+		y = 0
+		cost = 1 #5
+
+		available = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			LLB = {
+				country_event = LiberlandFrogFriendship.1
+			}
+			SSB = {#Make sure to delete, just for test purposes
+				country_event = LiberlandFrogFriendship.1
+			}
+		}
+	}
+
+ 
 
 
 

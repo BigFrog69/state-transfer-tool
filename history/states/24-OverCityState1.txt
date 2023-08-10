@@ -1,16 +1,16 @@
 state={
-	id=23
-	name="STATE_23"
-	manpower=620000
-	state_category = large_city
+	id=24
+	name="STATE_24"
 	provinces={
-		1279 1932 1991 3850 6305 6311 
+		649 2470 3808 4499 
 	}
+	state_category = large_city
+	manpower=500000
 	history={
 		owner = ROO
 		add_core_of = ROO
 		victory_points = {
-			3850 70
+			3808 30
 		}
 		buildings = {
 			infrastructure = 1

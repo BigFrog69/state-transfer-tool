@@ -16,6 +16,18 @@ state={
 	history={
 		owner = LLB
 		add_core_of = LLB
+		victory_points = {
+			6660 20
+		}
+		victory_points = {
+			3307 80
+		}
+		victory_points = {
+			1722 60
+		}
+		victory_points = {
+			4276 20
+		}
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3

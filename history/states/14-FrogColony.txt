@@ -11,6 +11,9 @@ state={
 	history={
 		owner = SSB
 		add_core_of = SSB
+		victory_points = {
+			3741 40
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

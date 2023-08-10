@@ -10,6 +10,24 @@ state={
 	history={
 		owner = PUP
 		add_core_of = PUP
+		victory_points = {
+			1085 40
+		}
+		victory_points = {
+			4917 40
+		}
+		victory_points = {
+			3280 40
+		}
+		victory_points = {
+			26 40
+		}
+		victory_points = {
+			911 80
+		}
+		victory_points = {
+			2365 40
+		}
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3
