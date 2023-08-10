@@ -51,20 +51,47 @@ We must protect our country from unwanted parties. Let the sun shine over us!
 Fix The Red Council - 35 day focus  !!!!!(MAKE 3 PATHS, FASCIST AT THE LEFT, COMMIE IN THE MIDDLE, DEMOCRATIC ON THE RIGHT) THERE IS NO FASCIST OR DEMOCRATIC WAY YET BUT IN THE FUTURE!!!!!!
 
 Effect:
-Remove Spirit "Red Council"
+Remove Spirit "Red Council" (done)
 
 EVENT: ANTI BIGFRROG COUP :
-A : GET THEM ARRESTED! - "completes focus Planned Economy"
+A : GET THEM ARRESTED! - "completes focus Starting Economy"
 B : Stick with the fascist! - "starts (Player)Fascist and Commie Civil War"
 C : Long live democracy! - "starts (Player)Democratic and Commie Civil War"
 
 Discription:
 Corruption can still be seen in our Administration, we must fix these problems and make our Totalist Leader BigFrrog in cotrol of everything.
 
+-------------------------------------------------------------------------------------------------
+
+Red Rule! - 35 day focus (commie path)
+
+Effect:
++100 political power
+
+Description:
+After the Anti BigFrog COUP, the military decided to stay loyal to BigFrog and arrested them.
+
+-------------------------------------------------------------------------------------------------
+
+Memories Of The SpriteKrieg - 35 day focus (commie path)
+
+Effect:
+Add Spirit : "Memories of SpriteKrieg"     
+-10% attack against "Sprite Nation"
++15% defense against "Sprite Nation"
+-10% attack against "Maple Nation"  (idk how its called aight 💀💀)
++15% defense against "Maple nation"
+(for 730 days)
+
+Description:
+We can't get ahead of ourselves a strong economy leads to a great Victory.
+
+Spirit Description : Memories of The Spritekrieg, the war took a slight turn to our disadvantage. After declaring war on Sprite nation, the one and only Maple Nation joined to save his ass and ruined our Fast War, by then we tried to defend and defend but fighting against 2 fronts was impossible. After the known "SpriteBlitz" their army rushed to our capital and we had to surrender. the war took 2 million lives andw ent on for 3 years.
+
                                                ECO TREE
 ------------------------------------------------------------------------------------------------
 
-Planned Economy - COMPLETES AFTER EVENT
+Starting Economy - COMPLETES AFTER EVENT (Done already)
 
 Effect:
 Add 2 civilian factories
@@ -73,9 +100,9 @@ Add 2 building slots
 Description:
 Lets begin our Economic tree!
 
--------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
-Planned Economy - 35 day focus 
+Planned Economy - 70 day focus 
 
 Effect:
 Spirit: The 3 Year Plan
@@ -120,8 +147,8 @@ War is brewing. We do not know who will strike first but sooner or later we will
 All the roads lead to our Capital! - 35 day focus 
 
 Effect:
-Add level 4 infrastructure in every state i own
-Add level 5 infrastructure in my Capital
+Add level 3 infrastructure in every state i own
+Add level 4 infrastructure in my Capital
 
 Description:
 Infrastruce is needed for exporting our materials, and food, and TAKNS!!!??
@@ -136,7 +163,7 @@ Add 9 chromium in my capital
 Add 51 Steel in my Capital
 
 Description:
-We are in a deep situation. We need more resources to produce more Tanks! *ahem* produce more LAYS
+We are in a deep situation. We need more resources to produce more Tanks!
 
 ------------------------------------------------------------------------------------------------
 
@@ -167,15 +194,15 @@ Dockyard output +5%
 
 
 Description:
-With the economy being in a horrible state when we lost the war, Our past leader "Lays Oven Baked" that has been killed. introduced The Three Year Plan. It's time to finish what we started.
+With the economy being in a horrible state when we lost the war, Our past leader "Lays Oven Baked" that has been killed. introduced The Three Year Plan. While peace lasts, we must drive our industralization further and faster to meet the needs of our people and our military. It's time to finish what we started. 
 
 -------------------------------------------------------------------------------------------------
 
 Our War Machine - 70 day focus 
 
 Effect:
-Spirit: WAR MACHINE
-Consumer Goods -5%
+Add Spirit: Outpuit
+Consumer Goods -3%
 Military factory +20% construction speed
 Civilian factory -5% construction speed
 Fighter production cost -10%
@@ -188,6 +215,8 @@ Add 4 civilian factories
 Add 4 building slots
 Add 6 Military Facotries
 Add 6 Building slots
+Add 3 Dockyards
+Add 3 building slots
 
 Description:
 We will make Sprite Nation and Maple nation pay for what they did to us.
@@ -202,6 +231,8 @@ Effect:
 
 +5% division organization
 +20% max planning
+
+Add +50 Air Experience
 
 Description:
 Army and Navy is needed but we cant choose both.
@@ -226,9 +257,9 @@ Army and Navy is needed but we cant choose both.
 Rectruit The Workers - 70 day focus (ARMY)
 
 Effect:
-Add Spirit "Recruit The Red Workers" which grants :
-+10% recruitable population factor
-+5% training time
+Add Spirit "Red Workers" which grants :
++15% Recruitable population factor
++5% Training time
 
 Army Experience +50
 
@@ -253,7 +284,7 @@ Beyron rules the waves! Navy is the way to Navy supremacy.
 
 ------------------------------------------------------------------------------------------------
 
-Red Army Reorganization - 10 day focus (After completing either NAVY OR ARMY FOCUS) just put it in the middle 
+Red Army Reorganization - 70 day focus (After completing either NAVY OR ARMY FOCUS) just put it in the middle 
 
 Effect:
 Modify Spirit "Old Red Army" by :
@@ -262,11 +293,11 @@ Division attack -40%
 Division Defense -40%
 
 Description:
-Military Reorganization is needed. I would really eat Lays rn but i need to focus on this description. Our Nation is growing bigger and bigger.
+Military Reorganization is needed for a strong army. I would really eat something rn but i need to focus on this description.
 
 ------------------------------------------------------------------------------------------------
 
-BigFrrogs's New Red Army - 70 day focus
+New Red Army - 35 day focus (READ THE FOCUS BELOW BEFORE DOING THIS)
 
 Effect:
 Remove Spirit "Old Red Army"
@@ -276,12 +307,49 @@ Division Organization +5%
 Max Planning +20%
 division attack +5%
 division defense +5%
-Surrender Limit +10%
 
 Description:
 With our army ready we can begin a conquest on our own, and strike on our enemy first. The world shall fear the Beyron Union.
 
+                      --!!!!!!!CONTINUING THE COMMUNIST PATH!!!!!!!!!--
 ------------------------------------------------------------------------------------------------
 
+(FOCUS CAN BE COMPLETED AFTER COMPLETING FOCUS "NEW RED ARMY") Our Neighbors - 70 day focus      (This focus will be in the commie path) (below "SpriteKrieg")
+
+Effect:
+1x 100% Research Bonus on 1940 Tank
+
+Modify Spirit "New Red Army" by :
+Division Attrition -5%
+Max Entrenchment +20%
+
+Gets "Wargoal against every NPC Nation" (Neighbor) (I need to be sharing a border with the NPC nation)
+
+Description:
+We need to show our enemy that we're strong.
+
+------------------------------------------------------------------------------------------------
+
+Liberated Workers - 70 day focus
+
+Effect:
+Modify Spirit "New Red Army" by :
++5% Non-Core Manpower
++10% Experienced Soldier Losses
+
+Description:
+Lets show them what the "Red Front" means. Liberate our Red Workers from those lands!
+
+------------------------------------------------------------------------------------------------
+
+ - 70 day focus
+
+Effect:
+Modify Spirit "New Red Army" by :
++5% Non-Core Manpower
++10% Experienced Soldier Losses
+
+Description:
+Lets show them what the "Red Front" means. Liberate our Red Workers from those lands!
 
 THATS IT FOR NOW
