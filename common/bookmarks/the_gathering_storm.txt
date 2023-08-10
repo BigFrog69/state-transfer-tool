@@ -9,43 +9,55 @@ bookmarks = {
 		
 		"ROB"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "democratic"
 		}
 		"ROO"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "neutrality"
 		}
 		"TBA"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "democratic"
 		}
 		"ROK"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "democratic"
 		}
 		"SPI"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "democratic"
 		}
 		"NLA"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "neutrality"
 		}
 		"WOD"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "democratic"
 			minor = yes
 		}
 		"LLB"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "chad"
 			minor = yes
 		}
 		"FCM"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "neutrality"
 			minor = yes
 		}
 		"PUP"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "neutrality"
 			minor = yes
 		}
 		"SSB"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "communism"
 		}
 		"CSS"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "chad"
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
