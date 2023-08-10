@@ -1,13 +1,15 @@
 state={
 	id=10
 	name="STATE_10"
+	manpower=800000
+	state_category = large_city
 	provinces={
 		228 248 828 1006 1052 1180 1852 1949 2241 3307 3637 3916 6655 6656 6658 6659 6660 6663 6666 6674 6675 
 	}
 
     
     resources = {
-        oil = 1000
+        oil = 2000
     }
 
 	manpower=800000

@@ -1,10 +1,12 @@
 state={
 	id=19
-	name="STATE_19"
+	name="Oilmania"
+	manpower=1300000
+	state_category = large_city
 	provinces={
 		152 297 310 595 653 1378 1722 1782 1833 2064 2560 3524 3801 4211 4276 4297 4732 6668 6672 6678 
 	}
-	manpower=800000
+	
 	history={
 		owner = LLB
 		core = LLB

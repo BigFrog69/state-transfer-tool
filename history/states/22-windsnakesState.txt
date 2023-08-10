@@ -1,13 +1,15 @@
 state={
 	id=22
 	name="STATE_22"
+	manpower=620000
+	state_category = large_city
 	provinces={
 		110 306 506 560 793 954 988 1099 1181 1195 1207 1221 1299 1357 1428 1478 1772 1801 1864 1879 1938 2022 2082 2099 2476 2572 2992 3158 3180 3411 3832 3966 3994 3997 4025 4218 4669 4804 4957 4962 4967 4968 4972 4991 5008 5010 5011 5013 5017 5022 5023 
 	}
-	manpower=800000
+	
 	history={
 		owner = FCM
-		core = FCM
+		add_core_of = FCM
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3

@@ -1,10 +1,12 @@
 state={
 	id=6
 	name="STATE_6"
+	manpower=620000
+	state_category = large_city
 	provinces={
 		1252 1419 1823 4094 4252 4282 5923 5980 6074 6107 
 	}
-	manpower=6200000
+	
 	history={
 		owner = ROK
 		core = ROK

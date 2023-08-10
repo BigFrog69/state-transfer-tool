@@ -1,6 +1,9 @@
 state={
 	id=15
-	name="STATE_15"
+	name="Chadolonia"
+	manpower=620000
+	state_category = large_city
+
 	provinces={
 		376 1591 1660 2272 4131 5776 
 	}
