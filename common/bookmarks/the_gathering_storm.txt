@@ -41,9 +41,9 @@ bookmarks = {
 			ideology = "chad"
 			minor = yes
 			ideas = {
-				"Liberian_Oil_Renaissance"
-				"War-Recovery_Exhaustion"
-				"Democratic_Vigilance"
+				Liberian_Oil_Renaissance
+				War-Recovery_Exhaustion
+				Democratic_Vigilance
 			}
 		}
 		"FCM"={
