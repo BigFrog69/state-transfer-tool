@@ -15,12 +15,12 @@ ideas = {
 				operation_infiltrate_armed_forces_navy_risk = -0.25
 				navy_org_factor = 0.35
 				production_speed_naval_base_factor = 0.2
-				production_cost_max_convoy = 0.2
-				production_cost_max_ship_hull_submarine = 0.2
-				production_cost_max_ship_hull_light = 0.2
-				production_cost_max_ship_hull_heavy = 0.2
-				production_cost_max_ship_hull_cruiser = 0.2
-				production_cost_max_ship_hull_carrier = 0.2
+				production_cost_max_convoy = 5
+				production_cost_max_ship_hull_submarine = 100
+				production_cost_max_ship_hull_light = 350
+				production_cost_max_ship_hull_heavy = 1000
+				production_cost_max_ship_hull_cruiser = 1500
+				production_cost_max_ship_hull_carrier = 7500
 			}
 		}
 

@@ -11391,7 +11391,7 @@
 11390;38;42;18;sea;true;ocean;0
 11391;1;52;37;sea;true;ocean;0
 11392;9;35;9;sea;false;ocean;0
-11393;15;30;26;land;true;plains;0 #1374;205;158;224;land;true;plains;1
+11393;15;30;26;land;true;plains;1 #1374;205;158;224;land;true;plains;1
 11394;68;2;25;sea;false;ocean;0
 11395;47;33;4;sea;false;ocean;0
 11396;44;35;8;sea;false;ocean;0

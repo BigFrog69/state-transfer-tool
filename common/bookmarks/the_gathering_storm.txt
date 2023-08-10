@@ -7,15 +7,6 @@ bookmarks = {
 		default_country = "TST"
 		default = yes
 		
-		"WOD"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
-		"FCM"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
-		"PUP"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
 		"ROB"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
@@ -34,7 +25,19 @@ bookmarks = {
 		"NLA"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
+		"WOD"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+		}
 		"LLB"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+		}
+		"FCM"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+		}
+		"PUP"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			minor = yes
 		}

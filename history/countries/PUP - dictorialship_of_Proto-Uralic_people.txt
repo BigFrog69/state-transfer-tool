@@ -17,7 +17,13 @@ set_stability = 0.8
 
 recruit_character = PUP_Levedi
 
-
+add_ideas = {
+	divided_dynasty
+	uralic_unity
+	levedi_our_king
+	outdated_kingdom
+	reclaim_the_crown
+}
 
 
 set_politics = {
