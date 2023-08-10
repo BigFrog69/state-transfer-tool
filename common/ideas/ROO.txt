@@ -2,6 +2,8 @@ ideas = {
 
 	country = {
 		A_Torn_Nation = {
+
+			picture = GFX_idea_ROO_Eagle
 			
 			allowed = {
 				always = no
@@ -19,6 +21,8 @@ ideas = {
 		}
 
 		An_Honorable_Nation = {
+
+			picture = GFX_idea_ROO_Eagle
 			
 			allowed = {
 				always = no
