@@ -3,6 +3,40 @@ spriteTypes = {
 
 
 	SpriteType = {
+		name = "GFX_idea_ROO_Eagle"
+		texturefile = "gfx/interface/ideas/Eagle.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_prc_permit_opium_trade"
+		texturefile = "gfx/interface/ideas/idea_prc_permit_opium_trade.dds"
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	SpriteType = {
 		name = "GFX_idea_traits_strip"
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
 		noOfFrames = 18
