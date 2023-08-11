@@ -13,6 +13,7 @@ bookmarks = {
 			ideas = {
 				ROB_navy_bonuses	
 			}
+			
 		}
 		"ROO"={
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -21,6 +22,11 @@ bookmarks = {
 				A_Torn_Nation
 				An_Honorable_Nation
 			}
+			focuses = {
+				ROO_four_year_plan
+				ROO_Rebuild_the_schnellstrasse
+				ROO_Rebuild_the_Cities
+			}
 		}
 		"TBA"={
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -28,10 +34,19 @@ bookmarks = {
 			ideas = {
 				undead_population
 			}
+			focuses = {
+				TBA_The_Baron
+				TBA_A_Path_Forward
+				TBA_An_Undead_Economy
+			}
 		}
 		"ROK"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "democratic"
+			focuses = {
+				ROK_Familial_Focus
+				ROK_Familial_Focus2
+			}
 		}
 		"SPI"={
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -40,6 +55,10 @@ bookmarks = {
 		"NLA"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "neutrality"
+			focuses = {
+				NLA_What_Is_To_Do_With_The_Docks
+				NLA_The_Way_We_Cross_The_Sea
+			}
 		}
 		"WOD"={
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -77,6 +96,11 @@ bookmarks = {
 			ideas = {
 				Red_council
 				Old_Red_Army
+			}
+			focuses = {
+				SSB_The_Great_Purge
+				SSB_Memories_Of_The_SpriteKrieg
+				SSB_Befriend_Liberland
 			}
 		}
 		"CSS"={
