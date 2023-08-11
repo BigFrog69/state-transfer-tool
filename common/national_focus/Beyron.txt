@@ -81,7 +81,7 @@ focus_tree = {
 
 	focus = {
 		id = SSB_Democracy_Route
-		#icon = GFX_goal_FixTheRedCouncil
+		#icon = GFX_goal_democratic_group
 		x = -3
 		y = 3
 		cost = 1 #5
@@ -150,7 +150,7 @@ focus_tree = {
 	#############################################################################
 	focus = {
 		id = SSB_Fascist_Route
-		#icon = GFX_goal_FixTheRedCouncil
+		#icon = GFX_goal_fascism_group
 		x = 3
 		y = 3
 		cost = 1 #5
@@ -219,7 +219,7 @@ focus_tree = {
 	focus = {
 		id = SSB_Befriend_Liberland
 		icon = GFX_goal_StartingEconomy
-		x = 12
+		x = 15
 		y = 0
 		cost = 1 #5
 

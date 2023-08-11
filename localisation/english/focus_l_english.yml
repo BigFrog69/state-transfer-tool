@@ -39,6 +39,10 @@
  SSB_Red_Rule_desc:0 "After the Anti BigFrog COUP, the military decided to stay loyal to BigFrog and arrested them."
  SSB_Memories_Of_The_SpriteKrieg:0 "Memories Of The SpriteKrieg"
  SSB_Memories_Of_The_SpriteKrieg_desc:0 "We can't get ahead of ourselves a strong economy leads to a great Victory."
+ SSB_Democracy_Route:0 "Democracy Route"
+ SSB_Democracy_Route_desc:0 "Maybe democracy is the way?"
+ SSB_Fascist_Route:0 "Fascist Route"
+ SSB_Fascist_Route_desc:0 "Maybe fascism is the way?"
 
 #TheBarons
  TBA_The_Baron:0 "§tThe Last Baron§!"
