@@ -220,7 +220,7 @@ focus_tree = {
 		id = SSB_Befriend_Liberland
 		icon = GFX_goal_StartingEconomy
 		x = 12
-		y = 0
+		y = 1
 		cost = 1 #5
 
 		available = {
