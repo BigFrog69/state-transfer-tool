@@ -108,8 +108,12 @@ Rebuilding Foundations (3 focuses)
 
 Urban Rejuvenation: 
 Launch projects to rebuild cities and towns affected by the war, improving living conditions and boosting civilian morale.
-Agricultural Restoration: Implement agricultural initiatives to restore and enhance food production capabilities, ensuring a stable food supply for the nation.
-Education and Innovation: Invest in education and research to cultivate a skilled workforce and promote technological advancements, propelling Liberland's recovery.
+
+Agricultural Restoration: 
+Implement agricultural initiatives to restore and enhance food production capabilities, ensuring a stable food supply for the nation.
+
+Education and Innovation: 
+Invest in education and research to cultivate a skilled workforce and promote technological advancements, propelling Liberland's recovery.
 
 
 Rekindling Military Might (4 focuses)

@@ -18,7 +18,7 @@ country_event = {
 			chad = 65
 			democratic = 35
 		}
-
+		
 	}
 
 	option = {
@@ -27,9 +27,18 @@ country_event = {
 			chad = 35
 			democratic = 65
 		}
+		
+		set_politics = {
+		ruling_party = democratic
+		elections_allowed = no
+		last_election = "1935.12.17"
+		election_frequency = 48
+		
+		}
 	}
-
 }
+
+
 
 
 

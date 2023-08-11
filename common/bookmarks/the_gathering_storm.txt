@@ -10,14 +10,24 @@ bookmarks = {
 		"ROB"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "democratic"
+			ideas = {
+				ROB_navy_bonuses	
+			}
 		}
 		"ROO"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "neutrality"
+			ideas = {
+				A_Torn_Nation
+				An_Honorable_Nation
+			}
 		}
 		"TBA"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "democratic"
+			ideas = {
+				undead_population
+			}
 		}
 		"ROK"={
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -54,11 +64,20 @@ bookmarks = {
 		"PUP"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "neutrality"
+			ideas = {
+				divided_dynasty
+				uralic_unity
+				reclaim_the_crown
+			}
 			minor = yes
 		}
 		"SSB"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "communism"
+			ideas = {
+				Red_council
+				Old_Red_Army
+			}
 		}
 		"CSS"={
 			history = "OTHER_GATHERING_STORM_DESC"

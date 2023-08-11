@@ -122,6 +122,30 @@ focus_tree = {
 			#show_ideas_tooltip = hjalmar_schacht
 		}
 	}
+	
+	focus = {
+		id = LLB_Urban_Rejuvenation
+		icon = GFX_goal_generic_construction
+		x = -1
+		y = 3
+		cost = 1 #5
+
+		prerequisite = { focus = LLB_Resource_Reclamation }
+		relative_position_id = LLB_Infrastructure_Restoration
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+     		add_extra_state_shared_building_slots = 2
+			add_extra_state_shared_building_slots = 2
+			 }	
+		}
+	}
+
+
 
 
 

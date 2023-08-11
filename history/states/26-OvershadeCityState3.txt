@@ -1,11 +1,13 @@
 state={
 	id=26
 	name="STATE_26"
+	manpower=500000
+	state_category = megalopolis
+	
 	provinces={
 		1188 4222 4692 6470 
 	}
-	state_category = large_city
-	manpower=500000
+	
 	history={
 		owner = ROO
 		add_core_of = ROO
