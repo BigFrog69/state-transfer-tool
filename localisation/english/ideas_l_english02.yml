@@ -1,16 +1,30 @@
 ﻿l_english:
+ 
+ #Liberland:
  Liberian_Oil_Renaissance:0 "Liberian Oil Renaissance"
  Liberian_Oil_Renaissance_desc:0 "The discovery and acquisition of new oil sources within the borders of Liberland have ushered in an era of economic resurgence and energy independence. The Liberian Oil Renaissance, as it has come to be known, has not only revitalized the nation's industrial capabilities but has also strengthened its position on the global stage."
  Democratic_Vigilance:0 "Democratic Vigilance"
  Democratic_Vigilance_desc:0 "The principle of democracy and the values of individual freedoms lie at the heart of Liberian society. In light of historical experiences and the global landscape, the Liberian people have developed a strong aversion to fascist ideologies and governments. This sentiment, referred to as "Democratic Vigilance," serves as a cornerstone of national identity and foreign policy."
  War-Recovery_Exhaustion:0 "War-Recovery Exhaustion"
  War-Recovery_Exhaustion_desc:0 "The scars of a recent and intense conflict have left a lasting impact on Liberland's economy, infrastructure, and military readiness. The period following a heavy war has brought about a state of "War-Recovery Exhaustion," during which the nation grapples with the daunting task of rebuilding and recuperating from the devastating toll of battle."
- A_Torn_Nation:0 "A Torn Nation"
- A_Torn_Nation_desc:0 "Due to the recent turmoil in our great nation, our army and navy are in dire need for reform."
  Industrial_Revitalization_idea:0 "Industrial Revitalization"
  Industrial_Revitalization_idea_desc:0 ""
  Industrial_Revitalization_idea_2:0 "Industrial Revitalization"
  Industrial_Revitalization_idea_2_desc:0 ""
+ Rekindling_Military_Might:0 "Rekindling Military Might"
+ Rekindling_Military_Might_desc:0 ""
+ Rekindling_Military_Might_2:0 "Rekindling Military Might"
+ Rekindling_Military_Might_2_desc:0 ""
+ Rekindling_Military_Might_3:0 "Rekindling Military Might"
+ Rekindling_Military_Might_3_desc:0 ""
+ Rekindling_Military_Might_4:0 "Rekindling Military Might"
+ Rekindling_Military_Might_4_desc:0 ""
+ 
+ 
+ 
+ A_Torn_Nation:0 "A Torn Nation"
+ A_Torn_Nation_desc:0 "Due to the recent turmoil in our great nation, our army and navy are in dire need for reform."
+
  Red_council:0 "Red council"
  Red_council_desc:0 ""
  Old_Red_Army:0 "Old Red Army"

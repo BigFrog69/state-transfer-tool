@@ -79,6 +79,68 @@ ideas = {
 			}
 		}
 
+		Rekindling_Military_Might = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.05
+				army_morale = 5
+				army_org_regain = 0.05
+			}
+		}
+		
+		Rekindling_Military_Might_2 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.1
+				army_morale = 10
+				army_org_regain = 0.10
+				army_speed_factor = 0.05	
+			}
+		}
+
+		Rekindling_Military_Might_3 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.15
+				army_morale = 15
+				army_org_regain = 0.15
+				army_speed_factor = 0.10
+			}
+		}
+
+		Rekindling_Military_Might_4 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.20
+				army_morale = 20
+				army_org_regain = 0.20
+				army_speed_factor = 0.15
+			}
+		}
 
 
 

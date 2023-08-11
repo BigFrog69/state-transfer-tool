@@ -107,10 +107,10 @@ IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NOW - IGNORE BELOW THIS FOR NO
 Rebuilding Foundations (3 focuses)
 
 Urban Rejuvenation: 
++2 Random Building Slots
++2 Random Building Slots
+Description:
 Launch projects to rebuild cities and towns affected by the war, improving living conditions and boosting civilian morale.
-
-Agricultural Restoration: 
-Implement agricultural initiatives to restore and enhance food production capabilities, ensuring a stable food supply for the nation.
 
 Education and Innovation: 
 Invest in education and research to cultivate a skilled workforce and promote technological advancements, propelling Liberland's recovery.
@@ -118,10 +118,17 @@ Invest in education and research to cultivate a skilled workforce and promote te
 
 Rekindling Military Might (4 focuses)
 
-Training Resurgence: Revamp military training programs to rebuild the organization and effectiveness of divisions, improving division organization.
-Equipment Overhaul: Prioritize the reequipping of military units with modern and reliable weaponry, enhancing their combat capabilities.
-Strategic Mobilization: Develop plans to rapidly mobilize reserves and strengthen the armed forces during times of crisis, bolstering war support.
-Veteran Integration: Facilitate the smooth transition of war veterans into civilian life, while also tapping into their expertise to improve military strategies.
+Training Resurgence: 
+Revamp military training programs to rebuild the organization and effectiveness of divisions, improving division organization.
+
+Equipment Overhaul: 
+Prioritize the reequipping of military units with modern and reliable weaponry, enhancing their combat capabilities.
+
+Strategic Mobilization: 
+Develop plans to rapidly mobilize reserves and strengthen the armed forces during times of crisis, bolstering war support.
+
+Veteran Integration: 
+Facilitate the smooth transition of war veterans into civilian life, while also tapping into their expertise to improve military strategies.
 
 
 National Unity Initiative (3 focuses)

@@ -138,14 +138,144 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
 			random_owned_controlled_state = {
      		add_extra_state_shared_building_slots = 2
 			add_extra_state_shared_building_slots = 2
 			 }	
 		}
 	}
+	
+	focus = {
+		id = LLB_Education_and_Innovation
+		icon = GFX_goal_generic_construction
+		x = 1
+		y = 3
+		cost = 1 #5
+
+		prerequisite = { focus = LLB_Resource_Reclamation }
+		relative_position_id = LLB_Infrastructure_Restoration
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_research_slot = 1
+			add_tech_bonus = {
+			bonus = 1.5
+			uses = 3
+			category = electronics
+			}				
+		}
+	}
+
+	focus = {
+		id = LLB_Training_Resurgence
+		icon = GFX_goal_generic_construction
+		x = 11
+		y = 0
+		cost = 1 #5
+
+		available = {
+    	arms_factory > 5
+		}
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = infantry_weapons
+			}
+			add_ideas ={
+			Rekindling_Military_Might
+			}			
+		}
+	}
 
 
+	focus = {
+		id = LLB_Equipment_Overhaul
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 1
+		cost = 1 #5
+		available = {
+    	arms_factory > 10
+		}
+
+		prerequisite = { focus = LLB_Training_Resurgence }
+		relative_position_id = LLB_Training_Resurgence
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Rekindling_Military_Might
+				add_idea = Rekindling_Military_Might_2
+			}			
+		}
+	}
+
+	focus = {
+		id = LLB_Strategic_Mobilization
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 2
+		cost = 1 #5
+		available = {
+    	arms_factory > 20
+		}
+
+		prerequisite = { focus = LLB_Equipment_Overhaul }
+		relative_position_id = LLB_Training_Resurgence
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_war_support = 0.1
+			swap_ideas = {
+				remove_idea = Rekindling_Military_Might_2
+				add_idea = Rekindling_Military_Might_3
+			}			
+		}
+	}
+
+	focus = {
+		id = LLB_Veteran Integration
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 3
+		cost = 1 #5
+		available = {
+    	arms_factory > 40
+		}
+
+		prerequisite = { focus = LLB_Strategic_Mobilization }
+
+		relative_position_id = LLB_Training_Resurgence
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_war_support = 0.1
+			swap_ideas = {
+				remove_idea = Rekindling_Military_Might_3
+				add_idea = Rekindling_Military_Might_4
+			}			
+		}
+	}
 
 
 

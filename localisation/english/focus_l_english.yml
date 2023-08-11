@@ -1,16 +1,32 @@
 ﻿l_english:
+ 
+ #RepublicOfOstryae
  ROO_four_year_plan:0 "Rebuild the Republic"
  ROO_four_year_plan_desc:0 "After seasons of instability the nation is somewhat stable again it is time to rebuild"
  ROO_Rebuild_the_schnellstrasse:0 "Rebuild the Schnellstrasse"
  ROO_Rebuild_the_schnellstrasse_desc:0 ""
 
+ #Liberland
  LLB_Infrastructure_Restoration:0 "Infrastructure Restoration"
  LLB_Infrastructure_Restoration_desc:0 "Initiate a comprehensive plan to repair and upgrade the nation's infrastructure network, allowing for quicker transportation of goods and resources."
  LLB_Industrial_Revitalization:0 "Industrial Revitalization"
  LLB_Industrial_Revitalization_desc:0 "Invest in modernization and reconstruction of damaged factories, increasing their efficiency and output."
  LLB_Resource_Reclamation:0 "Resource Reclamation"
- LLB_Resource_Reclamation_desc:0 "Establish teams to survey and reclaim resource-rich areas that were disrupted by war, ensuring a steady supply of materials for industrial production. Trade Expansion: Forge new trade agreements and establish trade routes to access essential resources and technologies from foreign partners."
+ LLB_Resource_Reclamation_desc:0 "Establish teams to survey and reclaim resource-rich areas that were disrupted by war, ensuring a steady supply of materials for industrial production."
+ LLB_Urban_Rejuvenation:0 "Urban Rejuvenation"
+ LLB_Urban_Rejuvenation_desc:0 "Launch projects to rebuild cities and towns affected by the war, improving living conditions and boosting civilian morale."
+ LLB_Education_and_Innovation:0 "Education and Innovation"
+ LLB_Education_and_Innovation_desc:0 "Invest in education and research to cultivate a skilled workforce and promote technological advancements, propelling Liberland's recovery."
+ LLB_Training_Resurgence:0 "Training Resurgence"
+ LLB_Training_Resurgence_desc:0 "Revamp military training programs to rebuild the organization and effectiveness of divisions, improving division organization."
+ LLB_Equipment_Overhaul:0 "Equipment Overhaul"
+ LLB_Equipment_Overhaul_desc:0 "Prioritize the reequipping of military units with modern and reliable weaponry, enhancing their combat capabilities."
+ LLB_Strategic_Mobilization:0 "Strategic Mobilization"
+ LLB_Strategic_Mobilization_desc:0 "Develop plans to rapidly mobilize reserves and strengthen the armed forces during times of crisis, bolstering war support."
+ LLB_Veteran_Integration:0 "Veteran Integration"
+ LLB_Veteran_Integration_desc:0 "Facilitate the smooth transition of war veterans into civilian life, while also tapping into their expertise to improve military strategies."
 
+#SocialistStateOfBeyron
  SSB_The_Great_Purge:0 "The Great Purge"
  SSB_The_Great_Purge_desc:0 "After the lost war against the Sprite Nation and Maple, our nation was left to suffer in betrayals and depression. We will punish all Traitors in our country and make the Socialist State of Beyron rise again!"
  SSB_The_New_order:0 "The New Order"
@@ -24,6 +40,7 @@
  SSB_Memories_Of_The_SpriteKrieg:0 "Memories Of The SpriteKrieg"
  SSB_Memories_Of_The_SpriteKrieg_desc:0 "We can't get ahead of ourselves a strong economy leads to a great Victory."
 
+#TheBarons
  TBA_The_Baron:0 "§tThe Last Baron§!"
  TBA_The_Baron_desc:0 "The sentient undead wish to carve out meaning for their continued existence, clinging to The Baron for guidence. What's the purpose of us undead? How can an undead make a living? What do we undead work or fight for? Can ambition move a never-dying race?"
  TBA_A_Path_Forward:0 "A Path Forward?"
