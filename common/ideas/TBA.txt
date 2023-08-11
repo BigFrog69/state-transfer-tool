@@ -2,6 +2,8 @@ ideas = {
 
 	country = {
 		undead_population = {
+
+			picture = TBA_Death_Knight
 			
 			allowed = {
 				always = no

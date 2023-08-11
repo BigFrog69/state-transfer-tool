@@ -1,0 +1,152 @@
+focus_tree = {
+	id = The_Barons_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TBA
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = TBA_The_Baron
+		icon = GFX_goal_Big_Death_Knight
+		x = 12
+		y = 0
+		cost = 0#10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = TBA_A_Path_Forward
+		icon = GFX_goal_Big_Death_Knight
+		prerequisite = { focus = TBA_The_Baron }
+		relative_position_id = TBA_The_Baron
+		x = 0
+		y = 1
+		cost = 0#10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+
+	#Economy
+	focus = {
+		id = TBA_An_Undead_Economy
+		icon = GFX_goal_Big_Death_Knight
+		prerequisite = { focus = TBA_A_Path_Forward }
+		relative_position_id = TBA_The_Baron
+		x = 6
+		y = 2
+		cost = 0#10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			every_unit_leader = { 
+				add_logistics = 1
+			}
+			random_other_country = {  
+				add_manpower = -5000
+			}
+			every_core_state = {
+				add_manpower = 1000
+			}
+			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 100
+				producer = TBA
+			}
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+	focus = {
+		id = TBA_An_Tireless_Labor
+		icon = GFX_goal_Big_Death_Knight
+		prerequisite = { focus = TBA_A_Path_Forward }
+		relative_position_id = TBA_The_Baron
+		x = 6
+		y = 3
+		cost = 0#10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_victory_points = {
+				province = 6299
+				value = 10
+			}
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_offsite_building = { type = industrial_complex level = 1 }
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+	focus = {
+		id = TBA_Immortal_Mindset
+		icon = GFX_goal_Big_Death_Knight
+		prerequisite = { focus = TBA_An_Tireless_Labor }
+		relative_position_id = TBA_The_Baron
+		x = 6
+		y = 4
+		cost = 0#10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			every_owned_state = {
+				add_core_of = TBA
+			}
+			5 = {
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+				add_resource = {
+					type = oil
+					amount = 5
+				}
+			}
+			uncomplete_national_focus = {
+				focus = TBA_An_Undead_Economy
+				uncomplete_children = yes
+				refund_political_power = no
+			}
+			uncomplete_national_focus = {
+				focus = TBA_An_Tireless_Labor
+				uncomplete_children = yes
+				refund_political_power = no
+			}
+			uncomplete_national_focus = {
+				focus = TBA_Immortal_Mindset
+				uncomplete_children = yes
+				refund_political_power = no
+			}
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+}

@@ -31,7 +31,10 @@ spriteTypes = {
 
 
 
-
+	spriteType = {
+		name = "GFX_idea_TBA_Death_Knight"
+		texturefile = "gfx/interface/ideas/Death_Knight.dds"
+	}
 
 
 

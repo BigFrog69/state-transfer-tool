@@ -23,7 +23,7 @@
  VICTORY_POINTS_3307:0 "Chadylon"
  VICTORY_POINTS_1722:0 "Free Harbour"
  VICTORY_POINTS_4276:0 "Libernople"
- VICTORY_POINTS_1600:0 "Lost Land"
+ VICTORY_POINTS_1660:0 "Lost Land"
  VICTORY_POINTS_1591:0 "Libertropoli"
 
  VICTORY_POINTS_1085:0 "Port Maksha"
@@ -32,3 +32,11 @@
  VICTORY_POINTS_26:0 "Khanty"
  VICTORY_POINTS_911:0 "Komi-Zyria"
  VICTORY_POINTS_2365:0 "Livona"
+ #WindSnake's cities
+ VICTORY_POINTS_4962:0 "Poutine City"
+ VICTORY_POINTS_110:0 "Maple City"
+ VICTORY_POINTS_1195:0 "Winter Port"
+ VICTORY_POINTS_3966:0 "Ice Port"
+ VICTORY_POINTS_1478:0 "Moose Town"
+ #Baron's cities
+ VICTORY_POINTS_6299:0 "Baron's Citadel"

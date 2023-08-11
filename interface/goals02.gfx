@@ -1,6 +1,5 @@
 spriteTypes = {	
 
-	#### Generic continuous goal icons
 
 	SpriteType = {
 	name = "GFX_goal_FixTheRedCouncil"
@@ -30,5 +29,23 @@ spriteTypes = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#Baron's Goal Icons
+	SpriteType = {
+	name = "GFX_goal_Big_Death_Knight"
+	texturefile = "gfx/interface/goals/Big_Death_Knight.dds"			
+	}
 
 }

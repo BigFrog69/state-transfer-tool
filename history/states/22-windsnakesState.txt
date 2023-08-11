@@ -10,6 +10,21 @@ state={
 	history={
 		owner = FCM
 		add_core_of = FCM
+		victory_points = {
+			4962 40
+		}
+		victory_points = {
+			110 80
+		}
+		victory_points = {
+			1195 40
+		}
+		victory_points = {
+			3966 40
+		}
+		victory_points = {
+			1478 40
+		}
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3

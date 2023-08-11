@@ -10,6 +10,9 @@ state={
 	history={
 		owner = TBA
 		add_core_of = TBA
+		victory_points = {
+			6299 40
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
