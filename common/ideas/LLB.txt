@@ -2,6 +2,9 @@ ideas = {
 
 	country = {
 		Liberian_Oil_Renaissance = {
+
+			picture = LLB_LiberianOilRenaissance
+
 			allowed = {
 				always = no
 			}
