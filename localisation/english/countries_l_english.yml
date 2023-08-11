@@ -1,5 +1,5 @@
 ﻿l_english:
- SPI:0 "§BSprite Nation§!"
+ SPI:0 "Sprite Nation"
  SPI_DEF:0 "Sprite"
  SPI_ADJ:0 "Spritian"
 
@@ -7,15 +7,15 @@
  ROB_DEF:0 "Bretain"
  ROB_ADJ:0 "Bretaian"
 
- ROO:0 "§BRepublic of Ostryae§!"
+ ROO:0 "Republic of Ostryae"
  ROO_DEF:0 "Ostryae"
  ROO_ADJ:0 "Ostryian"
 
- TBA:0 "§BThe Barons§!"
+ TBA:0 "The Barons"
  TBA_DEF:0 "Barons"
  TBA_ADJ:0 "Baron"
 
- ROK:0 "§BRepublic of Kustenkuste§!"
+ ROK:0 "Republic of Kustenkuste"
  ROK_DEF:0 "Kustenkuste"
  ROK_ADJ:0 "Kustans"
 
@@ -23,7 +23,7 @@
  NLA_DEF:0 "Maple Republic"
  NLA_ADJ:0 "NLA"
 
- WOD:0 "§tWoodland§!"
+ WOD:0 "Woodland"
  WOD_DEF:0 "Woodlandia"
  WOD_ADJ:0 "Woodlandian"
 
@@ -31,7 +31,7 @@
  LLB_DEF:0 "Liberland"
  LLB_ADJ:0 "Liberlandian"
 
- SSB:0 "§BSocialist State of Beyron§!"
+ SSB:0 "Socialist State of Beyron"
  SSB_DEF:0 "State of Beyron"
  SSB_ADJ:0 "Beyronian"
 
