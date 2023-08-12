@@ -13,10 +13,439 @@ focus_tree = {
 	
 	default = no
 
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = ROO_re-ignite_the_turmoil
+		icon = GFX_goal_generic_construction
+		x = 6
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_unite_the_masses
+		icon = GFX_goal_generic_construction
+		x = -2
+		y = 2
+		prerequisite = { focus = ROO_re-ignite_the_turmoil }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_inspire_the_ground
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 1
+		prerequisite = { focus = ROO_re-ignite_the_turmoil }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_the_common_cause
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 2
+		prerequisite = { focus = ROO_inspire_the_ground }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_mobilize_our_brethren
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 3
+		prerequisite = { focus = ROO_the_common_cause }
+		prerequisite = { focus = ROO_unite_the_masses }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_A_New_Leadership
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 4
+		prerequisite = { focus = ROO_mobilize_our_brethren }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_A_New_Guard
+		icon = GFX_goal_generic_construction
+		x = -2
+		y = 5
+		prerequisite = { focus = ROO_A_New_Leadership }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_The_Real_Culprit
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 5
+		prerequisite = { focus = ROO_A_New_Leadership }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_Rebuild_the_Old
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 6
+		prerequisite = { focus = ROO_A_New_Guard }
+		prerequisite = { focus = ROO_The_Real_Culprit }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_The_Old_Glory
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 7
+		prerequisite = { focus = ROO_Rebuild_the_Old }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_The_Undead_Question
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 8
+		prerequisite = { focus = ROO_The_Old_Glory }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_Unite_With_Our_Brethren
+		icon = GFX_goal_generic_construction
+		x = -2
+		y = 8
+		prerequisite = { focus = ROO_The_Old_Glory }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_Our_Northern_Brother
+		icon = GFX_goal_generic_construction
+		x = -3
+		y = 9
+		prerequisite = { focus = ROO_Unite_With_Our_Brethren }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_The_Greater_Question
+		icon = GFX_goal_generic_construction
+		x = -1
+		y = 9
+		prerequisite = { focus = ROO_Unite_With_Our_Brethren }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+
+	focus = {
+		id = ROO_Wargoal_1
+		icon = GFX_goal_generic_construction
+		x = -1
+		y = 10
+		prerequisite = { focus = ROO_The_Greater_Question }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_Wargoal_2
+		icon = GFX_goal_generic_construction
+		x = -1
+		y = 11
+		prerequisite = { focus = ROO_Wargoal_1 }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#########################################################################
+	focus = {
+		id = ROO_A_United_Nation
+		icon = GFX_goal_generic_construction
+		x = 6
+		y = 5
+		prerequisite = { focus = ROO_A_New_Leadership }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_The_Ones_Left_Behind
+		icon = GFX_goal_generic_construction
+		x = 6
+		y = 6
+		prerequisite = { focus = ROO_A_United_Nation }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROO_United_Forever
+		icon = GFX_goal_generic_construction
+		x = 6
+		y = 7
+		prerequisite = { focus = ROO_The_Ones_Left_Behind }
+		relative_position_id = ROO_re-ignite_the_turmoil
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+	#########################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	focus = {
 		id = ROO_four_year_plan
 		icon = GFX_goal_generic_construction
-		x = 6
+		x = 20
 		y = 0
 		cost = 10
 		ai_will_do = {

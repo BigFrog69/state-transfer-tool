@@ -1,6 +1,6 @@
 characters={
 	ROK_TheDoctorFromFrostpunk={
-		name="Representative Head of Republic Schuster Päɡchampēən"
+		name="R.H.O.R.A. Schuster Paɡchampean"
 		portraits={
 			civilian={
 				large=GFX_portrait_ROK_PoggerLeaderGlass

@@ -16,7 +16,7 @@ focus_tree = {
 	focus = {
 		id = ROK_Familial_Focus
 		icon = GFX_goal_generic_construction
-		x = 6
+		x = 25
 		y = 0
 		cost = 1
 		ai_will_do = {
@@ -43,13 +43,235 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+	######################################################################################
+	focus = {
+		id = ROK_Diplomatic_Investment
+		icon = GFX_goal_generic_construction
+		x = -4
+		y = 1
+		cost = 10
+		prerequisite = { focus = ROK_Familial_Focus }
+		relative_position_id = ROK_Familial_Focus
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 			#custom_effect_tooltip = available_political_advisor
 			#show_ideas_tooltip = hjalmar_schacht
 		}
 	}
 
+	focus = {
+		id = ROK_Sky_Scraping
+		icon = GFX_goal_generic_construction
+		x = -4
+		y = 4
+		cost = 10
+		prerequisite = { focus = ROK_Diplomatic_Investment }
+		relative_position_id = ROK_Familial_Focus
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+	######################################################################################
 
 
+	focus = {
+		id = ROK_Clean_Up_The_Mess
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 2
+		cost = 10
+		prerequisite = { focus = ROK_Familial_Focus }
+		relative_position_id = ROK_Familial_Focus
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
 
+	focus = {
+		id = ROK_Every_Pag_A_Champ
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 3
+		cost = 10
+		prerequisite = { focus = ROK_Clean_Up_The_Mess }
+		relative_position_id = ROK_Familial_Focus
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROK_Ostraeyan_Agreement
+		icon = GFX_goal_generic_construction
+		x = 4
+		y = 3
+		cost = 10
+		prerequisite = { focus = ROK_Clean_Up_The_Mess }
+		relative_position_id = ROK_Familial_Focus
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+	#######################################################################
+	focus = {
+		id = ROK_Align_with_Hans
+		icon = GFX_goal_generic_construction
+		x = 10
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ROK_Diplomatic_Investment
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = ROK_Align_with_Hans }
+		relative_position_id = ROK_Align_with_Hans
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = ROK_Kustenian_Nationalism
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 2
+		prerequisite = { focus = ROK_Align_with_Hans }
+		relative_position_id = ROK_Align_with_Hans
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ROK_The_Great_Hit
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 3
+		prerequisite = { focus = ROK_Kustenian_Nationalism }
+		relative_position_id = ROK_Align_with_Hans
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ROK_Paving_The_Way_To_Totality
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 3
+		prerequisite = { focus = ROK_The_Great_Hit }
+		relative_position_id = ROK_Align_with_Hans
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ROK_The_Commie_Commander
+		icon = GFX_goal_generic_construction
+		x = -2
+		y = 4
+		prerequisite = { focus = ROK_Paving_The_Way_To_Totality }
+		relative_position_id = ROK_Align_with_Hans
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ROK_The_Warrior_King
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 4
+		prerequisite = { focus = ROK_Paving_The_Way_To_Totality }
+		relative_position_id = ROK_Align_with_Hans
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ROK_The_Fascist_Dictator
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 4
+		prerequisite = { focus = ROK_Paving_The_Way_To_Totality }
+		relative_position_id = ROK_Align_with_Hans
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
 }

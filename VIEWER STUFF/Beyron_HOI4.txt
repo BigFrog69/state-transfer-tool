@@ -18,7 +18,7 @@ NATIONAL SPIRITS
                                     MAIN FOCUS
 ------------------------------------------------------------------------------------------------
 
-The Great Purge - 35 day focus 
+The Great Purge - 35 day focus (done)
 
 Effect:
 Spirit: Purge the traitors
@@ -34,7 +34,7 @@ We will punish all Traitors in our country and make the Socialist State of Beyro
 
 ------------------------------------------------------------------------------------------------
 
-The New order - 70 day focus 
+The New order - 70 day focus (done)
 
 Effect:
 Spirit: New Order
@@ -63,7 +63,7 @@ Corruption can still be seen in our Administration, we must fix these problems a
 
 -------------------------------------------------------------------------------------------------
 
-Red Rule! - 35 day focus (commie path)
+Red Rule! - 35 day focus (commie path) (done)
 
 Effect:
 +100 political power
@@ -73,13 +73,13 @@ After the Anti BigFrog COUP, the military decided to stay loyal to BigFrog and a
 
 -------------------------------------------------------------------------------------------------
 
-Memories Of The SpriteKrieg - 35 day focus (commie path)
+Memories Of The SpriteKrieg - 35 day focus (commie path) (done)
 
 Effect:
 Add Spirit : "Memories of SpriteKrieg"     
 -10% attack against "Sprite Nation"
 +15% defense against "Sprite Nation"
--10% attack against "Maple Nation"  (idk how its called aight 💀💀)
+-10% attack against "Maple Nation"  
 +15% defense against "Maple nation"
 (for 730 days)
 
@@ -91,7 +91,7 @@ Spirit Description : Memories of The Spritekrieg, the war took a slight turn to 
                                                ECO TREE
 ------------------------------------------------------------------------------------------------
 
-Starting Economy - COMPLETES AFTER EVENT (Done already)
+Starting Economy - COMPLETES AFTER EVENT (Done)
 
 Effect:
 Add 2 civilian factories
@@ -99,6 +99,81 @@ Add 2 building slots
 
 Description:
 Lets begin our Economic tree!
+
+------------------------------------------------------------------------------------------------
+
+Befriend Liberland - 35 day focus (50% done)
+
+Effect:
+Liberland opinion of Socialist State of Beyron +45
+Beyron creates faction "Rot Front" and invites Liberland
+Add 8 Oil in Capital
+
+Spirit: Liberland Oil payments
+Consumer goods +1%
+(for 730 days)
+
+Description:
+We need a better relationship between our countries, future ally might be needed
+
+------------------------------------------------------------------------------------------------
+
+Farmland Problem - 35 day focus
+
+Effect:
+
++100 political power
+
+Add Spirit "Farmland Crisis" which grants :
+-15% monthly population
+-20% construction speed
+(for 60 days)
+
+After 60 days Swap Focus with :
+Add Spirit : "Farmland Crisis Fixed" which grants :
++25% monthly population
+
+Description:
+Cmon stop arguing about some land no cap.
+
+------------------------------------------------------------------------------------------------
+
+Jungle Excavation - 35 day focus (bro wth is this name 💀💀💀)
+
+Effect:
+Modify Spirit "Farmland Crisis Fixed" by :
++5% construction speed
++10% resource efficiency gain
+
+
+EVENT: Red Army calls for a Reform!
+
+!A: Pay them and Calm them down! 
+A:
+Political power -200
+Modify Spirit "Old Red Army" by:
+Recruitable People Factor -10%
+Division Attack -5%
+
+Add Spirit: "Strikes!" which grant :
++10% consumer goods
+-20% Efficiency Growth
+(for 60 days)
+
+
+!B: Ignore them.
+B:
+Modify Spirit "Old Red Army" by:
+Recruitable People Factor -20%
+Division Attack -20%
+
+Add Spirit: "Strikes!" which grant :
++20% consumer goods
+-40% Efficiency Growth
+(for 120 days)
+
+Description:
+Our day is coming Workers, don't let your Red Guard down.
 
 ------------------------------------------------------------------------------------------------
 
@@ -148,7 +223,7 @@ All the roads lead to our Capital! - 35 day focus
 
 Effect:
 Add level 3 infrastructure in every state i own
-Add level 4 infrastructure in my Capital
+Add level 5 infrastructure in my Capital
 
 Description:
 Infrastruce is needed for exporting our materials, and food, and TAKNS!!!??
@@ -158,29 +233,12 @@ Infrastruce is needed for exporting our materials, and food, and TAKNS!!!??
 In need of resources - 35 day focus 
 
 Effect:
-Add 7 tungsten in my capital
-Add 9 chromium in my capital
+Add 12 tungsten in my capital
+Add 18 chromium in my capital
 Add 51 Steel in my Capital
 
 Description:
 We are in a deep situation. We need more resources to produce more Tanks!
-
-------------------------------------------------------------------------------------------------
-
-Deal with Liberland - 35 day focus
-
-Effect:
-Improving Relations opinion Cost -15%
-Liberland opinion of Socialist State of Beyron +45
-Set rule : Can Create Faction
-Add 4 Oil in Capital
-
-Spirit: Liberland Oil payments
-Consumer goods +1%
-(for 730 days)
-
-Description:
-We need a better relationship between our countries, future ally might be needed
 
 ------------------------------------------------------------------------------------------------
 
@@ -190,7 +248,7 @@ Effect:
 Modify Spirit "The Three Year Plan" by
 Production efficency growth +5%
 Factory output +5%
-Dockyard output +5%
+Dockyard output +10%
 
 
 Description:
@@ -218,10 +276,33 @@ Add 6 Building slots
 Add 3 Dockyards
 Add 3 building slots
 
+Complete Focus "Army Preperations" (below)
+
 Description:
 We will make Sprite Nation and Maple nation pay for what they did to us.
 
-                                         ARMY TREE
+                                    ----ARMY TREE----
+------------------------------------------------------------------------------------------------
+
+Army Preperations - 35 day focus (completed after "Our War Machine")
+
+Effect:
+Add +50 Air Experience
+
+Description:
+Now its time to focus on the Army.
+										 
+------------------------------------------------------------------------------------------------
+
+Sending Photos of Kids - 49 day focus 
+
+Effect:
+Add Spirit "Red Workers"
++5% recruitable people factor
+
+Description:
+Like Wood said, i sent you a photo of a kid. Anyway lets recruit more people in to the army.
+
 ------------------------------------------------------------------------------------------------
 
 Army of Beyron - 35 day focus (MUTUALLY EXCLUSIVE WITH - Beyron rules the waves)
@@ -257,14 +338,14 @@ Army and Navy is needed but we cant choose both.
 Rectruit The Workers - 70 day focus (ARMY)
 
 Effect:
-Add Spirit "Red Workers" which grants :
+Modify Spirit "Red Workers" which grants :
 +15% Recruitable population factor
 +5% Training time
 
 Army Experience +50
 
 Description:
-We need more men to fight on our side!
+CONSCRIPT THOSE KIDS! I mean CONSCRIPT MORE MEN! 
 
 ------------------------------------------------------------------------------------------------
 
@@ -288,8 +369,8 @@ Red Army Reorganization - 70 day focus (After completing either NAVY OR ARMY FOC
 
 Effect:
 Modify Spirit "Old Red Army" by :
-Recruitable People Factor +45%
-Division attack -40%
+Recruitable People Factor +55%
+Division attack -35%
 Division Defense -40%
 
 Description:
@@ -303,7 +384,7 @@ Effect:
 Remove Spirit "Old Red Army"
 
 Add Spirit "New Red Army" which grants :
-Division Organization +5%
+Division Organization +10%
 Max Planning +20%
 division attack +5%
 division defense +5%
@@ -326,7 +407,7 @@ Max Entrenchment +20%
 Gets "Wargoal against every NPC Nation" (Neighbor) (I need to be sharing a border with the NPC nation)
 
 Description:
-We need to show our enemy that we're strong.
+We need to show our enemy that we're strong. We strike first or we die first.
 
 ------------------------------------------------------------------------------------------------
 
@@ -342,14 +423,14 @@ Lets show them what the "Red Front" means. Liberate our Red Workers from those l
 
 ------------------------------------------------------------------------------------------------
 
- - 70 day focus
+Red Menace - 70 day focus      !!(THIS FOCUS IS ONLY TEST WORTHY I DO NOT KNOW HOW THE NPC BORDERS WILL LOOK)
 
 Effect:
 Modify Spirit "New Red Army" by :
-+5% Non-Core Manpower
-+10% Experienced Soldier Losses
+Gains Core on :
+(The npc nations i shared my border with)
 
 Description:
-Lets show them what the "Red Front" means. Liberate our Red Workers from those lands!
+Liberate those workers!
 
 THATS IT FOR NOW

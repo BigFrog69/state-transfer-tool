@@ -208,6 +208,78 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = SSB_Farmland_Problem
+		icon = GFX_goal_StartingEconomy
+		x = 0
+		y = 1
+		prerequisite = { focus = SSB_Starting_Economy }
+		relative_position_id = SSB_Starting_Economy
+		cost = 1 #5
+
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		select_effect = { 
+			add_timed_idea = {
+				idea = SSB_Farmland_Crisis
+				days = 60
+			}
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = {
+				SSB_Farmland_Crisis_Fixed
+			}
+			remove_ideas = SSB_Farmland_Crisis
+			#After 60 days Swap Focus with :
+			#Add Spirit : "Farmland Crisis Fixed" which grants :
+			#+25% monthly population
+		}
+	}
+
+	focus = {
+		id = SSB_Jungle_Excavation
+		icon = GFX_goal_StartingEconomy
+		x = 0
+		y = 2
+		prerequisite = { focus = SSB_Farmland_Problem }
+		relative_position_id = SSB_Starting_Economy
+		cost = 1 #5
+
+
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SSB_Farmland_Crisis_Fixed
+				add_idea = SSB_Farmland_Crisis_Fixed_2
+			}
+			country_event = Beyron.2
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -219,8 +291,8 @@ focus_tree = {
 	focus = {
 		id = SSB_Befriend_Liberland
 		icon = GFX_goal_StartingEconomy
-		x = 12
-		y = 1
+		x = 20
+		y = 0
 
 
 		cost = 1 #5

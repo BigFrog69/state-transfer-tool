@@ -28,7 +28,39 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = Beyron.2
+	title = Beyron.2.t
+	desc = Beyron.2.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.2.a
+		add_political_power = -200
+		swap_ideas = {
+			remove_idea = Old_Red_Army
+			add_idea = Old_Red_Army_2
+		}
+		add_timed_idea = {
+			idea = Strikes_1
+			days = 60
+		}
+	}
 
+	option = {
+		name = Beyron.2.b
+		swap_ideas = {
+			remove_idea = Old_Red_Army
+			add_idea = Old_Red_Army_3
+		}
+		add_timed_idea = {
+			idea = Strikes_2
+			days = 120
+		}
+	}
+}
 
 
 
