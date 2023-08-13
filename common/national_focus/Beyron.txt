@@ -204,7 +204,11 @@ focus_tree = {
 					instant_build = yes
 				}
 				add_extra_state_shared_building_slots = 2
-			}	
+				}
+			add_timed_idea = {
+				idea = Motherland_Calls
+				days = 730
+			}
 		}
 	}
 
@@ -234,9 +238,6 @@ focus_tree = {
 				SSB_Farmland_Crisis_Fixed
 			}
 			remove_ideas = SSB_Farmland_Crisis
-			#After 60 days Swap Focus with :
-			#Add Spirit : "Farmland Crisis Fixed" which grants :
-			#+25% monthly population
 		}
 	}
 
@@ -280,7 +281,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = Three_Year_Plan
-				days = 365
+				days = 3652
 			}
 		}
 	}
@@ -299,10 +300,109 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			13 = {
+				set_building_level = {
+					type = industrial_complex	
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				}
+			14 = {
+				set_building_level = {
+					type = dockyard	
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			}
+		}
 
+	focus = {
+		id = SSB_Arms_Production
+		icon = GFX_goal_StartingEconomy
+		x = -2
+		y = 1
+		prerequisite = { focus = SSB_Planned_Economy }
+		relative_position_id = SSB_Planned_Economy
+		
+		cost = 1 #5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+					13 = {
+				set_building_level = {
+					type = arms_factory	
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				}
+				    21 = {
+				set_building_level = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				}
 			}
 		}
 	}
+	
+	(this focus doesnt work)#focus = {
+		id = SSB_All_Roads_Lead_To_Beyron
+		icon = GFX_goal_StartingEconomy
+		x = 0
+		y = 1
+		prerequisite = { focus = SSB_Arms_Production }
+		relative_position_id = SSB_Arms_Production
+		cost = 1 #5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		14 = {
+				set_building_level = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			21 = {
+				set_building_level = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			13 = {
+				set_building_level = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			add_timed_idea = {
+				idea = Ass
+				days = 1
+			}
+		}
+	}
+
+
+
+
+
 
 
 
@@ -351,7 +451,6 @@ focus_tree = {
 		}
 	}
 
- 
 
 
 
@@ -370,5 +469,3 @@ focus_tree = {
 
 
 
-
-}

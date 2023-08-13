@@ -94,13 +94,13 @@ ideas = {
 			targeted_modifier = {
 				tag = SPI
 				attack_bonus_against = -0.1
-				defense_bonus_against = 0.15
+				defense_bonus_against = 0.2
 			}
 				
 			targeted_modifier = {
 				tag = NLA
 				attack_bonus_against = -0.1
-				defense_bonus_against = 0.15
+				defense_bonus_against = 0.2
 			}
 		}
 
@@ -148,6 +148,7 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.05
 				local_resources_factor = 0.1
+				monthly_population = 0.25
 			}	
 		}
 
@@ -244,6 +245,22 @@ ideas = {
 				production_factory_start_efficiency_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
 				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		
+		Motherland_Calls = {
+
+			picture = SSB_OldRedArmy
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			weekly_manpower = 1000
 			}
 		}
 

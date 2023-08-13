@@ -49,8 +49,10 @@
  SSB_Jungle_Excavation_desc:0 "Our day is coming Workers, don't let your Red Guard down."
  SSB_Planned_Economy:0 "Planned Economy"
  SSB_Planned_Economy_desc:0 "BigFrrog lifted our nation not only technologicaly but even Economicly, It would be foolish to change paths now. The Invincible banner of the worker's liberation marches ever onwards!"
- 
-
+ SSB_Civilian_Plan:0 "Civilian Plan"
+ SSB_Civilian_Plan_desc:0 "As a nation on the loser side we've been made fun of, we'll show them what we can do!"
+ SSB_Arms_Production:0 "Arms Production"
+ SSB_Arms_Production_desc:0 "War is brewing. We do not know who will strike first but sooner or later we will find ourself under attack, we must prepare ourselves to be ready."
 
 
 
