@@ -81,7 +81,7 @@ focus_tree = {
 
 	focus = {
 		id = SSB_Democracy_Route
-		#icon = GFX_goal_democratic_group
+		icon = GFX_goal_democratic_group
 		x = -3
 		y = 3
 		cost = 1 #5
@@ -150,7 +150,7 @@ focus_tree = {
 	#############################################################################
 	focus = {
 		id = SSB_Fascist_Route
-		#icon = GFX_goal_fascism_group
+		icon = GFX_goal_fascism_group
 		x = 3
 		y = 3
 		cost = 1 #5
@@ -184,7 +184,7 @@ focus_tree = {
 	focus = {
 		id = SSB_Starting_Economy
 		icon = GFX_goal_StartingEconomy
-		x = 12
+		x = 14
 		y = 0
 		cost = 1 #5
 
@@ -244,9 +244,9 @@ focus_tree = {
 		id = SSB_Jungle_Excavation
 		icon = GFX_goal_StartingEconomy
 		x = 0
-		y = 2
+		y = 1
 		prerequisite = { focus = SSB_Farmland_Problem }
-		relative_position_id = SSB_Starting_Economy
+		relative_position_id = SSB_Farmland_Problem
 		cost = 1 #5
 
 
@@ -264,9 +264,45 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = SSB_Planned_Economy
+		icon = GFX_goal_StartingEconomy
+		x = 0
+		y = 1
+		prerequisite = { focus = SSB_Jungle_Excavation }
+		relative_position_id = SSB_Jungle_Excavation
+		cost = 1 #5
 
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_timed_idea = {
+				idea = Three_Year_Plan
+				days = 365
+			}
+		}
+	}
 
+	focus = {
+		id = SSB_Civilian_Plan
+		icon = GFX_goal_StartingEconomy
+		x = 2
+		y = 1
+		prerequisite = { focus = SSB_Planned_Economy }
+		relative_position_id = SSB_Planned_Economy
+		cost = 1 #5
 
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+			}
+		}
+	}
 
 
 
