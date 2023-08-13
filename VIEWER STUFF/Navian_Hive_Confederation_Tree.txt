@@ -1,0 +1,141 @@
+I don't now how to Code
+
+if the NLA did not run then the NLA tag changes to The Navian Hive Confederation(NHC) and annexes my NPC nation The Navian Salvation Army(NSA)
+This is just meant to help under stand my Tree
+
+
+
+
+"The Elysiumian Republicans" (7 Days)
+
+Event:Send them away but keep thier guns (gets some guns but losses some pop and Army Pop)
+Event:They will help the nation (Gives more tech and Industery but less pop gain)
+Event:Listen to lustin Vallden (if you do This you can pick the "Elysiumian-Navian Option" option in "The Queens and Leaders Meet")
+
+
+
+"The Docks" (7 Days) Same as NLA ones
+"What to Eat" (7 Days) Same as NLA ones
+
+
+
+"The Queens and Leaders Meet" (140 Days)
+
+Event:Vargian's Option
+	Begin war plans
+Event:Beekavn"s Option
+	The Economy must grow
+Event:Antianin's Option
+	The Great Workers
+Event:(must have done "Listen to lustin")Elysiumian-Navians Option
+	Clockwork Industy of the Navians must expand
+
+
+
+*** this is the Clockwork Path which is the continuation of the tree ***
+
+
+
+"The Elysiumian Leading Navians" (7 Days)
+
+
+
+"Start the Factorys" (35 Days)
+Builds 4 Civs and 8 Mills
+
+
+
+"Preper the drums of war (35 Days)
+gives more mill buffs
+
+
+
+"Power up the Clockwork Army" (80 Days)
+Give Clockwork Inf Tech and a bad debuff on Clockwork Inf but over time they get loss the debuff and the Clockwork Inf are op they cost like nothing but they loss org and need no Army pop so they need camander bots that give org but losses other things and need army pop
+
+
+
+"Look to The Arctic Hives" (35 Days)
+
+
+
+"Update the Arctic Hives" (50 Days)
+gives 8 civs all over the north and railways to the north
+
+
+
+"Move the Progics up North" (80 Days)
+can do certain special progics ie nuke reactors, some special op army Gas and Air tech, and some research buffs
+
+
+
+"begin the Works" (35 Days)
+Can Make some Factorys by doing decisions
+
+
+
+"Clockwork Hives and Colonys" (80 Days)
+Gives a spirit that is a very bad debuff but over time the spirit becomes op
+
+
+
+"Clockwork Towers" (80 Days)
+Gives Clockwork Buildings that are Oil, Mill, and Civs with some Minerals But you can only Build Them in one state each and It most by Urban
+
+
+
+"Make the Macnicum" (120 Days)
+Gives op Clockwork Tanks but they are quadpods and Tripods which cost alot to Make Macnicums.
+
+
+
+"Look in" (180 Days)
+Event:I am a God
+	gets the Clockwork God Path
+Event:I must Bring some kind of Democracy to this land
+	Gets the Clockwork Democracy Path
+
+
+
+*** this is the Clockwork Path War which is the continuation of the tree ***
+
+
+
+"Form a Council with them" (7 Days)	<!>	"End the Queens and Leaders" (7 Days)
+gets more industery buffs		gets more PP
+
+
+
+"the Frog in the way" (56 Days)
+Invades the Frog Nation
+
+
+
+"they will die by us picking thier bones" (45 Days) must be at war and lost 100k men
+Gives army Buffs for 100 days
+
+
+
+"The Company" (56 Days)
+Event:offer them Vassalige of the Company but can commercially expaned into our land. (Gives Event to Sprite to exept or not if not then they will go to war if they say yes Sprite and the NHC gets an Industery Buff)
+Event:Start in the Clockwork Army.
+
+
+
+"The Northern operations" (120 Days)
+declare war on all Northern Nations on NHC Continent
+
+
+
+"The March apon the the East" (120 Days)
+declare war on all Western Nations on NHC Continent
+
+
+
+"To The Gulf" (120 Days)
+declare war on all Nations in the south of NHC Continent (but The Raiders in the desert)
+
+
+
+"End The Raiders" (180 Days)
+declare war on all Raider Nations on NHC Continent

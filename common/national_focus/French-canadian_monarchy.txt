@@ -13,9 +13,9 @@ focus_tree = {
 	default = no
 
 	focus = {
-		id = FCM_four_year_plan
+		id = FCM_War_Is_Part_Of_The_Game
 		icon = GFX_goal_generic_construction
-		x = 6
+		x = 18
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -33,4 +33,160 @@ focus_tree = {
 			#show_ideas_tooltip = hjalmar_schacht
 		}
 	}
+
+	###########################################################################
+	focus = {
+		id = FCM_Military_Nation
+		icon = GFX_goal_generic_construction
+		x = 12
+		y = 1
+		prerequisite = { focus = FCM_War_Is_Part_Of_The_Game }
+		mutually_exclusive = { focus = FCM_Pacific_Nation }
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_four_year_plan
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = FCM_Air_Army
+		icon = GFX_goal_generic_construction
+		x = -2
+		y = 1
+		prerequisite = { focus = FCM_Military_Nation }
+		relative_position_id = FCM_Military_Nation
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = FCM_Navy
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 1
+		prerequisite = { focus = FCM_Military_Nation }
+		relative_position_id = FCM_Military_Nation
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = FCM_Invade_Uralics
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 4
+		prerequisite = { focus = FCM_Air_Army }
+		prerequisite = { focus = FCM_Navy }
+		relative_position_id = FCM_Military_Nation
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+	###########################################################################
+	focus = {
+		id = FCM_Pacific_Nation
+		icon = GFX_goal_generic_construction
+		x = 24
+		y = 1
+		prerequisite = { focus = FCM_War_Is_Part_Of_The_Game }
+		mutually_exclusive = { focus = FCM_Military_Nation }
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = FCM_Defensive_Army
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 1
+		prerequisite = { focus = FCM_Pacific_Nation }
+		relative_position_id = FCM_Pacific_Nation
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+	focus = {
+		id = FCM_Prepared_To_Defend
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 2
+		prerequisite = { focus = FCM_Defensive_Army }
+		relative_position_id = FCM_Pacific_Nation
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+			#custom_effect_tooltip = available_political_advisor
+			#show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
