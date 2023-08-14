@@ -615,8 +615,7 @@ focus_tree = {
 		icon = GFX_goal_StartingEconomy
 		x = 21
 		y = 4
-		prerequisite = { focus = SSB_New_Naval_Warfare }
-		prerequisite = { focus = SSB_Recruit_The_Workers }
+		prerequisite = { focus = SSB_New_Naval_Warfare focus = SSB_Recruit_The_Workers }
 		cost = 1 #5
 
 		ai_will_do = {
