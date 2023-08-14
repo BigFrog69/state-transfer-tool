@@ -211,7 +211,7 @@ focus_tree = {
 			}
 		}
 	}
-
+	
 	focus = {
 		id = SSB_Farmland_Problem
 		icon = GFX_goal_StartingEconomy
@@ -221,23 +221,15 @@ focus_tree = {
 		relative_position_id = SSB_Starting_Economy
 		cost = 1 #5
 
-
 		ai_will_do = {
 			factor = 12
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		select_effect = { 
+		completion_reward = {
 			add_timed_idea = {
 				idea = SSB_Farmland_Crisis
-				days = 60
+				days = 35
 			}
-		}
-		completion_reward = {
-			add_political_power = 100
-			add_ideas = {
-				SSB_Farmland_Crisis_Fixed
-			}
-			remove_ideas = SSB_Farmland_Crisis
 		}
 	}
 
@@ -257,9 +249,9 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = SSB_Farmland_Crisis_Fixed
-				add_idea = SSB_Farmland_Crisis_Fixed_2
+			add_timed_idea = {
+				idea = SSB_Farmland_Crisis_Fixed
+				days = 3652
 			}
 			country_event = Beyron.2
 		}
@@ -352,9 +344,8 @@ focus_tree = {
 				}
 			}
 		}
-	}
 	
-	(this focus doesnt work)#focus = {
+        focus = {
 		id = SSB_All_Roads_Lead_To_Beyron
 		icon = GFX_goal_StartingEconomy
 		x = 0
@@ -368,7 +359,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-		14 = {
+		            14 = {
 				set_building_level = {
 					type = infrastructure
 					level = 3
@@ -376,7 +367,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 				}
-			21 = {
+			        21 = {
 				set_building_level = {
 					type = infrastructure
 					level = 3
@@ -384,7 +375,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 				}
-			13 = {
+			        13 = {
 				set_building_level = {
 					type = infrastructure
 					level = 4
@@ -392,12 +383,22 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 				}
-			add_timed_idea = {
-				idea = Ass
-				days = 1
 			}
 		}
-	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 
