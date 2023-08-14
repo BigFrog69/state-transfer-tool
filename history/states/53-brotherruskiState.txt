@@ -1,0 +1,21 @@
+state={
+	id=53
+	name="STATE_53"
+	provinces={
+		137 265 280 289 393 465 999 1243 1280 1398 2087 2136 2383 2426 2492 2921 3145 3355 3468 3705 3904 3993 4014 4039 4126 4210 4248 4367 4478 4747 4876 6427 6435 6447 6458 6460 6465 6468 6474 6487 6498 6502 6519 6541 
+	}
+	manpower=500000
+	state_category = megalopolis
+	history={
+		owner = SLT
+		add_core_of = SLT
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

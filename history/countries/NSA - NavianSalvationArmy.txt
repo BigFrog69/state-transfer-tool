@@ -1,6 +1,6 @@
-﻿capital = 6
+﻿capital = 54
 
-oob = "ROK_1936"
+oob = "NSA_1936"
 
 # Starting tech
 set_technology = {
@@ -15,21 +15,19 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = ROK_TheDoctorFromFrostpunk
+recruit_character = NSA_JustinianNPC
 
-add_ideas = {
-	ROK_The_Mess
-}
+
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = chad
 	last_election = "1934.6.3"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 92
+	chad = 92
 	fascism = 3
 	communism = 5
 }

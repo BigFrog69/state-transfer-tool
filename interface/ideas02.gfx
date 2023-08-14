@@ -39,7 +39,10 @@ spriteTypes = {
 
 
 
-
+	spriteType = {
+		name = "GFX_idea_TBA_Da_Mess"
+		texturefile = "gfx/interface/ideas/Da_Mess.dds"
+	}
 
 
 

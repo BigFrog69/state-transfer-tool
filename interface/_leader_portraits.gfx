@@ -5,6 +5,10 @@ spriteTypes = {
 
 
 
+	spriteType = {
+		name = "GFX_portrait_SLT_brotherruski"
+		texturefile = "gfx/leaders/SLT/Adolf_Toaster.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_TSB_tucknzig"

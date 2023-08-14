@@ -75,6 +75,27 @@ TSB = {
 	color_ui = rgb { 240 3 26 }
 }
 
+SLT = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+
+NSA = {
+	color = rgb { 43  51  82 }
+	color_ui = rgb { 43  51  82 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
