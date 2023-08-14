@@ -401,19 +401,18 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 
-				}
-			}
 		}
+	}
+
 		
-	focus = { (this focus doesnt work please fix it, bracketing problem i assume)
+	focus = { #(this focus doesnt work please fix it, bracketing problem i assume)
 		id = SSB_Finish_The_Three_Year_Plan
 		icon = GFX_goal_StartingEconomy
-		x = 0
+		x = -2
 		y = 1
 		prerequisite = { focus = SSB_In_need_of_resources }
 		prerequisite = { focus = SSB_All_Roads_Lead_To_Beyron }
 		relative_position_id = SSB_In_need_of_resources
-		relative_position_id = SSB_All_Roads_Lead_To_Beyron
 		
 		cost = 1 #5
 
@@ -490,7 +489,7 @@ focus_tree = {
 			}
 		}
 	}
-
+}
 
 
 
