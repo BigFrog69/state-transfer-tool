@@ -20,7 +20,11 @@ recruit_character = SSB_bigfrrog
 add_ideas = {
 	Red_council
 	Old_Red_Army
-	Economic_Stagnation
+}
+
+add_timed_idea = {
+	idea = Economic_Stagnation
+	days = 730
 }
 
 
