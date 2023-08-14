@@ -184,7 +184,7 @@ Spirit: The 3 Year Plan
 +5% Factory Output
 +10% Construction Speed
 consumer goods -5%
-production efficiency growth -10%
+production efficiency growth +5%
 production efficency cap +5%
 (Never Ending Spirit!!)
 
@@ -219,23 +219,25 @@ War is brewing. We do not know who will strike first but sooner or later we will
 
 ------------------------------------------------------------------------------------------------
 
-All the roads lead to our Capital! - 35 day focus 
+All the roads to our Capital! - 35 day focus 
 
 Effect:
 Add level 3 infrastructure in every state i own
-Add level 5 infrastructure in my Capital
+Add level 4 infrastructure in Beyron
 
 Description:
-Infrastruce is needed for exporting our materials, and food, and TAKNS!!!??
+Infrastruce is needed for exporting our materials.
 
 ------------------------------------------------------------------------------------------------
 
 In need of resources - 35 day focus 
 
 Effect:
-Add 12 tungsten in my capital
-Add 18 chromium in my capital
-Add 51 Steel in my Capital
+Add 10 tungsten in Beyron
+Add 14 chromium in Beyron
+Add 51 Steel in Beyron
+Add 9 aluminium in Beyron
+Add 18 rubber in Beyron
 
 Description:
 We are in a deep situation. We need more resources to produce more Tanks!
@@ -249,6 +251,9 @@ Modify Spirit "The Three Year Plan" by
 Production efficency growth +5%
 Factory output +5%
 Dockyard output +10%
+consumer goods -5%
+
+Add 1 research slot
 
 
 Description:
@@ -294,7 +299,7 @@ Now its time to focus on the Army.
 										 
 ------------------------------------------------------------------------------------------------
 
-Sending Photos of Kids - 49 day focus 
+Motherland Calls - 49 day focus 
 
 Effect:
 Add Spirit "Red Workers"
@@ -403,6 +408,11 @@ Effect:
 Modify Spirit "New Red Army" by :
 Division Attrition -5%
 Max Entrenchment +20%
+Division Attack on Core +10%
+Division Defense on Core +10%
+org_loss_when_moving -3%
+acclimatization_hot_climate_gain_factor 50%
+
 
 Gets "Wargoal against every NPC Nation" (Neighbor) (I need to be sharing a border with the NPC nation)
 
@@ -434,3 +444,8 @@ Description:
 Liberate those workers!
 
 THATS IT FOR NOW
+
+
+
+git add .
+git add --all
