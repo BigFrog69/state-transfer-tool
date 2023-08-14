@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		ROK_The_Mess = {
-			picture = Da_Mess
+			picture = TBA_Da_Mess
 			allowed = {
 				always = no
 			}

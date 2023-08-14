@@ -1,0 +1,31 @@
+﻿
+focus_tree = {
+	id = tucknzig_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TSB
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = TSB_Communism_Best
+		icon = GFX_goal_generic_construction
+		x = 15
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			country_event = Kustenkuste.1
+		}
+	}
+
+}
