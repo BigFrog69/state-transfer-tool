@@ -1,6 +1,6 @@
-﻿capital = 54
+﻿capital = 55
 
-oob = "NSA_1936"
+oob = "IGA_1936"
 
 # Starting tech
 set_technology = {
@@ -15,7 +15,7 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = NLA_NPC_leader
+recruit_character = IGA_wingedmolotov
 
 
 
@@ -27,9 +27,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	chad = 0
-	fascism = 50
-	communism = 0
-	neutrality = 50
+	chad = 5
+	fascism = 3
+	communism = 2
+	neutrality = 90
 }
 

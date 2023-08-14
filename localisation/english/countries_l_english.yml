@@ -59,6 +59,10 @@
  SLT_DEF:0 "Legion of Toast"
  SLT_ADJ:0 "Toasties"
 
- SLT:0 "Navian Salvation Army"
- SLT_DEF:0 "Navian Salvation"
- SLT_ADJ:0 "Navian"
+ NSA:0 "Navian Salvation Army"
+ NSA_DEF:0 "Navian Salvation"
+ NSA_ADJ:0 "Navian"
+
+ IGA:0 "Interim Gulf Authority"
+ IGA_DEF:0 "The Gulf Authority"
+ IGA_ADJ:0 "Gulfron"

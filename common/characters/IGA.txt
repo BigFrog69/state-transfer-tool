@@ -1,0 +1,19 @@
+characters={
+	IGA_wingedmolotov={
+		name="General Molotov"
+		portraits={
+			civilian={
+				large=GFX_portrait_IGA_molotov
+			}
+			army={
+				small="GFX_portrait_IGA_molotov"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

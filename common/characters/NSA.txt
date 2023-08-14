@@ -1,0 +1,19 @@
+characters={
+	NLA_NPC_leader={
+		name="Navian Salvation Council"
+		portraits={
+			civilian={
+				large=GFX_portrait_NSA_NPC
+			}
+			army={
+				small="GFX_portrait_NSA_NPC"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

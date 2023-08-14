@@ -85,7 +85,10 @@ NSA = {
 	color_ui = rgb { 43  51  82 }
 }
 
-
+IGA = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 
 
 

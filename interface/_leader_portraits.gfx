@@ -5,6 +5,19 @@ spriteTypes = {
 
 
 
+
+
+
+	spriteType = {
+		name = "GFX_portrait_IGA_molotov"
+		texturefile = "gfx/leaders/IGA/molotov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NSA_NPC"
+		texturefile = "gfx/leaders/NSA/NSA_NPC.dds"
+	}
+
 	spriteType = {
 		name = "GFX_portrait_SLT_brotherruski"
 		texturefile = "gfx/leaders/SLT/Adolf_Toaster.dds"

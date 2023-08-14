@@ -524,7 +524,9 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Army_Preperations }
 		cost = 1 #5
-
+		available = {
+			date > 1937.07.01
+		}
 		ai_will_do = {
 			factor = 12
 		}
