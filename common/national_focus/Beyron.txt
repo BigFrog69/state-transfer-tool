@@ -214,7 +214,7 @@ focus_tree = {
 	
 	focus = {
 		id = SSB_Farmland_Problem
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_FarmlandProblem
 		x = 0
 		y = 1
 		prerequisite = { focus = SSB_Starting_Economy }
@@ -235,7 +235,7 @@ focus_tree = {
 
 	focus = {
 		id = SSB_Jungle_Excavation
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_JungleExcavation
 		x = 0
 		y = 1
 		prerequisite = { focus = SSB_Farmland_Problem }
@@ -259,7 +259,7 @@ focus_tree = {
 
 	focus = {
 		id = SSB_Planned_Economy
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_PlannedEconomy
 		x = 0
 		y = 1
 		prerequisite = { focus = SSB_Jungle_Excavation }
@@ -280,7 +280,7 @@ focus_tree = {
 
 	focus = {
 		id = SSB_Civilian_Plan
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_CivilianPlan
 		x = 2
 		y = 1
 		prerequisite = { focus = SSB_Planned_Economy }
@@ -313,7 +313,7 @@ focus_tree = {
 
 	focus = {
 		id = SSB_Arms_Production
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_ArmsProduction
 		x = -2
 		y = 1
 		prerequisite = { focus = SSB_Planned_Economy }
@@ -345,9 +345,9 @@ focus_tree = {
 			}
 		}
 	
-        focus = {
+    focus = {
 		id = SSB_All_Roads_Lead_To_Beyron
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_Roads
 		x = 0
 		y = 1
 		prerequisite = { focus = SSB_Arms_Production }
@@ -386,12 +386,51 @@ focus_tree = {
 			}
 		}
 
+	focus = {
+		id = SSB_In_need_of_resources
+		icon = GFX_goal_Resources
+		x = 0
+		y = 1
+		prerequisite = { focus = SSB_Civilian_Plan }
+		relative_position_id = SSB_Civilian_Plan
+		cost = 1 #5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+				}
+			}
+		}
+		
+	focus = { (this focus doesnt work please fix it, bracketing problem i assume)
+		id = SSB_Finish_The_Three_Year_Plan
+		icon = GFX_goal_StartingEconomy
+		x = 0
+		y = 1
+		prerequisite = { focus = SSB_In_need_of_resources }
+		prerequisite = { focus = SSB_All_Roads_Lead_To_Beyron }
+		relative_position_id = SSB_In_need_of_resources
+		relative_position_id = SSB_All_Roads_Lead_To_Beyron
+		
+		cost = 1 #5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        swap_ideas = {
+            remove_idea = Three_Year_Plan
+            add_idea = Three_Year_Plan_2
+            }
+			add_research_slot = 1
+		}
+    }
 	
-	
-	
-	
-	
-	
+    
 	
 	
 	

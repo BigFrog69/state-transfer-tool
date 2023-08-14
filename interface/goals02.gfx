@@ -27,14 +27,50 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/StartingEconomy.dds"			
 	}
 
+	SpriteType = {
+	name = "GFX_goal_FarmlandProblem"
+	texturefile = "gfx/interface/goals/FarmlandProblem.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_JungleExcavation"
+	texturefile = "gfx/interface/goals/JungleExcavation.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_PlannedEconomy"
+	texturefile = "gfx/interface/goals/PlannedEconomy.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_CivilianPlan"
+	texturefile = "gfx/interface/goals/CivilianPlan.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_ArmsProduction"
+	texturefile = "gfx/interface/goals/ArmsProduction.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_Roads"
+	texturefile = "gfx/interface/goals/Roads.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_Resources"
+	texturefile = "gfx/interface/goals/Resources.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_fascism_group"
+	texturefile = "gfx/interface/goals/fascism_group.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_democratic_group"
+	texturefile = "gfx/interface/goals/democratic_group.dds"			
+	}
 
 
 
