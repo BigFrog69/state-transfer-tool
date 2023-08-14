@@ -1,0 +1,21 @@
+state={
+	id=52
+	name="STATE_52"
+	provinces={
+		40 173 394 523 526 528 601 677 695 777 888 960 967 1094 1334 1354 1372 1431 1525 1559 1788 1928 1935 1946 1969 2057 2311 2407 2511 2685 2744 2838 2979 3079 3127 3188 3289 3454 3596 3643 3863 3913 4261 4277 4599 4665 6491 6522 6525 6529 6535 6537 6542 6552 6575 6582 6596 6602 
+	}
+	manpower=500000
+	state_category = megalopolis
+	history={
+		owner = TSB
+		add_core_of = TSB
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

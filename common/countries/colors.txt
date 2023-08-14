@@ -65,9 +65,15 @@ FCM = {
 	color_ui = rgb { 65 105 225 }
 }
 
+TDI = {
+	color = rgb { 100 20 20 }
+	color_ui = rgb { 100 20 20 }
+}
 
-
-
+TSB = {
+	color = rgb { 240 3 26 }
+	color_ui = rgb { 240 3 26 }
+}
 
 
 

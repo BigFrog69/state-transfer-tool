@@ -1,6 +1,6 @@
-﻿capital = 13
+﻿capital = 51
 
-oob = "SSB_1936"
+oob = "TDI_1936"
 
 # Starting tech
 set_technology = {
@@ -15,25 +15,20 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = SSB_bigfrrog
+recruit_character = TDI_Alpharius
 
-add_ideas = {
-	Red_council
-	Old_Red_Army
-	Economic_Stagnation
-}
+
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = chad
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 91
-	democratic = 5
-	fascism = 4
-	
+	chad = 92
+	fascism = 3
+	communism = 5
 }
 

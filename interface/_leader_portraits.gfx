@@ -6,9 +6,15 @@ spriteTypes = {
 
 
 
+	spriteType = {
+		name = "GFX_portrait_TSB_tucknzig"
+		texturefile = "gfx/leaders/TSB/tucknzig.dds"
+	}
 
-
-
+	spriteType = {
+		name = "GFX_portrait_Alpharius_the_3rd"
+		texturefile = "gfx/leaders/TDI/Alpharius the 3rd.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_FCM_windsnake"

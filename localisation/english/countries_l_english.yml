@@ -46,3 +46,11 @@
  FCM:0 "French-Canadian Monarchy"
  FCM_DEF:0 "French-Canadian"
  FCM_ADJ:0 "French-Canadian"
+
+ TDI:0 "The Dark Imperium"
+ TDI_DEF:0 "Dark Imperium"
+ TDI_ADJ:0 "Dark Imperial"
+
+ TSB:0 "The Socialist State of Bread"
+ TSB_DEF:0 "State of Bread"
+ TSB_ADJ:0 "Breadians"

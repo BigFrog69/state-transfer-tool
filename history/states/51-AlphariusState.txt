@@ -1,0 +1,21 @@
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		37 60 218 261 272 314 483 484 615 667 715 796 809 812 851 953 978 982 1095 1163 1237 1270 1379 1539 1679 1762 1765 1960 1992 2003 2016 2020 2220 2250 2430 2583 2664 2784 2809 2828 2911 3008 3855 3923 4323 4435 4501 4534 4860 4954 4987 4994 5039 5095 5103 5111 5137 5169 5225 5253 5306 
+	}
+	manpower=500000
+	state_category = megalopolis
+	history={
+		owner = TDI
+		add_core_of = TDI
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,20 @@
+characters={
+	TDI_Alpharius={
+		name="Alpharius the 3rd"
+		portraits={
+			civilian={
+				large=GFX_portrait_Alpharius_the_3rd
+			}
+			army={
+				small="GFX_portrait_Alpharius_the_3rd"
+			}
+		}
+		country_leader={
+			ideology=Chadist_Liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}
