@@ -1,0 +1,21 @@
+state={
+	id=81
+	name="STATE_81"
+	provinces={
+		4282 6074 6107 
+	}
+	manpower=500000
+	state_category = megalopolis
+	history={
+		owner = ROK
+		add_core_of = ROK
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

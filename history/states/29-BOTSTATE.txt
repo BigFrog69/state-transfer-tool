@@ -4,7 +4,18 @@ state={
 	provinces={
 		99 425 527 718 743 944 1068 1483 1581 1887 1966 1997 2117 2153 2357 2459 2557 2574 2642 2851 3137 3207 3400 3432 3571 3617 3724 4064 4289 4331 4338 4370 4462 4475 4530 4578 4583 4698 4756 4772 4847 5890 5912 5966 6003 6014 6022 6032 6051 6054 6073 6080 6093 6109 6139 
 	}
-	manpower=0
+	manpower=500000
+	state_category = megalopolis
+	history={
+		owner = BTA
+		add_core_of = BTA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

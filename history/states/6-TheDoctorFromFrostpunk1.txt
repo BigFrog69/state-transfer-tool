@@ -1,23 +1,19 @@
+
 state={
 	id=6
 	name="STATE_6"
-	manpower= 620000
-	state_category = megalopolis
-	provinces={
-		1252 1419 1823 4094 4252 4282 5923 5980 6074 6107 
-	}
-	
+
 	history={
 		owner = ROK
 		add_core_of = ROK
 		victory_points = {
-			1252 31
+			1252 31 
 		}
 		victory_points = {
-			1823 16
+			1823 16 
 		}
 		victory_points = {
-			4252 16
+			4252 16 
 		}
 		buildings = {
 			infrastructure = 3
@@ -25,7 +21,14 @@ state={
 			industrial_complex = 3
 
 		}
+
 	}
+
+	provinces={
+		1252 1419 1823 4094 4252 5923 5980 
+	}
+	manpower=620000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

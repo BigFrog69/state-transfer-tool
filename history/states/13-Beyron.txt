@@ -1,26 +1,22 @@
+
 state={
 	id=13
 	name="STATE_13"
-	manpower= 620000
-	state_category = megalopolis
-	provinces={
-		126 171 244 266 296 335 375 386 462 759 800 1246 1487 1508 1844 1903 1998 2032 2042 2083 2124 2137 2184 2190 2305 2323 2350 2672 2876 3173 3252 3500 3594 3718 3897 3965 3988 4030 4121 4312 4328 4341 4461 4522 4551 4684 4793 4823 4869 5266 5272 5300 5302 5307 5324 5326 5331 5334 5353 5362 5366 5400 5418 5419 5435 5480 5510 
-	}
-	
+
 	history={
 		owner = SSB
 		add_core_of = SSB
 		victory_points = {
-			1487 80
+			1487 80 
 		}
 		victory_points = {
-			5300 40
+			5300 40 
 		}
 		victory_points = {
-			2083 40
+			2083 40 
 		}
 		victory_points = {
-			2032 40
+			2032 40 
 		}
 		buildings = {
 			infrastructure = 3
@@ -28,7 +24,14 @@ state={
 			industrial_complex = 3
 
 		}
+
 	}
+
+	provinces={
+		1998 2042 3252 3897 3988 4328 5326 
+	}
+	manpower=620000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

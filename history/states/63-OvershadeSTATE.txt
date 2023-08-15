@@ -1,0 +1,21 @@
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		639 703 1393 2488 2812 3102 3150 3267 3310 3496 3874 4001 4411 6400 6406 6414 6422 6424 6425 6430 6431 6449 6456 
+	}
+	manpower=500000
+	state_category = megalopolis
+	history={
+		owner = ROO
+		add_core_of = ROO
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

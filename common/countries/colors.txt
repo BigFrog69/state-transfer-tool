@@ -96,8 +96,11 @@ FKD = {
 }
 
 
-
-
+#
+BTB = {
+	color = rgb { 240 180 180 }
+	color_ui = rgb { 61 114 91 }
+}
 
 
 

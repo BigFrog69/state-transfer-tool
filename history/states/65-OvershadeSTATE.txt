@@ -1,0 +1,21 @@
+state={
+	id=65
+	name="STATE_65"
+	provinces={
+		1569 2481 2745 3568 4488 6483 6492 6494 6497 
+	}
+	manpower=500000
+	state_category = megalopolis
+	history={
+		owner = ROO
+		add_core_of = ROO
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

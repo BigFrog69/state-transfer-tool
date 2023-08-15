@@ -70,3 +70,10 @@
  FKD:0 "Fly Kingdom"
  FKD_DEF:0 "The Fly Kingdom"
  FKD_ADJ:0 "Flies"
+
+
+ #BOTSSSSSSSSSSSS BotNationB
+
+ BTB:0 "Bot Nation 2"
+ BTB_DEF:0 "Bot Nation 2"
+ FKD_ADJ:0 "Bots"

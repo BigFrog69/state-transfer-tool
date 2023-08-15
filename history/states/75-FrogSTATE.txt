@@ -1,0 +1,21 @@
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		266 2083 2350 5419 
+	}
+	manpower=500000
+	state_category = megalopolis
+	history={
+		owner = SSB
+		add_core_of = SSB
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
