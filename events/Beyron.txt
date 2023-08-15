@@ -17,6 +17,7 @@ country_event = {
 		complete_national_focus = SSB_Starting_Economy
 		complete_national_focus = SSB_Army_Preperations
 		complete_national_focus = SSB_Red_Rule
+		complete_national_focus = SSB_True_Enemies
 	}
 
 	option = {

@@ -12,7 +12,7 @@ set_technology = {
 	basic_train = 1
 }
 
-set_war_support = 0.1
+set_war_support = 0.3
 set_stability = 0.8
 
 recruit_character = SSB_bigfrrog
@@ -35,9 +35,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 91
-	democratic = 5
-	fascism = 4
+	communism = 84
+	democratic = 10
+	fascism = 6
 	
 }
 

@@ -4,7 +4,7 @@ state={
 	provinces={
 		386 1903 2190 3718 5266 5272 5300 5302 5307 5331 
 	}
-	manpower=500000
+	manpower=1000000
 	state_category = megalopolis
 	history={
 		owner = SSB

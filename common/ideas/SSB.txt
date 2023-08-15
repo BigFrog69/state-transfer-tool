@@ -451,6 +451,64 @@ ideas = {
 			}
 		}
 
+		Our_Old_Lands = {
+			picture = SSB_Lands
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = FKD
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}		
+		}
+
+		Second_SpriteKrieg = {
+			picture = SSB_SecSpriteKrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = SPI
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+				
+			targeted_modifier = {
+				tag = NLA
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

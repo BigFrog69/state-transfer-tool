@@ -84,6 +84,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Navy.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_SSB_Lands"
+		texturefile = "gfx/interface/ideas/Lands.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_SecSpriteKrieg"
+		texturefile = "gfx/interface/ideas/SecSpriteKrieg.dds"
+	}
+
+
+
+
 
 
 

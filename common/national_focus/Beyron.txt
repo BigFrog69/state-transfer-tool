@@ -142,7 +142,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = SSB_Memories_of_SpriteKrieg_idea
-				days = 730
+				days = 666
 			}
 		}
 	}
@@ -326,7 +326,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-					13 = {
+					74 = {
 				set_building_level = {
 					type = arms_factory	
 					level = 3
@@ -334,7 +334,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 3
 				}
-				    21 = {
+				    75 = {
 				set_building_level = {
 					type = dockyard
 					level = 2
@@ -359,7 +359,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-		            14 = {
+		            79 = {
 				set_building_level = {
 					type = infrastructure
 					level = 3
@@ -367,10 +367,18 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 				}
-			        21 = {
+			        80 = {
 				set_building_level = {
 					type = infrastructure
 					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			        76 = {
+				set_building_level = {
+					type = infrastructure
+					level = 4
 					instant_build = yes
 				}
 				add_extra_state_shared_building_slots = 1
@@ -378,7 +386,47 @@ focus_tree = {
 			        13 = {
 				set_building_level = {
 					type = infrastructure
-					level = 4
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			        78 = {
+				set_building_level = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			        77 = {
+				set_building_level = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+				    79 = {
+				set_building_level = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			        75 = {
+				set_building_level = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			        74 = {
+				set_building_level = {
+					type = infrastructure
+					level = 3
 					instant_build = yes
 				}
 				add_extra_state_shared_building_slots = 1
@@ -403,27 +451,27 @@ focus_tree = {
 			add_resource = {
 				type = tungsten
 				amount = 10
-				state = 13
+				state = 76
 			}
 			add_resource = {
 				type = chromium
 				amount = 14
-				state = 13
+				state = 78
 			}
 			add_resource = {
 				type = steel
 				amount = 51
-				state = 13
+				state = 79
 			}
 			add_resource = {
 				type = aluminium
 				amount = 9
-				state = 13
+				state = 74
 			}
 			add_resource = {
 				type = rubber
 				amount = 18
-				state = 13
+				state = 80
 			}			
 		}
 	}
@@ -459,9 +507,9 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Finish_The_Three_Year_Plan }
 		relative_position_id = SSB_Finish_The_Three_Year_Plan
-		cost = 1 #5
+		cost = 3
 		available = {
-			date > 1938.01.01
+		has_war_with = FKD
 		}
 		ai_will_do = {
 			factor = 12
@@ -469,7 +517,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
  		add_ideas = Outpuit
-			13 = {
+			76 = {
 			set_building_level = {
 				type = arms_factory
 				level = 6
@@ -477,7 +525,7 @@ focus_tree = {
 			}
 			add_extra_state_shared_building_slots = 6
 			}
-			13 = {
+			75 = {
 			set_building_level = {
 				type = industrial_complex
 				level = 5
@@ -657,6 +705,141 @@ focus_tree = {
 		}
     }
 
+	focus = {
+		id = SSB_True_Enemies
+		icon = GFX_goal_Enemies
+		x = 28
+		y = 0
+		cost = 1 #5
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = SSB_Our_Old_Land
+		icon = GFX_goal_Land
+		x = 28
+		y = 1
+		available = {
+			date > 1938.01.01
+		}
+		prerequisite = { focus = SSB_True_Enemies }
+		cost = 1 #5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = FKD
+				expire = 0
+			}
+			add_timed_idea = {
+				idea = Our_Old_Lands
+				days = 120
+			}
+	    }
+    }
+
+	focus = {
+		id = SSB_Reintegrate_Old_Lands
+		icon = GFX_goal_Reintegrate
+		x = 28
+		y = 2
+		available = {
+		has_full_control_of_state = 61
+		}
+		prerequisite = { focus = SSB_Our_Old_Land }
+		cost = 1 #5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		    add_state_core = 61
+			}
+	    }
+
+	focus = {
+		id = SSB_SpriteKrieg_Revenge
+		icon = GFX_goal_SpriteKrieg
+		x = 26
+		y = 3
+		prerequisite = { focus = SSB_Reintegrate_Old_Lands }
+		mutually_exclusive = { focus = SSB_Our_Neighbours }
+		cost = 1 #5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = NLA
+				expire = 0
+			}
+			create_wargoal = {
+			    type = annex_everything
+				target = SPI
+				expire = 0
+			}
+			add_timed_idea = {
+				idea = Second_SpriteKrieg
+				days = 120
+			}
+		}
+    }
+
+	focus = {
+		id = SSB_Our_Neighbours
+		icon = GFX_goal_Neighbours
+		x = 30
+		y = 3
+		prerequisite = { focus = SSB_Reintegrate_Old_Lands }
+		mutually_exclusive = { focus = SSB_Spritekrieg_Revenge }
+		cost = 1 #5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+			}
+	    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -668,7 +851,7 @@ focus_tree = {
 	focus = {
 		id = SSB_Befriend_Liberland
 		icon = GFX_goal_DealWithLiberland
-		x = 30
+		x = 35
 		y = 0
 
 

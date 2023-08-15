@@ -127,7 +127,30 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/DealWithLiberland.dds"			
 	}
 
+	SpriteType = {
+	name = "GFX_goal_Land"
+	texturefile = "gfx/interface/goals/Land.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_Reintegrate"
+	texturefile = "gfx/interface/goals/Reintegrate.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Enemies"
+	texturefile = "gfx/interface/goals/Enemies.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_SpriteKrieg"
+	texturefile = "gfx/interface/goals/SpriteKrieg.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Neighbours"
+	texturefile = "gfx/interface/goals/Neighbours.dds"			
+	}
 
 
 
