@@ -24,8 +24,232 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			country_event = Kustenkuste.1
+			
+		}
+	}
+	##########################################################################################
+	focus = {
+		id = TSB_Grand_Communist_Industry
+		icon = GFX_goal_generic_construction
+		x = -6
+		y = 1
+		prerequisite = { focus = TSB_Communism_Best }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
 		}
 	}
 
+	focus = {
+		id = TSB_Bread_Making_Industry
+		icon = GFX_goal_generic_construction
+		x = -8
+		y = 2
+		prerequisite = { focus = TSB_Grand_Communist_Industry }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Cat_Toy_Industry
+		icon = GFX_goal_generic_construction
+		x = -8
+		y = 3
+		prerequisite = { focus = TSB_Bread_Making_Industry }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Gun_Making_Industry
+		icon = GFX_goal_generic_construction
+		x = -4
+		y = 2
+		prerequisite = { focus = TSB_Grand_Communist_Industry }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Tank_Factories
+		icon = GFX_goal_generic_construction
+		x = -4
+		y = 3
+		prerequisite = { focus = TSB_Gun_Making_Industry }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Communist_Utopia
+		icon = GFX_goal_generic_construction
+		x = -6
+		y = 4
+		prerequisite = { focus = TSB_Cat_Toy_Industry }
+		prerequisite = { focus = TSB_Tank_Factories }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+	##########################################################################################
+
+	focus = {
+		id = TSB_Grand_Communist_Military
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 1
+		prerequisite = { focus = TSB_Communism_Best }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_The_Resources_That_Build_Tanks
+		icon = GFX_goal_generic_construction
+		x = -2
+		y = 2
+		prerequisite = { focus = TSB_Grand_Communist_Military }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_And_The_Men_That_Drive_Them
+		icon = GFX_goal_generic_construction
+		x = -2
+		y = 3
+		prerequisite = { focus = TSB_The_Resources_That_Build_Tanks }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_The_Guns_That_Kill
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 2
+		prerequisite = { focus = TSB_Grand_Communist_Military }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_And_The_Hands_That_Hold_Them
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 3
+		prerequisite = { focus = TSB_The_Guns_That_Kill }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Elite_Red_Divisions
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 4
+		prerequisite = { focus = TSB_And_The_Men_That_Drive_Them }
+		prerequisite = { focus = TSB_And_The_Hands_That_Hold_Them }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+	##########################################################################################
+
+	focus = {
+		id = TSB_Foreign_Effort
+		icon = GFX_goal_generic_construction
+		x = 5
+		y = 1
+		prerequisite = { focus = TSB_Communism_Best }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
 }

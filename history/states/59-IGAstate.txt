@@ -1,8 +1,11 @@
-
 state={
-	id=55
-	name="STATE_55"
-
+	id=59
+	name="STATE_59"
+	provinces={
+		7 890 2415 2909 3038 3089 4054 4162 4753 6282 6297 6321 6329 6366 
+	}
+	manpower=1000000
+	state_category=megalopolis
 	history={
 		owner = IGA
 		add_core_of = IGA
@@ -10,16 +13,8 @@ state={
 			infrastructure = 1
 			arms_factory = 3
 			industrial_complex = 7
-
 		}
-
 	}
-
-	provinces={
-		958 1302 1498 1973 2865 3336 3441 3560 3625 3693 3800 3959 6370 6378 6392 6413 6416 6426 6433 6440 6443 6453 
-	}
-	manpower=500000
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
 	local_supplies=0.000
 }
