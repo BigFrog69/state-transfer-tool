@@ -72,6 +72,71 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/democratic_group.dds"			
 	}
 
+	SpriteType = {
+	name = "GFX_goal_FinishTheThreeYearPlan"
+	texturefile = "gfx/interface/goals/FinishTheThreeYearPlan.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_OurWarMachine"
+	texturefile = "gfx/interface/goals/OurWarMachine.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_ArmyPreperations"
+	texturefile = "gfx/interface/goals/ArmyPreperations.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Workers"
+	texturefile = "gfx/interface/goals/Workers.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_ArmyOfBeyron"
+	texturefile = "gfx/interface/goals/ArmyOfBeyron.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_BeyronRulesTheWaves"
+	texturefile = "gfx/interface/goals/BeyronRulesTheWaves.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_RecWorkers"
+	texturefile = "gfx/interface/goals/RecWorkers.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_NewNavalWarfare"
+	texturefile = "gfx/interface/goals/NewNavalWarfare.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Reorganization"
+	texturefile = "gfx/interface/goals/Reorganization.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_NewRedArmy"
+	texturefile = "gfx/interface/goals/NewRedArmy.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_DealWithLiberland"
+	texturefile = "gfx/interface/goals/DealWithLiberland.dds"			
+	}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

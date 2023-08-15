@@ -430,7 +430,7 @@ focus_tree = {
 
 	focus = { 
 		id = SSB_Finish_The_Three_Year_Plan
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_FinishTheThreeYearPlan
 		x = -2
 		y = 1
 		prerequisite = { focus = SSB_In_need_of_resources }
@@ -454,14 +454,15 @@ focus_tree = {
 	
     focus = { 
 		id = SSB_Our_War_Machine
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_OurWarMachine
 		x = 0
 		y = 1
 		prerequisite = { focus = SSB_Finish_The_Three_Year_Plan }
 		relative_position_id = SSB_Finish_The_Three_Year_Plan
-		
 		cost = 1 #5
-
+		available = {
+			date > 1938.01.01
+		}
 		ai_will_do = {
 			factor = 12
 		}
@@ -497,7 +498,7 @@ focus_tree = {
 	
 	focus = {
 		id = SSB_Army_Preperations
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_ArmyPreperations
 		x = 21
 		y = 0
 		cost = 1 #5
@@ -519,13 +520,13 @@ focus_tree = {
 
 	focus = {
 		id = SSB_Motherland_Workers
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_Workers
 		x = 21
 		y = 1
 		prerequisite = { focus = SSB_Army_Preperations }
 		cost = 1 #5
 		available = {
-			date > 1937.07.01
+			date > 1937.01.01
 		}
 		ai_will_do = {
 			factor = 12
@@ -538,7 +539,7 @@ focus_tree = {
 
 	focus = {
 		id = SSB_Army_Of_Beyron
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_ArmyOfBeyron
 		x = 19
 		y = 2
 		prerequisite = { focus = SSB_Motherland_Workers }
@@ -551,15 +552,16 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
         swap_ideas = {
-            remove_idea = Old_Red_Army_3
-            add_idea = Old_Red_Army_4
+            remove_idea = Red_Workers
+            add_idea = Red_Workers_2
 				}
+			army_experience = 50
             }
         }
 		
 	focus = {
 		id = SSB_Beyron_Rules_The_Waves
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_BeyronRulesTheWaves
 		x = 23
 		y = 2
 		prerequisite = { focus = SSB_Motherland_Workers }
@@ -571,13 +573,13 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+ 		add_ideas = Focus_On_The_Navy
 				}
             }
 
 	focus = {
 		id = SSB_Recruit_The_Workers
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_RecWorkers
 		x = 19
 		y = 3
 		prerequisite = { focus = SSB_Army_Of_Beyron }
@@ -589,15 +591,15 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
         swap_ideas = {
-            remove_idea = Old_Red_Army_4
-            add_idea = Old_Red_Army_5
+            remove_idea = Red_Workers_2
+            add_idea = Red_Workers_3
 			}
         }
     }
 
 	focus = {
 		id = SSB_New_Naval_Warfare
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_NewNavalWarfare
 		x = 23
 		y = 3
 		prerequisite = { focus = SSB_Beyron_Rules_The_Waves }
@@ -608,13 +610,16 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+        swap_ideas = {
+            remove_idea = Focus_On_The_Navy
+            add_idea = Focus_On_The_Navy_2
 				}
-            }
+		    }
+        }
 
 	focus = {
 		id = SSB_Red_Army_Reorganization
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_Reorganization
 		x = 21
 		y = 4
 		prerequisite = { focus = SSB_New_Naval_Warfare focus = SSB_Recruit_The_Workers }
@@ -626,7 +631,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
         swap_ideas = {
-            remove_idea = Old_Red_Army_5
+            remove_idea = Old_Red_Army_2
             add_idea = Old_Red_Army_6
 			}
 		}
@@ -634,7 +639,7 @@ focus_tree = {
 
 	focus = {
 		id = SSB_New_Red_Army
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_NewRedArmy
 		x = 21
 		y = 5
 		prerequisite = { focus = SSB_Red_Army_Reorganization }
@@ -662,7 +667,7 @@ focus_tree = {
 
 	focus = {
 		id = SSB_Befriend_Liberland
-		icon = GFX_goal_StartingEconomy
+		icon = GFX_goal_DealWithLiberland
 		x = 30
 		y = 0
 

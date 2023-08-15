@@ -25,9 +25,70 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/RedCouncil.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_SSB_TheGreatPurge2"
-		texturefile = "gfx/interface/ideas/TheGreatPurge2.dds"
+		name = "GFX_idea_SSB_MotherlandCalls"
+		texturefile = "gfx/interface/ideas/MotherlandCalls.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_Stagnation"
+		texturefile = "gfx/interface/ideas/Stagnation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_Farmland"
+		texturefile = "gfx/interface/ideas/Farmland.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_FarmlandFixed"
+		texturefile = "gfx/interface/ideas/FarmlandFixed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_Strikes"
+		texturefile = "gfx/interface/ideas/Strikes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_ThreeYearPlan"
+		texturefile = "gfx/interface/ideas/ThreeYearPlan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_ThreeYearPlanDone"
+		texturefile = "gfx/interface/ideas/ThreeYearPlanDone.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_Purge"
+		texturefile = "gfx/interface/ideas/Purge.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_Motherland"
+		texturefile = "gfx/interface/ideas/Motherland.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_Outpuit"
+		texturefile = "gfx/interface/ideas/Outpuit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_RedArmy"
+		texturefile = "gfx/interface/ideas/RedArmy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SSB_Navy"
+		texturefile = "gfx/interface/ideas/Navy.dds"
+	}
+
+
+
+
+
+
 
 
 

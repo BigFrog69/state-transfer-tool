@@ -39,7 +39,7 @@ ideas = {
 
 		Economic_Stagnation = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_Stagnation
 
 			allowed = {
 				always = no
@@ -52,6 +52,7 @@ ideas = {
 				production_speed_buildings_factor = -0.15
 				production_factory_efficiency_gain_factor = -0.1
 				production_speed_arms_factory_factor = -0.1
+				research_speed_factor = -0.1
 				#-10% fighter production
 			}
 		}
@@ -64,7 +65,7 @@ ideas = {
 
 
 		Purge_the_traitors = {
-			picture = SSB_TheGreatPurge2
+			picture = SSB_Purge
 			allowed = {
 				always = no
 			}
@@ -111,18 +112,18 @@ ideas = {
 			targeted_modifier = {
 				tag = SPI
 				attack_bonus_against = -0.1
-				defense_bonus_against = 0.2
+				defense_bonus_against = 0.25
 			}
 				
 			targeted_modifier = {
 				tag = NLA
 				attack_bonus_against = -0.1
-				defense_bonus_against = 0.2
+				defense_bonus_against = 0.25
 			}
 		}
 
 		SSB_Farmland_Crisis = {
-			#picture = SSB_MemoriesOfSpritekrieg
+			picture = SSB_Farmland
 			allowed = {
 				always = no
 			}
@@ -138,7 +139,7 @@ ideas = {
 		}
 
 		SSB_Farmland_Crisis_Fixed = {
-			#picture = SSB_MemoriesOfSpritekrieg
+			picture = SSB_FarmlandFixed
 			allowed = {
 				always = no
 			}
@@ -155,7 +156,7 @@ ideas = {
 		}
 
 		SSB_Farmland_Crisis_Fixed_2 = {
-			#picture = SSB_MemoriesOfSpritekrieg
+			picture = SSB_FarmlandFixed
 			allowed = {
 				always = no
 			}
@@ -210,7 +211,7 @@ ideas = {
 
 		Strikes_1 = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_Strikes
 
 			allowed = {
 				always = no
@@ -229,7 +230,7 @@ ideas = {
 
 		Strikes_2 = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_Strikes
 
 			allowed = {
 				always = no
@@ -246,7 +247,7 @@ ideas = {
 
 		Three_Year_Plan = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_ThreeYearPlan
 
 			allowed = {
 				always = no
@@ -256,20 +257,18 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.03
 				production_factory_efficiency_gain_factor = 0.05
 				industrial_capacity_factory = 0.05
 				industrial_capacity_dockyard = 0.05
-				production_factory_max_efficiency_factor = 0.1
 				production_factory_start_efficiency_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
-				production_speed_industrial_complex_factor = 0.05
 			}
 		}
 		
 		Motherland_Calls = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_Motherland
 
 			allowed = {
 				always = no
@@ -285,7 +284,7 @@ ideas = {
 
 		Three_Year_Plan_2 = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_ThreeYearPlanDone
 
 			allowed = {
 				always = no
@@ -295,10 +294,10 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.08
+				consumer_goods_factor = -0.06
 				production_factory_efficiency_gain_factor = 0.1
 				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.15
+				industrial_capacity_dockyard = 0.10
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_start_efficiency_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
@@ -309,7 +308,7 @@ ideas = {
 
 		Outpuit = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_Outpuit
 
 			allowed = {
 				always = no
@@ -327,7 +326,7 @@ ideas = {
 
 		Red_Workers = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_MotherlandCalls
 
 			allowed = {
 				always = no
@@ -341,9 +340,9 @@ ideas = {
 			}
 		}
 
-		Old_Red_Army_4 = {
+		Red_Workers_2 = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_MotherlandCalls
 
 			allowed = {
 				always = no
@@ -354,16 +353,14 @@ ideas = {
 			removal_cost = -1
 			modifier = {
                 max_planning = 0.2
-				recruitable_population_factor = -0.65
-				army_attack_factor = -0.30
-				army_defence_factor = -0.1	
                 army_org_factor = 0.05	
+				recruitable_population_factor = 0.05
 			}
 		}
 
-		Old_Red_Army_5 = {
+		Red_Workers_3 = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_MotherlandCalls
 
 			allowed = {
 				always = no
@@ -374,10 +371,8 @@ ideas = {
 			removal_cost = -1
 			modifier = {
                 max_planning = 0.2
-				recruitable_population_factor = -0.5
-				army_attack_factor = -0.30
-				army_defence_factor = -0.1	
                 army_org_factor = 0.05	
+				recruitable_population_factor = 0.15
 				training_time_factor = 0.05
 			}
 		}
@@ -394,17 +389,16 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-                max_planning = 0.2
-				army_defence_factor = -0.3
-				army_attack_factor = -0.5
-                army_org_factor = 0.05	
-				training_time_factor = 0.05
+				army_defence_factor = -0.1
+				army_attack_factor = -0.15
+				army_org_factor = -0.2
+				recruitable_population_factor = -0.25
 			}
 		}
 
 		New_Red_Army = {
 
-			picture = SSB_OldRedArmy
+			picture = SSB_RedArmy
 
 			allowed = {
 				always = no
@@ -414,17 +408,48 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-                max_planning = 0.2
 				army_defence_factor = 0.05
 				army_attack_factor = 0.05
-                army_org_factor = 0.05	
-				training_time_factor = 0.05
 			}
 		}
 
+		Focus_On_The_Navy = {
 
+			picture = SSB_Navy
 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                navy_screen_attack_factor = 0.05
+                navy_screen_defence_factor 0.05
+				navy_capital_ship_defence_factor = 0.05
+			}
+		}
 
+		Focus_On_The_Navy_2 = {
+
+			picture = SSB_Navy
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                navy_screen_attack_factor = 0.1
+                navy_screen_defence_factor 0.1
+				navy_capital_ship_defence_factor = 0.1
+				navy_capital_ship_attack_factor = 0.1
+				convoy_raiding_efficiency_factor = 0.1
+			}
+		}
 
 
 
