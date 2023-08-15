@@ -90,6 +90,10 @@ IGA = {
 	color_ui = rgb { 0 0 0 }
 }
 
+FKD = {
+	color = rgb { 61 114 91 }
+	color_ui = rgb { 61 114 91 }
+}
 
 
 

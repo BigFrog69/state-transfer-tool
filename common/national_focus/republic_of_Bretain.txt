@@ -1,0 +1,101 @@
+focus_tree = {
+	id = ROB
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ROB
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = ROB_New_Beginning
+		icon = GFX_goal_generic_construction
+		x = 6
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		    }
+	    }
+
+	focus = {
+		id = ROB_Democracy
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ROB_New_Beginning }
+		x = 6
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ROB_Research
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ROB_Democracy }
+		x = 6
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
