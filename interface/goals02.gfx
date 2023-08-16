@@ -152,6 +152,41 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/Neighbours.dds"			
 	}
 
+	SpriteType = {
+	name = "GFX_goal_Work"
+	texturefile = "gfx/interface/goals/Work.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Global"
+	texturefile = "gfx/interface/goals/Global.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Home"
+	texturefile = "gfx/interface/goals/Home.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_World"
+	texturefile = "gfx/interface/goals/World.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Soc"
+	texturefile = "gfx/interface/goals/Soc.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Armor"
+	texturefile = "gfx/interface/goals/Armor.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Waffe"
+	texturefile = "gfx/interface/goals/Waffe.dds"			
+	}
+
 
 
 

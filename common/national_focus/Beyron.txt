@@ -541,6 +541,11 @@ focus_tree = {
 			}
 			add_extra_state_shared_building_slots = 2
 			}
+			add_tech_bonus = {
+			bonus = 3
+			uses = 2
+			category = armor
+			}
         }
 	}
 	
@@ -704,6 +709,157 @@ focus_tree = {
 			}
 		}
     }
+	
+		focus = {
+		id = SSB_Liberated_Workers
+		icon = GFX_goal_Work
+		x = 21
+		y = 6
+		prerequisite = { focus = SSB_New_Red_Army }
+		cost = 1 #5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        swap_ideas = {
+            remove_idea = New_Red_Army
+            add_idea = New_Red_Army_8
+			}
+		}
+    }
+
+	focus = {
+		id = SSB_Global_Order
+		icon = GFX_goal_Global
+		x = 19
+		y = 7
+		prerequisite = { focus = SSB_Liberated_Workers }
+		mutually_exclusive = { focus = SSB_Home_Defense }
+		cost = 1 #5
+		available = {
+		has_full_control_of_state = 61
+		}
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        swap_ideas = {
+            remove_idea = New_Red_Army
+            add_idea = New_Red_Army_2
+			}
+		}
+    }
+
+	focus = {
+		id = SSB_Home_Defense
+		icon = GFX_goal_Home
+		x = 23
+		y = 7
+		prerequisite = { focus = SSB_Liberated_Workers }
+		mutually_exclusive = { focus = SSB_Global_Order }
+		cost = 1 #5
+		available = {
+		has_full_control_of_state = 61
+		}
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        swap_ideas = {
+            remove_idea = New_Red_Army
+            add_idea = New_Red_Army_3
+			}
+		}
+    }
+
+	focus = {
+		id = SSB_Socialist_World
+		icon = GFX_goal_World
+		x = 19
+		y = 8
+		prerequisite = { focus = SSB_Global_Order }
+		cost = 1 #5
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        swap_ideas = {
+            remove_idea = New_Red_Army_2
+            add_idea = New_Red_Army_4
+			}
+		}
+    }
+
+	focus = {
+		id = SSB_Home_Of_The_Socialists
+		icon = GFX_goal_Soc
+		x = 23
+		y = 8
+		prerequisite = { focus = SSB_Home_Defense }
+		cost = 1 #5
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        swap_ideas = {
+            remove_idea = New_Red_Army_3
+            add_idea = New_Red_Army_5
+			}
+		}
+    }
+
+	focus = {
+		id = SSB_Armored_Menace
+		icon = GFX_goal_Armor
+		x = 19
+		y = 9
+		prerequisite = { focus = SSB_Socialist_World }
+		cost = 1 #5
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        swap_ideas = {
+            remove_idea = New_Red_Army_4
+            add_idea = New_Red_Army_6
+			}
+		}
+    }
+
+	focus = {
+		id = SSB_FrogWaffe
+		icon = GFX_goal_Waffe
+		x = 23
+		y = 9
+		prerequisite = { focus = SSB_Home_Of_The_Socialists }
+		cost = 1 #5
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        swap_ideas = {
+            remove_idea = New_Red_Army_5
+            add_idea = New_Red_Army_7
+			}
+		}
+    }
+
+
+
+
+
+
+
+
+
 
 	focus = {
 		id = SSB_True_Enemies
@@ -729,7 +885,7 @@ focus_tree = {
 		x = 28
 		y = 1
 		available = {
-			date > 1938.01.01
+			date > 1937.08.01
 		}
 		prerequisite = { focus = SSB_True_Enemies }
 		cost = 1 #5

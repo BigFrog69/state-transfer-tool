@@ -491,19 +491,147 @@ ideas = {
 			}
 		}
 
+		New_Red_Army_2 = {
 
+			picture = SSB_RedArmy
 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.1
+				attrition = -0.05
+			}
+		}
 
+		New_Red_Army_3 = {
 
+			picture = SSB_RedArmy
 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.05
+				attrition = -0.05
+			}
+		}
 
+		New_Red_Army_4 = {
 
+			picture = SSB_RedArmy
 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.1
+				attrition = -0.05
+                army_core_defence_factor = 0.05
+				supply_consumption_factor = -0.05
+			}
+		}
 
+		New_Red_Army_5 = {
 
+			picture = SSB_RedArmy
 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.05
+				attrition = -0.05
+				army_core_attack_factor = 0.05
+				army_armor_defence_factor = 0.05
+			}
+		}
 
+		New_Red_Army_6 = {
 
+			picture = SSB_RedArmy
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.1
+				attrition = -0.05
+                army_core_defence_factor = 0.05
+				supply_consumption_factor = -0.05
+				army_armor_attack_factor = 0.15
+				army_armor_defence_factor = 0.07
+			}
+		}
+
+		New_Red_Army_7 = {
+
+			picture = SSB_RedArmy
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.05
+				attrition = -0.05
+				army_core_attack_factor = 0.05
+				army_armor_defence_factor = 0.05
+                air_cas_present_factor = 0.1	
+                air_air_superiority_agility_factor = 0.05
+                air_air_superiority_defence_factor = 0.05
+                air_air_superiority_attack_factor = 0.05
+                air_close_air_support_agility_factor = 0.05				
+			}
+		}
+
+		New_Red_Army_8 = {
+
+			picture = SSB_RedArmy
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+				non_core_manpower = 0.05
+				experience_loss_factor = 0.1
+			}
+		}
 
 
 
