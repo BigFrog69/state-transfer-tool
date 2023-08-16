@@ -1,0 +1,20 @@
+state={
+	id=90
+	name="STATE_90"
+	provinces={
+		61 282 438 564 724 2048 2288 3080 3121 4912 4932 4948 4953 4989 
+	}
+	state_category=megalopolis
+	manpower=500000
+	history={
+		owner = BBD
+		add_core_of = BBD
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 3
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -2,11 +2,26 @@
  STATE_1:0 "Corsica"
  STATE_2:1 "Lazio"
  STATE_3:1 "Swiss Plateau"
- STATE_4:0 "Warstyne"
-
+ 
+ #Overshade's states
+ STATE_4:0 "Sothya"
  STATE_16:0 "Thuyra"
  STATE_23:0 "Ustral"
- #STATE_23:0 "Holzburg"
+ STATE_11:0 "North Asparia"
+ STATE_62:0 "Brionia"
+ STATE_63:0 "Nyanra"
+ STATE_64:0 "Iuthio"
+ STATE_65:0 "Shea"
+ STATE_66:0 "Iath"
+ STATE_67:0 "Purria"
+ STATE_68:0 "Prustan"
+ STATE_69:0 "Seydar"
+ STATE_70:0 "Warstyne"
+ STATE_71:0 "Treisaal"
+ STATE_72:0 "Stean"
+ STATE_73:0 "Ethain"
+ STATE_85:0 "South Asparia"
+
 
  STATE_6:0 "Upper Saxony"
  STATE_81:0 "Lower Saxony"

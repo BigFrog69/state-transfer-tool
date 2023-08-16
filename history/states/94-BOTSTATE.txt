@@ -1,0 +1,20 @@
+state={
+	id=94
+	name="STATE_94"
+	provinces={
+		23 1542 2922 3012 3059 3140 3713 3831 4376 4556 4879 5609 5640 5761 5793 
+	}
+	state_category=megalopolis
+	manpower=500000
+	history={
+		owner = BCS
+		add_core_of = BCS
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 3
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

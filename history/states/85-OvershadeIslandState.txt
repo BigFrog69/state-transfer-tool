@@ -1,0 +1,21 @@
+
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		95 361 625 761 913 984 1214 1454 2451 2505 2597 3073 3667 3689 3701 4051 4208 4259 4421 4493 4877 6381 6388 6391 6393 6395 6398 6399 6402 6407 6417 6421 
+	}
+	state_category=megalopolis
+	manpower=500000
+	history={
+		owner = ROO
+		add_core_of = ROO
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

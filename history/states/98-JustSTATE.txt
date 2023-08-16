@@ -1,0 +1,20 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		469 670 1123 1137 1225 1333 1756 1911 2543 3086 3284 3429 4048 4110 4183 4204 4414 4674 4746 4812 4831 5323 5333 5383 5402 5410 5426 5430 
+	}
+	state_category=megalopolis
+	manpower=500000
+	history={
+		owner = ROB
+		add_core_of = ROB
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

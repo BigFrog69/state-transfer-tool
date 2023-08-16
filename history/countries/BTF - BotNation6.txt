@@ -1,6 +1,6 @@
-﻿capital = 17
+﻿capital = 31
 
-oob = "BTA_1936"
+oob = "BTF_1936"
 
 # Starting tech
 set_technology = {
@@ -15,7 +15,7 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = BTA_NPC_DUDE
+recruit_character = BTF_NPC_DUDE
 
 
 

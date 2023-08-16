@@ -1,4 +1,4 @@
-﻿capital = 13
+﻿capital = 76
 
 oob = "SSB_1936"
 
