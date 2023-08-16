@@ -6,7 +6,7 @@
 
  STATE_16:0 "Thuyra"
  STATE_23:0 "Ustral"
- STATE_23:0 "Holzburg"
+ #STATE_23:0 "Holzburg"
 
  STATE_6:0 "Upper Saxony"
  STATE_81:0 "Lower Saxony"

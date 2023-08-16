@@ -72,8 +72,43 @@
  FKD_ADJ:0 "Flies"
 
 
- #BOTSSSSSSSSSSSS BotNationB
+ #BOTSSSSSSSSSSSS
+ BTA:0 "Bot Nation 1"
+ BTA_DEF:0 "Bot Nation 1"
+ BTA_ADJ:0 "Bot 1"
 
  BTB:0 "Bot Nation 2"
  BTB_DEF:0 "Bot Nation 2"
- FKD_ADJ:0 "Bots"
+ BTB_ADJ:0 "Bot 2"
+
+ BTC:0 "Bot Nation 3"
+ BTC_DEF:0 "Bot Nation 3"
+ BTC_ADJ:0 "Bot 3"
+
+ BTD:0 "Bot Nation 4"
+ BTD_DEF:0 "Bot Nation 4"
+ BTD_ADJ:0 "Bot 4"
+
+ BTE:0 "Bot Nation 5"
+ BTE_DEF:0 "Bot Nation 5"
+ BTE_ADJ:0 "Bot 5"
+
+ BTF:0 "Bot Nation 6"
+ BTF_DEF:0 "Bot Nation 6"
+ BTF_ADJ:0 "Bot 6"
+
+ BTG:0 "Bot Nation 7"
+ BTG_DEF:0 "Bot Nation 7"
+ BTG_ADJ:0 "Bot 7"
+
+ BTH:0 "Bot Nation 8"
+ BTH_DEF:0 "Bot Nation 8"
+ BTH_ADJ:0 "Bot 8"
+
+ BTI:0 "Bot Nation 9"
+ BTI_DEF:0 "Bot Nation 9"
+ BTI_ADJ:0 "Bot 9"
+
+ BTJ:0 "Bot Nation 10"
+ BTJ_DEF:0 "Bot Nation 10"
+ BTJ_ADJ:0 "Bot 10"
