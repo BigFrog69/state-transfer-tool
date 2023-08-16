@@ -1,0 +1,21 @@
+state={
+	id=83
+	name="STATE_83"
+	provinces={
+		61 100 282 405 438 458 564 585 708 724 815 926 945 1065 1151 1292 1480 1572 1632 1712 1779 2015 2048 2237 2288 2467 2510 2590 2891 3080 3121 3161 3405 3948 4011 4315 4857 4906 4912 4932 4933 4940 4948 4953 4980 4989 
+	}
+	manpower=500000
+	state_category = megalopolis
+	history={
+		owner = BBD
+		add_core_of = BBD
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
