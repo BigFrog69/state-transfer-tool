@@ -1,0 +1,20 @@
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		729 917 973 1285 1337 1907 2126 2140 2369 3354 3768 4205 4445 4598 4646 4682 4789 5576 5654 5700 5753 5769 5777 
+	}
+	state_category=megalopolis
+	manpower=500000
+	history={
+		owner = BTC
+		add_core_of = BTC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

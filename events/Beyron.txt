@@ -51,7 +51,6 @@ country_event = {
 			days = 60
 		}
 	}
-
 	option = {
 		name = Beyron.2.b
 		swap_ideas = {
@@ -65,8 +64,24 @@ country_event = {
 	}
 }
 
+#Our Neighbors Event
+country_event = {
+	id = Beyron.3
+	title = Beyron.3.t
+	desc = Beyron.3.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.3.a
 
+	}
+	option = {
+		name = Beyron.3.b
 
+	}
+}
 
 
 
