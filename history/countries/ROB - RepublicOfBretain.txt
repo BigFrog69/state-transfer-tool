@@ -19,6 +19,8 @@ recruit_character = ROB_justacasualbussinesman
 
 add_ideas = {
 	ROB_navy_bonuses
+	ROB_Army_Restrictions
+	ROB_Stable_Economy
 }
 
 

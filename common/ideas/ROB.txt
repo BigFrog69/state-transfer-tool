@@ -23,7 +23,76 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 7500
 			}
 		}
-
+		
+		ROB_Army_Restrictions = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+			}
+		}
+	
+		ROB_Army_Restrictions_2 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+			}
+		}
+		
+		ROB_Stable_Economy = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.03
+				industrial_capacity_dockyard = 0.05
+			    production_factory_efficiency_gain_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+		
+		New_Army = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
 

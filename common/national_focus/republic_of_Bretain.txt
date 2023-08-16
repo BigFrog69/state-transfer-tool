@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = ROB_New_Beginning
 		icon = GFX_goal_generic_construction
-		x = 6
+		x = 10
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -31,7 +31,7 @@ focus_tree = {
 		id = ROB_Democracy
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = ROB_New_Beginning }
-		x = 6
+		x = 10
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -47,7 +47,7 @@ focus_tree = {
 		id = ROB_Research
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = ROB_Democracy }
-		x = 6
+		x = 10
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -59,43 +59,319 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = ROB_Stable_Economy
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ROB_Research }
+		x = 10
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+		}
+	}
 
+	focus = {
+		id = Rob_Market_Drop
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ROB_Research }
+		x = 6
+		y = 3
+		available = {
+		NOT = { has_idea = ROB_Stable_Economy }
+		}	
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+		}
+	}
 
+	focus = {
+		id = Rob_Army_Restrictions
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ROB_Research }
+		x = 14
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        swap_ideas = {
+            remove_idea = ROB_Army_Restrictions
+            add_idea = ROB_Army_Restrictions_2
+            }
+		}
+	}
 
+	focus = {
+		id = Rob_Army_Path
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Army_Restrictions }
+		x = 13
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+            }
+		}
 
+	focus = {
+		id = Rob_Navy_Path
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Army_Restrictions }
+		x = 15
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+            }
+		}
 
+	focus = {
+		id = Rob_More_Army_Stuff
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Army_Path }
+		x = 13
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+            }
+		}
 
+	focus = {
+		id = Rob_More_Navy_Stuff
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Navy_Path }
+		x = 15
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+            }
+		}
 
+	focus = {
+		id = Rob_More_More_Army_Stuff
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_More_Army_Stuff }
+		x = 13
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+            }
+		}
 
+	focus = {
+		id = Rob_More_More_Navy_Stuff
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_More_Navy_Stuff }
+		x = 15
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+            }
+		}
 
+	focus = {
+		id = Rob_No_More_Army_Restrictions
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_More_More_Navy_Stuff focus = Rob_More_More_Army_Stuff }
+		x = 14
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        swap_ideas = {
+            remove_idea = ROB_Army_Restrictions_2
+            add_idea = New_Army
+            }
+        }
+    }
 
+	focus = {
+		id = Rob_Good_Business
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ROB_Stable_Economy }
+		x = 10
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+        }
+    }
 
+	focus = {
+		id = Rob_Coffee
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Good_Business }
+		x = 9
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+        }
+    }
 
+	focus = {
+		id = Rob_Caprisun
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Good_Business }
+		x = 10
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+        }
+    }
 
+	focus = {
+		id = Rob_Sell_Kids
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Caprisun }
+		x = 10
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+        }
+    }
 
+	focus = {
+		id = Rob_New_Deal
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Sell_Kids }
+		x = 10
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+        }
+    }
 
+	focus = {
+		id = Rob_Sell_Pringles
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_New_Deal }
+		x = 9
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+        }
+    }
 
+	focus = {
+		id = Rob_Sell_Movies
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_New_Deal }
+		x = 11
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+        }
+    }
 
+	focus = {
+		id = Rob_Free_Trade
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Sell_Pringles }
+		prerequisite = { focus = Rob_Sell_Movies }
+		x = 10
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
+        }
+    }
 
+	focus = {
+		id = Rob_Money_Storm
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Free_Trade }
+		x = 10
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
 
-
-
+        }
+    }
 
 
 

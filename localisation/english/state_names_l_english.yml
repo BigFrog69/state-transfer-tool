@@ -10,3 +10,14 @@
 
  STATE_6:0 "Upper Saxony"
  STATE_81:0 "Lower Saxony"
+ 
+ STATE_76:0 "Beyron"
+ STATE_13:0 "Pičín"
+ STATE_75:0 "Potok Šukacka"
+ STATE_74:0 "Ritka"
+ STATE_77:0 "Z Ústí"
+ STATE_78:0 "Hlupín"
+ STATE_79:0 "Kámen"
+ STATE_80:0 "Babiš"
+ STATE_14:0 "Cigánov"
+ STATE_21:0 "Island"
