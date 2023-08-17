@@ -17,10 +17,96 @@ ideas = {
 			
 			modifier = {
 				conscription_factor = -0.6
-				consumer_goods_factor = 0.45
+				consumer_goods_factor = 0.4
 				production_speed_buildings_factor = -0.2
+				local_resources_factor = -0.15
+				production_speed_arms_factory_factor = -0.2
 			}
 		}
+		
+		Sleeping_Giant_2 = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.5
+				consumer_goods_factor = 0.4
+				production_speed_buildings_factor = -0.2
+				local_resources_factor = -0.15
+				production_speed_arms_factory_factor = -0.2
+			}
+		}
+		
+		Infrastructure_Work = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+                production_speed_infrastructure_factor = 0.2
+			}
+		}
+
+		Turmoil = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.2
+			}
+		}
+
+		Common_Cause = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.02
+			}
+		}
+
+
+
+
 
 
 

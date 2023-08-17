@@ -35,9 +35,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
-			#custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = hjalmar_schacht
+		add_political_power = 100
 		}
 	}
 	
@@ -106,7 +104,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROO_unite_the_masses
+		id = ROO_Unite_The_People
 		icon = GFX_goal_generic_construction
 		x = -2
 		y = 2
@@ -118,14 +116,15 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			
-			#custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = hjalmar_schacht
-		}
-	}
-
+		    add_timed_idea = {
+				idea = Turmoil
+				days = 60
+		    }
+	    }
+    }
+	
 	focus = {
-		id = ROO_inspire_the_ground
+		id = ROO_Infrastructure_Work
 		icon = GFX_goal_generic_construction
 		x = 2
 		y = 1
@@ -137,18 +136,19 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			
-			#custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = hjalmar_schacht
-		}
+		    add_timed_idea = {
+				idea = Infrastructure_Work
+				days = 730
+			}
+		}		
 	}
 
 	focus = {
-		id = ROO_the_common_cause
+		id = ROO_The_Common_Cause
 		icon = GFX_goal_generic_construction
 		x = 2
 		y = 2
-		prerequisite = { focus = ROO_inspire_the_ground }
+		prerequisite = { focus = ROO_Infrastructure_Work }
 		relative_position_id = ROO_re-ignite_the_turmoil
 		cost = 10
 		ai_will_do = {
@@ -156,19 +156,17 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			
-			#custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = hjalmar_schacht
+		add_ideas = Common_Cause
 		}
 	}
 
 	focus = {
-		id = ROO_mobilize_our_brethren
+		id = ROO_Mobilize_The_Cat_Boys
 		icon = GFX_goal_generic_construction
 		x = 0
 		y = 3
-		prerequisite = { focus = ROO_the_common_cause }
-		prerequisite = { focus = ROO_unite_the_masses }
+		prerequisite = { focus = ROO_The_Common_Cause }
+		prerequisite = { focus = ROO_Unite_The_People }
 		relative_position_id = ROO_re-ignite_the_turmoil
 		cost = 10
 		ai_will_do = {
@@ -176,9 +174,10 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			
-			#custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = hjalmar_schacht
+		swap_ideas = {
+            remove_idea = Sleeping_Giant
+            add_idea = Sleeping_Giant_2
+			}
 		}
 	}
 
@@ -187,7 +186,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = 0
 		y = 4
-		prerequisite = { focus = ROO_mobilize_our_brethren }
+		prerequisite = { focus = ROO_Mobilize_The_Cat_Boys }
 		relative_position_id = ROO_re-ignite_the_turmoil
 		cost = 10
 		ai_will_do = {
@@ -195,9 +194,14 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			
-			#custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = hjalmar_schacht
+        set_politics = {
+	        ruling_party = fascism
+            elections_allowed = no
+            last_election = "1935.12.17"
+            election_frequency = 48
+            long_name = CatBoyism
+            name = ROO_fascism
+			}
 		}
 	}
 
