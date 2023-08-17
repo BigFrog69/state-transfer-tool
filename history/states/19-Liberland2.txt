@@ -15,8 +15,8 @@ state={
 		add_core_of = LLB
 		buildings = {
 			infrastructure = 1
-			arms_factory = 3
-			industrial_complex = 7
+			arms_factory = 1
+			industrial_complex = 3
 
 		}
 	}

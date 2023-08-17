@@ -18,7 +18,7 @@ focus_tree = {
 		icon = GFX_goal_TheGreatPurge
 		x = 6
 		y = 0
-		cost = 1 #5
+		cost = 5
 
 
 		ai_will_do = {
@@ -39,7 +39,7 @@ focus_tree = {
 		icon = GFX_goal_TheNewOrder
 		x = 0
 		y = 1
-		cost = 1 #10
+		cost = 10
 
 		prerequisite = { focus = SSB_The_Great_Purge }
 		relative_position_id = SSB_The_Great_Purge
@@ -62,7 +62,7 @@ focus_tree = {
 		icon = GFX_goal_FixTheRedCouncil
 		x = 0
 		y = 2
-		cost = 1 #5
+		cost = 5
 
 		prerequisite = { focus = SSB_The_New_order }
 		relative_position_id = SSB_The_Great_Purge
@@ -84,7 +84,7 @@ focus_tree = {
 		icon = GFX_goal_democratic_group
 		x = -3
 		y = 3
-		cost = 1 #5
+		cost = 5
 
 		prerequisite = { focus = SSB_Fix_The_Red_Council }
 		mutually_exclusive = { focus = SSB_Fascist_Route }
@@ -108,7 +108,7 @@ focus_tree = {
 		icon = GFX_goal_RedRule
 		x = 0
 		y = 3
-		cost = 1 #5
+		cost = 5
 
 		prerequisite = { focus = SSB_Fix_The_Red_Council }
 		mutually_exclusive = { focus = SSB_Fascist_Route }
@@ -130,7 +130,7 @@ focus_tree = {
 		icon = GFX_goal_MemoriesOfTheSpritekriegFocus
 		x = 0
 		y = 4
-		cost = 1 #10
+		cost = 10
 
 		prerequisite = { focus = SSB_Red_Rule }
 		relative_position_id = SSB_The_Great_Purge
@@ -153,7 +153,7 @@ focus_tree = {
 		icon = GFX_goal_fascism_group
 		x = 3
 		y = 3
-		cost = 1 #5
+		cost = 5
 
 		prerequisite = { focus = SSB_Fix_The_Red_Council }
 		mutually_exclusive = { focus = SSB_Red_Rule }
@@ -186,7 +186,7 @@ focus_tree = {
 		icon = GFX_goal_StartingEconomy
 		x = 14
 		y = 0
-		cost = 1 #5
+		cost = 5
 
 		available = {
 			always = no
@@ -219,7 +219,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Starting_Economy }
 		relative_position_id = SSB_Starting_Economy
-		cost = 1 #5
+		cost = 5
 
 		ai_will_do = {
 			factor = 12
@@ -240,7 +240,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Farmland_Problem }
 		relative_position_id = SSB_Farmland_Problem
-		cost = 1 #5
+		cost = 5
 
 
 
@@ -264,7 +264,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Jungle_Excavation }
 		relative_position_id = SSB_Jungle_Excavation
-		cost = 1 #5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -285,7 +285,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Planned_Economy }
 		relative_position_id = SSB_Planned_Economy
-		cost = 1 #5
+		cost = 5
 
 		ai_will_do = {
 			factor = 12
@@ -319,7 +319,7 @@ focus_tree = {
 		prerequisite = { focus = SSB_Planned_Economy }
 		relative_position_id = SSB_Planned_Economy
 		
-		cost = 1 #5
+		cost = 5
 
 		ai_will_do = {
 			factor = 12
@@ -352,7 +352,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Arms_Production }
 		relative_position_id = SSB_Arms_Production
-		cost = 1 #5
+		cost = 5
 
 		ai_will_do = {
 			factor = 12
@@ -441,7 +441,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Civilian_Plan }
 		relative_position_id = SSB_Civilian_Plan
-		cost = 1 #5
+		cost = 5
 
 		ai_will_do = {
 			factor = 12
@@ -485,7 +485,7 @@ focus_tree = {
 		prerequisite = { focus = SSB_All_Roads_Lead_To_Beyron }
 		relative_position_id = SSB_In_need_of_resources
 		
-		cost = 1 #5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -554,7 +554,7 @@ focus_tree = {
 		icon = GFX_goal_ArmyPreperations
 		x = 21
 		y = 0
-		cost = 1 #5
+		cost = 5
 		
 		available = {
 		always = no
@@ -577,7 +577,7 @@ focus_tree = {
 		x = 21
 		y = 1
 		prerequisite = { focus = SSB_Army_Preperations }
-		cost = 1 #5
+		cost = 5
 		available = {
 			date > 1937.01.01
 		}
@@ -597,7 +597,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = SSB_Motherland_Workers }
 		mutually_exclusive = { focus = SSB_Beyron_Rules_The_Waves }
-		cost = 1 #5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -619,7 +619,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = SSB_Motherland_Workers }
 		mutually_exclusive = { focus = SSB_Army_Of_Beyron }
-		cost = 1 #5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -636,7 +636,7 @@ focus_tree = {
 		x = 19
 		y = 3
 		prerequisite = { focus = SSB_Army_Of_Beyron }
-		cost = 1 #5
+		cost = 5
 
 		ai_will_do = {
 			factor = 12
@@ -656,7 +656,7 @@ focus_tree = {
 		x = 23
 		y = 3
 		prerequisite = { focus = SSB_Beyron_Rules_The_Waves }
-		cost = 1 #5
+		cost = 5
 
 		ai_will_do = {
 			factor = 12
@@ -676,7 +676,7 @@ focus_tree = {
 		x = 21
 		y = 4
 		prerequisite = { focus = SSB_New_Naval_Warfare focus = SSB_Recruit_The_Workers }
-		cost = 1 #5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -696,7 +696,7 @@ focus_tree = {
 		x = 21
 		y = 5
 		prerequisite = { focus = SSB_Red_Army_Reorganization }
-		cost = 1 #5
+		cost = 5
 
 		ai_will_do = {
 			factor = 12
@@ -716,7 +716,7 @@ focus_tree = {
 		x = 21
 		y = 6
 		prerequisite = { focus = SSB_New_Red_Army }
-		cost = 1 #5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -737,7 +737,7 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = SSB_Liberated_Workers }
 		mutually_exclusive = { focus = SSB_Home_Defense }
-		cost = 1 #5
+		cost = 10
 		available = {
 		has_full_control_of_state = 61
 		}
@@ -760,7 +760,7 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = SSB_Liberated_Workers }
 		mutually_exclusive = { focus = SSB_Global_Order }
-		cost = 1 #5
+		cost = 10
 		available = {
 		has_full_control_of_state = 61
 		}
@@ -782,7 +782,7 @@ focus_tree = {
 		x = 19
 		y = 8
 		prerequisite = { focus = SSB_Global_Order }
-		cost = 1 #5
+		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
@@ -801,7 +801,7 @@ focus_tree = {
 		x = 23
 		y = 8
 		prerequisite = { focus = SSB_Home_Defense }
-		cost = 1 #5
+		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
@@ -820,7 +820,7 @@ focus_tree = {
 		x = 19
 		y = 9
 		prerequisite = { focus = SSB_Socialist_World }
-		cost = 1 #5
+		cost = 10
 		ai_will_do = {
 			factor = 12
 		}
@@ -839,7 +839,7 @@ focus_tree = {
 		x = 23
 		y = 9
 		prerequisite = { focus = SSB_Home_Of_The_Socialists }
-		cost = 1 #5
+		cost = 10
 		ai_will_do = {
 			factor = 12
 		}
@@ -866,7 +866,7 @@ focus_tree = {
 		icon = GFX_goal_Enemies
 		x = 28
 		y = 0
-		cost = 1 #5
+		cost = 5
 		available = {
 			always = no
 		}
@@ -888,7 +888,7 @@ focus_tree = {
 			date > 1937.08.01
 		}
 		prerequisite = { focus = SSB_True_Enemies }
-		cost = 1 #5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -916,7 +916,7 @@ focus_tree = {
 		has_full_control_of_state = 61
 		}
 		prerequisite = { focus = SSB_Our_Old_Land }
-		cost = 1 #5
+		cost = 5
 
 		ai_will_do = {
 			factor = 12
@@ -924,6 +924,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 		    add_state_core = 61
+			add_state_core = 86
+			add_state_core = 87
+			add_state_core = 88
 			}
 	    }
 
@@ -934,7 +937,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = SSB_Reintegrate_Old_Lands }
 		mutually_exclusive = { focus = SSB_Our_Neighbours }
-		cost = 1 #5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -965,7 +968,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = SSB_Reintegrate_Old_Lands }
 		mutually_exclusive = { focus = SSB_Spritekrieg_Revenge }
-		cost = 1 #5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -973,6 +976,20 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 				country_event = Beyron.3
+			create_wargoal = {
+			    type = annex_everything
+				target = BBD
+				expire = 0
+			}
+			create_wargoal = {
+			    type = annex_everything
+				target = BTC
+				expire = 0
+			}
+			create_wargoal = {
+			    type = annex_everything
+				target = NSA
+				expire = 0
 			}
 	    }
 

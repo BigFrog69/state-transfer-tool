@@ -8,8 +8,8 @@ state={
 		add_core_of = FKD
 		buildings = {
 			infrastructure = 1
-			arms_factory = 3
-			industrial_complex = 7
+			arms_factory = 7
+			industrial_complex = 15
 
 		}
 
@@ -18,7 +18,7 @@ state={
 	provinces={
 		813 1404 1501 2144 2177 2210 2666 3233 5020 5076 5085 5101 
 	}
-	manpower=3000000
+	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

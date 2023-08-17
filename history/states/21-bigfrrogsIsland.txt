@@ -1,7 +1,7 @@
 state={
 	id=21
 	name="STATE_21"
-	manpower=620000
+	manpower=250000
 	state_category = megalopolis
 	provinces={
 		11393 
@@ -12,8 +12,8 @@ state={
 		add_core_of = SSB
 		buildings = {
 			infrastructure = 1
-			arms_factory = 3
-			industrial_complex = 7
+			arms_factory = 2
+			industrial_complex = 4
 
 		}
 	}

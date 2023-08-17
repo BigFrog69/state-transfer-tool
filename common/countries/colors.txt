@@ -105,6 +105,11 @@ BCS = {
 	color_ui = rgb { 120 120 0 }
 }
 
+USM = {
+	color = rgb { 70 130 180 }
+	color_ui = rgb { 70 130 180 }
+}
+
 #
 BTB = {
 	color = rgb { 240 180 180 }

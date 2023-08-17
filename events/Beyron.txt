@@ -75,11 +75,19 @@ country_event = {
 	
 	option = {
 		name = Beyron.3.a
-
-	}
+				add_state_core = 101
+				annex_country = {
+					target = BTD
+					transfer_troops = yes
+				}
+			}
 	option = {
 		name = Beyron.3.b
-
+			create_wargoal = {
+			    type = annex_everything
+				target = BTD
+				expire = 0
+			}
 	}
 }
 

@@ -39,6 +39,70 @@ focus_tree = {
 			#show_ideas_tooltip = hjalmar_schacht
 		}
 	}
+	
+	focus = {
+		id = ROO_Communist_Path
+		icon = GFX_goal_generic_construction
+		x = 13
+		y = 0
+		mutually_exclusive = { focus = ROO_re-ignite_the_turmoil }
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = ROO_Overthrow_The_Government
+		icon = GFX_goal_generic_construction
+		x = 13
+		y = 1
+		prerequisite = { focus = ROO_Communist_Path }
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = ROO_Purge_The_Generals
+		icon = GFX_goal_generic_construction
+		x = 13
+		y = 2
+		prerequisite = { focus = ROO_Overthrow_The_Government }
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = ROO_Communism_In_Control
+		icon = GFX_goal_generic_construction
+		x = 13
+		y = 3
+		prerequisite = { focus = ROO_Purge_The_Generals }
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
 
 	focus = {
 		id = ROO_unite_the_masses

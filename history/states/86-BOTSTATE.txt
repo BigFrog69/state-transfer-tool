@@ -5,7 +5,7 @@ state={
 		2 229 236 543 1669 1777 1785 1854 3022 3221 4575 5066 5131 
 	}
 	state_category=megalopolis
-	manpower=500000
+	manpower=1000000
 	history={
 		owner = FKD
 		add_core_of = FKD
