@@ -28,6 +28,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = 6
 		y = 0
+		mutually_exclusive = { focus = ROO_Communist_Path }
 		cost = 10
 		ai_will_do = {
 			factor = 12
