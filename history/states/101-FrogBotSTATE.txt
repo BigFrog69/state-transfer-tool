@@ -1,11 +1,8 @@
+
 state={
 	id=101
 	name="STATE_101"
-	provinces={
-		90 351 418 589 1047 1081 2181 2650 2764 3078 3219 3466 3819 4816 5420 5494 5513 5569 5580 5593 5632 5666 5751 
-	}
-	state_category=megalopolis
-	manpower=2000000
+
 	history={
 		owner = BTD
 		add_core_of = BTD
@@ -13,8 +10,16 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
+
 		}
+
 	}
+
+	provinces={
+		56 90 109 351 418 589 1047 1081 1413 1413 1753 2181 2200 2650 2757 2764 2829 3078 3193 3219 3466 3819 3826 4127 4816 4859 5420 5494 5513 5518 5554 5569 5580 5593 5632 5666 5736 5751 
+	}
+	manpower=2000000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

@@ -975,7 +975,9 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-				country_event = Beyron.3
+			BTD = {
+				country_event = Beyron.4
+			}
 			create_wargoal = {
 			    type = annex_everything
 				target = BBD
