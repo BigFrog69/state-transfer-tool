@@ -134,7 +134,7 @@ country_event = { #They accept Annex!
 	
 	option = {
 		name = Beyron.5.a
-
+		add_state_core = 101
 	}
 }
 
