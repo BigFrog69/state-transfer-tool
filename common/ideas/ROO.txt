@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		A_Torn_Nation = {
+		Sleeping_Giant = {
 
 			picture = ROO_Eagle
 			
@@ -16,9 +16,16 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription_factor = -0.50
+				conscription_factor = -0.6
+				consumer_goods_factor = 0.45
+				production_speed_buildings_factor = -0.2
 			}
 		}
+
+
+
+
+
 
 		An_Honorable_Nation = {
 

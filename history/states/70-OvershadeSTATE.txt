@@ -4,15 +4,15 @@ state={
 	provinces={
 		522 697 1001 1215 1290 1436 1593 2269 2811 2964 3085 3442 3803 3920 4117 4490 4531 4706 6307 6335 6340 6349 6385 
 	}
-	manpower=500000
+	manpower=1000000
 	state_category = megalopolis
 	history={
 		owner = ROO
 		add_core_of = ROO
 		buildings = {
 			infrastructure = 1
-			arms_factory = 2
-			industrial_complex = 5
+			arms_factory = 0
+			industrial_complex = 7
 
 		}
 	}

@@ -18,7 +18,7 @@ set_stability = 0.8
 recruit_character = ROO_OverShadeShadow
 
 add_ideas = {
-	A_Torn_Nation
+	Sleeping_Giant
 }
 
 
