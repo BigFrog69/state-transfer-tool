@@ -91,7 +91,63 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = Beyron.4
+	title = Beyron.4.t
+	desc = Beyron.4.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.4.a
+		SSB = {
+			country_event = Beyron.5
+			add_state_core = 101
+			annex_country = {
+				target = BTD
+				transfer_troops = yes
+			}
+		}
 
+			}
+	option = {
+		name = Beyron.4.b
+		SSB = {
+			country_event = Beyron.6
+			create_wargoal = {
+			    type = annex_everything
+				target = BTD
+				expire = 0
+			}
+		}
+	}
+}
 
+country_event = { #They accept Annex!
+	id = Beyron.5
+	title = Beyron.5.t
+	desc = Beyron.5.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.5.a
 
+	}
+}
 
+country_event = { #They Refuse Annex!
+	id = Beyron.6
+	title = Beyron.6.t
+	desc = Beyron.6.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.6.a
+
+	}
+}
