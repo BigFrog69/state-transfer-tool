@@ -1,0 +1,20 @@
+state={
+	id=128
+	name="STATE_128"
+	provinces={
+		43 178 202 455 688 878 897 1346 1362 1857 2206 2238 2378 2628 2739 2977 3167 3365 3478 4450 4614 4784 5007 5026 5072 
+	}
+	history={
+		owner = USS
+		add_core_of = USS
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+		}
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

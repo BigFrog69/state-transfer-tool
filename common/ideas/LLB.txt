@@ -3,7 +3,7 @@ ideas = {
 	country = {
 		Liberian_Oil_Renaissance = {
 
-			picture = LLB_LiberianOilRenaissance
+			picture = LLB_Oil
 
 			allowed = {
 				always = no
@@ -20,6 +20,9 @@ ideas = {
 		}
 
 		Democratic_Vigilance = {
+
+			picture = LLB_Democratic_Vigilance
+
 			allowed = {
 				always = no
 			}
@@ -36,6 +39,9 @@ ideas = {
 
 
 		War-Recovery_Exhaustion = {
+
+			picture = LLB_War_Recovery_Exhaustion
+
 			allowed = {
 				always = no
 			}

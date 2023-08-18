@@ -1,0 +1,21 @@
+
+state={
+	id=127
+	name="STATE_127"
+	provinces={
+		177 326 1429 1601 1633 2096 2108 2109 2427 2983 3791 3952 4572 6592 
+	}
+	history={
+		owner = RNL
+		add_core_of = RNL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	manpower=500000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

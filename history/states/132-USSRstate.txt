@@ -1,0 +1,21 @@
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		63 163 221 293 342 400 404 501 541 556 611 857 1238 1318 1708 1736 2052 2100 2260 2341 2822 2888 2935 3128 3253 3285 4318 4543 4708 4889 5271 5294 5349 5356 5389 5390 5438 
+	}
+	history={
+		owner = USS
+		add_core_of = USS
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+		}
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

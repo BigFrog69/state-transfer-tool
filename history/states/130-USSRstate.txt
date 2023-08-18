@@ -1,0 +1,21 @@
+state={
+	id=130
+	name="STATE_130"
+	provinces={
+		102 201 277 295 355 449 472 658 891 1145 1863 1867 1904 2090 2330 2332 2917 3132 3375 4529 4766 4976 4999 5046 5117 5202 5252 
+	}
+	history={
+		owner = USS
+		add_core_of = USS
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+		}
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

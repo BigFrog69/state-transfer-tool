@@ -1,0 +1,21 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		81 125 193 311 408 411 580 628 733 935 1010 1232 1309 1386 1450 1453 1726 2143 2159 2531 2598 2603 2619 2671 3010 3165 3616 3999 4152 4410 4937 4945 5063 5170 5223 
+	}
+	history={
+		owner = USS
+		add_core_of = USS
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+		}
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -2,6 +2,25 @@ spriteTypes = {
 
 
 
+
+
+
+
+	SpriteType = {
+		name = "GFX_idea_LLB_War_Recovery_Exhaustion"
+		texturefile = "gfx/interface/ideas/War_Recovery_Exhaustion.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_LLB_Democratic_Vigilance"
+		texturefile = "gfx/interface/ideas/Democratic_Vigilance.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_LLB_Oil"
+		texturefile = "gfx/interface/ideas/Liberian_Oil.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_idea_ROO_Eagle"
 		texturefile = "gfx/interface/ideas/Eagle.dds"

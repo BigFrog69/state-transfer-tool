@@ -17,11 +17,11 @@
 
  ROK:0 "Republic of Kustenkuste"
  ROK_DEF:0 "Kustenkuste"
- ROK_ADJ:0 "Kustans"
+ ROK_ADJ:0 "Kustenian"
 
- NLA:0 "National Liberation Army of the Maple Republic"
- NLA_DEF:0 "Maple Republic"
- NLA_ADJ:0 "NLA"
+ NLA:0 "The Republic of Nova Elysium"
+ NLA_DEF:0 "The Republic"
+ NLA_ADJ:0 "Elysiumian"
 
  WOD:0 "Woodland"
  WOD_DEF:0 "Woodlandia"
@@ -83,11 +83,13 @@
  USM_DEF:0 "Mesapotamia"
  USM_ADJ:0 "Mesapotamians"
  
- USS:0 "Union Of Arabian Sociliast Republics"
- USS_DEF:0 "The Union Of Arabian Sociliast Republics"
+ USS:0 "Union of Socialist Saudi Republics"
+ USS_DEF:0 "The Union of Socialist Saudi Republics"
  USS_ADJ:0 "People"
 
-
+ RNL:0 "Raven Loft"
+ RNL_DEF:0 "Raven Loft"
+ RNL_ADJ:0 "Raven"
  #BOTSSSSSSSSSSSS
  BTA:0 "Iabria"
  BTA_DEF:0 "Iabria"

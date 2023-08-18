@@ -15,12 +15,15 @@ TSB	= "countries/TheSocialistStateofBread.txt"
 SLT	= "countries/SilverLegionofToast.txt"
 NSA	= "countries/NavianSalvationArmy.txt"
 IGA	= "countries/interimgulfauthority.txt"
+RNL	= "countries/RavenLoft.txt"
 
 FKD	= "countries/FlyKingdom.txt"
 BBD	= "countries/BreakingBad.txt"
 BCS	= "countries/BetterCallSaul.txt"
 USM	= "countries/UnitedStatesMesapotamia.txt"
 USS	= "countries/UnionOfArabianSocialistRepublics.txt"
+
+
 
 BTA	= "countries/BotNation1.txt"
 BTB	= "countries/BotNation2.txt"

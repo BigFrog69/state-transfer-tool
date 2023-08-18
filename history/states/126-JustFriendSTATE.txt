@@ -1,0 +1,20 @@
+state={
+	id=126
+	name="STATE_126"
+	provinces={
+		1161 2318 2866 2943 4776 6593 6598 
+	}
+	history={
+		owner = RNL
+		add_core_of = RNL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	manpower=500000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

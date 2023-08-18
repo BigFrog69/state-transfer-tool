@@ -26,8 +26,8 @@ ROK = {
 }
 
 NLA = {
-	color = rgb { 120 0 0 }
-	color_ui = rgb { 120 0 0 }
+	color = rgb { 41 81 133 }
+	color_ui = rgb { 41 81 133 }
 }
 
 TST = {
@@ -116,15 +116,22 @@ BTB = {
 	color_ui = rgb { 61 114 91 }
 }
 
-ROO_FAS = {
-	color = rgb { 0 49 83 }
-	color_ui = rgb { 0 49 83 }
-}
-
 USS = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
 }
+
+RNL = {
+	color = rgb { 196 190 77 }
+	color_ui = rgb { 196 190 77 }
+}
+# 150, 35, 56
+
+#ROO_FAS = {
+#	color = rgb { 0 49 83 }
+#	color_ui = rgb { 0 49 83 }
+#}
+
 
 
 
