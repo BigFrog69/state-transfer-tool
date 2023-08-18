@@ -262,6 +262,51 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/Wargoal.dds"			
 	}
 
+	SpriteType = {
+	name = "GFX_goal_Infra"
+	texturefile = "gfx/interface/goals/Infra.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Ind"
+	texturefile = "gfx/interface/goals/Ind.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Urban"
+	texturefile = "gfx/interface/goals/Urban.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Catholic"
+	texturefile = "gfx/interface/goals/Catholic.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_training"
+	texturefile = "gfx/interface/goals/training.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Equipment"
+	texturefile = "gfx/interface/goals/Equipment.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Conscription"
+	texturefile = "gfx/interface/goals/Conscription.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Veteran"
+	texturefile = "gfx/interface/goals/Veteran.dds"			
+	}
+
+
+
+
+
+
 
 
 

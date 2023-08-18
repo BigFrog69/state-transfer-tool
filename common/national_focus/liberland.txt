@@ -15,7 +15,7 @@ focus_tree = {
 
 	focus = {
 		id = LLB_Infrastructure_Restoration
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Infra
 		x = 6
 		y = 0
 		cost = 1
@@ -42,7 +42,7 @@ focus_tree = {
 
 	focus = {
 		id = LLB_Industrial_Revitalization
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Ind
 		x = 0
 		y = 1
 		cost = 1
@@ -84,7 +84,7 @@ focus_tree = {
 
 	focus = {
 		id = LLB_Resource_Reclamation
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Resources
 		x = 0
 		y = 2
 		cost = 1
@@ -125,7 +125,7 @@ focus_tree = {
 	
 	focus = {
 		id = LLB_Urban_Rejuvenation
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Urban
 		x = -1
 		y = 3
 		cost = 1 #5
@@ -149,7 +149,7 @@ focus_tree = {
 	
 	focus = {
 		id = LLB_Education_and_Innovation
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Catholic
 		x = 1
 		y = 3
 		cost = 1 #5
@@ -173,7 +173,7 @@ focus_tree = {
 
 	focus = {
 		id = LLB_Training_Resurgence
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_training
 		x = 11
 		y = 0
 		cost = 1 #5
@@ -201,7 +201,7 @@ focus_tree = {
 
 	focus = {
 		id = LLB_Equipment_Overhaul
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Equipment
 		x = 0
 		y = 1
 		cost = 1 #5
@@ -226,7 +226,7 @@ focus_tree = {
 
 	focus = {
 		id = LLB_Strategic_Mobilization
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Conscription
 		x = 0
 		y = 2
 		cost = 1 #5
@@ -251,8 +251,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = LLB_Veteran Integration
-		icon = GFX_goal_generic_construction
+		id = LLB_Veteran_Integration
+		icon = GFX_goal_Veteran
 		x = 0
 		y = 3
 		cost = 1 #5
