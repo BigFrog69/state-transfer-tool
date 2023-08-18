@@ -1,3 +1,289 @@
+resource_excavation = {
+	steel_excavation = { 
+		icon = generic_prepare_civil_war
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = no
+		days_remove = 0
+		days_re_enable = 0
+		cost = 50
+		modifier = {
+			#war_support_weekly = 0.005
+		}
+		complete_effect = {
+			#set_country_flag = war_propaganda_campaign_running
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 5
+					state = THIS
+				}
+			}
+		}
+		remove_effect = {
+			#clr_country_flag = war_propaganda_campaign_running
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_war_support < 0.4
+				has_war = yes
+			}
+		}
+	}
+
+	oil_excavation = { 
+		icon = generic_prepare_civil_war
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = no
+		days_remove = 0
+		days_re_enable = 0
+		cost = 50
+		modifier = {
+			#war_support_weekly = 0.005
+		}
+		complete_effect = {
+			#set_country_flag = war_propaganda_campaign_running
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 5
+					state = THIS
+				}
+			}
+		}
+		remove_effect = {
+			#clr_country_flag = war_propaganda_campaign_running
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_war_support < 0.4
+				has_war = yes
+			}
+		}
+	}
+
+	aluminium_excavation = { 
+		icon = generic_prepare_civil_war
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = no
+		days_remove = 0
+		days_re_enable = 0
+		cost = 50
+		modifier = {
+			#war_support_weekly = 0.005
+		}
+		complete_effect = {
+			#set_country_flag = war_propaganda_campaign_running
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 5
+					state = THIS
+				}
+			}
+		}
+		remove_effect = {
+			#clr_country_flag = war_propaganda_campaign_running
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_war_support < 0.4
+				has_war = yes
+			}
+		}
+	}	
+
+	rubber_excavation = { 
+		icon = generic_prepare_civil_war
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = no
+		days_remove = 0
+		days_re_enable = 0
+		cost = 50
+		modifier = {
+			#war_support_weekly = 0.005
+		}
+		complete_effect = {
+			#set_country_flag = war_propaganda_campaign_running
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 5
+					state = THIS
+				}
+			}
+		}
+		remove_effect = {
+			#clr_country_flag = war_propaganda_campaign_running
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_war_support < 0.4
+				has_war = yes
+			}
+		}
+	}	
+
+	tungsten_excavation = { 
+		icon = generic_prepare_civil_war
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = no
+		days_remove = 0
+		days_re_enable = 0
+		cost = 50
+		modifier = {
+			#war_support_weekly = 0.005
+		}
+		complete_effect = {
+			#set_country_flag = war_propaganda_campaign_running
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 5
+					state = THIS
+				}
+			}
+		}
+		remove_effect = {
+			#clr_country_flag = war_propaganda_campaign_running
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_war_support < 0.4
+				has_war = yes
+			}
+		}
+	}
+
+	chromium_excavation = { 
+		icon = generic_prepare_civil_war
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = no
+		days_remove = 0
+		days_re_enable = 0
+		cost = 50
+		modifier = {
+			#war_support_weekly = 0.005
+		}
+		complete_effect = {
+			#set_country_flag = war_propaganda_campaign_running
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 5
+					state = THIS
+				}
+			}
+		}
+		remove_effect = {
+			#clr_country_flag = war_propaganda_campaign_running
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_war_support < 0.4
+				has_war = yes
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 political_actions = {
 
 	
