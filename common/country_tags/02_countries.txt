@@ -20,6 +20,7 @@ FKD	= "countries/FlyKingdom.txt"
 BBD	= "countries/BreakingBad.txt"
 BCS	= "countries/BetterCallSaul.txt"
 USM	= "countries/UnitedStatesMesapotamia.txt"
+USS	= "countries/UnionOfArabianSocialistRepublics.txt"
 
 BTA	= "countries/BotNation1.txt"
 BTB	= "countries/BotNation2.txt"
