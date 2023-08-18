@@ -1,0 +1,20 @@
+state={
+	id=112
+	name="STATE_112"
+	provinces={
+		1090 1954 2358 2379 2453 2932 3807 3937 5340 
+	}
+	history={
+		owner = NLA
+		add_core_of = NLA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	manpower=500000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

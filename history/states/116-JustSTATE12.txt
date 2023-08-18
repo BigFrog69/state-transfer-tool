@@ -1,0 +1,21 @@
+
+state={
+	id=116
+	name="STATE_116"
+	provinces={
+		284 701 738 1097 1611 2118 2970 2986 3413 3697 4241 4418 4552 5014 5019 5056 5057 5073 5087 5088 5100 5104 5116 5119 5123 
+	}
+	history={
+		owner = NLA
+		add_core_of = NLA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	manpower=500000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

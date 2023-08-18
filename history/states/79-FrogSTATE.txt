@@ -4,6 +4,14 @@ state={
 	provinces={
 		386 1903 2190 3718 5266 5272 5300 5302 5307 5331 
 	}
+	resources = {
+		oil = 5
+		aluminium = 15
+		rubber = 5
+		tungsten = 10
+        steel = 30
+		chromium = 15
+    }
 	manpower=1000000
 	state_category = megalopolis
 	history={

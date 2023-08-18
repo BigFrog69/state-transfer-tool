@@ -2,7 +2,14 @@
 state={
 	id=52
 	name="STATE_52"
-
+	resources = {
+		oil = 5
+		aluminium = 15
+		rubber = 5
+		tungsten = 10
+        steel = 30
+		chromium = 15
+    }
 	history={
 		owner = TSB
 		add_core_of = TSB

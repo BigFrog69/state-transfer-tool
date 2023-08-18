@@ -36,3 +36,17 @@
  STATE_80:0 "Babiš"
  STATE_14:0 "Cigánov"
  STATE_21:0 "Island"
+
+ #Justinian
+ STATE_8:0 The Lake City
+ STATE_107:0 "Frogland"
+ STATE_108:0 "Veligen Free City"
+ STATE_109:0 "Borderland"
+ STATE_110:0 "The Maple's land"
+ STATE_111:0 "The New Coast"
+ STATE_112:0 "Vallonin's Land"
+ STATE_113:0 "Alvon Hive"
+ STATE_114:0 "Bandita"
+ STATE_115:0 "Nova Elysium"
+ STATE_116:0 "Nova Northern-Land"
+ STATE_117:0 "Elder-Griffon"

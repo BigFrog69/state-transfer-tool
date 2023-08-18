@@ -1,8 +1,9 @@
-
 state={
-	id=101
-	name="STATE_101"
-
+	id=118
+	name="STATE_118"
+	provinces={
+		56 109 1413 1753 2200 2757 2829 3193 3826 4127 4859 5518 5554 5736 
+	}
 	history={
 		owner = BTD
 		add_core_of = BTD
@@ -10,13 +11,7 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
-
 		}
-
-	}
-
-	provinces={
-		90 351 418 589 1047 1081 2181 2650 2764 3078 3219 3466 3819 4816 5420 5494 5513 5569 5580 5593 5632 5666 5751 
 	}
 	manpower=2000000
 	buildings_max_level_factor=1.000

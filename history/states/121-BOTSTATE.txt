@@ -1,11 +1,12 @@
-
 state={
-	id=86
-	name="STATE_86"
-
+	id=121
+	name="STATE_121"
+	provinces={
+		995 1416 2600 2942 3019 4448 6551 6557 6577 
+	}
 	history={
-		owner = FKD
-		add_core_of = FKD
+		owner = BTK
+		add_core_of = BTK
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3
@@ -14,11 +15,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		2 229 236 543 1669 1777 1785 1854 3022 3221 4575 5066 5131 
-	}
-	manpower=1000000
+	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000
