@@ -19,6 +19,7 @@ recruit_character = ROO_OverShadeShadow
 
 add_ideas = {
 	Sleeping_Giant
+	Overpopulated
 }
 
 

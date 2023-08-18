@@ -25,7 +25,7 @@ focus_tree = {
 
 	focus = {
 		id = ROO_re-ignite_the_turmoil
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Turm
 		x = 12
 		y = 0
 		mutually_exclusive = { focus = ROO_Communist_Path }
@@ -41,7 +41,7 @@ focus_tree = {
 	
 	focus = {
 		id = ROO_Communist_Path
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Commie
 		x = 21
 		y = 0
 		mutually_exclusive = { focus = ROO_re-ignite_the_turmoil }
@@ -57,7 +57,7 @@ focus_tree = {
 	
 	focus = {
 		id = ROO_Overthrow_The_Government
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_FixTheRedCouncil
 		x = 21
 		y = 1
 		prerequisite = { focus = ROO_Communist_Path }
@@ -73,7 +73,7 @@ focus_tree = {
 	
 	focus = {
 		id = ROO_Purge_The_Generals
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Purge
 		x = 21
 		y = 2
 		prerequisite = { focus = ROO_Overthrow_The_Government }
@@ -89,7 +89,7 @@ focus_tree = {
 	
 	focus = {
 		id = ROO_Communism_In_Control
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Control
 		x = 21
 		y = 3
 		prerequisite = { focus = ROO_Purge_The_Generals }
@@ -105,7 +105,7 @@ focus_tree = {
 
 	focus = {
 		id = ROO_Unite_The_People
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_People
 		x = -2
 		y = 2
 		prerequisite = { focus = ROO_re-ignite_the_turmoil }
@@ -118,7 +118,7 @@ focus_tree = {
 		completion_reward = {
 		    add_timed_idea = {
 				idea = Turmoil
-				days = 60
+				days = 730
 		    }
 	    }
     }
@@ -145,7 +145,7 @@ focus_tree = {
 
 	focus = {
 		id = ROO_The_Common_Cause
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Cause
 		x = 2
 		y = 2
 		prerequisite = { focus = ROO_Infrastructure_Work }
@@ -162,7 +162,7 @@ focus_tree = {
 
 	focus = {
 		id = ROO_Mobilize_The_Cat_Boys
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_CatBoys
 		x = 0
 		y = 3
 		prerequisite = { focus = ROO_The_Common_Cause }
@@ -183,7 +183,7 @@ focus_tree = {
 
 	focus = {
 		id = ROO_A_New_Leadership
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Leadership
 		x = 0
 		y = 4
 		prerequisite = { focus = ROO_Mobilize_The_Cat_Boys }
@@ -202,12 +202,13 @@ focus_tree = {
             long_name = CatBoyism
             name = ROO_fascism
 			}
+			country_event = Ostraye.1
 		}
 	}
 
 	focus = {
 		id = ROO_A_New_Guard
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Guard
 		x = -2
 		y = 5
 		prerequisite = { focus = ROO_A_New_Leadership }
@@ -218,9 +219,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			
-			#custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = hjalmar_schacht
+		    country_event = Ostraye.2
 		}
 	}
 
@@ -361,7 +360,7 @@ focus_tree = {
 
 	focus = {
 		id = ROO_Wargoal_1
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Wargoal
 		x = -1
 		y = 10
 		prerequisite = { focus = ROO_The_Greater_Question }
@@ -372,9 +371,9 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			
-			#custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = hjalmar_schacht
+		BTG = {
+			country_event = Ostraye.3
+			}
 		}
 	}
 
@@ -415,7 +414,7 @@ focus_tree = {
 
 	#########################################################################
 	focus = {
-		id = ROO_A_United_Nation
+		id = ROO_A_Disunited_Nation
 		icon = GFX_goal_generic_construction
 		x = 6
 		y = 5
@@ -427,9 +426,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			
-			#custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = hjalmar_schacht
+		
 		}
 	}
 
@@ -438,7 +435,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = 6
 		y = 6
-		prerequisite = { focus = ROO_A_United_Nation }
+		prerequisite = { focus = ROO_A_Disunited_Nation }
 		relative_position_id = ROO_re-ignite_the_turmoil
 		cost = 10
 		ai_will_do = {
@@ -513,10 +510,13 @@ focus_tree = {
 
 	focus = {
 		id = ROO_four_year_plan
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Plan
 		x = 26
 		y = 0
 		cost = 10
+		available = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 12
 		}
@@ -536,12 +536,10 @@ focus_tree = {
 	focus = {
 		id = ROO_Rebuild_the_schnellstrasse
 		icon = GFX_goal_generic_construction
-		x = 0
+		x = 26
 		y = 1
 		cost = 10
-
 		prerequisite = { focus = ROO_four_year_plan }
-		relative_position_id = ROO_four_year_plan
 
 		ai_will_do = {
 			factor = 12
@@ -551,7 +549,7 @@ focus_tree = {
 			every_controlled_state = {
 				set_building_level = {
 					type = infrastructure
-					level = 4
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -563,12 +561,10 @@ focus_tree = {
 	focus = {
 		id = ROO_Rebuild_the_Cities
 		icon = GFX_goal_generic_construction
-		x = 2
+		x = 28
 		y = 1
 		cost = 10
-
 		prerequisite = { focus = ROO_four_year_plan }
-		relative_position_id = ROO_four_year_plan
 
 		ai_will_do = {
 			factor = 12
@@ -580,6 +576,130 @@ focus_tree = {
 			#show_ideas_tooltip = hjalmar_schacht
 		}
 	}
+
+	focus = {
+		id = ROO_New_Law
+		icon = GFX_goal_Law
+		x = 24
+		y = 1
+		cost = 10
+		available = {
+			date > 1937.01.01
+		}
+		prerequisite = { focus = ROO_four_year_plan }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		swap_ideas = {
+            remove_idea = Sleeping_Giant_2
+            add_idea = Sleeping_Giant_3
+			}
+		}
+	}
+
+	focus = {
+		id = ROO_Trains_And_Factories
+		icon = GFX_goal_ArmsProduction
+		x = 24
+		y = 2
+		cost = 10
+		available = {
+			date > 1938.01.01
+		}
+		prerequisite = { focus = ROO_four_year_plan }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		swap_ideas = {
+            remove_idea = Sleeping_Giant_3
+            add_idea = Sleeping_Giant_4
+			}
+		}
+	}
+
+	focus = {
+		id = ROO_Guns_And_Artilery
+		icon = GFX_goal_Gun
+		x = 24
+		y = 3
+		cost = 10
+		available = {
+			date > 1939.01.01
+		}
+		prerequisite = { focus = ROO_four_year_plan }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		swap_ideas = {
+            remove_idea = Sleeping_Giant_4
+            add_idea = Sleeping_Giant_5
+			}
+		}
+	}
+
+	focus = {
+		id = ROO_Tanks_And_Airplanes
+		icon = GFX_goal_Tank
+		x = 24
+		y = 4
+		cost = 10
+		available = {
+			date > 1940.01.01
+		}
+		prerequisite = { focus = ROO_four_year_plan }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		swap_ideas = {
+            remove_idea = Sleeping_Giant_5
+            add_idea = Giant_Awaken
+			}
+		}
+	}
+
+	focus = {
+		id = ROO_Against_The_Socialist_Threat
+		icon = GFX_goal_Socialist
+		x = 24
+		y = 5
+		cost = 10
+		available = {
+			date > 1941.01.01
+		}
+		prerequisite = { focus = ROO_four_year_plan }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		swap_ideas = {
+            remove_idea = Giant_Awaken
+            add_idea = Giant_Awaken_2
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

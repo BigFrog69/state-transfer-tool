@@ -1,0 +1,98 @@
+###########################
+# Ostraye Events
+###########################
+
+add_namespace = Ostraye
+
+country_event = {
+	id = Ostraye.1
+	title = Ostraye.1.t
+	desc = Ostraye.1.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ostraye.1.a
+		complete_national_focus = ROO_four_year_plan
+		set_cosmetic_tag = ROO_FAS
+	}
+}
+
+country_event = {
+	id = Ostraye.2
+	title = Ostraye.2.t
+	desc = Ostraye.2.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ostraye.2.a
+		add_ideas = New_Guard
+	}
+	
+		option = {
+		name = Ostraye.2.b
+		add_ideas = Old_Guard
+	}
+}
+
+country_event = {
+	id = Ostraye.3
+	title = Ostraye.3.t
+	desc = Ostraye.3.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ostraye.3.a
+		ROO = {
+			country_event = Ostraye.4
+			annex_country = {
+				target = BTG
+				transfer_troops = yes
+			}
+		}
+
+			}
+	option = {
+		name = Ostraye.3.b
+	    ROO = {
+			country_event = Ostraye.5
+			create_wargoal = {
+			    type = annex_everything
+				target = BTG
+				expire = 0
+			}
+		}
+	}
+}
+
+country_event = { #They accept Annex!
+	id = Ostraye.4
+	title = Ostraye.4.t
+	desc = Ostraye.4.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ostraye.4.a
+	}
+}
+
+country_event = { #They Refuse Annex!
+	id = Ostraye.5
+	title = Ostraye.5.t
+	desc = Ostraye.5.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ostraye.5.a
+
+	}
+}

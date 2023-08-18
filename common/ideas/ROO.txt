@@ -1,6 +1,26 @@
 ideas = {
 
 	country = {
+	
+		Overpopulated = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			monthly_population = -0.35
+			}
+		}
+	
 		Sleeping_Giant = {
 
 			picture = ROO_Eagle
@@ -17,9 +37,9 @@ ideas = {
 			
 			modifier = {
 				conscription_factor = -0.6
-				consumer_goods_factor = 0.4
-				production_speed_buildings_factor = -0.2
-				local_resources_factor = -0.15
+				consumer_goods_factor = 0.35
+				production_speed_buildings_factor = -0.15
+				local_resources_factor = -0.1
 				production_speed_arms_factory_factor = -0.2
 			}
 		}
@@ -40,13 +60,130 @@ ideas = {
 			
 			modifier = {
 				conscription_factor = -0.5
-				consumer_goods_factor = 0.4
-				production_speed_buildings_factor = -0.2
-				local_resources_factor = -0.15
+				consumer_goods_factor = 0.35
+				production_speed_buildings_factor = -0.15
+				local_resources_factor = -0.1
 				production_speed_arms_factory_factor = -0.2
 			}
 		}
 		
+		Sleeping_Giant_3 = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.45
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.1
+				local_resources_factor = -0.1
+				production_speed_arms_factory_factor = -0.15
+			}
+		}
+		
+		Sleeping_Giant_4 = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.35
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = -0.1
+				local_resources_factor = -0.05
+				production_speed_arms_factory_factor = -0.1
+			}
+		}
+		
+		Sleeping_Giant_5 = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.20
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.05
+				production_speed_arms_factory_factor = -0.05
+			}
+		}
+		
+		Giant_Awaken = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		Giant_Awaken_2 = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				political_power_gain = -0.15
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_speed_rocket_site_factor = 0.15
+			}
+		}
+			
 		Infrastructure_Work = {
 
 			picture = ROO_Eagle
@@ -104,9 +241,46 @@ ideas = {
 			}
 		}
 
+		New_Guard = {
 
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.15
+				communism_drift = 0.05
+				army_attack_factor = 0.03
+			}
+		}
+
+		Old_Guard = {
+
+			picture = ROO_Eagle
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.15
+				army_attack_factor = -0.03
+			}
+		}
 
 
 

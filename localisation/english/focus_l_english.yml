@@ -1,10 +1,37 @@
 ﻿l_english:
  
  #RepublicOfOstryae
- ROO_four_year_plan:0 "Rebuild the Republic"
+ ROO_four_year_plan:0 "Four Year Plan"
  ROO_four_year_plan_desc:0 "After seasons of instability the nation is somewhat stable again it is time to rebuild"
  ROO_Rebuild_the_schnellstrasse:0 "Rebuild the Schnellstrasse"
  ROO_Rebuild_the_schnellstrasse_desc:0 ""
+ ROO_Rebuild_the_Cities:0 "Rebuild the Cities"
+ ROO_Rebuild_the_Cities_desc:0 ""
+ ROO_New_Law:0 "New Law"
+ ROO_New_Law_desc:0 ""
+ ROO_Trains_And_Factories:0 "Trains And Factories"
+ ROO_Trains_And_Factories_desc:0 ""
+ ROO_Guns_And_Artilery:0 "Guns And Artilery"
+ ROO_Guns_And_Artilery_desc:0 ""
+ ROO_Tanks_And_Airplanes:0 "Tanks And Airplanes"
+ ROO_Tanks_And_Airplanes_desc:0 ""
+ ROO_Against_The_Socialist_Threat:0 "Against The Socialist Threat"
+ ROO_Against_The_Socialist_Threat_desc:0 ""
+ ROO_re-ignite_the_turmoil:0 "Re-ignite The Turmoil"
+ ROO_re-ignite_the_turmoil_desc:0 ""
+ ROO_Infrastructure_Work:0 "Infrastructure Work"
+ ROO_Infrastructure_Work_desc:0 ""
+ ROO_The_Common_Cause:0 "The Common Cause"
+ ROO_The_Common_Cause_desc:0 ""
+ ROO_Unite_The_People:0 "Unite The People"
+ ROO_Unite_The_People_desc:0 ""
+ ROO_Mobilize_The_Cat_Boys:0 "Mobilize The Cat Boys"
+ ROO_Mobilize_The_Cat_Boys_desc:0 ""
+ ROO_A_New_Leadership:0 "A New Leadership"
+ ROO_A_New_Leadership_desc:0 ""
+ 
+ 
+ 
 
  #Liberland
  LLB_Infrastructure_Restoration:0 "Infrastructure Restoration"

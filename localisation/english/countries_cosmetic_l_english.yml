@@ -1,0 +1,10 @@
+﻿l_english:
+
+ ROO_NEU_neutrality:0 "Ostryae"
+ ROO_FAS_fascism:0 "Ostryaen Empire"
+ ROO_DEM_democratic:0 "Ostrayen Federation"
+ ROO_COM_communism:0 "United Ostrayen Socialist Republics"
+ ROO_NEU_neutrality_DEF:0 "Ostraye"
+ ROO_FAS_fascism_DEF:0 "the Ostryaen Empire"
+ ROO_DEM_democratic_DEF:0 "the Ostrayen Federation"
+ ROO_COM_communism_DEF:0 "the Untied Ostrayen Socialist Republics"
