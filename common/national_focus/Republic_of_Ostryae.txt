@@ -26,7 +26,7 @@ focus_tree = {
 	focus = {
 		id = ROO_re-ignite_the_turmoil
 		icon = GFX_goal_generic_construction
-		x = 6
+		x = 12
 		y = 0
 		mutually_exclusive = { focus = ROO_Communist_Path }
 		cost = 10
@@ -42,7 +42,7 @@ focus_tree = {
 	focus = {
 		id = ROO_Communist_Path
 		icon = GFX_goal_generic_construction
-		x = 13
+		x = 21
 		y = 0
 		mutually_exclusive = { focus = ROO_re-ignite_the_turmoil }
 		cost = 10
@@ -58,7 +58,7 @@ focus_tree = {
 	focus = {
 		id = ROO_Overthrow_The_Government
 		icon = GFX_goal_generic_construction
-		x = 13
+		x = 21
 		y = 1
 		prerequisite = { focus = ROO_Communist_Path }
 		cost = 10
@@ -74,7 +74,7 @@ focus_tree = {
 	focus = {
 		id = ROO_Purge_The_Generals
 		icon = GFX_goal_generic_construction
-		x = 13
+		x = 21
 		y = 2
 		prerequisite = { focus = ROO_Overthrow_The_Government }
 		cost = 10
@@ -90,7 +90,7 @@ focus_tree = {
 	focus = {
 		id = ROO_Communism_In_Control
 		icon = GFX_goal_generic_construction
-		x = 13
+		x = 21
 		y = 3
 		prerequisite = { focus = ROO_Purge_The_Generals }
 		cost = 10
@@ -514,7 +514,7 @@ focus_tree = {
 	focus = {
 		id = ROO_four_year_plan
 		icon = GFX_goal_generic_construction
-		x = 20
+		x = 26
 		y = 0
 		cost = 10
 		ai_will_do = {
