@@ -1,24 +1,20 @@
 
 state={
-	id=130
-	name="STATE_130"
-
+	id=150
+	name="STATE_150"
+	provinces={
+		180 893 919 1940 3064 3676 5259 
+	}
 	history={
 		owner = USS
 		add_core_of = USS
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
-
 		}
-
 	}
-
-	provinces={
-		295 2090 2917 
-	}
-	manpower=500000
+	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

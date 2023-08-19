@@ -1,21 +1,25 @@
+
 state={
 	id=134
 	name="STATE_134"
-	provinces={
-		22 94 235 250 384 447 544 644 660 706 765 804 962 983 1140 1152 1157 1296 1301 1342 1536 1563 1641 1661 1677 1868 2004 2091 2098 2384 2514 2706 2839 2858 2864 3156 3216 3248 3261 3294 3299 3452 3513 3565 3640 3668 3679 3738 3745 3893 3936 4090 4194 4412 4452 4492 4517 4521 4539 4616 4622 4655 4660 4694 4744 4757 4782 5368 5414 5422 5473 5507 5517 5540 5562 5577 5581 5596 5598 5651 5656 5674 5693 5708 5729 5749 5770 5773 5787 5798 5803 5809 5818 5828 5834 
-	}
+
 	history={
 		owner = USS
 		add_core_of = USS
 		buildings = {
-			infrastructure = 1
-			arms_factory = 3
-			industrial_complex = 7
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 0
+
 		}
+
+	}
+
+	provinces={
+		447 2091 2839 3745 4660 5674 5787 
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
-	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

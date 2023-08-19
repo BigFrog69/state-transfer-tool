@@ -1,7 +1,7 @@
 state={
 	id=25
 	name="STATE_25"
-	manpower=2500000
+	manpower=6000000
 	state_category = megalopolis
 	
 	provinces={

@@ -707,6 +707,7 @@ focus_tree = {
             remove_idea = Old_Red_Army_6
             add_idea = New_Red_Army
 			}
+			country_event = Beyron.7
 		}
     }
 	
@@ -878,6 +879,24 @@ focus_tree = {
 		add_political_power = 100
 			}
 		}
+		
+	focus = {
+		id = SSB_Anschluss
+		icon = GFX_goal_Enemies
+		x = 30
+		y = 1
+		cost = 5
+		prerequisite = { focus = SSB_True_Enemies }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		BTD = {
+			country_event = Beyron.4
+			}
+		}
+	}
 
 	focus = {
 		id = SSB_Our_Old_Land
@@ -975,9 +994,6 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			BTD = {
-				country_event = Beyron.4
-			}
 			create_wargoal = {
 			    type = annex_everything
 				target = BBD

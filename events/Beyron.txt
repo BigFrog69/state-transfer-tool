@@ -17,7 +17,6 @@ country_event = {
 		complete_national_focus = SSB_Starting_Economy
 		complete_national_focus = SSB_Army_Preperations
 		complete_national_focus = SSB_Red_Rule
-		complete_national_focus = SSB_True_Enemies
 	}
 
 	option = {
@@ -81,14 +80,6 @@ country_event = {
 					transfer_troops = yes
 				}
 			}
-	option = {
-		name = Beyron.3.b
-			create_wargoal = {
-			    type = annex_everything
-				target = BTD
-				expire = 0
-			}
-	}
 }
 
 country_event = {
@@ -109,18 +100,6 @@ country_event = {
 				transfer_troops = yes
 			}
 		}
-
-			}
-	option = {
-		name = Beyron.4.b
-		SSB = {
-			country_event = Beyron.6
-			create_wargoal = {
-			    type = annex_everything
-				target = BTD
-				expire = 0
-			}
-		}
 	}
 }
 
@@ -135,19 +114,37 @@ country_event = { #They accept Annex!
 	option = {
 		name = Beyron.5.a
 		add_state_core = 101
+		add_state_core = 118
 	}
 }
 
-country_event = { #They Refuse Annex!
-	id = Beyron.6
-	title = Beyron.6.t
-	desc = Beyron.6.d
+country_event = {
+	id = Beyron.7
+	title = Beyron.7.t
+	desc = Beyron.7.d
 	picture = GFX_news_event_064
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = Beyron.6.a
-
+		name = Beyron.7.a
+		complete_national_focus = SSB_True_Enemies
 	}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

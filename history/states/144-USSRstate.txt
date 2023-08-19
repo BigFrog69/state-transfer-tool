@@ -1,22 +1,18 @@
 
 state={
-	id=122
-	name="STATE_122"
-
+	id=144
+	name="STATE_144"
+	provinces={
+		688 897 1857 2206 2378 3478 5007 5026 
+	}
 	history={
 		owner = USS
 		add_core_of = USS
 		buildings = {
-			infrastructure = 1
-			arms_factory = 3
-			industrial_complex = 7
-
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 0
 		}
-
-	}
-
-	provinces={
-		84 141 209 686 1437 1943 2902 3685 4085 5661 5720 
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000
