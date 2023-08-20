@@ -1,6 +1,26 @@
 spriteTypes = {	
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#Wood's Tree - 
+	SpriteType = {
+	name = "GFX_goal_Erd_Tree"
+	texturefile = "gfx/interface/goals/Erd_Tree.dds"			
+	}
+	#
 	SpriteType = {
 	name = "GFX_goal_FixTheRedCouncil"
 	texturefile = "gfx/interface/goals/FixTheRedCouncil.dds"			
