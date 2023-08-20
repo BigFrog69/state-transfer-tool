@@ -183,7 +183,7 @@ country_event = {
 	
 	option = {
 		name = Beyron.10.a
-		HUN = {
+		HUG = {
 			country_event = Beyron.11
 		}
 	}
@@ -200,7 +200,7 @@ country_event = { #They accept Beyron Award
 	option = {
 		name = Beyron.11.a
 		add_state_core = 193
-     HUN = {
+     HUG = {
 	    transfer_state = 193
 		}
 	}

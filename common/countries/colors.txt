@@ -121,9 +121,9 @@ USS = {
 	color_ui = rgb { 255 0 0 }
 }
 
-HUN = {
-	color = rgb { 255 145 0 }
-	color_ui = rgb { 255 145 0 }
+HUG = {
+	color = rgb { 255 140 0 }
+	color_ui = rgb { 255 140 0 }
 }
 
 RNL = {

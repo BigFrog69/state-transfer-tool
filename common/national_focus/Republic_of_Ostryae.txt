@@ -584,7 +584,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available = {
-			date > 1937.01.01
+			date > 2024.01.01
 		}
 		prerequisite = { focus = ROO_four_year_plan }
 		ai_will_do = {
@@ -606,7 +606,7 @@ focus_tree = {
 		y = 2
 		cost = 10
 		available = {
-			date > 1938.01.01
+			date > 2025.01.01
 		}
 		prerequisite = { focus = ROO_four_year_plan }
 		ai_will_do = {
@@ -628,7 +628,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		available = {
-			date > 1939.01.01
+			date > 2026.01.01
 		}
 		prerequisite = { focus = ROO_four_year_plan }
 		ai_will_do = {
@@ -650,7 +650,7 @@ focus_tree = {
 		y = 4
 		cost = 10
 		available = {
-			date > 1940.01.01
+			date > 2027.01.01
 		}
 		prerequisite = { focus = ROO_four_year_plan }
 		ai_will_do = {
@@ -672,7 +672,7 @@ focus_tree = {
 		y = 5
 		cost = 10
 		available = {
-			date > 1941.01.01
+			date > 2028.01.01
 		}
 		prerequisite = { focus = ROO_four_year_plan }
 		ai_will_do = {

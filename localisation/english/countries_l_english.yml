@@ -91,9 +91,9 @@
  RNL_DEF:0 "Raven Loft"
  RNL_ADJ:0 "Raven"
  
- HUN:0 "Hungady"
- HUN_DEF:0 "Hungady"
- HUN_ADJ:0 "Hungadians"
+ HUG:0 "Hungady"
+ HUG_DEF:0 "Hungady"
+ HUG_ADJ:0 "Hungadians"
  
  #BOTSSSSSSSSSSSS
  BTA:0 "Iabria"
@@ -108,8 +108,8 @@
  BTC_DEF:0 "Elf Warren"
  BTC_ADJ:0 "Elf"
 
- BTD:0 "The Disunited States of Idiocracy"
- BTD_DEF:0 "Disunited States"
+ BTD:0 "Radicalist States Of Ertia"
+ BTD_DEF:0 "Radicalist States Of Erita"
  BTD_ADJ:0 "Idiots"
 
  BTE:0 "Milkland"

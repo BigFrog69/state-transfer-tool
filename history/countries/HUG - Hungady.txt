@@ -1,6 +1,6 @@
 ﻿capital = 195
 
-oob = "HUN_1936"
+oob = "HUG_1936"
 
 # Starting tech
 set_technology = {
@@ -15,7 +15,7 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = HUN_HUN
+recruit_character = HUG_HUG
 
 
 
@@ -27,8 +27,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	chad = 92
-	fascism = 3
-	communism = 5
+	chad = 29
+	fascism = 20
+	communism = 51
 }
 
