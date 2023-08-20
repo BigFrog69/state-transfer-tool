@@ -90,6 +90,11 @@
  RNL:0 "Raven Loft"
  RNL_DEF:0 "Raven Loft"
  RNL_ADJ:0 "Raven"
+ 
+ HUN:0 "Hungady"
+ HUN_DEF:0 "Hungady"
+ HUN_ADJ:0 "Hungadians"
+ 
  #BOTSSSSSSSSSSSS
  BTA:0 "Iabria"
  BTA_DEF:0 "Iabria"

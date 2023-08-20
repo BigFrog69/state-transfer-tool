@@ -1,24 +1,19 @@
-
 state={
-	id=100
-	name="STATE_100"
-
+	id=196
+	name="STATE_196"
+	provinces={
+		730 1019 1297 2315 2328 2450 3612 4303 5860 5927 
+	}
 	history={
-		owner = BTC
-		add_core_of = BTC
+		owner = HUN
+		add_core_of = HUN
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
+			arms_factory = 2
 			industrial_complex = 3
-
 		}
-
 	}
-
-	provinces={
-		729 1337 1907 4598 4646 4789 5700 
-	}
-	manpower=500000
+	manpower=752630
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

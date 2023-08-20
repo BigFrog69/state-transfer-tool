@@ -16,7 +16,7 @@ focus_tree = {
 	focus = {
 		id = SSB_The_Great_Purge
 		icon = GFX_goal_TheGreatPurge
-		x = 6
+		x = 5
 		y = 0
 		cost = 5
 
@@ -310,6 +310,42 @@ focus_tree = {
 				}
 			}
 		}
+		
+	focus = {
+		id = SSB_More_Ass_Stuff
+		icon = GFX_goal_CivilianPlan
+		x = 4
+		y = 1
+		prerequisite = { focus = SSB_Planned_Economy }
+		relative_position_id = SSB_Planned_Economy
+		cost = 5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+			}
+		}
+		
+	focus = {
+		id = SSB_More_Ass_Stuff_Here
+		icon = GFX_goal_CivilianPlan
+		x = 4
+		y = 2
+		prerequisite = { focus = SSB_Planned_Economy }
+		relative_position_id = SSB_Planned_Economy
+		cost = 5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+			}
+		}
 
 	focus = {
 		id = SSB_Arms_Production
@@ -344,6 +380,45 @@ focus_tree = {
 				}
 			}
 		}
+		
+	focus = {
+		id = SSB_More_stuff_here
+		icon = GFX_goal_ArmsProduction
+		x = -4
+		y = 1
+		prerequisite = { focus = SSB_Planned_Economy }
+		relative_position_id = SSB_Planned_Economy
+		
+		cost = 5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+			}
+		}	
+		
+	focus = {
+		id = SSB_More_stuff_here_BRU
+		icon = GFX_goal_ArmsProduction
+		x = -4
+		y = 2
+		prerequisite = { focus = SSB_Planned_Economy }
+		relative_position_id = SSB_Planned_Economy
+		
+		cost = 5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+			}
+		}	
+		
 	
     focus = {
 		id = SSB_All_Roads_Lead_To_Beyron
@@ -579,7 +654,7 @@ focus_tree = {
 		prerequisite = { focus = SSB_Army_Preperations }
 		cost = 10
 		available = {
-			date > 1937.01.01
+			date > 2024.01.01
 		}
 		ai_will_do = {
 			factor = 12
@@ -719,7 +794,7 @@ focus_tree = {
 		prerequisite = { focus = SSB_New_Red_Army }
 		cost = 10
 		available = {
-			date > 1939.01.01
+			date > 2026.01.01
 		}
 		ai_will_do = {
 			factor = 12
@@ -885,7 +960,7 @@ focus_tree = {
 	focus = {
 		id = SSB_Anschluss
 		icon = GFX_goal_Enemies
-		x = 30
+		x = 34
 		y = 1
 		cost = 5
 		prerequisite = { focus = SSB_True_Enemies }
@@ -899,6 +974,60 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = SSB_Demand_The_SuderenLund
+		icon = GFX_goal_Enemies
+		x = 35
+		y = 2
+		cost = 5
+		prerequisite = { focus = SSB_Anschluss }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		BTC = {
+			country_event = Beyron.8
+			}
+		}
+	}
+	
+	focus = {
+		id = SSB_First_Beyron_Award
+		icon = GFX_goal_Enemies
+		x = 35
+		y = 3
+		cost = 5
+		prerequisite = { focus = SSB_Demand_The_SuderenLund }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		HUN = {
+			country_event = { id = Beyron.10 }
+			}
+		}
+	}
+	
+	focus = {
+		id = SSB_Fate_Of_Elf_Warren
+		icon = GFX_goal_Enemies
+		x = 35
+		y = 4
+		cost = 5
+		prerequisite = { focus = SSB_First_Beyron_Award }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		BTC = {
+			country_event = Beyron.14
+			}
+		}
+	}
 
 	focus = {
 		id = SSB_Our_Old_Land
@@ -906,7 +1035,7 @@ focus_tree = {
 		x = 28
 		y = 1
 		available = {
-			date > 1938.03.01
+			date > 2026.08.01
 		}
 		prerequisite = { focus = SSB_True_Enemies }
 		cost = 10

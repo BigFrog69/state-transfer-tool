@@ -94,7 +94,6 @@ country_event = {
 		name = Beyron.4.a
 		SSB = {
 			country_event = Beyron.5
-			add_state_core = 101
 			annex_country = {
 				target = BTD
 				transfer_troops = yes
@@ -130,14 +129,115 @@ country_event = {
 		name = Beyron.7.a
 		complete_national_focus = SSB_True_Enemies
 	}
+}
+	
 
+country_event = {
+	id = Beyron.8
+	title = Beyron.8.t
+	desc = Beyron.8.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.8.a
+		SSB = {
+			country_event = Beyron.9
+		    effect_tooltip = {
+			    SSB = {
+				    transfer_state = 192
+				    transfer_state = 194
+				}
+			}
+		}
+	}
+}
 
+country_event = { #They accept Sudeten
+	id = Beyron.9
+	title = Beyron.9.t
+	desc = Beyron.9.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.9.a
+		add_state_core = 192
+		add_state_core = 194
+     SSB = {
+	    transfer_state = 192
+	    transfer_state = 194
+		}
+	}
+}
 
+country_event = {
+	id = Beyron.10
+	title = Beyron.10.t
+	desc = Beyron.10.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.10.a
+		HUN = {
+			country_event = Beyron.11
+		}
+	}
+}
 
+country_event = { #They accept Beyron Award
+	id = Beyron.11
+	title = Beyron.11.t
+	desc = Beyron.11.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.11.a
+		add_state_core = 193
+     HUN = {
+	    transfer_state = 193
+		}
+	}
+}
 
+country_event = {
+	id = Beyron.14
+	title = Beyron.14.t
+	desc = Beyron.14.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.14.a
+		SSB = {
+			country_event = Beyron.15
+		}
+	}
+}
 
-
-
+country_event = { #They accept Annex!
+	id = Beyron.15
+	title = Beyron.15.t
+	desc = Beyron.15.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.15.a
+		annex_country = {
+			target = BTC
+			transfer_troops = yes
+		}
+	}
+}
 
 
 

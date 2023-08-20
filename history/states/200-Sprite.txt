@@ -1,0 +1,20 @@
+state={
+	id=200
+	name="STATE_200"
+	provinces={
+		937 1521 1620 2418 3556 3751 3754 3796 3879 3996 5467 5530 5544 5557 
+	}
+	history={
+		owner = SPI
+		add_core_of = SPI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+		}
+	}
+	manpower=752630
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

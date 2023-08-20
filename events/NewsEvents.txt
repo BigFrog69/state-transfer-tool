@@ -1,1 +1,20 @@
-﻿
+﻿###########################
+# News Events
+###########################
+
+add_namespace = first_beyron_award
+
+# Marco Polo Bridge I
+news_event = {
+	id = first_beyron_award.1
+	title = first_beyron_award.1.t
+	desc = first_beyron_award.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+    }
+}

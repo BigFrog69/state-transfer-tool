@@ -1,0 +1,20 @@
+state={
+	id=198
+	name="STATE_198"
+	provinces={
+		346 690 1381 1410 2770 3449 3932 4175 4838 5833 5878 5987 6020 
+	}
+	history={
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+		}
+	}
+	manpower=752630
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

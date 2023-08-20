@@ -1,20 +1,16 @@
+
 state={
 	id=7
 	name="STATE_7"
-	manpower= 620000
-	state_category = megalopolis
-
-	provinces={
-		79 147 190 192 430 450 456 673 727 848 871 915 937 947 952 1194 1442 1521 1523 1551 1596 1620 1646 1700 1735 1827 1851 1883 1986 2065 2182 2225 2263 2264 2355 2413 2418 2443 2659 2751 2821 3159 3250 3258 3314 3340 3526 3556 3583 3622 3683 3751 3754 3796 3879 3996 4053 4107 4109 4274 4650 4730 5442 5462 5467 5472 5486 5505 5516 5520 5530 5544 5548 5553 5557 5558 5561 5592 5619 5635 5644 5646 5647 5672 5677 5692 5718 5722 5796 5807 5824 5825 5837 5873 5887 5893 5909 
+	resources={
+		oil=5.000
+		aluminium=15.000
+		rubber=5.000
+		tungsten=10.000
+		steel=30.000
+		chromium=15.000
 	}
-	resources = {
-		oil = 5
-		aluminium = 15
-		rubber = 5
-		tungsten = 10
-        steel = 30
-		chromium = 15
-    }	
+
 	history={
 		owner = SPI
 		add_core_of = SPI
@@ -24,7 +20,14 @@ state={
 			industrial_complex = 3
 
 		}
+
 	}
+
+	provinces={
+		79 727 1194 1523 1735 1827 1851 1986 2065 3340 3526 5561 5635 5644 5646 5672 5722 
+	}
+	manpower=620000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }
