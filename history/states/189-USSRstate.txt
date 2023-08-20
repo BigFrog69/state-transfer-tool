@@ -1,8 +1,8 @@
 state={
-	id=155
-	name="STATE_155"
+	id=189
+	name="STATE_189"
 	provinces={
-		193 580 1386 1450 4152 5170 
+		174 433 476 1050 1284 1370 1693 1817 1977 2174 2212 2246 2290 2297 2327 2896 2928 3013 3260 3328 3493 3675 3839 4264 4405 4629 4833 5879 5897 5910 5937 
 	}
 	history={
 		owner = USS
@@ -13,7 +13,7 @@ state={
 			industrial_complex = 0
 		}
 	}
-	manpower=1400000
+	manpower=75000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

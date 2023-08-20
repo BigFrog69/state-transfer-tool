@@ -31,7 +31,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				recruitable_population_factor = -0.45
+				conscription_factor = -0.45
 				army_attack_factor = -0.1
 				army_defence_factor = -0.1
 			}
@@ -54,6 +54,7 @@ ideas = {
 				production_speed_arms_factory_factor = -0.1
 				research_speed_factor = -0.1
 				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.1
 				#-10% fighter production
 			}
 		}
@@ -186,7 +187,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				recruitable_population_factor = -0.55
+				conscription_factor = -0.55
 				army_attack_factor = -0.15
 				army_defence_factor = -0.1
 			}
@@ -204,7 +205,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				recruitable_population_factor = -0.65
+				conscription_factor = -0.65
 				army_attack_factor = -0.30
 				army_defence_factor = -0.1
 			}
@@ -279,7 +280,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-			weekly_manpower = 1000
+			weekly_manpower = 500
 			}
 		}
 
@@ -337,7 +338,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-                recruitable_population_factor = 0.05
+                conscription_factor = 0.05
 			}
 		}
 
@@ -355,7 +356,7 @@ ideas = {
 			modifier = {
                 max_planning = 0.2
                 army_org_factor = 0.05	
-				recruitable_population_factor = 0.05
+				conscription_factor = 0.05
 			}
 		}
 
@@ -373,7 +374,7 @@ ideas = {
 			modifier = {
                 max_planning = 0.2
                 army_org_factor = 0.05	
-				recruitable_population_factor = 0.15
+				conscription_factor = 0.15
 				training_time_factor = 0.05
 			}
 		}
@@ -393,7 +394,7 @@ ideas = {
 				army_defence_factor = -0.1
 				army_attack_factor = -0.15
 				army_org_factor = -0.2
-				recruitable_population_factor = -0.25
+				conscription_factor = -0.25
 			}
 		}
 

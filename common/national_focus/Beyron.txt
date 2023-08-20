@@ -352,7 +352,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Arms_Production }
 		relative_position_id = SSB_Arms_Production
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -441,7 +441,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Civilian_Plan }
 		relative_position_id = SSB_Civilian_Plan
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -577,7 +577,7 @@ focus_tree = {
 		x = 21
 		y = 1
 		prerequisite = { focus = SSB_Army_Preperations }
-		cost = 5
+		cost = 10
 		available = {
 			date > 1937.01.01
 		}
@@ -636,7 +636,7 @@ focus_tree = {
 		x = 19
 		y = 3
 		prerequisite = { focus = SSB_Army_Of_Beyron }
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -718,7 +718,9 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = SSB_New_Red_Army }
 		cost = 10
-
+		available = {
+			date > 1939.01.01
+		}
 		ai_will_do = {
 			factor = 12
 		}
@@ -904,7 +906,7 @@ focus_tree = {
 		x = 28
 		y = 1
 		available = {
-			date > 1937.08.01
+			date > 1938.03.01
 		}
 		prerequisite = { focus = SSB_True_Enemies }
 		cost = 10
