@@ -62,7 +62,7 @@ focus_tree = {
 		icon = GFX_goal_FixTheRedCouncil
 		x = 0
 		y = 2
-		cost = 5
+		cost = 10
 
 		prerequisite = { focus = SSB_The_New_order }
 		relative_position_id = SSB_The_Great_Purge
@@ -220,7 +220,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Starting_Economy }
 		relative_position_id = SSB_Starting_Economy
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -241,7 +241,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Farmland_Problem }
 		relative_position_id = SSB_Farmland_Problem
-		cost = 5
+		cost = 10
 
 
 
@@ -286,7 +286,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Planned_Economy }
 		relative_position_id = SSB_Planned_Economy
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -319,7 +319,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SSB_Planned_Economy }
 		relative_position_id = SSB_Planned_Economy
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -947,7 +947,7 @@ focus_tree = {
 	focus = {
 		id = SSB_True_Enemies
 		icon = GFX_goal_Enemies
-		x = 28
+		x = 29
 		y = 0
 		cost = 5
 		available = {
@@ -964,13 +964,16 @@ focus_tree = {
 		
 	focus = {
 		id = SSB_Anschluss
-		icon = GFX_goal_Enemies
-		x = 34
+		icon = GFX_goal_Neighbours
+		x = 29
 		y = 1
 		cost = 10
 		prerequisite = { focus = SSB_True_Enemies }
 		ai_will_do = {
 			factor = 12
+		}
+		available = {
+		has_army_manpower = { size > 499999 }
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
@@ -982,8 +985,8 @@ focus_tree = {
 	
 	focus = {
 		id = SSB_Demand_The_SuderenLund
-		icon = GFX_goal_Enemies
-		x = 35
+		icon = GFX_goal_demand
+		x = 26
 		y = 2
 		cost = 10
 		prerequisite = { focus = SSB_Anschluss }
@@ -1000,8 +1003,8 @@ focus_tree = {
 	
 	focus = {
 		id = SSB_First_Beyron_Award
-		icon = GFX_goal_Enemies
-		x = 35
+		icon = GFX_goal_First
+		x = 26
 		y = 3
 		cost = 10
 		prerequisite = { focus = SSB_Demand_The_SuderenLund }
@@ -1018,8 +1021,8 @@ focus_tree = {
 	
 	focus = {
 		id = SSB_Fate_Of_Elf_Warren
-		icon = GFX_goal_Enemies
-		x = 35
+		icon = GFX_goal_Fate
+		x = 26
 		y = 4
 		cost = 10
 		prerequisite = { focus = SSB_First_Beyron_Award }
@@ -1033,17 +1036,125 @@ focus_tree = {
 			}
 		}
 	}
-
+	
 	focus = {
-		id = SSB_Our_Old_Land
+		id = SSB_Demand_Memal
 		icon = GFX_goal_Land
-		x = 28
-		y = 1
+		x = 29
+		y = 2
+		cost = 10
+		prerequisite = { focus = SSB_Anschluss }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		add_state_claim = 206
+		     NSA = {
+		    country_event = Beyron.16
+		    }
+		}
+	}
+	
+	focus = {
+		id = SSB_Reintegrate_Memal
+		icon = GFX_goal_Reintegrate
+		x = 29
+		y = 3
+		cost = 10
+		prerequisite = { focus = SSB_Demand_Memal }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		add_state_core = 206
+		}
+	}
+	
+	focus = {
+		id = SSB_Pavel_Or_War
+		icon = GFX_goal_SpriteKrieg
+		x = 29
+		y = 5
+		cost = 10
 		available = {
 			date > 2026.08.01
 		}
-		prerequisite = { focus = SSB_True_Enemies }
-		cost = 6
+		prerequisite = { focus = SSB_Reintegrate_Memal }
+        prerequisite = { focus = SSB_Fate_Of_Elf_Warren }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = SSB_Demand_Mesapotmia #not done
+		icon = GFX_goal_Mesa
+		x = 32
+		y = 2
+		cost = 10
+		prerequisite = { focus = SSB_Anschluss }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#focus = {
+		id = SSB_Our_Neighbours
+		icon = GFX_goal_Neighbours
+		x = 30
+		y = 3
+		prerequisite = { focus = SSB_Reintegrate_Old_Lands }
+		mutually_exclusive = { focus = SSB_Spritekrieg_Revenge }
+		cost = 10
 
 		ai_will_do = {
 			factor = 12
@@ -1051,42 +1162,24 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			create_wargoal = {
-				type = annex_everything
-				target = FKD
+			    type = annex_everything
+				target = BBD
 				expire = 0
 			}
-			add_timed_idea = {
-				idea = Our_Old_Lands
-				days = 120
+			create_wargoal = {
+			    type = annex_everything
+				target = BTC
+				expire = 0
 			}
-	    }
-    }
-
-	focus = {
-		id = SSB_Reintegrate_Old_Lands
-		icon = GFX_goal_Reintegrate
-		x = 28
-		y = 2
-		available = {
-		has_full_control_of_state = 61
-		}
-		prerequisite = { focus = SSB_Our_Old_Land }
-		cost = 5
-
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-		    add_state_core = 61
-			add_state_core = 86
-			add_state_core = 87
-			add_state_core = 88
+			create_wargoal = {
+			    type = annex_everything
+				target = NSA
+				expire = 0
 			}
 	    }
 
-	focus = {
-		id = SSB_SpriteKrieg_Revenge
+	#focus = {
+		id = SSB_Second_SpriteKrieg
 		icon = GFX_goal_SpriteKrieg
 		x = 26
 		y = 3
@@ -1118,14 +1211,39 @@ focus_tree = {
 		}
     }
 
-	focus = {
-		id = SSB_Our_Neighbours
-		icon = GFX_goal_Neighbours
-		x = 30
-		y = 3
-		prerequisite = { focus = SSB_Reintegrate_Old_Lands }
-		mutually_exclusive = { focus = SSB_Spritekrieg_Revenge }
-		cost = 10
+	#focus = {
+		id = SSB_Reintegrate_Old_Lands
+		icon = GFX_goal_Reintegrate
+		x = 28
+		y = 2
+		available = {
+		has_full_control_of_state = 61
+		}
+		prerequisite = { focus = SSB_Our_Old_Land }
+		cost = 5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		    add_state_core = 61
+			add_state_core = 86
+			add_state_core = 87
+			add_state_core = 88
+			}
+	    }
+
+	#focus = {
+		id = SSB_Our_Old_Land
+		icon = GFX_goal_Land
+		x = 28
+		y = 1
+		available = {
+			date > 2026.08.01
+		}
+		prerequisite = { focus = SSB_True_Enemies }
+		cost = 6
 
 		ai_will_do = {
 			factor = 12
@@ -1133,21 +1251,35 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			create_wargoal = {
-			    type = annex_everything
-				target = BBD
+				type = annex_everything
+				target = FKD
 				expire = 0
 			}
-			create_wargoal = {
-			    type = annex_everything
-				target = BTC
-				expire = 0
-			}
-			create_wargoal = {
-			    type = annex_everything
-				target = NSA
-				expire = 0
+			add_timed_idea = {
+				idea = Our_Old_Lands
+				days = 120
 			}
 	    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

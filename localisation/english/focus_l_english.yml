@@ -110,8 +110,8 @@
  SSB_Our_Old_Land_desc:0 "We need to show our enemy that we're strong. We strike first or we die first."
  SSB_Reintegrate_Old_Lands:0 "Reintegrate Our Old Lands"
  SSB_Reintegrate_Old_Lands_desc:0 "We have conquered our lost lands its time we intergrate them"
- SSB_SpriteKrieg_Revenge:0 "SpriteKrieg Revenge"
- SSB_SpriteKrieg_Revenge_desc:0 "We have been humiliated by the Spritekrieg, we've been planning for months for this moment. Lets show them who's boss."
+ SSB_Second_SpriteKrieg:0 "Second SpriteKrieg"
+ SSB_Second_SpriteKrieg_desc:0 "We have been humiliated by the Spritekrieg, we've been planning for months for this moment. Lets show them who's boss."
  SSB_Our_Neighbours:0 "Our Neighbours"
  SSB_Our_Neighbours_desc:0 "Attack our main enemy is too risky we need to get bigger."
  SSB_Global_Order:0 "Global Order"
@@ -128,7 +128,10 @@
  SSB_Armored_Menace_desc:0 "Beware the Tonk."
  SSB_FrogWaffe:0 "FrogWaffe"
  SSB_FrogWaffe_desc:0 "Beware the lung cancer."
-
+ SSB_Pavel_Or_War:0 "Pavel Or War!"
+ SSB_Pavel_Or_War_desc:0 "Its time to take things seriously."
+ SSB_Reintegrate_Memal:0 "Reintegrate Memal"
+ SSB_Reintegrate_Memal_desc:0 "Welcome back fellow frogs."
 
 
 

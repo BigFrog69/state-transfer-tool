@@ -321,13 +321,26 @@ spriteTypes = {
 	name = "GFX_goal_Veteran"
 	texturefile = "gfx/interface/goals/Veteran.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_demand"
+	texturefile = "gfx/interface/goals/demand.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_First"
+	texturefile = "gfx/interface/goals/First.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_Fate"
+	texturefile = "gfx/interface/goals/Fate.dds"			
+	}
 
-
-
-
-
+	SpriteType = {
+	name = "GFX_goal_Mesa"
+	texturefile = "gfx/interface/goals/Mesa.dds"			
+	}
 
 
 

@@ -1,0 +1,22 @@
+state={
+	id=206
+	name="STATE_206"
+	provinces={
+		3043 3883 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

@@ -51,3 +51,9 @@
  STATE_115:0 "Nova Elysium"
  STATE_116:0 "Nova Northern-Land"
  STATE_117:0 "Elder-Griffon"
+ 
+ #NSA
+ STATE_206:0 "Mamel"
+ 
+ #FKD
+ STATE_88:0 "Pavel"

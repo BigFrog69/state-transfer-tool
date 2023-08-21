@@ -239,7 +239,42 @@ country_event = { #They accept Annex!
 	}
 }
 
+country_event = {
+	id = Beyron.16
+	title = Beyron.16.t
+	desc = Beyron.16.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.16.a
+		SSB = {
+			country_event = Beyron.17
+		    effect_tooltip = {
+			    SSB = {
+				    transfer_state = 206
+				}
+			}
+		}
+	}
+}
 
+country_event = { #They accept Memal
+	id = Beyron.17
+	title = Beyron.17.t
+	desc = Beyron.17.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.17.a
+     SSB = {
+	    transfer_state = 206
+		}
+	}
+}
 
 
 
