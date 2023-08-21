@@ -35,5 +35,6 @@ set_popularities = {
 	democratic = 35
 	fascism = 0
 	communism = 0
+	totalism = 0
 }
 
