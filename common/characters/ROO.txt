@@ -10,12 +10,12 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=oligarchism
+			ideology= democracy
 			expire="1965.1.1.1"
 			id=-1
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology= nationalist
 			expire="1965.1.1.1"
 			id=-1
 		}

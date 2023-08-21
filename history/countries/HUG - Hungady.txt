@@ -21,14 +21,21 @@ recruit_character = HUG_HUG
 
 
 set_politics = {
-	ruling_party = chad
+	ruling_party = socialism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	chad = 29
-	fascism = 20
-	communism = 51
+	chad = 0
+	totalism = 0
+	syndicalism = 0
+	socialism = 51
+	democracy = 29
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 0
+	autocracy = 0
+	nationalist = 20
 }
 

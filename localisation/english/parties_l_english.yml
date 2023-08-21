@@ -26,6 +26,39 @@
  totalism_noun:0 "Totalist"
  totalism_desc:0 "Totalism" 
 
+ syndicalism:0 "Syndicalism"
+ syndicalism_noun:0 "Syndicalist"
+ syndicalism_desc:0 "Syndicalism"  
+
+ socialism:0 "Socialism"
+ socialism_noun:0 "Socialist"
+ socialism_desc:0 "Socialism" 
+
+ democracy:0 "Social Democratic"
+ democracy_noun:0 "Social Democratcy"
+ democracy_desc:0 "Social Democratic" 
+
+ liberalism:0 "Social Liberalism"
+ liberalism_noun:0 "Social Liberalist"
+ liberalism_desc:0 "Social Liberalism" 
+
+ conservatism:0 "Social Conservatism"
+ conservatism_noun:0 "Social Conservatist"
+ conservatism_desc:0 "Social Conservatism"
+
+ authoritarianism:0 "Authoritarianism"
+ authoritarianism_noun:0 "Authoritarianist"
+ authoritarianism_desc:0 "Authoritarianism" 
+
+ autocracy:0 "Paternal Autocracy"
+ autocracy_noun:0 "Paternal Autocracy"
+ autocracy_desc:0 "Paternal Autocracy" 
+
+ nationalist:0 "Nationalism"
+ democracy_noun:0 "Nationalist"
+ democracy_desc:0 "Nationalism"
+
+
  #VANILLA IDEOLOGIES
 
  communism:0 "Communist"

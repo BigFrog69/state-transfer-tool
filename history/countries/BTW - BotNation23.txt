@@ -21,14 +21,21 @@ recruit_character = BTW_NPC_DUDE
 
 
 set_politics = {
-	ruling_party = chad
+	ruling_party = authoritarianism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	chad = 92
-	fascism = 3
-	communism = 5
+	chad = 0
+	totalism = 0
+	syndicalism = 0
+	socialism = 0
+	democracy = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 100
+	autocracy = 0
+	nationalist = 0
 }
 
