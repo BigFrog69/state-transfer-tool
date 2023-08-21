@@ -32,9 +32,14 @@ set_politics = {
 }
 set_popularities = {
 	chad = 65
-	democratic = 35
-	fascism = 0
-	communism = 0
 	totalism = 0
+	syndicalism = 0
+	socialism = 0
+	democracy = 0
+	liberalism = 35
+	conservatism = 0
+	authoritarianism = 0
+	autocracy = 0
+	nationalist = 0
 }
 

@@ -29,15 +29,21 @@ add_timed_idea = {
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 84
-	democratic = 10
-	fascism = 6
-	
+	chad = 0
+	totalism = 0
+	syndicalism = 0
+	socialism = 84
+	democracy = 10
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 100
+	autocracy = 0
+	nationalist = 6	
 }
 
