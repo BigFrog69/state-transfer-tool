@@ -5,8 +5,8 @@ state={
 		730 1019 1297 2315 2328 2450 3612 4303 5860 5927 
 	}
 	history={
-		owner = HUN
-		add_core_of = HUN
+		owner = HUG
+		add_core_of = HUG
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2

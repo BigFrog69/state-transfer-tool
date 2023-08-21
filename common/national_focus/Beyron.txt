@@ -1038,7 +1038,7 @@ focus_tree = {
 			date > 2026.08.01
 		}
 		prerequisite = { focus = SSB_True_Enemies }
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 12

@@ -1,4 +1,4 @@
-SPI	= "countries/nationofsprite.txt"
+SPI	= "countries/sprite.txt"
 ROB	= "countries/RepublicOfBretain.txt"
 ROO	= "countries/RepublicOfOstryae.txt"
 TBA	= "countries/TheBarons.txt"
@@ -22,7 +22,7 @@ BBD	= "countries/BreakingBad.txt"
 BCS	= "countries/BetterCallSaul.txt"
 USM	= "countries/UnitedStatesMesapotamia.txt"
 USS	= "countries/UnionOfArabianSocialistRepublics.txt"
-HUN	= "countries/Hungady.txt"
+HUG	= "countries/Hungady.txt"
 
 
 
