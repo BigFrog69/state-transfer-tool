@@ -21,7 +21,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 1
 
 		}
 
@@ -30,7 +30,7 @@ state={
 	provinces={
 		1998 2042 3252 3897 3988 4328 5326 
 	}
-	manpower=620000
+	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

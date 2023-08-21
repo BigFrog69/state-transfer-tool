@@ -209,6 +209,7 @@ focus_tree = {
 				idea = Motherland_Calls
 				days = 730
 			}
+			add_research_slot = 1
 		}
 	}
 	
@@ -343,9 +344,13 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
-			}
+        	modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 2
+        	}
 		}
+	}
 
 	focus = {
 		id = SSB_Arms_Production
@@ -794,7 +799,7 @@ focus_tree = {
 		prerequisite = { focus = SSB_New_Red_Army }
 		cost = 10
 		available = {
-			date > 2026.01.01
+			date > 2027.01.01
 		}
 		ai_will_do = {
 			factor = 12
@@ -962,7 +967,7 @@ focus_tree = {
 		icon = GFX_goal_Enemies
 		x = 34
 		y = 1
-		cost = 5
+		cost = 10
 		prerequisite = { focus = SSB_True_Enemies }
 		ai_will_do = {
 			factor = 12
@@ -980,7 +985,7 @@ focus_tree = {
 		icon = GFX_goal_Enemies
 		x = 35
 		y = 2
-		cost = 5
+		cost = 10
 		prerequisite = { focus = SSB_Anschluss }
 		ai_will_do = {
 			factor = 12
@@ -998,7 +1003,7 @@ focus_tree = {
 		icon = GFX_goal_Enemies
 		x = 35
 		y = 3
-		cost = 5
+		cost = 10
 		prerequisite = { focus = SSB_Demand_The_SuderenLund }
 		ai_will_do = {
 			factor = 12
@@ -1016,7 +1021,7 @@ focus_tree = {
 		icon = GFX_goal_Enemies
 		x = 35
 		y = 4
-		cost = 5
+		cost = 10
 		prerequisite = { focus = SSB_First_Beyron_Award }
 		ai_will_do = {
 			factor = 12
@@ -1108,6 +1113,8 @@ focus_tree = {
 				idea = Second_SpriteKrieg
 				days = 120
 			}
+			add_state_core = 107
+			add_state_core = 200
 		}
     }
 

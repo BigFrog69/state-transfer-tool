@@ -13,7 +13,7 @@ set_technology = {
 }
 
 set_war_support = 0.3
-set_stability = 0.8
+set_stability = 0.5
 
 recruit_character = SSB_bigfrrog
 
@@ -24,7 +24,7 @@ add_ideas = {
 
 add_timed_idea = {
 	idea = Economic_Stagnation
-	days = 730
+	days = 1095
 }
 
 
