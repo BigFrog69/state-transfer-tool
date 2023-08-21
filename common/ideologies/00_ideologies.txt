@@ -50,7 +50,7 @@ ideologies = {
 		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_<communism> = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+		
 	}
 
 	syndicalism = {
@@ -102,7 +102,7 @@ ideologies = {
 		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_<communism> = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+		
 	}
 
 	socialism = {
@@ -154,7 +154,7 @@ ideologies = {
 		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_<communism> = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+		 
 	}
 
 	#Democratic
@@ -207,7 +207,7 @@ ideologies = {
 		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_<communism> = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+
 	}
 
 	liberalism = {
@@ -259,7 +259,7 @@ ideologies = {
 		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_<democratic> = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+		
 	}
 
 	conservatism = {
@@ -311,7 +311,7 @@ ideologies = {
 		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_<communism> = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+		
 	}
 
 	#Non Aligned 
@@ -364,9 +364,9 @@ ideologies = {
 		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_<communism> = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+		
 	}
-	
+
 	chad = {
 	
 		types = {
@@ -416,7 +416,7 @@ ideologies = {
 		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_<communism> = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+		
 	}
 
 	#Fascist
@@ -469,7 +469,7 @@ ideologies = {
 		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_<communism> = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+		
 	}
 
 	nationalist = {
@@ -521,7 +521,7 @@ ideologies = {
 		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_<communism> = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+		
 	}
 
 	

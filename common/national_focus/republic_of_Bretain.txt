@@ -358,7 +358,7 @@ focus_tree = {
     }
 
 	focus = {
-		id = Rob_Money_Storm
+		id = ROB_Money_Storm
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Free_Trade }
 		x = 10
@@ -373,5 +373,5 @@ focus_tree = {
         }
     }
 
-
+}
 

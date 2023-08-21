@@ -1148,36 +1148,8 @@ focus_tree = {
 				expire = 0
 			}
 	    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	focus = {
+	}
+    focus = {
 		id = SSB_Befriend_Liberland
 		icon = GFX_goal_DealWithLiberland
 		x = 35
@@ -1204,21 +1176,3 @@ focus_tree = {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
