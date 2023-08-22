@@ -21,14 +21,21 @@ recruit_character = SPI_king_israel
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 92
-	fascism = 3
-	communism = 5
+	chad = 0
+	totalism = 0
+	syndicalism = 0
+	socialism = 0
+	democracy = 100
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 0
+	autocracy = 0
+	nationalist = 0
 }
 

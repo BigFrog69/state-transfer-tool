@@ -1,27 +1,28 @@
-SPI	= "countries/nationofsprite.txt"
-ROB	= "countries/RepublicOfBretain.txt"
-ROO	= "countries/RepublicOfOstryae.txt"
-TBA	= "countries/TheBarons.txt"
-ROK	= "countries/RepublicOfKustenkuste.txt"
-NLA	= "countries/TheMapleRepublicOfNationArmyLiberation.txt"
-WOD	= "countries/woodland.txt"
-LLB	= "countries/liberland.txt"
-SSB	= "countries/SocialistStateOfBeyron.txt"
-CSS	= "countries/People'sRepublicOfCoso.txt"
-PUP	= "countries/dictorialship_of_Proto-Uralic_people.txt"
-FCM	= "countries/French-canadian_monarchy.txt"
-TDI	= "countries/TheDarkImperium.txt"
-TSB	= "countries/TheSocialistStateofBread.txt"
-SLT	= "countries/SilverLegionofToast.txt"
-NSA	= "countries/NavianSalvationArmy.txt"
-IGA	= "countries/interimgulfauthority.txt"
-RNL	= "countries/RavenLoft.txt"
+SPI	= "countries/sprite.txt" #on bookmark - flag needed - focus tree needed - leader portrait done - ideas needed
+ROB	= "countries/RepublicOfBretain.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
+ROO	= "countries/RepublicOfOstryae.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
+TBA	= "countries/TheBarons.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
+ROK	= "countries/RepublicOfKustenkuste.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
+NLA	= "countries/TheMapleRepublicOfNationArmyLiberation.txt" #on bookmark - flag done - focus tree needed - leader portrait needed - ideas needed
+WOD	= "countries/woodland.txt" #on bookmark - flag needed - focus tree needed - leader portrait done - ideas needed
+LLB	= "countries/liberland.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
+SSB	= "countries/SocialistStateOfBeyron.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas done
+CSS	= "countries/People'sRepublicOfCoso.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+PUP	= "countries/dictorialship_of_Proto-Uralic_people.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
+FCM	= "countries/French-canadian_monarchy.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
+TDI	= "countries/TheDarkImperium.txt" #on bookmark - flag needed - focus tree needed - leader portrait done - ideas needed
+TSB	= "countries/TheSocialistStateofBread.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
+SLT	= "countries/SilverLegionofToast.txt" #on bookmark - flag needed - focus tree needed - leader portrait done - ideas needed
+NSA	= "countries/NavianSalvationArmy.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
+IGA	= "countries/interimgulfauthority.txt" #on bookmark - flag needed - focus tree needed - leader portrait done - ideas needed
+RNL	= "countries/RavenLoft.txt" #on bookmark - flag done - focus tree needed - leader portrait needed - ideas needed
 
 FKD	= "countries/FlyKingdom.txt"
 BBD	= "countries/BreakingBad.txt"
 BCS	= "countries/BetterCallSaul.txt"
 USM	= "countries/UnitedStatesMesapotamia.txt"
 USS	= "countries/UnionOfArabianSocialistRepublics.txt"
+HUG	= "countries/Hungady.txt"
 
 
 

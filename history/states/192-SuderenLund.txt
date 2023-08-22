@@ -1,0 +1,28 @@
+state={
+	id=192
+	name="STATE_192"
+	provinces={
+		2126 2369 3768 4445 5576 5654 
+	}
+	history={
+		owner = BTC
+		add_core_of = BTC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+		}
+	}
+	manpower=752630
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+	resources = {
+		oil = 5
+		aluminium = 15
+		rubber = 5
+		tungsten = 10
+        steel = 30
+		chromium = 15
+    }
+}

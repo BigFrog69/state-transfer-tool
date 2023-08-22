@@ -13,10 +13,14 @@ focus_tree = {
 	
 	default = no
 
+ 
+ #ECONOMY TREE
+
+
 	focus = {
 		id = LLB_Infrastructure_Restoration
 		icon = GFX_goal_Infra
-		x = 6
+		x = 11
 		y = 0
 		cost = 1
 		ai_will_do = {
@@ -171,10 +175,13 @@ focus_tree = {
 		}
 	}
 
+
+ #MILITARY TREE
+
 	focus = {
 		id = LLB_Training_Resurgence
 		icon = GFX_goal_training
-		x = 11
+		x = 15
 		y = 0
 		cost = 1 #5
 
@@ -277,7 +284,45 @@ focus_tree = {
 		}
 	}
 
+ #POLITICAL TREE
+ 
+ 	focus = {
+	id = LLB_Chaotic_Politics
+	icon = GFX_goal_Veteran
+	x = 5
+	y = 0
+	cost = 4 #5
 
+
+
+	ai_will_do = {
+		factor = 12
+	}
+	search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+	completion_reward = {
+		}			
+	}
+
+	
+
+	focus = {
+	id = LLB_Corruption
+	icon = GFX_goal_Veteran
+	x = 0
+	y = 1
+	cost = 4 #5
+
+	prerequisite = { focus = LLB_Chaotic_Politics }
+	relative_position_id = LLB_Chaotic_Politics
+
+
+	ai_will_do = {
+		factor = 12
+	}
+	search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+	completion_reward = {
+		}			
+	}
 
 
 

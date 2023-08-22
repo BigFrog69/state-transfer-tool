@@ -13,7 +13,7 @@ state={
 			industrial_complex = 0
 		}
 	}
-	manpower=2000000
+	manpower=1400000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

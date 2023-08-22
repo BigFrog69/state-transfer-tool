@@ -17,4 +17,12 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000
+	resources = {
+		oil = 55
+		aluminium = 10
+		rubber = 1
+		tungsten = 15
+        steel = 2
+		chromium = 3
+    }
 }

@@ -12,7 +12,7 @@ state={
         steel = 30
 		chromium = 15
     }
-	manpower=2500000
+	manpower=4000000
 	state_category = megalopolis
 	history={
 		owner = SSB
@@ -20,7 +20,7 @@ state={
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3
-			industrial_complex = 7
+			industrial_complex = 1
 
 		}
 	}

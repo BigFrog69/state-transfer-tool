@@ -21,14 +21,21 @@ recruit_character = USS_SUS
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	chad = 5
-	fascism = 5
-	communism = 90
+	chad = 0
+	totalism = 0
+	syndicalism = 0
+	socialism = 90
+	democracy = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 5
+	autocracy = 0
+	nationalist = 5
 }
 

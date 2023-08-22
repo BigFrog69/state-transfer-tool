@@ -12,7 +12,7 @@ state={
         steel = 30
 		chromium = 15
     }
-	manpower=1000000
+	manpower=2000000
 	state_category = megalopolis
 	history={
 		owner = SSB

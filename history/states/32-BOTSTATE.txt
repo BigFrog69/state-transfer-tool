@@ -1,10 +1,22 @@
 state={
 	id=32
 	name="STATE_32"
+	manpower = 2000000
+	state_category = large_city
 	provinces={
 		92 150 269 736 742 744 1368 1452 1497 2035 2080 2145 2259 2558 2657 2683 2703 2875 3076 3265 3686 3962 4012 4098 4226 4227 4336 4422 4540 4636 5627 5660 5799 5886 5925 
 	}
-	manpower=0
+	history={
+		owner = BTB
+		add_core_of = BTB
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -16,38 +16,64 @@
  Syndicalism_noun:0 "Syndicalist"
  Syndicalism_desc:0 "Syndicalism"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ #CUSTOM IDEOLOGIES
 
  chad:0 "Chadist"
  chad_noun:0 "Chadism"
  chad_desc:0 "Knowledge, Strength, Integrity"
 
+ totalism:0 "Totalism"
+ totalism_noun:0 "Totalist"
+ totalism_desc:0 "Totalism" 
 
+ syndicalism:0 "Syndicalism"
+ syndicalism_noun:0 "Syndicalist"
+ syndicalism_desc:0 "Syndicalism"  
+
+ socialism:0 "Socialism"
+ socialism_noun:0 "Socialist"
+ socialism_desc:0 "Socialism" 
+
+ democracy:0 "Social Democratic"
+ democracy_noun:0 "Social Democratcy"
+ democracy_desc:0 "Social Democratic" 
+
+ liberalism:0 "Social Liberalism"
+ liberalism_noun:0 "Social Liberalist"
+ liberalism_desc:0 "Social Liberalism" 
+
+ conservatism:0 "Social Conservatism"
+ conservatism_noun:0 "Social Conservatist"
+ conservatism_desc:0 "Social Conservatism"
+
+ authoritarianism:0 "Authoritarianism"
+ authoritarianism_noun:0 "Authoritarianist"
+ authoritarianism_desc:0 "Authoritarianism" 
+
+ autocracy:0 "Paternal Autocracy"
+ autocracy_noun:0 "Paternal Autocracy"
+ autocracy_desc:0 "Paternal Autocracy" 
+
+ nationalist:0 "Nationalism"
+ democracy_noun:0 "Nationalist"
+ democracy_desc:0 "Nationalism"
+
+
+ #VANILLA IDEOLOGIES
 
  communism:0 "Communist"
  communism_noun:0 "Communism"
+ communism_desc:0 "Totalitarian Regime"
+ 
  democratic:0 "Democratic"
  democratic_noun:0 "Democracy"
+ democratic_desc:0 "Democratic Regime"
+ 
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
  fascism_desc:0 "Totalitarian Regime"
- communism_desc:0 "Totalitarian Regime"
- democratic_desc:0 "Democratic Regime"
+ 
+ 
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  liberalism:0 "Liberalism"

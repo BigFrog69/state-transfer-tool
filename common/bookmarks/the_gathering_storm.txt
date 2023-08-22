@@ -7,9 +7,11 @@ bookmarks = {
 		default_country = "ROB"
 		default = yes
 		
+
+		#MAJORS
 		"ROB"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "democratic"
+			ideology = "democracy"
 			ideas = {
 				ROB_navy_bonuses	
 			}
@@ -17,9 +19,9 @@ bookmarks = {
 		}
 		"ROO"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "neutrality"
+			ideology = "authoritarianism"
 			ideas = {
-				A_Torn_Nation
+				Overpopulated
 				An_Honorable_Nation
 			}
 			focuses = {
@@ -30,7 +32,7 @@ bookmarks = {
 		}
 		"TBA"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "democratic"
+			ideology = "democracy"
 			ideas = {
 				undead_population
 			}
@@ -42,7 +44,7 @@ bookmarks = {
 		}
 		"ROK"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "democratic"
+			ideology = "democracy"
 			focuses = {
 				ROK_Familial_Focus
 				ROK_Familial_Focus2
@@ -50,39 +52,55 @@ bookmarks = {
 		}
 		"SPI"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "democratic"
+			ideology = "democracy"
 		}
 		"NLA"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "neutrality"
+			ideology = "authoritarianism"
 			focuses = {
 				NLA_What_Is_To_Do_With_The_Docks
 				NLA_The_Way_We_Cross_The_Sea
 			}
 		}
-		"WOD"={
+		"SSB"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "democratic"
-			minor = yes
+			ideology = "socialism"
+			ideas = {
+				Red_council
+				Old_Red_Army
+			}
+			focuses = {
+				SSB_The_Great_Purge
+				SSB_Global_Order
+				SSB_All_Roads_Lead_To_Beyron
+			}
 		}
 		"LLB"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "chad"
-			minor = yes
 			ideas = {
 				Liberian_Oil_Renaissance
 				War-Recovery_Exhaustion
 				Democratic_Vigilance
 			}
 		}
+
+        #MINORS
+
+		"WOD"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "democracy"
+			minor = yes
+		}
+		
 		"FCM"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "neutrality"
+			ideology = "authoritarianism"
 			minor = yes
 		}
 		"PUP"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "neutrality"
+			ideology = "authoritarianism"
 			ideas = {
 				divided_dynasty
 				uralic_unity
@@ -90,23 +108,52 @@ bookmarks = {
 			}
 			minor = yes
 		}
-		"SSB"={
-			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "communism"
-			ideas = {
-				Red_council
-				Old_Red_Army
-			}
-			focuses = {
-				SSB_The_Great_Purge
-				SSB_Memories_Of_The_SpriteKrieg
-				SSB_Befriend_Liberland
-			}
-		}
+
 		"CSS"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "chad"
+			ideology = "authoritarianism"
+			minor = yes
 		}
+
+		"TDI"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "authoritarianism"
+			minor = yes
+		}
+
+		"TSB"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "socialism"
+			minor = yes
+		}
+
+		"SLT"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "authoritarianism"
+			minor = yes
+		}
+
+		"NSA"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "authoritarianism"
+			minor = yes
+		}
+
+		"IGA"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "authoritarianism"
+			minor = yes
+		}	
+		
+		"RNL"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "authoritarianism"
+			minor = yes
+		}
+
+
+
+
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

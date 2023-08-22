@@ -10,13 +10,13 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=Chadist_Liberalism
+			ideology= liberalism
 			expire="1965.1.1.1"
 			id=-1
 		}
 
 		country_leader={
-			ideology=liberalism
+			ideology= chad
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -33,7 +33,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology= authoritarianism
 			expire="1965.1.1.1"
 			id=-1
 		}

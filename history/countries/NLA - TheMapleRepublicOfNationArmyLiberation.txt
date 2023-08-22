@@ -21,15 +21,21 @@ recruit_character = NLA_leader
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarianism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 43
-	fascism = 5
-	communism = 17
-	neutrality = 35
+	chad = 0
+	totalism = 0
+	syndicalism = 0
+	socialism = 17
+	democracy = 43
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 35
+	autocracy = 0
+	nationalist = 5
 }
 

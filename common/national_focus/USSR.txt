@@ -19,8 +19,9 @@ focus_tree = {
 		x = 6
 		y = 0
 		cost = 5
-
-
+		available = {
+			date > 2026.08.26
+		}
 		ai_will_do = {
 			factor = 12
 		}

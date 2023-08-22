@@ -24,15 +24,21 @@ add_ideas = {
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democracy
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 9
-	fascism = 20
-	communism = 1
-	neutrality = 70
+	chad = 0
+	totalism = 0
+	syndicalism = 0
+	socialism = 1
+	democracy = 9
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 70
+	autocracy = 0
+	nationalist = 20
 }
 
