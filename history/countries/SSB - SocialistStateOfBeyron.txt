@@ -29,21 +29,21 @@ add_timed_idea = {
 
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = totalism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
 	chad = 0
-	totalism = 0
-	syndicalism = 0
-	socialism = 84
-	democracy = 10
+	totalism = 60
+	syndicalism = 24
+	socialism = 11
+	democracy = 2
 	liberalism = 0
 	conservatism = 0
 	authoritarianism = 0
 	autocracy = 0
-	nationalist = 6	
+	nationalist = 3
 }
 

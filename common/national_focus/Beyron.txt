@@ -1077,7 +1077,7 @@ focus_tree = {
 		icon = GFX_goal_SpriteKrieg
 		x = 29
 		y = 5
-		cost = 10
+		cost = 5
 		available = {
 			date > 2026.08.01
 		}

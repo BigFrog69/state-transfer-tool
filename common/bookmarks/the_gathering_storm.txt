@@ -64,7 +64,7 @@ bookmarks = {
 		}
 		"SSB"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "socialism"
+			ideology = "totalism"
 			ideas = {
 				Red_council
 				Old_Red_Army
