@@ -16,7 +16,7 @@ country_event = {
 		name = Liberland.1.a
 		set_popularities = {
 			chad = 65
-			democratic = 35
+			liberalism = 35
 		}
 		
 	}
@@ -25,11 +25,11 @@ country_event = {
 		name = Liberland.1.b
 		set_popularities = {
 			chad = 35
-			democratic = 65
+			liberalism = 65
 		}
 		
 		set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		elections_allowed = no
 		last_election = "1935.12.17"
 		election_frequency = 48

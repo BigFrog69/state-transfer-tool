@@ -57,7 +57,7 @@ guiTypes = {
 			size = { width = 216 height = 80 }
 			clipping = yes
 			verticalScrollbar = "right_vertical_slider"
-			margin = "{ top = 6 left = 0 bottom = 5 right = 0}"
+			margin = { top = 6 left = 0 bottom = 5 right = 0}
 			
 			background = {
 				name = "Background"		
@@ -89,7 +89,7 @@ guiTypes = {
 			iconType ={
 				name ="pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_63x63"
-				position = { x= -2 y = 1s }
+				position = { x= -2 y = 1 }
 			}
 		}
 		

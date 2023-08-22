@@ -1,10 +1,22 @@
 state={
 	id=38
 	name="STATE_38"
+	state_category = large_city
+	manpower=20000
+	history={
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
 	provinces={
 		30 146 407 459 474 614 654 781 998 1004 1146 1156 1331 1486 1607 1615 1702 1758 1947 2134 2283 2356 2605 2726 2824 2890 2945 3061 3190 3325 3586 3723 3844 3884 3898 4041 4105 4170 4254 4401 4504 4549 4564 4881 5683 5687 5690 5740 5772 5823 5831 5846 5876 5913 5933 5960 6037 6050 
 	}
-	manpower=0
+	
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
