@@ -1,10 +1,21 @@
 state={
 	id=34
 	name="STATE_34"
+	state_category = large_city
 	provinces={
 		213 331 487 529 831 837 930 942 956 1003 1148 1168 1713 1728 1820 1908 1913 1976 2150 2172 2173 2254 2291 2298 2309 2348 2507 2563 2580 2625 2654 2793 2873 2955 2962 3129 3153 3316 3317 3368 3444 3590 3592 3764 4066 4083 4386 4394 4400 4467 4506 4547 4661 4666 4668 4703 4705 4817 4850 4862 6125 6155 6170 6220 6229 6231 6242 6248 6257 6258 6263 6294 6337 
 	}
-	manpower=0
+	manpower=2000000
+	history={
+		owner = BTB
+		add_core_of = BTB
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
