@@ -21,7 +21,7 @@ recruit_character = TSB_tucknzig
 
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = socialism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
@@ -30,11 +30,11 @@ set_popularities = {
 	chad = 0
 	totalism = 0
 	syndicalism = 0
-	socialism = 0
+	socialism = 100
 	democracy = 0
 	liberalism = 0
 	conservatism = 0
-	authoritarianism = 100
+	authoritarianism = 0
 	autocracy = 0
 	nationalist = 0
 }

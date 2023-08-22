@@ -7,6 +7,8 @@ bookmarks = {
 		default_country = "ROB"
 		default = yes
 		
+
+		#MAJORS
 		"ROB"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "democracy"
@@ -60,21 +62,37 @@ bookmarks = {
 				NLA_The_Way_We_Cross_The_Sea
 			}
 		}
-		"WOD"={
+		"SSB"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "democracy"
-			minor = yes
+			ideology = "socialism"
+			ideas = {
+				Red_council
+				Old_Red_Army
+			}
+			focuses = {
+				SSB_The_Great_Purge
+				SSB_Global_Order
+				SSB_All_Roads_Lead_To_Beyron
+			}
 		}
 		"LLB"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "chad"
-			minor = yes
 			ideas = {
 				Liberian_Oil_Renaissance
 				War-Recovery_Exhaustion
 				Democratic_Vigilance
 			}
 		}
+
+        #MINORS
+
+		"WOD"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "democracy"
+			minor = yes
+		}
+		
 		"FCM"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = "authoritarianism"
@@ -90,23 +108,52 @@ bookmarks = {
 			}
 			minor = yes
 		}
-		"SSB"={
-			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "socialism"
-			ideas = {
-				Red_council
-				Old_Red_Army
-			}
-			focuses = {
-				SSB_The_Great_Purge
-				Old_Red_Army
-				SSB_Befriend_Liberland
-			}
-		}
+
 		"CSS"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = "chad"
+			ideology = "authoritarianism"
+			minor = yes
 		}
+
+		"TDI"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "authoritarianism"
+			minor = yes
+		}
+
+		"TSB"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "socialism"
+			minor = yes
+		}
+
+		"SLT"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "authoritarianism"
+			minor = yes
+		}
+
+		"NSA"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "authoritarianism"
+			minor = yes
+		}
+
+		"IGA"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "authoritarianism"
+			minor = yes
+		}	
+		
+		"RNL"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = "authoritarianism"
+			minor = yes
+		}
+
+
+
+
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

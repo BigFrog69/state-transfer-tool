@@ -21,7 +21,7 @@ recruit_character = NLA_leader
 
 
 set_politics = {
-	ruling_party = democracy
+	ruling_party = authoritarianism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
