@@ -42,7 +42,7 @@ set_popularities = {
 	democracy = 10
 	liberalism = 0
 	conservatism = 0
-	authoritarianism = 100
+	authoritarianism = 0
 	autocracy = 0
 	nationalist = 6	
 }
