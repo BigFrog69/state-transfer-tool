@@ -95,6 +95,26 @@
  HUG_DEF:0 "Hungady"
  HUG_ADJ:0 "Hungadians"
  
+ CHK:0 "Cheek Kingdom"
+ CHK_DEF:0 "Cheek Kingdom"
+ CHK_ADJ:0 "Cheeks"
+ 
+ ARC:0 "Arasid Republic"
+ ARC_DEF:0 "Arasid Repulic"
+ ARC_ADJ:0 "Arasids"
+ 
+ SAS:0 "SANS"
+ SAS_DEF:0 "SANS UNDERTALE"
+ SAS_ADJ:0 "SANS"
+ 
+ ANL:0 "AntLand"
+ ANL_DEF:0 "AntLand"
+ ANL_ADJ:0 "Ants"
+ 
+ MOD:0 "Mountain Dictatorship"
+ MOD_DEF:0 "Mountain Dictatorship"
+ MOD_ADJ:0 "Mountainers"
+ 
  #BOTS
  BTA:0 "Iabria"
  BTA_DEF:0 "Iabria"

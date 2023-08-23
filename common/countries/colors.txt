@@ -130,11 +130,37 @@ RNL = {
 	color = rgb { 196 190 77 }
 	color_ui = rgb { 196 190 77 }
 }
+
+CHK = {
+	color = rgb { 196 190 77 }
+	color_ui = rgb { 196 190 77 }
+}
+
+ARC = {
+	color = rgb { 176 224 230 }
+	color_ui = rgb { 176 224 230 }
+}
+
+SAS = {
+	color = rgb { 0 0 139 }
+	color_ui = rgb { 0 0 139 }
+}
+
+ANL = {
+	color = rgb { 139 69 19 }
+	color_ui = rgb { 139 69 19 }
+}
+
+MOD = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+
 # 150, 35, 56
 
 #ROO_FAS = {
-#	color = rgb { 0 49 83 }
-#	color_ui = rgb { 0 49 83 }
+#	color = rgb { 75 0 130 }
+#	color_ui = rgb { 75 0 130 }
 #}
 
 

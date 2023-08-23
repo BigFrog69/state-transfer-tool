@@ -7,8 +7,8 @@ state={
 	}
 	manpower=2000000
 	history={
-		owner = BTB
-		add_core_of = BTB
+		owner = CHK
+		add_core_of = CHK
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3

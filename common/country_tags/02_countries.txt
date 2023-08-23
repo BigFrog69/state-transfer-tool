@@ -6,7 +6,7 @@ ROK	= "countries/RepublicOfKustenkuste.txt" #on bookmark - flag done - focus tre
 NLA	= "countries/TheMapleRepublicOfNationArmyLiberation.txt" #on bookmark - flag done - focus tree needed - leader portrait needed - ideas needed
 WOD	= "countries/woodland.txt" #on bookmark - flag needed - focus tree needed - leader portrait done - ideas needed
 LLB	= "countries/liberland.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
-SSB	= "countries/SocialistStateOfBeyron.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas done
+SSB	= "countries/SocialistStateOfBeyron.txt" #on bookmark - flag done - focus tree DONE - leader portrait done - ideas done
 CSS	= "countries/People'sRepublicOfCoso.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 PUP	= "countries/dictorialship_of_Proto-Uralic_people.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
 FCM	= "countries/French-canadian_monarchy.txt" #on bookmark - flag done - focus tree needed - leader portrait done - ideas needed
@@ -17,12 +17,17 @@ NSA	= "countries/NavianSalvationArmy.txt" #on bookmark - flag done - focus tree 
 IGA	= "countries/interimgulfauthority.txt" #on bookmark - flag needed - focus tree needed - leader portrait done - ideas needed
 RNL	= "countries/RavenLoft.txt" #on bookmark - flag done - focus tree needed - leader portrait needed - ideas needed
 
-FKD	= "countries/FlyKingdom.txt"
-BBD	= "countries/BreakingBad.txt"
-BCS	= "countries/BetterCallSaul.txt"
-USM	= "countries/UnitedStatesMesapotamia.txt"
-USS	= "countries/UnionOfArabianSocialistRepublics.txt"
-HUG	= "countries/Hungady.txt"
+FKD	= "countries/FlyKingdom.txt" #on bookmark - flag done - focus tree needed - leader portrait needed - ideas needed
+BBD	= "countries/BreakingBad.txt" #on bookmark - flag done - focus tree needed - leader portrait needed - ideas needed
+BCS	= "countries/BetterCallSaul.txt" #on bookmark - flag done - focus tree needed - leader portrait needed - ideas needed
+USM	= "countries/UnitedStatesMesapotamia.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed 
+USS	= "countries/UnionOfArabianSocialistRepublics.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+HUG	= "countries/Hungady.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+CHK	= "countries/CheekKingdom.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+ARC	= "countries/ArasidRepublic.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+SAS	= "countries/Sans.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+ANL	= "countries/AntLand.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+MOD	= "countries/MountainDictatorship.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
 
 
