@@ -1,8 +1,9 @@
-
 state={
-	id=29
-	name="STATE_29"
-
+	id=216
+	name="STATE_216"
+	provinces={
+		425 718 944 1887 2574 2851 4583 4698 4756 6014 6051 6080 6109 
+	}
 	history={
 		owner = BTA
 		add_core_of = BTA
@@ -14,11 +15,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		527 2117 2459 2557 2642 3432 4370 4462 4772 4847 6003 6022 6093 6139 
-	}
-	manpower=500000
+	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

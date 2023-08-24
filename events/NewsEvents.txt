@@ -16,5 +16,6 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
+		name = first_beyron_award.1.a
     }
 }

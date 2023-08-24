@@ -1,0 +1,22 @@
+state={
+	id=219
+	name="STATE_219"
+	provinces={
+		309 402 795 1083 1390 1619 1703 1847 3003 3018 3063 3136 3218 3451 3833 4570 4826 4855 5871 5895 5907 5914 5951 
+	}
+	history={
+		owner = BTH
+		add_core_of = BTH
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

@@ -1,8 +1,9 @@
-
 state={
-	id=31
-	name="STATE_31"
-
+	id=213
+	name="STATE_213"
+	provinces={
+		329 490 1376 1663 1754 1961 2033 2105 2152 2404 2425 2439 2720 2797 2958 3151 3447 3915 3940 4298 6043 6103 6129 6173 6183 6199 6200 6215 6221 6232 6236 
+	}
 	history={
 		owner = BTB
 		add_core_of = BTB
@@ -14,11 +15,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		49 1579 1586 2107 2528 2536 2537 2704 2794 2818 3238 3350 3422 3470 3756 3849 4234 4262 4313 4395 4896 6112 6128 6142 6143 6149 6162 6186 6230 6264 
-	}
-	manpower=500000
+	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

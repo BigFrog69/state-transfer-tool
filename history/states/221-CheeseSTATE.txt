@@ -1,11 +1,12 @@
-
 state={
-	id=29
-	name="STATE_29"
-
+	id=221
+	name="STATE_221"
+	provinces={
+		301 1088 2014 2167 2779 3464 4067 4116 5800 5812 5817 
+	}
 	history={
-		owner = BTA
-		add_core_of = BTA
+		owner = BTH
+		add_core_of = BTH
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3
@@ -14,11 +15,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		527 2117 2459 2557 2642 3432 4370 4462 4772 4847 6003 6022 6093 6139 
-	}
-	manpower=500000
+	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000
