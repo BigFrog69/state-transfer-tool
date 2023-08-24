@@ -1031,9 +1031,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			BTC = {
-				country_event = Beyron.14
-			}
+			puppet = BTC
 			every_country = { 
 				news_event = first_beyron_award.1
 			}
