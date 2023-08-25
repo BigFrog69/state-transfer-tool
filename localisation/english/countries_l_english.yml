@@ -135,6 +135,18 @@
  TAT_DEF:0 "Tartarus Empire"
  TAT_ADJ:0 "Tartarus"
  
+ LTS:0 "Lost Souls"
+ LTS_DEF:0 "Lost Souls"
+ LTS_ADJ:0 "Souls"
+ 
+ SMH:0 "SMILE HD"
+ SMH_DEF:0 "SMILE HD"
+ SMH_ADJ:0 "SMILE"
+ 
+ ANC:0 "Anarchist State of Moravia"
+ ANC_DEF:0 "Anarchist State of Moravia"
+ ANC_ADJ:0 "Moravians"
+ 
  #BOTS
  BTA:0 "Iabria"
  BTA_DEF:0 "Iabria"

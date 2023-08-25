@@ -5,8 +5,8 @@ state={
 		410 570 617 877 900 923 1131 1266 1466 1794 1918 1989 2009 2310 2719 2844 2927 3727 3837 4627 4873 6271 6339 6341 6367 6373 6403 6411 
 	}
 	history={
-		owner = USS
-		add_core_of = USS
+		owner = DEN
+		add_core_of = DEN
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0

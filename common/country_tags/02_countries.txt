@@ -33,7 +33,9 @@ SKE = "countries/Skeleton.txt" #on bookmark - flag needed - focus tree needed - 
 MRL = "countries/MarshLand.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 MOE = "countries/Monke.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 TAT = "countries/Tartarus.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
-
+LTS = "countries/LostSouls.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+SMH = "countries/SMILEHD.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+ANC = "countries/ANARCHIST.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
 
 BTA	= "countries/BotNation1.txt"

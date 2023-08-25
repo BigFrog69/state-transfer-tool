@@ -1,0 +1,41 @@
+﻿capital = 2
+
+oob = "LTS_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+}
+
+set_war_support = 0.1
+set_stability = 0.8
+
+recruit_character = LTS_LTS
+
+
+
+
+set_politics = {
+	ruling_party = chad
+	last_election = "1934.6.3"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	chad = 0
+	totalism = 0
+	syndicalism = 0
+	socialism = 10
+	democracy = 2
+	liberalism = 3
+	conservatism = 5
+	authoritarianism = 69
+	autocracy = 10
+	nationalist = 1
+}
+

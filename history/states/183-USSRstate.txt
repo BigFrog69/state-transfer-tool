@@ -6,8 +6,8 @@ state={
 		637 2059 4203 
 	}
 	history={
-		owner = USS
-		add_core_of = USS
+		owner = DEN
+		add_core_of = DEN
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0

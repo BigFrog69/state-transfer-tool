@@ -1,0 +1,20 @@
+state={
+	id=222
+	name="STATE_222"
+	provinces={
+		817 1922 2061 2285 6667 
+	}
+	manpower=5000000
+	history={
+		owner = SMH
+		add_core_of = SMH
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
