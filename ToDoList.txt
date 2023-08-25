@@ -7,5 +7,4 @@ Wood:
 
 
 Alurch:
-- Ideologies
-- Make Bot Nations
+ FIX ERRORS
