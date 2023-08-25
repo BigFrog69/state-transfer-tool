@@ -1,6 +1,6 @@
 state={
 	id=118
-	name="STATE_118"
+	name="ambatukam"
 	provinces={
 		56 109 1413 1753 2200 2757 2829 3193 3826 4127 4859 5518 5554 5736 
 	}
