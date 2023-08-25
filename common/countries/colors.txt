@@ -156,6 +156,34 @@ MOD = {
 	color_ui = rgb { 255 255 255 }
 }
 
+SOS = {
+	color = rgb { 255 127 80 }
+	color_ui = rgb { 255 127 80 }
+}
+
+SKE = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}
+
+MRL = {
+	color = rgb { 255 165 0 }
+	color_ui = rgb { 255 165 0 }
+}
+
+MOE = {
+	color = rgb { 205 133 63 }
+	color_ui = rgb { 205 133 63 }
+}
+
+TAT = {
+	color = rgb { 0 10 0 }
+	color_ui = rgb { 0 10 0 }
+}
+
+
+
+
 # 150, 35, 56
 
 #ROO_FAS = {

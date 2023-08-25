@@ -28,6 +28,11 @@ ARC	= "countries/ArasidRepublic.txt" #on bookmark - flag needed - focus tree nee
 SAS	= "countries/Sans.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 ANL	= "countries/AntLand.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 MOD	= "countries/MountainDictatorship.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+SOS = "countries/Sausage.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+SKE = "countries/Skeleton.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+MRL = "countries/MarshLand.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+MOE = "countries/Monke.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+TAT = "countries/Tartarus.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
 
 

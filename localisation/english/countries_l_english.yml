@@ -115,6 +115,26 @@
  MOD_DEF:0 "Mountain Dictatorship"
  MOD_ADJ:0 "Mountainers"
  
+ SOS:0 "Sausage"
+ SOS_DEF:0 "Sausage"
+ SOS_ADJ:0 "Sausages"
+ 
+ SKE:0 "Skeleton Authority"
+ SKE_DEF:0 "Skeleton Authority"
+ SKE_ADJ:0 "Skeletons"
+ 
+ MRL:0 "Marsh Lands"
+ MRL_DEF:0 "Marsh Lands"
+ MRL_ADJ:0 "Marshers"
+ 
+ MOE:0 "Monke Reich"
+ MOE_DEF:0 "Monke Reich"
+ MOE_ADJ:0 "monkeys"
+ 
+ TAT:0 "Tartarus Empire"
+ TAT_DEF:0 "Tartarus Empire"
+ TAT_ADJ:0 "Tartarus"
+ 
  #BOTS
  BTA:0 "Iabria"
  BTA_DEF:0 "Iabria"
