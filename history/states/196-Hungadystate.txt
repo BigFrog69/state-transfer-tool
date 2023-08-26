@@ -1,9 +1,8 @@
+
 state={
 	id=196
 	name="STATE_196"
-	provinces={
-		730 1019 1297 2315 2328 2450 3612 4303 5860 5927 
-	}
+
 	history={
 		owner = HUG
 		add_core_of = HUG
@@ -11,7 +10,13 @@ state={
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 3
+
 		}
+
+	}
+
+	provinces={
+		1019 1297 2450 4303 5860 5927 
 	}
 	manpower=752630
 	buildings_max_level_factor=1.000

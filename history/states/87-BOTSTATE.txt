@@ -1,11 +1,8 @@
+
 state={
 	id=87
 	name="STATE_87"
-	provinces={
-		363 387 452 634 865 1112 1212 1303 1432 1515 1690 1948 2294 2500 2538 2796 3107 3373 4081 4202 4480 4503 4809 5082 5097 5141 5240 5247 5251 5275 5303 
-	}
-	state_category=megalopolis
-	manpower=1000000
+
 	history={
 		owner = FKD
 		add_core_of = FKD
@@ -13,8 +10,16 @@ state={
 			infrastructure = 1
 			arms_factory = 3
 			industrial_complex = 7
+
 		}
+
 	}
+
+	provinces={
+		363 387 452 634 865 1112 1212 1303 1432 1515 1690 1948 2294 2500 2538 2796 3373 4081 4202 4480 4503 4809 5082 5097 5141 5240 5247 5275 
+	}
+	manpower=1000000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

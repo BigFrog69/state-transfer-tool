@@ -46,6 +46,11 @@ spriteTypes = {
 		name = "GFX_portrait_PUP_Levedi"
 		texturefile = "gfx/leaders/PUP/Levedi.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_SKE_SKE"
+		texturefile = "gfx/leaders/SKE/SKE.dds"
+	}
 
 
 

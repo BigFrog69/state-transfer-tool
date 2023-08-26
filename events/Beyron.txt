@@ -201,6 +201,7 @@ country_event = { #They accept Beyron Award
 		name = Beyron.11.a
 		add_state_core = 193
      HUG = {
+	    transfer_state = 227
 	    transfer_state = 193
 		}
 	}

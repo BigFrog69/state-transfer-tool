@@ -1,0 +1,21 @@
+state={
+	id=227
+	name="STATE_227"
+	provinces={
+		730 2315 2328 3612 
+	}
+	history={
+		owner = BTC
+		add_core_of = HUG
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
