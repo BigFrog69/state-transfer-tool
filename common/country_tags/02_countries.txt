@@ -36,6 +36,7 @@ TAT = "countries/Tartarus.txt" #on bookmark - flag needed - focus tree needed - 
 LTS = "countries/LostSouls.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 SMH = "countries/SMILEHD.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 ANC = "countries/ANARCHIST.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+MRO = "countries/Mrongolia.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
 
 BTA	= "countries/BotNation1.txt"

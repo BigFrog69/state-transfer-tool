@@ -1,0 +1,24 @@
+
+state={
+	id=230
+	name="STATE_230"
+
+	history={
+		owner = MRO
+		add_core_of = MRO
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		186 486 508 847 856 965 1021 1032 1034 1105 1253 1288 1325 1326 1457 1519 1721 1764 1768 1783 2211 2390 2567 2629 2882 2973 2995 3048 3654 3660 3681 3788 4046 4063 4209 4447 4596 4821 4825 5615 5716 5726 5741 5744 5781 5782 5819 5973 5991 6081 6191 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

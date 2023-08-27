@@ -1,0 +1,21 @@
+state={
+	id=228
+	name="STATE_228"
+	provinces={
+		13 672 1327 2708 2759 3162 4358 4443 4559 4724 4736 4768 4802 4832 5416 5448 5451 5501 
+	}
+	history={
+		owner = BCS
+		add_core_of = BCS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

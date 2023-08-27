@@ -635,9 +635,37 @@ ideas = {
 			}
 		}
 
+		Payments_To_Saul = {
 
+			picture = SSB_RedArmy
 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
 
+		Beyron_Payments = {
+
+			picture = SSB_RedArmy
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
 
 
 

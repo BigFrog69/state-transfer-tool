@@ -1,0 +1,21 @@
+state={
+	id=232
+	name="STATE_232"
+	provinces={
+		409 1832 1849 2012 2027 2387 2604 2898 2934 3124 3498 3732 4381 4743 4813 5756 5774 5839 5850 5861 6218 
+	}
+	history={
+		owner = MRO
+		add_core_of = MRO
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+	manpower=420000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

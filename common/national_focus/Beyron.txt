@@ -963,6 +963,9 @@ focus_tree = {
 		y = 1
 		cost = 10
 		prerequisite = { focus = SSB_True_Enemies }
+		available = {
+		NOT = {	has_war_with = BTD }
+		}
 		ai_will_do = {
 			factor = 12
 		}
@@ -984,6 +987,9 @@ focus_tree = {
 		y = 2
 		cost = 10
 		prerequisite = { focus = SSB_Anschluss }
+		available = {
+		NOT = {	has_war_with = BTC }
+		}
 		ai_will_do = {
 			factor = 12
 		}
@@ -1002,6 +1008,9 @@ focus_tree = {
 		y = 3
 		cost = 10
 		prerequisite = { focus = SSB_Demand_The_SuderenLund }
+		available = {
+		NOT = {	has_war_with = BTC }
+		}
 		ai_will_do = {
 			factor = 12
 		}
@@ -1020,6 +1029,9 @@ focus_tree = {
 		y = 4
 		cost = 10
 		prerequisite = { focus = SSB_First_Beyron_Award }
+		available = {
+		NOT = {	has_war_with = BTC }
+		}
 		ai_will_do = {
 			factor = 12
 		}
@@ -1040,6 +1052,9 @@ focus_tree = {
 		y = 2
 		cost = 10
 		prerequisite = { focus = SSB_Anschluss }
+		available = {
+		NOT = {	has_war_with = NSA }
+		}
 		ai_will_do = {
 			factor = 12
 		}
@@ -1057,8 +1072,11 @@ focus_tree = {
 		icon = GFX_goal_Reintegrate
 		x = 29
 		y = 3
-		cost = 10
+		cost = 5
 		prerequisite = { focus = SSB_Demand_Memal }
+		available = {
+		NOT = {	has_war_with = NSA }
+		}
 		ai_will_do = {
 			factor = 12
 		}
@@ -1076,6 +1094,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			date > 2026.08.01
+			NOT = {	has_war_with = FKD }
 		}
 		prerequisite = { focus = SSB_Reintegrate_Memal }
         prerequisite = { focus = SSB_Fate_Of_Elf_Warren }
@@ -1089,12 +1108,34 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SSB_Demand_Mesapotmia #not done
+		id = SSB_Sauls_Coastline_Exchange_For_Support
 		icon = GFX_goal_Mesa
 		x = 32
 		y = 2
 		cost = 10
 		prerequisite = { focus = SSB_Anschluss }
+		available = {
+		date > 2027.01.01
+		NOT = {	has_war_with = BCS }
+		}
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		    BCS = {
+		    country_event = Beyron.18
+		    }
+		}
+	}	
+
+	focus = {
+		id = SSB_Prepare_Operation_Landfish
+		icon = GFX_goal_Mesa
+		x = 32
+		y = 3
+		cost = 10
+		prerequisite = { focus = SSB_Sauls_Coastline_Exchange_For_Support }
 		ai_will_do = {
 			factor = 12
 		}
@@ -1102,9 +1143,7 @@ focus_tree = {
 		completion_reward = {
 
 		}
-	}	
-
-
+	}
 
 
 

@@ -277,7 +277,44 @@ country_event = { #They accept Memal
 	}
 }
 
+country_event = {
+	id = Beyron.18
+	title = Beyron.18.t
+	desc = Beyron.18.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.18.a
+		SSB = {
+			country_event = Beyron.19
+		    effect_tooltip = {
+			    SSB = {
+			    transfer_state = 228
+				}
+			add_ideas = Beyron_Payments
+			}
+		}
+	}
+}
 
+country_event = { #They accept COASTLINE
+	id = Beyron.19
+	title = Beyron.19.t
+	desc = Beyron.19.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.19.a
+     SSB = {
+	    transfer_state = 228
+		}
+	add_ideas = Payments_To_Saul
+	}
+}
 
 
 

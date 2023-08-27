@@ -1,11 +1,8 @@
+
 state={
 	id=95
 	name="STATE_95"
-	provinces={
-		513 886 969 1445 1889 1999 2055 2189 2231 2251 2347 2395 2569 2924 2960 2994 3068 3169 3523 3714 3818 3905 4232 4387 4417 5551 5699 5707 5715 5780 
-	}
-	state_category=megalopolis
-	manpower=500000
+
 	history={
 		owner = BCS
 		add_core_of = BCS
@@ -13,8 +10,16 @@ state={
 			infrastructure = 1
 			arms_factory = 2
 			industrial_complex = 3
+
 		}
+
 	}
+
+	provinces={
+		513 886 969 1445 1564 1889 1999 2055 2189 2231 2251 2347 2395 2569 2924 2960 2994 3068 3169 3523 3714 3818 3905 4232 4387 4417 5551 5699 5707 5715 5780 
+	}
+	manpower=500000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

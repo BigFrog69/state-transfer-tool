@@ -1,0 +1,21 @@
+state={
+	id=231
+	name="STATE_231"
+	provinces={
+		24 555 1323 3666 6181 
+	}
+	history={
+		owner = MRO
+		add_core_of = MRO
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

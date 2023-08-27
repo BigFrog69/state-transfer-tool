@@ -1,0 +1,21 @@
+state={
+	id=229
+	name="STATE_229"
+	provinces={
+		606 2498 5497 
+	}
+	history={
+		owner = BCS
+		add_core_of = BCS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

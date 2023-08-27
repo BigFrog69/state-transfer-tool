@@ -196,6 +196,11 @@ ANC = {
 	color_ui = rgb { 240 128 128 }
 }
 
+MRO = {
+	color = rgb { 69 69 242 }
+	color_ui = rgb { 69 69 242 }
+}
+
 
 # 150, 35, 56
 
