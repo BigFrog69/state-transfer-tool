@@ -5,17 +5,17 @@ state={
 		4 2045 2221 2317 3840 6213 6266 
 	}
 	history={
-		owner = DEN
-		add_core_of = DEN
+		owner = RAS
+		add_core_of = RAS
 		buildings = {
 			infrastructure = 3
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 3
+			industrial_complex = 1
 
 		}
 
 	}
-	manpower=100000
+	manpower=200000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

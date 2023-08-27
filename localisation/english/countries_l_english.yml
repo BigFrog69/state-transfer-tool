@@ -147,6 +147,10 @@
  ANC_DEF:0 "Anarchist State of Moravia"
  ANC_ADJ:0 "Moravians"
  
+ RAS:0 "Raiders"
+ RAS_DEF:0 "Raiders"
+ RAS_ADJ:0 "Raiders"
+ 
  #BOTS
  BTA:0 "Iabria"
  BTA_DEF:0 "Iabria"

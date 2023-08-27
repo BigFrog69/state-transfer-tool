@@ -6,15 +6,15 @@ state={
 		637 2059 4203 
 	}
 	history={
-		owner = DEN
-		add_core_of = DEN
+		owner = RAS
+		add_core_of = RAS
 		buildings = {
-			infrastructure = 3
-			arms_factory = 0
-			industrial_complex = 0
+			infrastructure = 5
+			arms_factory = 8
+			industrial_complex = 9
 		}
 	}
-	manpower=75000
+	manpower=3500000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

@@ -201,6 +201,11 @@ MRO = {
 	color_ui = rgb { 69 69 242 }
 }
 
+RAS = {
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}
+
 
 # 150, 35, 56
 

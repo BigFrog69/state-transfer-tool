@@ -4,12 +4,12 @@ state={
 	name="STATE_190"
 
 	history={
-		owner = DEN
-		add_core_of = DEN
+		owner = RAS
+		add_core_of = RAS
 		buildings = {
 			infrastructure = 3
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 
 		}
 
@@ -18,7 +18,7 @@ state={
 	provinces={
 		69 739 921 985 1578 1642 1982 2102 2515 2533 3050 6227 6268 6270 6272 6302 
 	}
-	manpower=75000
+	manpower=200000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000
