@@ -3,7 +3,7 @@ ideas = {
 	country = {
 		The_Easiest_Enemy = {
 
-			picture = SSB_RedArmy
+			picture = SAS_Hot_Dog
 
 			allowed = {
 				always = no
@@ -19,7 +19,7 @@ ideas = {
 		
 		Dodger = {
 
-			picture = SSB_RedArmy
+			picture = SAS_Hot_Dog
 
 			allowed = {
 				always = no
@@ -35,7 +35,7 @@ ideas = {
 		
 		Lazy_Bones = {
 
-			picture = SSB_RedArmy
+			picture = SAS_Hot_Dog
 
 			allowed = {
 				always = no

@@ -1020,13 +1020,12 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-		HUN = {
-			country_event = { id = Beyron.10 }
+			HUN = {
+				country_event = { id = Beyron.10 }
 			}
-			every_country = { 
-				news_event = first_beyron_award.1
-			}
+			news_event = first_beyron_award.1
 		}
+		
 	}
 	
 	focus = {
