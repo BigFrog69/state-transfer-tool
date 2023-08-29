@@ -5,7 +5,10 @@ spriteTypes = {
 
 
 
-
+	spriteType = {
+		name = "GFX_portrait_SAS_Sans_Off_Work"
+		texturefile = "gfx/leaders/SAS/Sans_Off_Work.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_BTJ_Queen"

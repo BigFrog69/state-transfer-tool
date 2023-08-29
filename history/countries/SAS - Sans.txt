@@ -15,7 +15,7 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = SAS_SAS
+recruit_character = SAS_Sans_Off_Work
 
 add_ideas = {
     The_Easiest_Enemy
