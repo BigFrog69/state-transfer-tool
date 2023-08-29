@@ -1,0 +1,21 @@
+state={
+	id=238
+	name="STATE_238"
+	provinces={
+		115 468 671 769 773 1093 1149 1210 1262 1375 1401 1576 1676 1723 1798 2072 2236 2331 2447 2504 2575 2622 2982 3214 3256 3264 3517 3606 3816 3886 3922 3954 4050 4237 4267 4309 4413 4469 4794 6247 6260 6283 6293 6295 6304 6320 6327 6328 6342 6347 6359 6368 6371 6396 
+	}
+	manpower=2000000
+	state_category = megalopolis
+	history={
+		owner = BTP
+		add_core_of = BTP
+		buildings = {
+			infrastructure = 1
+			arms_factory = 5
+			industrial_complex = 5
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
