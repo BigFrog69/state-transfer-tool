@@ -1,6 +1,6 @@
-﻿capital = 34
+﻿capital = 234
 
-oob = "SAS_1936"
+oob = "WRD_1936"
 
 # Starting tech
 set_technology = {
@@ -12,17 +12,10 @@ set_technology = {
 	basic_train = 1
 }
 
-set_war_support = 0.1
-set_stability = 0.8
+set_war_support = 0.3
+set_stability = 0.1
 
-recruit_character = SAS_SAS
-
-add_ideas = {
-    The_Easiest_Enemy
-	Dodger
-	Lazy_Bones
-}
-
+recruit_character = WRD_IDK
 
 set_politics = {
 	ruling_party = democracy
@@ -34,12 +27,12 @@ set_popularities = {
 	chad = 0
 	totalism = 0
 	syndicalism = 0
-	socialism = 0
-	democracy = 100
+	socialism = 1
+	democracy = 9
 	liberalism = 0
 	conservatism = 0
-	authoritarianism = 0
+	authoritarianism = 70
 	autocracy = 0
-	nationalist = 0
+	nationalist = 20
 }
 

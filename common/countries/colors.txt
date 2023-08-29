@@ -206,6 +206,21 @@ RAS = {
 	color_ui = rgb { 105 105 105 }
 }
 
+SRD = {
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}
+
+WRD = {
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}
+
+ERD = {
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}
+
 
 # 150, 35, 56
 
