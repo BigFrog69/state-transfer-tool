@@ -1,0 +1,19 @@
+characters={
+	PPY_Papyrus={
+		name="Papyrus"
+		portraits={
+			civilian={
+				large=GFX_portrait_PPY_Papyrus
+			}
+			army={
+				small="GFX_portrait_PPY_Papyrus"
+			}
+		}
+		country_leader={
+			ideology=democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

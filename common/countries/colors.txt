@@ -116,6 +116,16 @@ BTB = {
 	color_ui = rgb { 61 114 91 }
 }
 
+BTJ = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+BTL = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+
 USS = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
@@ -142,6 +152,11 @@ ARC = {
 }
 
 SAS = {
+	color = rgb { 0 0 139 }
+	color_ui = rgb { 0 0 139 }
+}
+
+PPY = {
 	color = rgb { 0 0 139 }
 	color_ui = rgb { 0 0 139 }
 }

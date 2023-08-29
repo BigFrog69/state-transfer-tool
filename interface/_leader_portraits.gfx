@@ -3,7 +3,16 @@ spriteTypes = {
 
 
 
+	
+	spriteType = {
+		name = "GFX_portrait_BTL_jorduuuuh"
+		texturefile = "gfx/leaders/BTL/jorduuuuh.dds"
+	}
 
+	spriteType = {
+		name = "GFX_portrait_PPY_Papyrus"
+		texturefile = "gfx/leaders/PPY/Papyrus.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_SAS_Sans_Off_Work"

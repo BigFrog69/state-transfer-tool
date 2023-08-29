@@ -106,6 +106,10 @@
  SAS:0 "SANS"
  SAS_DEF:0 "SANS UNDERTALE"
  SAS_ADJ:0 "SANS"
+
+ PPY:0 "Papyrus"
+ PPY_DEF:0 "Papyrus"
+ PPY_ADJ:0 "Papyrus"
  
  ANL:0 "AntLand"
  ANL_DEF:0 "AntLand"
@@ -213,13 +217,13 @@
  BTK_DEF:0 "Bot Nation 11"
  BTK_ADJ:0 "Bot 11"
 
- BTL:0 "Bot Nation 12"
- BTL_DEF:0 "Bot Nation 12"
- BTL_ADJ:0 "Bot 12"
+ BTL:0 "The Best Reich Ever" #jorduuuuh
+ BTL_DEF:0 "The Best Reich Ever"
+ BTL_ADJ:0 "Best Reich"
 
- BTM:0 "Bot Nation 13"
- BTM_DEF:0 "Bot Nation 13"
- BTM_ADJ:0 "Bot 13"
+ BTM:0 "Königreich Von Griechenland" #livershort187
+ BTM_DEF:0 "Königreich Von Griechenland"
+ BTM_ADJ:0 "Griechenlandian"
 
  BTN:0 "Bot Nation 14"
  BTN_DEF:0 "Bot Nation 14"
@@ -272,3 +276,7 @@
  BTZ:0 "Bot Nation 26"
  BTZ_DEF:0 "Bot Nation 26"
  BTZ_ADJ:0 "Bot 26"
+ #-------------------------------
+ ROO_fascism:0 "Ostryian Empire"
+ ROO_fascism_DEF:0 "Ostryian Empire"
+ ROO_fascism_ADJ:0 "Ostryian"

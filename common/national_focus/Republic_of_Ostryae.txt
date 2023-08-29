@@ -201,11 +201,11 @@ focus_tree = {
             election_frequency = 48
             long_name = CatBoyism
             name = ROO_fascism
-			}
-			country_event = Ostraye.1
-		every_country = { 
-			news_event = fascist_coup_in_ostryae.1
-		    }
+		}
+		country_event = Ostraye.1
+		
+		news_event = fascist_coup_in_ostryae.1
+		
 		}
 	}
 

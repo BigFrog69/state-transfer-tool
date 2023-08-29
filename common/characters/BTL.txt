@@ -1,0 +1,20 @@
+characters={
+	BTL_jorduuuuh={
+		name="Wilhelm III"
+		portraits={
+			civilian={
+				large=GFX_portrait_BTL_jorduuuuh
+			}
+			army={
+				small="GFX_portrait_BTL_jorduuuuh"
+			}
+		}
+		country_leader={
+			ideology= authoritarianism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

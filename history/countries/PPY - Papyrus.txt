@@ -1,6 +1,6 @@
-﻿capital = 52
+﻿capital = 235
 
-oob = "TSB_1936"
+oob = "PPY_1936"
 
 # Starting tech
 set_technology = {
@@ -15,12 +15,15 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = TSB_tucknzig
+recruit_character = PPY_Papyrus
 
+add_ideas = {
+    Papyrus_Special_Attack
+}
 
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = democracy
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
@@ -29,8 +32,8 @@ set_popularities = {
 	chad = 0
 	totalism = 0
 	syndicalism = 0
-	socialism = 100
-	democracy = 0
+	socialism = 0
+	democracy = 100
 	liberalism = 0
 	conservatism = 0
 	authoritarianism = 0

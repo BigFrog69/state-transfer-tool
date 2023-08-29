@@ -237,11 +237,220 @@ focus_tree = {
 	##########################################################################################
 
 	focus = {
-		id = TSB_Foreign_Effort
+		id = TSB_Bureau_of_Foreign_Affairs
 		icon = GFX_goal_generic_construction
-		x = 5
+		x = 6
 		y = 1
 		prerequisite = { focus = TSB_Communism_Best }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_War_Plan_Z
+		icon = GFX_goal_generic_construction
+		x = 4
+		y = 2
+		prerequisite = { focus = TSB_Bureau_of_Foreign_Affairs }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Integrate_The_Oil_Cats
+		icon = GFX_goal_generic_construction
+		x = 4
+		y = 3
+		prerequisite = { focus = TSB_War_Plan_Z }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Alliance_With_USSR
+		icon = GFX_goal_generic_construction
+		x = 4
+		y = 4
+		prerequisite = { focus = TSB_Integrate_The_Oil_Cats }
+		mutually_exclusive = { focus = TSB_War_With_USSR }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_War_Plan_A
+		icon = GFX_goal_generic_construction
+		x = 8
+		y = 2
+		prerequisite = { focus = TSB_Bureau_of_Foreign_Affairs }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Integrate_The_Milk_Cats
+		icon = GFX_goal_generic_construction
+		x = 8
+		y = 3
+		prerequisite = { focus = TSB_War_Plan_A }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_War_With_USSR
+		icon = GFX_goal_generic_construction
+		x = 8
+		y = 4
+		prerequisite = { focus = TSB_Integrate_The_Milk_Cats }
+		mutually_exclusive = { focus = TSB_Alliance_With_USSR }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Destroy_The_Syndacalist_Threat
+		icon = GFX_goal_generic_construction
+		x = 6
+		y = 5
+		prerequisite = { focus = TSB_Alliance_With_USSR focus = TSB_War_With_USSR }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+
+	##########################################################################################
+
+	focus = {
+		id = TSB_Dockyard_Effort
+		icon = GFX_goal_generic_construction
+		x = 12
+		y = 1
+		prerequisite = { focus = TSB_Communism_Best }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_The_Grand_Red
+		icon = GFX_goal_generic_construction
+		x = 12
+		y = 2
+		prerequisite = { focus = TSB_Dockyard_Effort }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_The_Cat_Cape_Strat_Region
+		icon = GFX_goal_generic_construction
+		x = 12
+		y = 3
+		prerequisite = { focus = TSB_The_Grand_Red }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Cruiser_Effort
+		icon = GFX_goal_generic_construction
+		x = 12
+		y = 4
+		prerequisite = { focus = TSB_The_Cat_Cape_Strat_Region }
+		relative_position_id = TSB_Communism_Best
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = TSB_Expand_The_Dockyards
+		icon = GFX_goal_generic_construction
+		x = 12
+		y = 5
+		prerequisite = { focus = TSB_Cruiser_Effort }
 		relative_position_id = TSB_Communism_Best
 		cost = 1
 		ai_will_do = {
