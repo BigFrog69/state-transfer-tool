@@ -4,12 +4,12 @@ state={
 	name="STATE_179"
 
 	history={
-		owner = DEN
-		add_core_of = DEN
+		owner = ERD
+		add_core_of = ERD
 		buildings = {
 			infrastructure = 3
-			arms_factory = 3
-			industrial_complex = 8
+			arms_factory = 2
+			industrial_complex = 3
 
 		}
 
@@ -18,7 +18,7 @@ state={
 	provinces={
 		39 187 198 259 488 750 1016 1276 1329 1460 1623 1793 1981 2000 2484 2846 3419 3479 3610 4029 4432 4607 6136 6185 6228 6259 6330 6331 
 	}
-	manpower=5000000
+	manpower=1500000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

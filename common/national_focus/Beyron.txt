@@ -583,7 +583,7 @@ focus_tree = {
 		relative_position_id = SSB_Finish_The_Three_Year_Plan
 		cost = 3
 		available = {
-		has_war_with = FKD
+		has_war = yes
 		}
 		ai_will_do = {
 			factor = 12
@@ -623,6 +623,10 @@ focus_tree = {
         }
 	}
 	
+	
+	
+	
+	#####ARMY
 	focus = {
 		id = SSB_Army_Preperations
 		icon = GFX_goal_ArmyPreperations
@@ -1019,6 +1023,9 @@ focus_tree = {
 		HUN = {
 			country_event = { id = Beyron.10 }
 			}
+			every_country = { 
+				news_event = first_beyron_award.1
+			}
 		}
 	}
 	
@@ -1038,10 +1045,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			puppet = BTC
-			every_country = { 
-				news_event = first_beyron_award.1
-			}
-			
 		}
 	}
 	

@@ -38,6 +38,9 @@ SMH = "countries/SMILEHD.txt" #on bookmark - flag needed - focus tree needed - l
 ANC = "countries/ANARCHIST.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 MRO = "countries/Mrongolia.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 RAS = "countries/Raiders.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+ERD = "countries/Raiders2.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+SRD = "countries/Raiders3.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+WRD = "countries/Raiders4.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
 
 BTA	= "countries/BotNation1.txt"

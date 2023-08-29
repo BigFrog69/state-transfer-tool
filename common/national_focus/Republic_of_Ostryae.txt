@@ -203,6 +203,9 @@ focus_tree = {
             name = ROO_fascism
 			}
 			country_event = Ostraye.1
+		every_country = { 
+			news_event = fascist_coup_in_ostryae.1
+		    }
 		}
 	}
 

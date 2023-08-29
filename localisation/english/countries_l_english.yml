@@ -150,6 +150,18 @@
  RAS:0 "Raiders"
  RAS_DEF:0 "Raiders"
  RAS_ADJ:0 "Raiders"
+
+ ERD:0 "Eastern Raiders"
+ ERD_DEF:0 "Eastern Raiders"
+ ERD_ADJ:0 "Raiders"
+ 
+ SRD:0 "Southern Raiders"
+ SRD_DEF:0 "Southern Raiders"
+ SRD_ADJ:0 "Raiders"
+ 
+ WRD:0 "Western Raiders"
+ WRD_DEF:0 "Western Raiders"
+ WRD_ADJ:0 "Raiders"
  
  #BOTS
  BTA:0 "Iabria"

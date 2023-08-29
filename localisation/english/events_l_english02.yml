@@ -50,9 +50,16 @@
  Beyron.9.d:0 "Many ethnic Frogs lived in the SuderenLund"
  Beyron.9.a:0 "One step closer..."
 
+#BEYRON
  first_beyron_award.1.t:0 "First Beyron Award"
- first_beyron_award.1.d:0 "Blah Blah Elves..."
- first_beyron_award.1.a:0 "Yippe!"
+ first_beyron_award.1.d:0 "Since the lost of the first Spritekrieg, Beyron suffered in turmoil and coups. Many of its population left to neighbouring states, leaving Beyron in a severe depression. Now Beyron is starting to cause trouble in our world leaving the majors to destroy Beyron. We dont know their next objective but, war is near."
+ first_beyron_award.1.a:0 "Excelent!"
+ 
+ 
+#OSTRYAE
+ fascist_coup_in_ostryae.1.t:0 "New Fascist Leadership In Ostryae!"
+ fascist_coup_in_ostryae.1.d:0 "A few hours ago a fascist coup happened in Ostryae, crowds of civilians in the Ostryae Empire cheered for the new regime.A new beginning for the Ostryae Empire. Yep fascism bad."
+ fascist_coup_in_ostryae.1.a:0 "What does this mean for the Ostryae Empire?"
 
 
 

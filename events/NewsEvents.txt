@@ -2,6 +2,9 @@
 # News Events
 ###########################
 
+######BEYRON######
+
+
 add_namespace = first_beyron_award
 
 # Marco Polo Bridge I
@@ -17,5 +20,25 @@ news_event = {
 	
 	option = {
 		name = first_beyron_award.1.a
+    }
+}
+
+##OSTRAYE##
+
+add_namespace = fascist_coup_in_ostryae
+
+# New leadership
+news_event = {
+	id = fascist_coup_in_ostryae.1
+	title = fascist_coup_in_ostryae.1.t
+	desc = fascist_coup_in_ostryae.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = fascist_coup_in_ostryae.1.a
     }
 }
