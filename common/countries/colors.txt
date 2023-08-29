@@ -116,51 +116,6 @@ BTB = {
 	color_ui = rgb { 61 114 91 }
 }
 
-BTK = {
-	color = rgb { 240 180 180 }
-	color_ui = rgb { 61 114 91 }
-}
-
-BTL = {
-	color = rgb { 240 180 180 }
-	color_ui = rgb { 61 114 91 }
-}
-
-BTM = {
-	color = rgb { 240 180 180 }
-	color_ui = rgb { 61 114 91 }
-}
-
-BTN = {
-	color = rgb { 240 180 180 }
-	color_ui = rgb { 61 114 91 }
-}
-
-BTO = {
-	color = rgb { 240 180 180 }
-	color_ui = rgb { 61 114 91 }
-}
-
-BTP = {
-	color = rgb { 240 180 180 }
-	color_ui = rgb { 61 114 91 }
-}
-
-BTQ = {
-	color = rgb { 240 180 180 }
-	color_ui = rgb { 61 114 91 }
-}
-
-BTR = {
-	color = rgb { 240 180 180 }
-	color_ui = rgb { 61 114 91 }
-}
-
-BTS = {
-	color = rgb { 240 180 180 }
-	color_ui = rgb { 61 114 91 }
-}
-
 USS = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }

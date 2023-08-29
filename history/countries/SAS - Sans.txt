@@ -1,4 +1,4 @@
-﻿capital = 32
+﻿capital = 34
 
 oob = "SAS_1936"
 
@@ -15,11 +15,10 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = SAS_Sans_Off_Work
+recruit_character = SAS_SAS
 
 add_ideas = {
-	Gone_For_Break_Sign_Sans_Idea
-	The_easiest_enemy
+
 }
 
 
