@@ -17,6 +17,11 @@ set_stability = 0.9
 
 recruit_character = SMH_SMH
 
+add_ideas = {
+    SMILE
+	SUNSHINE
+}
+
 set_politics = {
 	ruling_party = totalism
 	last_election = "1934.6.3"

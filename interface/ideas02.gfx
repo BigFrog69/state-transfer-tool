@@ -96,6 +96,16 @@ spriteTypes = {
 		name = "GFX_idea_SSB_Outpuit"
 		texturefile = "gfx/interface/ideas/Outpuit.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_Blood"
+		texturefile = "gfx/interface/ideas/Blood.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Bloodmoon"
+		texturefile = "gfx/interface/ideas/Bloodmoon.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_SSB_RedArmy"

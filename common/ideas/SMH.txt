@@ -1,0 +1,43 @@
+ideas = {
+
+	country = {
+		SMILE = {
+
+			picture = Blood
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.25
+			}
+		}
+		
+		SUNSHINE = {
+
+			picture = Bloodmoon
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = -0.1
+				acclimatization_hot_climate_gain_factor = 0.5
+			}
+		}
+	}
+}
