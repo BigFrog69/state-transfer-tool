@@ -14,6 +14,104 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Eli_Von_Karter
+			ledger = Civilian
+			traits = { Rural_Populist }      # Unspecified cost defaults to 150.
+			allowed = {
+				tag = NLA
+			}
+		}
 	}
-
+	NLA_Eli_Von_Karter= {
+		name="Eli Von Karter"
+		portraits= {
+			civilian= {
+				large="GFX_portrait_NLA_Eli_Von_Karter"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Eli_Von_Karter
+			ledger = Civilian
+			traits = { Rural_Populist }
+			allowed = {
+				tag = NLA
+			}
+			cost = 250
+		}
+	}
+	NLA_Marcois_Greapo= {
+		name="Marcois Greapo"
+		portraits= {
+			civilian= {
+				large="GFX_portrait_NLA_Marcois_Greapo"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Marcois_Greapo
+			ledger = Civilian
+			traits = { Friendly_Preacher }
+			allowed = {
+				tag = NLA
+			}
+			cost = 100
+		}
+	}
+	NLA_Ely_Tutona= {
+		name="Ely Tutona"
+		portraits= {
+			civilian= {
+				large="GFX_portrait_NLA_Ely_Tutona"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Ely_Tutona
+			ledger = Civilian
+			traits = { Ruthless_Industrialist }
+			allowed = {
+				tag = NLA
+			}
+			cost = 100
+		}
+	}
+	NLA_Quela_Ternhal= {
+		name="Quela Ternhal"
+		portraits= {
+			civilian= {
+				large="GFX_portrait_Quela_Ternhal"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Quela_Ternhal
+			ledger = Civilian
+			traits = { Financial_Expert }
+			allowed = {
+				tag = NLA
+			}
+			cost = 100
+		}
+	}
+	NLA_United_Worker's_of_syndicates= {
+		name="United Worker's of Syndicates"
+		portraits= {
+			civilian= {
+				large="GFX_portrait_United_Worker's_of_syndicates"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = United_Worker's_of_syndicates
+			ledger = Civilian
+			traits = { Ambitious_Union_Boss }
+			allowed = {
+				tag = NLA
+			}
+			cost = 150
+		}
+	}
 }

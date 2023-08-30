@@ -16,6 +16,11 @@ set_war_support = 0.1
 set_stability = 0.8
 
 recruit_character = NLA_leader
+recruit_character = NLA_Eli_Von_Karter
+recruit_character = NLA_Marcois_Greapo
+recruit_character = NLA_Ely_Tutona
+recruit_character = NLA_Quela_Ternhal
+recruit_character = NLA_United_Worker's_of_syndicates
 
 
 
