@@ -1,25 +1,24 @@
 
 state={
-	id=54
-	name="STATE_54"
+	id=238
+	name="STATE_238"
 
 	history={
 		owner = NSA
 		add_core_of = NSA
 		buildings = {
 			infrastructure = 1
-			arms_factory = 3
-			industrial_complex = 7
+			arms_factory = 1
+			industrial_complex = 3
 
 		}
 
 	}
 
 	provinces={
-		427 467 1652 1853 1933 3189 3242 3506 3602 4902 4905 4910 4915 
+		144 519 961 1216 1458 1643 1896 2385 2676 2694 2767 3306 4285 4573 5160 5175 5188 5192 5195 5206 5229 5235 5255 5288 
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
 	local_supplies=0.000
 }

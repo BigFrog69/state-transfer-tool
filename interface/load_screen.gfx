@@ -21,6 +21,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_Drip_Frog"
+		texturefile = "gfx/interface/Drip_Frog.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_loadingstatus_bg"
 		texturefile = "gfx/interface/Loadingscreen_loadingstatus.dds"
 	}

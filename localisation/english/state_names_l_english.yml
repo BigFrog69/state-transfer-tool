@@ -54,6 +54,15 @@
  
  #NSA
  STATE_206:0 "Mamel"
+ STATE_238:0 "Forgen"
+ STATE_239:0 "Hive Frellagen"
+ STATE_240:0 "North Ameben"
+ STATE_241:0 "Land of Plenty"
+ STATE_242:0 "Fligen"
+ STATE_243:0 "Colony Tengen"
+ STATE_244:0 "Middle Lands"
+ STATE_245:0 "Elengon vall"
+ STATE_54:0 "Hive Articana"
  
  #FKD
  STATE_88:0 "Pavel"

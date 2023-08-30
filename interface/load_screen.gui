@@ -41,6 +41,13 @@ guiTypes = {
 			Orientation = "LOWER_Left"
 		}
 		
+		iconType = {
+			name ="bg_ad_Drip"
+			spriteType = "GFX_Drip_Frog"
+			position = { x= 700 y = -1000 }
+			Orientation = "LOWER_Left"
+		}
+		
 				
 		windowType = {
 			name = "status"

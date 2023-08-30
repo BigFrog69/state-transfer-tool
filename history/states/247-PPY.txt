@@ -1,8 +1,9 @@
-
 state={
-	id=235
-	name="STATE_235"
-
+	id=247
+	name="STATE_247"
+	provinces={
+		736 4227 4540 
+	}
 	history={
 		owner = PPY
 		add_core_of = PPY
@@ -10,18 +11,9 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2
-
 		}
-		victory_points = {
-			4227 60 
-		}
-
 	}
-
-	provinces={
-		3686 4636 5925 
-	}
-	manpower=1500000
+	manpower=1000000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

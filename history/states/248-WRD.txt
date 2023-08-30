@@ -1,0 +1,21 @@
+state={
+	id=248
+	name="STATE_248"
+	provinces={
+		53 164 175 200 267 572 656 712 843 844 860 933 1113 1119 1209 1805 1990 2028 2219 2266 2423 2482 2576 2627 3049 3343 3515 3570 3744 3795 3805 4013 4316 4609 4791 6345 6404 6452 6508 6517 6523 6534 6567 
+	}
+	history={
+		owner = WRD
+		add_core_of = WRD
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=244
+	name="STATE_244"
+	provinces={
+		234 910 1353 1556 1585 1682 1715 1874 1930 1996 2382 2394 2621 3143 3580 4921 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
