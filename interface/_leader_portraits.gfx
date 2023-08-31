@@ -3,6 +3,12 @@ spriteTypes = {
 
 
 
+
+	spriteType = {
+		name = "GFX_portrait_BTM_Ashoka_Tano"
+		texturefile = "gfx/leaders/BTM/Ashoka_Tano.dds"
+	}
+
 	
 	spriteType = {
 		name = "GFX_portrait_BTL_jorduuuuh"

@@ -16,6 +16,7 @@ set_war_support = 0.3
 set_stability = 0.5
 
 recruit_character = SSB_bigfrrog
+recruit_character = SSB_Clockwork_Engineer
 
 add_ideas = {
 	Red_council

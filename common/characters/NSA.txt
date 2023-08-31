@@ -16,4 +16,24 @@ characters={
 		}
 	}
 
+NSA_Clockwork_Engineer= {
+		name="Veniga Trojana"
+		portraits= {
+			civilian= {
+				large="GFX_portrait_Clockwork_Engineers"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Veniga_Trojana
+			ledger = Civilian
+			traits = { Clockwork_Engineer }
+			allowed = {
+				controls_state = 54
+				tag = NSA
+			}
+			cost = 250
+		}
+	}
+
 }

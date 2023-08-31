@@ -1,0 +1,20 @@
+characters={
+	BTM_NPC_DUDE={
+		name="Ashoka Tano"
+		portraits={
+			civilian={
+				large=GFX_portrait_BTM_Ashoka_Tano
+			}
+			army={
+				small="GFX_portrait_BTM_Ashoka_Tano"
+			}
+		}
+		country_leader={
+			ideology= democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

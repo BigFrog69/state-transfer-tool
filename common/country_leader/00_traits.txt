@@ -16,10 +16,11 @@ leader_traits = {
 
 
 
+
 	Rural_Populist = {
 		random = no
-		political_power_cost = 0.8
-		political_power_gain = - 0.15
+		political_power_cost = 0.15
+		political_power_gain = - 0.8
 		monthly_population = 2.5
 		recruitable_population_factor = 0.35
 
@@ -60,6 +61,18 @@ leader_traits = {
 		production_factory_efficiency_gain_factor = 0.45
 		production_factory_max_efficiency_factor = 0.45
 		production_factory_max_efficiency_factor = 0.45
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Clockwork_Engineer = {
+		random = no
+		industrial_capacity_factory = 8.35
+		production_factory_max_efficiency_factor = 8.45
+		production_speed_civilian_factory_factor = 8.45
+		production_speed_military_factory_factor = 8.35
+		
 
 		ai_will_do = {
 			factor = 1

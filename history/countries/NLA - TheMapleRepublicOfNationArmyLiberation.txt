@@ -21,6 +21,7 @@ recruit_character = NLA_Marcois_Greapo
 recruit_character = NLA_Ely_Tutona
 recruit_character = NLA_Quela_Ternhal
 recruit_character = NLA_United_Worker's_of_syndicates
+recruit_character = NLA_Clockwork_Engineer
 
 
 

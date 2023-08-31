@@ -17,8 +17,13 @@ set_stability = 0.1
 
 recruit_character = RAS_IDK
 
+
+puppet = WRD
+puppet = SRD
+puppet = ERD
+
 set_politics = {
-	ruling_party = democracy
+	ruling_party = autocracy
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
@@ -31,8 +36,8 @@ set_popularities = {
 	democracy = 9
 	liberalism = 0
 	conservatism = 0
-	authoritarianism = 70
-	autocracy = 0
+	authoritarianism = 0
+	autocracy = 70
 	nationalist = 20
 }
 

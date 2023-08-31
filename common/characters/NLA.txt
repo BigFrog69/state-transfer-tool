@@ -1,6 +1,6 @@
 characters={
 	NLA_leader={
-		name="Justinian and his Marshal"
+		name="Republican Council"
 		portraits={
 			civilian={
 				large=GFX_portrait_NLA_leader
@@ -43,7 +43,7 @@ characters={
 		}
 	}
 	NLA_Marcois_Greapo= {
-		name="Marcois Greapo"
+		name=NLA_Character_Marcois_Greapo
 		portraits= {
 			civilian= {
 				large="GFX_portrait_NLA_Marcois_Greapo"
@@ -61,7 +61,7 @@ characters={
 		}
 	}
 	NLA_Ely_Tutona= {
-		name="Ely Tutona"
+		name=NLA_Character_Ely_Tutona
 		portraits= {
 			civilian= {
 				large="GFX_portrait_NLA_Ely_Tutona"
@@ -79,7 +79,7 @@ characters={
 		}
 	}
 	NLA_Quela_Ternhal= {
-		name="Quela Ternhal"
+		name=NLA_Character_Quela_Ternhal
 		portraits= {
 			civilian= {
 				large="GFX_portrait_Quela_Ternhal"
@@ -97,7 +97,7 @@ characters={
 		}
 	}
 	NLA_United_Worker's_of_syndicates= {
-		name="United Worker's of Syndicates"
+		name=NLA_Character_United_Worker's_of_syndicates
 		portraits= {
 			civilian= {
 				large="GFX_portrait_United_Worker's_of_syndicates"
@@ -112,6 +112,25 @@ characters={
 				tag = NLA
 			}
 			cost = 150
+		}
+	}
+	NLA_Clockwork_Engineer= {
+		name=NLA_Character_Veniga_Trojana
+		portraits= {
+			civilian= {
+				large="GFX_portrait_Clockwork_Engineers"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Veniga_Trojana
+			ledger = Civilian
+			traits = { Clockwork_Engineer }
+			allowed = {
+				controls_state = 54
+				tag = NLA
+			}
+			cost = 250
 		}
 	}
 }

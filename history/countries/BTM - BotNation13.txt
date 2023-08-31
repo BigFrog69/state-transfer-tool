@@ -21,21 +21,21 @@ recruit_character = BTM_NPC_DUDE
 
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = democracy
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	chad = 0
+	chad = 1
 	totalism = 0
 	syndicalism = 0
-	socialism = 0
-	democracy = 0
+	socialism = 5
+	democracy = 79
 	liberalism = 0
 	conservatism = 0
-	authoritarianism = 100
+	authoritarianism = 10
 	autocracy = 0
-	nationalist = 0
+	nationalist = 5
 }
 
