@@ -11,21 +11,43 @@ focus_tree = {
 	}
 	
 	default = no
+	
+	focus = {
+		id = ROB_Long_Live_Democracy_2
+		icon = GFX_goal_generic_construction
+		x = 11
+		y = 0
+		cost = 10
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		    ROB = {
+		    country_event = { days = 195 id = Bretain.2 }
+		    }
+	    }
+	}
 
 	focus = {
 		id = ROB_New_Beginning
 		icon = GFX_goal_generic_construction
 		x = 11
 		y = 0
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+		    ROB = {
+		    country_event = Bretain.1
 		    }
-	    }
+		}
+	}
 
 	focus = {
 		id = ROB_Long_Live_Democracy
@@ -33,13 +55,13 @@ focus_tree = {
 		prerequisite = { focus = ROB_New_Beginning }
 		x = 11
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+            add_idea = ROB_Democratic_Will
 		}
 	}
 
@@ -49,7 +71,7 @@ focus_tree = {
 		prerequisite = { focus = ROB_Long_Live_Democracy }
 		x = 11
 		y = 2
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
@@ -65,7 +87,7 @@ focus_tree = {
 		prerequisite = { focus = ROB_Research }
 		x = 10
 		y = 3
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
@@ -83,7 +105,7 @@ focus_tree = {
 		available = {
 		NOT = { has_idea = ROB_Stable_Economy }
 		}	
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
@@ -98,7 +120,10 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = 19
 		y = 0
-		cost = 10
+		cost = 5
+		available = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 12
 		}
@@ -379,7 +404,7 @@ focus_tree = {
 		prerequisite = { focus = ROB_Research }
 		x = 12
 		y = 3
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
@@ -390,7 +415,7 @@ focus_tree = {
     }
 
 	focus = {
-		id = Rob_Coffee
+		id = Rob_Civilian_Works
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Good_Business }
 		prerequisite = { focus = ROB_Stable_Economy }
@@ -423,7 +448,7 @@ focus_tree = {
     }
 
 	focus = {
-		id = Rob_Sell_Kids
+		id = Rob_Sell_Coffee
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_New_Deal }
 		x = 13
@@ -441,7 +466,7 @@ focus_tree = {
 	focus = {
 		id = Rob_New_Deal
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_Coffee }
+		prerequisite = { focus = Rob_Civilian_Works }
 		x = 11
 		y = 5
 		cost = 10
@@ -508,7 +533,7 @@ focus_tree = {
 		prerequisite = { focus = Rob_Free_Trade }
 		prerequisite = { focus = Rob_Sell_Movies }
 		prerequisite = { focus = Rob_Sell_Pringles }
-		prerequisite = { focus = Rob_Sell_Kids }
+		prerequisite = { focus = Rob_Sell_Coffee }
 		prerequisite = { focus = Rob_Caprisun }
 		x = 11
 		y = 8

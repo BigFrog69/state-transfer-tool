@@ -1,0 +1,36 @@
+###########################
+# Bretain Events
+###########################
+
+add_namespace = Bretain
+
+country_event = {
+	id = Bretain.1
+	title = Bretain.1.t
+	desc = Bretain.1.d
+	picture = GFX_report_event_bunker_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Bretain.1.a
+		complete_national_focus = ROB_Long_Live_Democracy_2
+		complete_national_focus = ROB_Long_Live_Democracy
+		complete_national_focus = Rob_Army_Restrictions
+	}
+}
+
+country_event = {
+	id = Bretain.2
+	title = Bretain.2.t
+	desc = Bretain.2.d
+	picture = GFX_report_event_bunker_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Bretain.2.a
+		remove_ideas = ROB_Stable_Economy
+		add_ideas = ROB_Busted_Economy
+	}
+}

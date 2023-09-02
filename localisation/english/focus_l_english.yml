@@ -133,7 +133,15 @@
  SSB_Reintegrate_Memal:0 "Reintegrate Memal"
  SSB_Reintegrate_Memal_desc:0 "Welcome back fellow frogs."
 
-
+#Bretain
+ ROB_New_Beginning:0 "New Beginning"
+ ROB_New_Beginning_desc:0 "New opportunities."
+ ROB_Long_Live_Democracy:0 "Long Live Democracy"
+ ROB_Long_Live_Democracy_desc:0 "Democracy will live on!"
+ ROB_Long_Live_Democracy_2:0 "Long Live Democracy"
+ ROB_Long_Live_Democracy_2_desc:0 "Democracy will live on!"
+ Rob_Army_Restrictions:0 "Army Restrictions"
+ Rob_Army_Restrictions_desc:0 "We need to improve."
 
 
 

@@ -61,7 +61,13 @@
  fascist_coup_in_ostryae.1.d:0 "A few hours ago a fascist coup happened in Ostryae, crowds of civilians in the Ostryae Empire cheered for the new regime.A new beginning for the Ostryae Empire. Yep fascism bad."
  fascist_coup_in_ostryae.1.a:0 "What does this mean for the Ostryae Empire?"
 
-
+#Bretain
+ Bretain.1.t:0 "A New Beginning!"
+ Bretain.1.d:0 "Lets boost our economy and strike against any who want to oppose us!"
+ Bretain.1.a:0 "Lets Go!"
+ Bretain.2.t:0 "Economic Crash!"
+ Bretain.2.d:0 "Due to losses in the recent year due to Trading, lack of resources and a famine our Economy has crashed and we need to get Loans from other countries! Or rather not?"
+ Bretain.2.a:0 "Damn."
 
 
 
