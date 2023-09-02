@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = ROB_New_Beginning
 		icon = GFX_goal_generic_construction
-		x = 10
+		x = 11
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -28,10 +28,10 @@ focus_tree = {
 	    }
 
 	focus = {
-		id = ROB_Democracy
+		id = ROB_Long_Live_Democracy
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = ROB_New_Beginning }
-		x = 10
+		x = 11
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -46,8 +46,8 @@ focus_tree = {
 	focus = {
 		id = ROB_Research
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = ROB_Democracy }
-		x = 10
+		prerequisite = { focus = ROB_Long_Live_Democracy }
+		x = 11
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -78,9 +78,8 @@ focus_tree = {
 	focus = {
 		id = Rob_Market_Drop
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = ROB_Research }
-		x = 6
-		y = 3
+		x = 30
+		y = 0
 		available = {
 		NOT = { has_idea = ROB_Stable_Economy }
 		}	
@@ -97,9 +96,8 @@ focus_tree = {
 	focus = {
 		id = Rob_Army_Restrictions
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = ROB_Research }
-		x = 14
-		y = 3
+		x = 19
+		y = 0
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -117,8 +115,25 @@ focus_tree = {
 		id = Rob_Army_Path
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Army_Restrictions }
-		x = 13
-		y = 5
+		mutually_exclusive = { focus = Rob_Navy_Path }
+		x = 14
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+            }
+		}
+		
+	focus = {
+		id = Rob_Infantry_Equipment
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Army_Path }
+		x = 14
+		y = 2
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -133,8 +148,9 @@ focus_tree = {
 		id = Rob_Navy_Path
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Army_Restrictions }
-		x = 15
-		y = 5
+		mutually_exclusive = { focus = Rob_Army_Path }
+		x = 24
+		y = 1
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -149,8 +165,8 @@ focus_tree = {
 		id = Rob_More_Army_Stuff
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Army_Path }
-		x = 13
-		y = 6
+		x = 16
+		y = 2
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -165,8 +181,75 @@ focus_tree = {
 		id = Rob_More_Navy_Stuff
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Navy_Path }
-		x = 15
-		y = 6
+		x = 22
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+            }
+		}
+		
+	focus = {
+		id = Rob_Submarines
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Navy_Path }
+		x = 24
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+            }
+		}
+		
+	focus = {
+		id = Rob_Naval_Supremacy
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_More_Navy_Stuff }
+		prerequisite = { focus = Rob_Submarines }
+		x = 20
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+            }
+		}
+		
+	focus = {
+		id = Rob_Cruisers
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_More_Navy_Stuff }
+		prerequisite = { focus = Rob_Submarines }
+		x = 24
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+            }
+		}
+		
+	focus = {
+		id = Rob_Battleships
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_More_Navy_Stuff }
+		prerequisite = { focus = Rob_Submarines }
+		x = 22
+		y = 3
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -180,9 +263,72 @@ focus_tree = {
 	focus = {
 		id = Rob_More_More_Army_Stuff
 		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_Tanks }
+		prerequisite = { focus = Rob_Support }
+		prerequisite = { focus = Rob_Second_Army_Wave }
+		x = 18
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+            }
+		}
+		
+	focus = {
+		id = Rob_Tanks
+		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_More_Army_Stuff }
-		x = 13
-		y = 7
+		prerequisite = { focus = Rob_Infantry_Equipment }
+		x = 16
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_tech_bonus = {
+			name = armor_bonus
+			bonus = 1.0
+			uses = 2
+			category = armor
+	    	}
+        }
+	}
+		
+	focus = {
+		id = Rob_Support
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_More_Army_Stuff }
+		prerequisite = { focus = Rob_Infantry_Equipment }
+		x = 14
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+				add_tech_bonus = {
+					bonus = 1.0
+					uses = 1
+					name = mech_army_bonus
+					technology = mechanised_infantry
+				}
+            }
+		}
+		
+	focus = {
+		id = Rob_Second_Army_Wave
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Rob_More_Army_Stuff }
+		prerequisite = { focus = Rob_Infantry_Equipment }
+		x = 18
+		y = 3
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -196,9 +342,11 @@ focus_tree = {
 	focus = {
 		id = Rob_More_More_Navy_Stuff
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_More_Navy_Stuff }
-		x = 15
-		y = 7
+		prerequisite = { focus = Rob_Naval_Supremacy }
+		prerequisite = { focus = Rob_Battleships }
+		prerequisite = { focus = Rob_Cruisers }
+		x = 20
+		y = 4
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -213,27 +361,24 @@ focus_tree = {
 		id = Rob_No_More_Army_Restrictions
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_More_More_Navy_Stuff focus = Rob_More_More_Army_Stuff }
-		x = 14
-		y = 8
+		x = 19
+		y = 6
 		cost = 10
 		ai_will_do = {
 			factor = 12
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-        swap_ideas = {
-            remove_idea = ROB_Army_Restrictions_2
-            add_idea = New_Army
-            }
+		remove_ideas = ROB_Army_Restrictions_2
         }
     }
 
 	focus = {
 		id = Rob_Good_Business
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = ROB_Stable_Economy }
-		x = 10
-		y = 4
+		prerequisite = { focus = ROB_Research }
+		x = 12
+		y = 3
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -248,8 +393,9 @@ focus_tree = {
 		id = Rob_Coffee
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Good_Business }
-		x = 9
-		y = 5
+		prerequisite = { focus = ROB_Stable_Economy }
+		x = 11
+		y = 4
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -263,8 +409,8 @@ focus_tree = {
 	focus = {
 		id = Rob_Caprisun
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_Good_Business }
-		x = 10
+		prerequisite = { focus = Rob_New_Deal }
+		x = 9
 		y = 6
 		cost = 10
 		ai_will_do = {
@@ -279,9 +425,9 @@ focus_tree = {
 	focus = {
 		id = Rob_Sell_Kids
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_Caprisun }
-		x = 10
-		y = 7
+		prerequisite = { focus = Rob_New_Deal }
+		x = 13
+		y = 6
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -295,9 +441,9 @@ focus_tree = {
 	focus = {
 		id = Rob_New_Deal
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_Sell_Kids }
-		x = 10
-		y = 8
+		prerequisite = { focus = Rob_Coffee }
+		x = 11
+		y = 5
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -312,8 +458,8 @@ focus_tree = {
 		id = Rob_Sell_Pringles
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_New_Deal }
-		x = 9
-		y = 9
+		x = 7
+		y = 6
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -328,8 +474,8 @@ focus_tree = {
 		id = Rob_Sell_Movies
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_New_Deal }
-		x = 11
-		y = 9
+		x = 15
+		y = 6
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -343,10 +489,9 @@ focus_tree = {
 	focus = {
 		id = Rob_Free_Trade
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_Sell_Pringles }
-		prerequisite = { focus = Rob_Sell_Movies }
-		x = 10
-		y = 10
+		prerequisite = { focus = Rob_New_Deal }
+		x = 11
+		y = 6
 		cost = 10
 		ai_will_do = {
 			factor = 12
@@ -361,8 +506,12 @@ focus_tree = {
 		id = ROB_Money_Storm
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Free_Trade }
-		x = 10
-		y = 11
+		prerequisite = { focus = Rob_Sell_Movies }
+		prerequisite = { focus = Rob_Sell_Pringles }
+		prerequisite = { focus = Rob_Sell_Kids }
+		prerequisite = { focus = Rob_Caprisun }
+		x = 11
+		y = 8
 		cost = 10
 		ai_will_do = {
 			factor = 12
