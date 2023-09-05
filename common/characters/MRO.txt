@@ -1,0 +1,20 @@
+characters={
+	MRO_Brosip_Broz={
+		name="Brosip Broz"
+		portraits={
+			civilian={
+				large=GFX_portrait_MRO_Brosip_Broz
+			}
+			army={
+				small="GFX_portrait_MRO_Brosip_Broz"
+			}
+		}
+		country_leader={
+			ideology= syndicalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

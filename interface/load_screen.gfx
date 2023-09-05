@@ -16,6 +16,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_DUJO_Advert_news_event"
+		texturefile = "gfx/interface/DUJO_Advert_Grainy_news_event.dds"
+	}
+
+	spriteType = {
 		name = "GFX_Memes_Endgame_ad"
 		texturefile = "gfx/interface/Memes_Endgame.dds"
 	}

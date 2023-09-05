@@ -5,10 +5,14 @@ spriteTypes = {
 
 
 	spriteType = {
+		name = "GFX_portrait_MRO_Brosip_Broz"
+		texturefile = "gfx/leaders/MRO/Brosip_Broz.dds"
+	}
+
+	spriteType = {
 		name = "GFX_portrait_BTM_Ashoka_Tano"
 		texturefile = "gfx/leaders/BTM/Ashoka_Tano.dds"
 	}
-
 	
 	spriteType = {
 		name = "GFX_portrait_BTL_jorduuuuh"

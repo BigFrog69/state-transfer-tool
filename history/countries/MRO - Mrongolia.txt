@@ -15,7 +15,7 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.2
 
-recruit_character = MRO_MRO
+recruit_character = MRO_Brosip_Broz
 
 set_politics = {
 	ruling_party = syndicalism

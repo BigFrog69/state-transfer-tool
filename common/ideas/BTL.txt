@@ -1,0 +1,28 @@
+ideas = {
+
+	country = {
+
+		BTL_warmachine_idea = {
+
+			picture = BTL_warmachine
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.20
+				research_speed_factor = 0.20 #Change for specific equipment
+				production_factory_start_efficiency_factor = 0.20 #tanks and artillery production
+				justify_war_goal_time = -0.35
+			}
+		}
+
+	}
+}
+
+"war machine" gives a building boost to military factory and a resource boost to equipment, . Justifying time reduce
+

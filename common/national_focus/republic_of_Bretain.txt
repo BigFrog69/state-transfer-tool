@@ -572,9 +572,11 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
-        }
-    }
+			add_ideas = {
+				free_trade
+        	}
+    	}
+	}
 
 	focus = {
 		id = ROB_Money_Storm

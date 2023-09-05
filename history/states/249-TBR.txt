@@ -5,8 +5,8 @@ state={
 		419 453 505 863 1365 1550 1850 2300 2434 3246 3490 4056 4106 4796 4871 6600 6608 6617 6618 6624 
 	}
 	history={
-		owner = BTL
-		add_core_of = BTL
+		owner = BRE
+		add_core_of = BRE
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

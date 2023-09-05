@@ -2327,4 +2327,48 @@ focus_tree = {
 		}
 	}	
 
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = dujo_car_buy
+		icon = GFX_goal_MRO_Du_Joe
+		x = 27
+		y = 0
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 100
+				variant_name = "Du Joe"
+				producer = MRO
+			}
+			MRO = {
+				add_political_power = 30
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
 }

@@ -11,9 +11,11 @@ spriteTypes = {
 
 
 
-
-
-
+	#MRO, generic
+	SpriteType = {
+	name = "GFX_goal_MRO_Du_Joe"
+	texturefile = "gfx/interface/goals/MRO_Du_Joe.dds"			
+	}
 
 	#Wood's Tree - 
 	SpriteType = {
