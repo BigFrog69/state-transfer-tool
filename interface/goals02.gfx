@@ -342,6 +342,72 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/Mesa.dds"			
 	}
 
+	SpriteType = {
+	name = "GFX_goal_Democrat"
+	texturefile = "gfx/interface/goals/Democrat.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_LLD"
+	texturefile = "gfx/interface/goals/LLD.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_research"
+	texturefile = "gfx/interface/goals/research.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Oil"
+	texturefile = "gfx/interface/goals/Oil.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Stable"
+	texturefile = "gfx/interface/goals/Stable.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Deal"
+	texturefile = "gfx/interface/goals/Deal.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Food"
+	texturefile = "gfx/interface/goals/Food.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Drink"
+	texturefile = "gfx/interface/goals/Drink.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Trade"
+	texturefile = "gfx/interface/goals/Trade.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Coffee"
+	texturefile = "gfx/interface/goals/Coffee.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_Money"
+	texturefile = "gfx/interface/goals/Money.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_ArmyRest"
+	texturefile = "gfx/interface/goals/ArmyRest.dds"			
+	}
+
+
+
+
+
+
+
 
 
 

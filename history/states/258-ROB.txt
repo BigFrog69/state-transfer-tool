@@ -1,8 +1,10 @@
 
 state={
-	id=99
-	name="STATE_99"
-
+	id=258
+	name="STATE_258"
+	provinces={
+		655 794 1241 1394 1491 2007 3348 3495 3554 3671 3973 4322 4357 4398 4465 4815 5791 5849 5867 5906 5908 
+	}
 	history={
 		owner = ROB
 		add_core_of = ROB
@@ -14,12 +16,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		167 774 1439 2233 2456 2562 3212 4308 4500 4788 5378 5392 5429 
-	}
-	manpower=500000
+	manpower=750000
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
 	local_supplies=0.000
 }

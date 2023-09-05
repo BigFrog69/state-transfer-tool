@@ -15,8 +15,8 @@ focus_tree = {
 	focus = {
 		id = ROB_Long_Live_Democracy_2
 		icon = GFX_goal_generic_construction
-		x = 11
-		y = 0
+		x = 14
+		y = 1
 		cost = 10
 		available = {
 			always = no
@@ -27,14 +27,14 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 		    ROB = {
-		    country_event = { days = 195 id = Bretain.2 }
+		    country_event = { days = 345 id = Bretain.2 }
 		    }
 	    }
 	}
 
 	focus = {
 		id = ROB_New_Beginning
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Democrat
 		x = 11
 		y = 0
 		cost = 5
@@ -51,7 +51,7 @@ focus_tree = {
 
 	focus = {
 		id = ROB_Long_Live_Democracy
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_LLD
 		prerequisite = { focus = ROB_New_Beginning }
 		x = 11
 		y = 1
@@ -61,39 +61,49 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-            add_idea = ROB_Democratic_Will
+            add_ideas = ROB_Long_Live_Democracy
 		}
 	}
 
 	focus = {
 		id = ROB_Research
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_research
 		prerequisite = { focus = ROB_Long_Live_Democracy }
 		x = 11
 		y = 2
+		available = {
+            has_idea = ROB_Stable_Economy 
+		}	
 		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+            add_ideas = ROB_Research_Team
 		}
 	}
 
 	focus = {
 		id = ROB_Stable_Economy
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = ROB_Research }
-		x = 10
-		y = 3
+		icon = GFX_goal_Stable
+		prerequisite = { focus = Rob_Civilian_Works }
+		prerequisite = { focus = Rob_Good_Business }
+		x = 11
+		y = 4
+		available = {
+            has_idea = ROB_Stable_Economy 
+		}	
 		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+        swap_ideas = {
+            remove_idea = ROB_Stable_Economy
+            add_idea = ROB_Growing_Economy
+			}
 		}
 	}
 
@@ -103,7 +113,7 @@ focus_tree = {
 		x = 30
 		y = 0
 		available = {
-		NOT = { has_idea = ROB_Stable_Economy }
+	    has_idea = ROB_Busted_Economy
 		}	
 		cost = 5
 		ai_will_do = {
@@ -117,7 +127,7 @@ focus_tree = {
 
 	focus = {
 		id = Rob_Army_Restrictions
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_ArmyRest
 		x = 19
 		y = 0
 		cost = 5
@@ -129,10 +139,8 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-        swap_ideas = {
-            remove_idea = ROB_Army_Restrictions
-            add_idea = ROB_Army_Restrictions_2
-            }
+			navy_experience = 50
+			army_experience = 50
 		}
 	}
 
@@ -187,7 +195,7 @@ focus_tree = {
 		}
 
 	focus = {
-		id = Rob_More_Army_Stuff
+		id = Rob_First_Army_Wave
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Army_Path }
 		x = 16
@@ -203,7 +211,7 @@ focus_tree = {
 		}
 
 	focus = {
-		id = Rob_More_Navy_Stuff
+		id = Rob_Naval_Support
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Navy_Path }
 		x = 22
@@ -237,7 +245,7 @@ focus_tree = {
 	focus = {
 		id = Rob_Naval_Supremacy
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_More_Navy_Stuff }
+		prerequisite = { focus = Rob_Naval_Support }
 		prerequisite = { focus = Rob_Submarines }
 		x = 20
 		y = 3
@@ -254,7 +262,7 @@ focus_tree = {
 	focus = {
 		id = Rob_Cruisers
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_More_Navy_Stuff }
+		prerequisite = { focus = Rob_Naval_Support }
 		prerequisite = { focus = Rob_Submarines }
 		x = 24
 		y = 3
@@ -271,7 +279,7 @@ focus_tree = {
 	focus = {
 		id = Rob_Battleships
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_More_Navy_Stuff }
+		prerequisite = { focus = Rob_Naval_Support }
 		prerequisite = { focus = Rob_Submarines }
 		x = 22
 		y = 3
@@ -286,7 +294,7 @@ focus_tree = {
 		}
 
 	focus = {
-		id = Rob_More_More_Army_Stuff
+		id = Rob_Final_Army_Wave
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Tanks }
 		prerequisite = { focus = Rob_Support }
@@ -306,7 +314,7 @@ focus_tree = {
 	focus = {
 		id = Rob_Tanks
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_More_Army_Stuff }
+		prerequisite = { focus = Rob_First_Army_Wave }
 		prerequisite = { focus = Rob_Infantry_Equipment }
 		x = 16
 		y = 3
@@ -328,7 +336,7 @@ focus_tree = {
 	focus = {
 		id = Rob_Support
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_More_Army_Stuff }
+		prerequisite = { focus = Rob_First_Army_Wave }
 		prerequisite = { focus = Rob_Infantry_Equipment }
 		x = 14
 		y = 3
@@ -350,7 +358,7 @@ focus_tree = {
 	focus = {
 		id = Rob_Second_Army_Wave
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_More_Army_Stuff }
+		prerequisite = { focus = Rob_First_Army_Wave }
 		prerequisite = { focus = Rob_Infantry_Equipment }
 		x = 18
 		y = 3
@@ -365,7 +373,7 @@ focus_tree = {
 		}
 
 	focus = {
-		id = Rob_More_More_Navy_Stuff
+		id = Rob_Bretain_Rules_The_Waves
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = Rob_Naval_Supremacy }
 		prerequisite = { focus = Rob_Battleships }
@@ -385,7 +393,7 @@ focus_tree = {
 	focus = {
 		id = Rob_No_More_Army_Restrictions
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_More_More_Navy_Stuff focus = Rob_More_More_Army_Stuff }
+		prerequisite = { focus = Rob_Bretain_Rules_The_Waves focus = Rob_Final_Army_Wave }
 		x = 19
 		y = 6
 		cost = 10
@@ -394,16 +402,170 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-		remove_ideas = ROB_Army_Restrictions_2
+		remove_ideas = ROB_Army_Restrictions
         }
     }
 
 	focus = {
 		id = Rob_Good_Business
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Oil
 		prerequisite = { focus = ROB_Research }
 		x = 12
 		y = 3
+		available = {
+            has_idea = ROB_Stable_Economy
+		}	
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 8
+				state = 3
+			}
+			modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 1
+        	}
+        }
+    }
+
+	focus = {
+		id = Rob_Civilian_Works
+		icon = GFX_goal_CivilianPlan
+		prerequisite = { focus = ROB_Research }
+		x = 10
+		y = 3
+		available = {
+            has_idea = ROB_Stable_Economy
+		}	
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+				3 = {
+			set_building_level = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 3
+			}
+        }
+    }
+
+	focus = {
+		id = Rob_Caprisun
+		icon = GFX_goal_Drink
+		prerequisite = { focus = Rob_New_Deal }
+		x = 9
+		y = 6
+		cost = 5
+		available = {
+            has_idea = ROB_Growing_Economy
+		}	
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+            add_ideas = ROB_Selling_Drinks
+        }
+    }
+
+	focus = {
+		id = Rob_Sell_Coffee
+		icon = GFX_goal_Coffee
+		prerequisite = { focus = Rob_New_Deal }
+		x = 13
+		y = 6
+		available = {
+            has_idea = ROB_Growing_Economy
+		}	
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+            add_ideas = ROB_Selling_Coffee_Beans
+        }
+    }
+
+	focus = {
+		id = Rob_New_Deal
+		icon = GFX_goal_Deal
+		prerequisite = { focus = ROB_Stable_Economy }
+		x = 11
+		y = 5
+		available = {
+            has_idea = ROB_Growing_Economy
+		}	
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		    ROB = {
+		    country_event = Bretain.3
+		    }
+        }
+    }
+
+	focus = {
+		id = Rob_Sell_Pringles
+		icon = GFX_goal_Food
+		prerequisite = { focus = Rob_New_Deal }
+		x = 7
+		y = 6
+		cost = 5
+		available = {
+            has_idea = ROB_Growing_Economy
+		}	
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+            add_ideas = ROB_Selling_Food
+        }
+    }
+
+	focus = {
+		id = Rob_Sell_Resources
+		icon = GFX_goal_Resources
+		prerequisite = { focus = Rob_New_Deal }
+		x = 15
+		y = 6
+		cost = 5
+		available = {
+            has_idea = ROB_Growing_Economy
+		}	
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+            add_ideas = ROB_Selling_Resources
+        }
+    }
+
+	focus = {
+		id = Rob_Free_Trade
+		icon = GFX_goal_Trade
+		prerequisite = { focus = Rob_New_Deal }
+		x = 11
+		y = 6
+		available = {
+            has_idea = ROB_Growing_Economy
+		}	
 		cost = 5
 		ai_will_do = {
 			factor = 12
@@ -415,137 +577,29 @@ focus_tree = {
     }
 
 	focus = {
-		id = Rob_Civilian_Works
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_Good_Business }
-		prerequisite = { focus = ROB_Stable_Economy }
-		x = 11
-		y = 4
-		cost = 10
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-
-        }
-    }
-
-	focus = {
-		id = Rob_Caprisun
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_New_Deal }
-		x = 9
-		y = 6
-		cost = 10
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-
-        }
-    }
-
-	focus = {
-		id = Rob_Sell_Coffee
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_New_Deal }
-		x = 13
-		y = 6
-		cost = 10
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-
-        }
-    }
-
-	focus = {
-		id = Rob_New_Deal
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_Civilian_Works }
-		x = 11
-		y = 5
-		cost = 10
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-
-        }
-    }
-
-	focus = {
-		id = Rob_Sell_Pringles
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_New_Deal }
-		x = 7
-		y = 6
-		cost = 10
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-
-        }
-    }
-
-	focus = {
-		id = Rob_Sell_Movies
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_New_Deal }
-		x = 15
-		y = 6
-		cost = 10
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-
-        }
-    }
-
-	focus = {
-		id = Rob_Free_Trade
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Rob_New_Deal }
-		x = 11
-		y = 6
-		cost = 10
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-
-        }
-    }
-
-	focus = {
 		id = ROB_Money_Storm
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_Money
 		prerequisite = { focus = Rob_Free_Trade }
-		prerequisite = { focus = Rob_Sell_Movies }
+		prerequisite = { focus = Rob_Sell_Resources }
 		prerequisite = { focus = Rob_Sell_Pringles }
 		prerequisite = { focus = Rob_Sell_Coffee }
 		prerequisite = { focus = Rob_Caprisun }
 		x = 11
 		y = 8
+		available = {
+            has_idea = ROB_Growing_Economy
+		}	
 		cost = 10
 		ai_will_do = {
 			factor = 12
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+        swap_ideas = {
+            remove_idea = ROB_Growing_Economy
+            add_idea = ROB_Economic_Blast
+			}
         }
     }
-
 }
 

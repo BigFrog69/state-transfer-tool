@@ -27,8 +27,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				army_defence_factor = -0.15
-				army_attack_factor = -0.15
+				army_defence_factor = -0.05
+				army_attack_factor = -0.05
 			}
 		}
 	
@@ -59,6 +59,7 @@ ideas = {
 				industrial_capacity_dockyard = 0.05
 			    production_factory_efficiency_gain_factor = 0.05
 				production_speed_dockyard_factor = 0.05
+				consumer_goods_factor = 0.02
 			}
 		}
 		
@@ -87,7 +88,138 @@ ideas = {
 			modifier = {
                 consumer_goods_factor = 0.15
 			}
+		}
+		
+		ROB_Long_Live_Democracy = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                stability_weekly = 0.001
+			}
 		}	
+		
+		ROB_Research_Team = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                research_speed_factor = 0.05
+			}
+		}
+		
+		ROB_Growing_Economy = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			    production_factory_efficiency_gain_factor = 0.07
+				production_speed_dockyard_factor = 0.05
+				production_factory_start_efficiency_factor = 0.03
+				consumer_goods_factor = 0.03
+			}
+		}
+
+		ROB_New_Deal = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				state_production_speed_infrastructure_factor = 0.3
+			}
+		}
+		
+		ROB_Selling_Food = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                consumer_goods_factor = -0.02
+			}
+		}	
+
+		ROB_Selling_Resources = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                consumer_goods_factor = -0.02
+			}
+		}	
+
+		ROB_Selling_Drinks = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                consumer_goods_factor = -0.02
+			}
+		}	
+
+		ROB_Selling_Coffee_Beans = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                consumer_goods_factor = -0.02
+			}
+		}	
+
+		ROB_Economic_Blast = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+			    production_factory_efficiency_gain_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+				production_factory_start_efficiency_factor = 0.08
+				production_factory_max_efficiency_factor = 0.03
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.03
+				consumer_goods_factor = 0.05
+			}
+		}					
 	}
 }
 
