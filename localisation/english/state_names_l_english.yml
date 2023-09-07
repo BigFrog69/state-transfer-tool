@@ -37,6 +37,9 @@
  STATE_80:0 "Babiš"
  STATE_14:0 "Cigánov"
  STATE_21:0 "Island"
+ STATE_263:0 "Bonerville"
+ STATE_264:0 "Villeboner"
+ STATE_265:0 "BigSack"
 
  #Justinian
  STATE_8:0 "The Lake City"

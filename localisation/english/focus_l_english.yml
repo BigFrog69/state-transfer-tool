@@ -165,6 +165,21 @@
  ROB_Money_Storm:0 "Money Storm"
  ROB_Money_Storm_desc:0 "LOOK AT THE MONEY"
 
+ Rob_Navy_Path:0 "Navy Path"
+ Rob_Navy_Path_desc:0 ""
+ Rob_Naval_Support:0 "Naval Support"
+ Rob_Naval_Support_desc:0 ""
+ Rob_Submarines:0 "Submarines"
+ Rob_Submarines_desc:0 ""
+ Rob_Naval_Supremacy:0 "Naval Supremacy"
+ Rob_Naval_Supremacy_desc:0 ""
+ Rob_Cruisers:0 "Cruisers"
+ Rob_Cruisers_desc:0 ""
+ Rob_Battleships:0 "Battleship"
+ Rob_Battleships_desc:0 ""
+ Rob_Bretain_Rules_The_Waves:0 "Bretain Rules The Waves"
+ Rob_Bretain_Rules_The_Waves_desc:0 ""
+
 
 
 

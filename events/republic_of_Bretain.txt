@@ -31,7 +31,7 @@ country_event = {
 	option = {
 		name = Bretain.2.a
 		remove_ideas = ROB_Stable_Economy
-		remove_ideas = ROB_Stable_Economy_2
+		remove_ideas = ROB_Growing_Economy
 		remove_ideas = ROB_Research_Team
 		remove_ideas = ROB_New_Deal
 		remove_ideas = ROB_Selling_Drinks
@@ -39,6 +39,9 @@ country_event = {
 		remove_ideas = ROB_Selling_Resources
 		remove_ideas = ROB_Selling_Coffee_Beans
 		add_ideas = ROB_Busted_Economy
+		hidden_effect = {
+        	news_event = my_event.1 
+    	}
 	}
 }
 

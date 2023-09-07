@@ -238,7 +238,14 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+				set_technology = {
+    				early_submarine = 1
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					category = submarine_doctrine
+				}
             }
 		}
 		
@@ -272,7 +279,21 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+				set_technology = {
+    				early_battlecruiser = 1
+					early_heavy_cruiser = 1
+					early_light_cruiser = 1
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 3
+					category = ca_tech
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 3
+					category = cl_tech
+				}
             }
 		}
 		
@@ -289,6 +310,14 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			set_technology = {
+    				early_battleship = 1
+			}
+			add_tech_bonus = {
+					bonus = 0.5
+					uses = 3
+					category = bb_tech
+			}
 
             }
 		}

@@ -9,9 +9,7 @@ news_event = {
 	title = DUJO.1.t
 	desc = DUJO.1.d
 	picture = GFX_DUJO_Advert_news_event
-	
 	is_triggered_only = no
-	
 	mean_time_to_happen = {
 		days = 10
 		years = 0  # 375 days as the base.
@@ -20,13 +18,11 @@ news_event = {
 			tag = ROO
 		}
 	}
-
 	option = {
 		name = DUJO.1.a
 		add_stability = -0.01
 		
 	}
-
 	#option = {
 	#	name = DUJO.1.b
 	#}

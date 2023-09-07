@@ -42,3 +42,24 @@ news_event = {
 		name = fascist_coup_in_ostryae.1.a
     }
 }
+
+######Bretain######
+
+
+add_namespace = first_beyron_award
+
+# Bretain Market Crash Event
+news_event = {
+	id = first_beyron_award.1
+	title = first_beyron_award.1.t
+	desc = first_beyron_award.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = first_beyron_award.1.a
+    }
+}

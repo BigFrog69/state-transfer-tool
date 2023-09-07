@@ -1,19 +1,16 @@
+
 state={
 	id=74
 	name="STATE_74"
-	provinces={
-		171 375 462 2032 2323 3173 4461 4869 5480 5510 
+	resources={
+		oil=5.000
+		aluminium=15.000
+		rubber=5.000
+		tungsten=10.000
+		steel=30.000
+		chromium=15.000
 	}
-	resources = {
-		oil = 5
-		aluminium = 15
-		rubber = 5
-		tungsten = 10
-        steel = 30
-		chromium = 15
-    }
-	manpower=1000000
-	state_category = megalopolis
+
 	history={
 		owner = SSB
 		add_core_of = SSB
@@ -23,7 +20,14 @@ state={
 			industrial_complex = 7
 
 		}
+
 	}
+
+	provinces={
+		171 375 4869 5480 
+	}
+	manpower=1000000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

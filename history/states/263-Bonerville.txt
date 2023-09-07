@@ -1,8 +1,9 @@
-
 state={
-	id=78
-	name="STATE_78"
-
+	id=263
+	name="STATE_263"
+	provinces={
+		462 2032 2323 3173 4461 5510 
+	}
 	history={
 		owner = SSB
 		add_core_of = SSB
@@ -14,11 +15,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		2137 4522 4793 5418 5435 
-	}
-	manpower=2000000
+	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000
