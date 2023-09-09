@@ -9,7 +9,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Familial_Promotion.dds"
 	}
 
-
+	spriteType = {
+		name = "GFX_FBA"
+		texturefile = "gfx/event_pictures/FBA.dds"
+	}
 
 
 
