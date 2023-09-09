@@ -43,10 +43,11 @@ news_event = {
     }
 }
 
+
+
 ######Bretain######
 
-
-add_namespace = first_beyron_award
+add_namespace = bretain
 
 # Bretain Market Crash Event
 news_event = {
