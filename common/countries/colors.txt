@@ -237,6 +237,13 @@ ERD = {
 }
 
 
+UHH = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
+
+
+
 # 150, 35, 56
 
 #ROO_FAS = {

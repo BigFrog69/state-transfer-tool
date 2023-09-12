@@ -1,0 +1,22 @@
+state={
+	id=272
+	name="STATE_272"
+	provinces={
+		1286 2761 3702 3868 
+	}
+	history={
+		owner = UHH
+		add_core_of = UHH
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

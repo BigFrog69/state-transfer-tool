@@ -167,15 +167,18 @@
  ERD_DEF:0 "Eastern Raiders"
  ERD_ADJ:0 "Raiders"
 
+ UHH:0 "Uhhhhh..."
+ UHH_DEF:0 "Uhhhhh..."
+ UHH_ADJ:0 "Uhhhhh..."
  
  #BOTS
  BTA:0 "Iabria"
  BTA_DEF:0 "Iabria"
  BTA_ADJ:0 "Iabrian"
 
- BTB:0 "Bot Nation 2"
- BTB_DEF:0 "Bot Nation 2"
- BTB_ADJ:0 "Bot 2"
+ BTB:0 "Polinia"
+ BTB_DEF:0 "Polinia"
+ BTB_ADJ:0 "Polinian"
 
  BTC:0 "Elf Warren"
  BTC_DEF:0 "Elf Warren"

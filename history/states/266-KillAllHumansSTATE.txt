@@ -1,0 +1,25 @@
+
+state={
+	id=266
+	name="STATE_266"
+
+	history={
+		owner = UHH
+		add_core_of = UHH
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+
+	}
+
+	provinces={
+		181 1409 2371 2416 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}
