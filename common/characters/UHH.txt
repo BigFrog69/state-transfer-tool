@@ -1,0 +1,21 @@
+characters={
+	#KillAllHumans characters
+	UHH_Osama_bin_Laden={ 
+		name="Osama bin Laden"
+		portraits={
+			civilian={
+				large=GFX_portrait_UHH_Osama_bin_Laden
+			}
+			army={
+				small="GFX_portrait_UHH_Osama_bin_Laden"
+			}
+		}
+		country_leader={
+			ideology= anarchist
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

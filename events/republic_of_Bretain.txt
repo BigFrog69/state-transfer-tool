@@ -58,3 +58,18 @@ country_event = {
 		add_ideas = ROB_New_Deal
 	}
 }
+
+#Army Event
+country_event = {
+	id = Bretain.4
+	title = Bretain.4.t
+	desc = Bretain.4.d
+	picture = GFX_report_event_bunker_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Bretain.4.a
+		add_ideas = ROB_New_Deal
+	}
+}

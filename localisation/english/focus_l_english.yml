@@ -180,7 +180,23 @@
  Rob_Bretain_Rules_The_Waves:0 "Bretain Rules The Waves"
  Rob_Bretain_Rules_The_Waves_desc:0 ""
 
+ Rob_Army_Path:0 "Army Path"
+ Rob_Army_Path_desc:0 ""
+ Rob_Infantry_Equipment:0 "Infantry Equipment"
+ Rob_Infantry_Equipment_desc:0 ""
+ Rob_First_Army_Wave:0 "Infantry Equipment"
+ Rob_First_Army_Wave_desc:0 ""
+ Rob_Support:0 "Army Support"
+ Rob_Support_desc:0 ""
+ Rob_Tanks:0 "Bretain Tanks"
+ Rob_Tanks_desc:0 ""
+ Rob_Second_Army_Wave:0 "Second Army Wave"
+ Rob_Second_Army_Wave_desc:0 ""
+ Rob_Final_Army_Wave:0 "Final Army Wave"
+ Rob_Final_Army_Wave_desc:0 ""
 
+ Rob_No_More_Army_Restrictions:0 "No More Army Restrictions"
+ Rob_No_More_Army_Restrictions_desc:0 ""
 
 
 
@@ -226,8 +242,8 @@
 
 
 
-
-
+ ROK_Every_Pag_A_Champ:0 "Every Pag A Champ"
+ ROK_Every_Pag_A_Champ_desc:0 "MAY EVERY MAN, WOMAN, AND CHILD IN THIS COUNTRY - ALL OF THE PAGS - BE DECLARED AS CHAMPS FROM THIS POINT FERWARDS!"
 
 
 

@@ -4,9 +4,20 @@ spriteTypes = {
 
 
 
+	SpriteType = {
+	name = "GFX_goal_ROK_Military_Planning"
+	texturefile = "gfx/interface/goals/Military_Planning_White.dds			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_ROK_Kustenian_Nationalism"
+	texturefile = "gfx/interface/goals/Kustenian_Nationalism_White.dds"			
+	}
 
-
+	SpriteType = {
+	name = "GFX_goal_ROK_Every_Pag_A_Champ_White"
+	texturefile = "gfx/interface/goals/Every_Pag_A_Champ_White.dds"			
+	}
 
 
 

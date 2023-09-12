@@ -958,7 +958,7 @@ focus_tree = {
 		completion_reward = {
 		add_political_power = 100
 			}
-		}
+	}
 		
 	focus = {
 		id = SSB_Anschluss
@@ -1150,6 +1150,23 @@ focus_tree = {
 
 
 
+	focus = {
+		id = SSB_Generic_Focus_Tree_Change
+		icon = GFX_goal_Enemies
+		x = 35
+		y = 0
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+				load_focus_tree = generic_focus
+			}
+	}
 
 
 
@@ -1297,6 +1314,31 @@ focus_tree = {
 				days = 120
 			}
 	    }
+
+
+
+
+
+	focus = {
+		id = SSB_Generic_Focus_Tree_Change
+		icon = GFX_goal_Enemies
+		x = 35
+		y = 0
+		cost = 5
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+				load_focus_tree = generic_focus
+			}
+	}
+
+
+
 <<<<<<< HEAD
     }
 

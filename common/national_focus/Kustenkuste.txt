@@ -106,7 +106,7 @@ focus_tree = {
 
 	focus = {
 		id = ROK_Every_Pag_A_Champ
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_ROK_Every_Pag_A_Champ_White
 		x = 2
 		y = 3
 		cost = 10
@@ -175,7 +175,7 @@ focus_tree = {
 
 	focus = {
 		id = ROK_Kustenian_Nationalism
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_ROK_Kustenian_Nationalism
 		x = 0
 		y = 2
 		prerequisite = { focus = ROK_Align_with_Hans }
