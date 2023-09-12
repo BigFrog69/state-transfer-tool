@@ -1,9 +1,8 @@
+
 state={
-	id=123
-	name="STATE_123"
-	provinces={
-		10 371 540 906 1476 1616 3097 3196 3220 4759 4770 6548 6563 6569 
-	}
+	id=127
+	name="STATE_127"
+
 	history={
 		owner = RNL
 		add_core_of = RNL
@@ -11,10 +10,16 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
+
 		}
+
 	}
-	manpower=5000000
-	state_category=megalopolis
+
+	provinces={
+		177 326 1429 1601 1633 2096 2108 2109 2427 2983 3791 3952 4572 6592 
+	}
+	manpower=500000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

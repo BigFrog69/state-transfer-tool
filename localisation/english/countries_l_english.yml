@@ -171,6 +171,10 @@
  UHH_DEF:0 "Uhhhhh..."
  UHH_ADJ:0 "Uhhhhh..."
  
+ HEX:0 "Hexia"
+ HEX_DEF:0 "Hexia"
+ HEX_ADJ:0 "Hexes"
+ 
  #BOTS
  BTA:0 "Iabria"
  BTA_DEF:0 "Iabria"

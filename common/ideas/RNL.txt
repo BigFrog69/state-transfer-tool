@@ -1,0 +1,113 @@
+ideas = {
+
+	country = {
+
+		RNL_Planned_Offensive = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			    planning_speed = 0.3
+			    max_planning = -0.2
+			}
+
+			targeted_modifier = {
+				tag = HEX
+				attack_bonus_against = 0.1
+			}
+		}
+		
+		RNL_Continuing_The_Offensive = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = HEX
+				attack_bonus_against = 0.10
+			}
+		}
+		
+		RNL_Last_Push = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				supply_consumption_factor = -0.05
+			}
+
+			targeted_modifier = {
+				tag = HEX
+				attack_bonus_against = 0.15
+			}
+		}
+		
+		RNL_Strategic_Plan = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				supply_consumption_factor = -0.1
+			}
+		}
+		
+		RNL_Strategic_Offensive = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				supply_consumption_factor = -0.1
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		
+		RNL_Hexia_Payments = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+	}
+}
+
+
+

@@ -13,9 +13,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				supply_consumption_factor = 0.1
-				political_power_gain = -0.1
-				state_production_speed_infrastructure_factor = -0.3
+				supply_consumption_factor = 0.5
+				political_power_gain = -0.25
+				state_production_speed_infrastructure_factor = -0.2
 			}
 		}
 
@@ -49,11 +49,10 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				production_speed_buildings_factor = -0.15
+				production_speed_buildings_factor = -0.1
 				production_factory_efficiency_gain_factor = -0.1
-				production_speed_arms_factory_factor = -0.1
-				research_speed_factor = -0.1
-				consumer_goods_factor = 0.1
+				production_speed_arms_factory_factor = -0.20
+				consumer_goods_factor = 0.05
 				industrial_capacity_factory = -0.1
 				#-10% fighter production
 			}

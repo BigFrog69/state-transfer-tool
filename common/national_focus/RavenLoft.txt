@@ -9,28 +9,179 @@ focus_tree = {
 			tag = RNL
 		}
 	}
-	
-	default = no
+
 
 	focus = {
-		id = RNL_four_year_plan
-		icon = GFX_goal_generic_construction
-		x = 6
+		id = RNL_Crazy_Adventure
+		icon = GFX_goal_generic_consumer_goods
+		x = 8
 		y = 0
 		cost = 10
 		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_tech_bonus = {
-				name = GER_four_year_plan
-				bonus = 1.0
-				uses = 2
-				category = industry
+			factor = 24
+			modifier = {
+				factor = 3
 			}
-			#custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = hjalmar_schacht
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = RNL_Finishing_The_Cause
+		icon = GFX_goal_generic_consumer_goods
+	    prerequisite = { focus = RNL_Crazy_Adventure }
+		x = 8
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		    HEX = {
+		    country_event = { days = 3 id = Raven.1 }
+		    }
+		}
+	}
+	
+	focus = {
+		id = RNL_Continue_The_Offensive
+		icon = GFX_goal_generic_consumer_goods
+	    prerequisite = { focus = RNL_Finishing_The_Cause }
+		mutually_exclusive = { focus = RNL_Strategic_Plan }
+		x = 6
+		y = 2
+		cost = 5
+		available = {
+		has_war = yes
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		    add_timed_idea = {
+			    idea = RNL_Continuing_The_Offensive
+			    days = 35
+		    }
+			add_stability = -0.05
+		}
+	}
+	
+	focus = {
+		id = RNL_Last_Chance
+		icon = GFX_goal_generic_consumer_goods
+	    prerequisite = { focus = RNL_Finishing_The_Cause }
+		x = 6
+		y = 3
+		available = {
+		has_war = yes
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		    add_timed_idea = {
+			    idea = RNL_Last_Push
+			    days = 35
+		    }
+			add_stability = -0.1
+		}
+	}
+	
+	focus = {
+		id = RNL_Strategic_Plan
+		icon = GFX_goal_generic_consumer_goods
+	    prerequisite = { focus = RNL_Finishing_The_Cause }
+		mutually_exclusive = { focus = RNL_Continue_The_Offensive }
+		x = 10
+		y = 2
+		cost = 5
+		available = {
+		has_war = yes
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		    add_timed_idea = {
+			    idea = RNL_Strategic_Plan
+			    days = 35
+		    }
+		}
+	}
+		
+	focus = {
+		id = RNL_Strategic_Offensive
+		icon = GFX_goal_generic_consumer_goods
+	    prerequisite = { focus = RNL_Strategic_Plan }
+		x = 10
+		y = 3
+		cost = 5
+		available = {
+		has_war = yes
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		    add_timed_idea = {
+			    idea = RNL_Strategic_Offensive
+			    days = 35
+		    }
+		}
+	}
+	
+	focus = {
+		id = RNL_Puppet_Regime
+		icon = GFX_goal_generic_consumer_goods
+	    prerequisite = { focus = RNL_Strategic_Offensive focus = RNL_Last_Chance }
+		x = 8
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            release_puppet = HEX
+			transfer_state = 274
+		add_ideas = RNL_Hexia_Payments
 		}
 	}
 }
+
+
+	

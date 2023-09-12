@@ -1,0 +1,42 @@
+﻿###########################
+# Raven Events
+###########################
+
+add_namespace = Raven
+
+country_event = {
+	id = Raven.1
+	title = Raven.1.t
+	desc = Raven.1.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Raven.1.a
+		RNL = {
+			country_event = { days = 5 id = Raven.2 }
+		}
+	}
+}
+
+country_event = { #They deny
+	id = Raven.2
+	title = Raven.2.t
+	desc = Raven.2.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Raven.2.a
+		    declare_war_on = {
+        target = HEX
+        type = annex_everything
+        }
+		add_timed_idea = {
+			idea = RNL_Planned_Offensive
+			days = 35
+		}  
+	}
+}

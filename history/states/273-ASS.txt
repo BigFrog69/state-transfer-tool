@@ -1,0 +1,24 @@
+
+state={
+	id=273
+	name="STATE_273"
+
+	history={
+		owner = HEX
+		add_core_of = HEX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+
+	}
+
+	provinces={
+		74 377 2275 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

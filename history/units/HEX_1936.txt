@@ -1,0 +1,187 @@
+﻿division_template = {
+	name = "Hexia Brigade"
+	division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Test"  
+	division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	##### Hexia #####
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 168
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 246
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 246
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3295
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3295
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 1462
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 1462
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6628
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6628
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 33
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 33
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 33
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+
+	##### No Notable Naval Forces #####
+}
+
+##### No Notable Air Forces #####
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SSB"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+}
