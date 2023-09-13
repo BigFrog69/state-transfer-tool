@@ -61,12 +61,22 @@ focus_tree = {
 		y = 2
 		cost = 5
 		available = {
-		has_war = yes
+		has_war_with = HEX 
 		}
 		ai_will_do = {
 			factor = 24
 			modifier = {
 				factor = 3
+			}
+		}
+		bypass = {
+			OR = {
+				HEX = {
+					OR = {
+						is_subject = yes
+						exists = no 
+					}
+				}
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -83,17 +93,27 @@ focus_tree = {
 	focus = {
 		id = RNL_Last_Chance
 		icon = GFX_goal_generic_consumer_goods
-	    prerequisite = { focus = RNL_Finishing_The_Cause }
+	    prerequisite = { focus = RNL_Continue_The_Offensive }
 		x = 6
 		y = 3
 		available = {
-		has_war = yes
+		has_war_with = HEX 
 		}
 		cost = 5
 		ai_will_do = {
 			factor = 24
 			modifier = {
 				factor = 3
+			}
+		}
+		bypass = {
+			OR = {
+				HEX = {
+					OR = {
+						is_subject = yes
+						exists = no 
+					}
+				}
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -116,12 +136,22 @@ focus_tree = {
 		y = 2
 		cost = 5
 		available = {
-		has_war = yes
+		has_war_with = HEX 
 		}
 		ai_will_do = {
 			factor = 24
 			modifier = {
 				factor = 3
+			}
+		}
+		bypass = {
+			OR = {
+				HEX = {
+					OR = {
+						is_subject = yes
+						exists = no 
+					}
+				}
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -142,12 +172,22 @@ focus_tree = {
 		y = 3
 		cost = 5
 		available = {
-		has_war = yes
+		has_war_with = HEX 
 		}
 		ai_will_do = {
 			factor = 24
 			modifier = {
 				factor = 3
+			}
+		}
+		bypass = {
+			OR = {
+				HEX = {
+					OR = {
+						is_subject = yes
+						exists = no 
+					}
+				}
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -164,9 +204,19 @@ focus_tree = {
 		id = RNL_Puppet_Regime
 		icon = GFX_goal_generic_consumer_goods
 	    prerequisite = { focus = RNL_Strategic_Offensive focus = RNL_Last_Chance }
-		x = 8
+		mutually_exclusive = { focus = RNL_Peace_But_At_What_Cost }
+		x = 9
 		y = 4
 		cost = 5
+		available = {
+		    controls_state = 274
+			controls_state = 278
+			controls_state = 277
+			controls_state = 276
+			controls_state = 273
+			controls_state = 275
+			NOT = { has_war_with = HEX }
+		}
 		ai_will_do = {
 			factor = 24
 			modifier = {
@@ -179,6 +229,31 @@ focus_tree = {
             release_puppet = HEX
 			transfer_state = 274
 		add_ideas = RNL_Hexia_Payments
+		}
+	}
+	
+	focus = {
+		id = RNL_Hexian_Fiasco
+		icon = GFX_goal_generic_consumer_goods
+	    prerequisite = { focus = RNL_Strategic_Offensive focus = RNL_Last_Chance }
+		mutually_exclusive = { focus = RNL_Puppet_Regime }
+		x = 7
+		y = 4
+		cost = 5
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		add_stability = -0.2
+		add_war_support = -0.1
 		}
 	}
 }
