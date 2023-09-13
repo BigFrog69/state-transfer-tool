@@ -124,7 +124,7 @@ focus_tree = {
 
 	focus = {
 		id = ROK_Ostraeyan_Agreement
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_ROK_Ostraeyan_Agreement
 		x = 4
 		y = 3
 		cost = 10
@@ -209,7 +209,7 @@ focus_tree = {
 
 	focus = {
 		id = ROK_Paving_The_Way_To_Totality
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_ROK_Paving_The_Way_For_Totality
 		x = 0
 		y = 3
 		prerequisite = { focus = ROK_The_Great_Hit }

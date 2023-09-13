@@ -4,19 +4,32 @@ spriteTypes = {
 
 
 
+
+
+
 	SpriteType = {
-	name = "GFX_goal_ROK_Military_Planning"
-	texturefile = "gfx/interface/goals/Military_Planning_White.dds			
+		name = "GFX_goal_ROK_Paving_The_Way_For_Totality"
+		texturefile = "gfx/interface/goals/Paving_The_Way_For_Totality_White.dds"		
 	}
 
 	SpriteType = {
-	name = "GFX_goal_ROK_Kustenian_Nationalism"
-	texturefile = "gfx/interface/goals/Kustenian_Nationalism_White.dds"			
+		name = "GFX_goal_ROK_Ostraeyan_Agreement"
+		texturefile = "gfx/interface/goals/Ostraeyan_Agreement_White.dds"		
 	}
 
 	SpriteType = {
-	name = "GFX_goal_ROK_Every_Pag_A_Champ_White"
-	texturefile = "gfx/interface/goals/Every_Pag_A_Champ_White.dds"			
+		name = "GFX_goal_ROK_Military_Planning"
+		texturefile = "gfx/interface/goals/Military_Planning_White.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Kustenian_Nationalism"
+		texturefile = "gfx/interface/goals/Kustenian_Nationalism_White.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Every_Pag_A_Champ_White"
+		texturefile = "gfx/interface/goals/Every_Pag_A_Champ_White.dds"			
 	}
 
 
