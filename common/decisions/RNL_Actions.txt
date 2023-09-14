@@ -1,55 +1,39 @@
-political_actions = {
+RNL_actions_category = {
 
 	
-	improved_worker_conditions = {
+	war_with_Hexia = {
 
 		icon = generic_industry
+		activation = {
+        	has_war_with = HEX
 
-		available = {
-			has_stability < 1.0
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-		}
-
-		visible = {
-			always = yes
-		}
-
+    	}	
+    	available = {
+    	    has_civil_war = no
+    	    has_war_with = HEX
+    	}
+		cancel_trigger = {
+        	has_completed_focus = RNL_Hexian_Fiasco
+			has_completed_focus = RNL_Puppet_Regime
+    	}
 		fire_only_once = no
-
 		modifier = {
-			stability_weekly = 0.005
-			consumer_goods_factor = 0.05
-			industrial_capacity_factory = -0.1
+			
 		}
-
-		days_remove = 180
+		days_remove = 90
 		days_re_enable = 540
 
-		cost = 100
-
+		cost = 0
 		complete_effect = {
-
+			
 		}
-
+		timeout_effect = {
+			complete_national_focus = RNL_Puppet_Regime
+			#complete_national_focus = RNL_Hexian_Fiasco
+		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 1
-				has_stability < 0.6
-				has_political_power > 155 #Spend on other things first
-			}
-			modifier = {
-				factor = 0
-				original_tag = SPR
-				NOT = { has_global_flag = spanish_civil_war }
-			}
+			base = 1
+
 		}
 	}
 }

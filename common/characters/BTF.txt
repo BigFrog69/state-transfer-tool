@@ -1,0 +1,18 @@
+characters={
+	BTF_French_Man_Who_Likes_Oil={
+		name="Pierre Lubrécœur"
+		portraits={
+			civilian={
+				large=GFX_portrait_BTF_French_Man_Who_Likes_Oil
+			}
+			army={
+				small="GFX_portrait_BTF_French_Man_Who_Likes_Oil"
+			}
+		}
+		country_leader={
+			ideology= authoritarianism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

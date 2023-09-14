@@ -1,8 +1,9 @@
-
 state={
-	id=125
-	name="STATE_125"
-
+	id=281
+	name="STATE_281"
+	provinces={
+		801 903 1134 1527 1979 4157 
+	}
 	history={
 		owner = RNL
 		add_core_of = RNL
@@ -10,16 +11,10 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
-
 		}
-
 	}
-
-	provinces={
-		1079 1580 1655 3448 3548 
-	}
-	manpower=7500000
-	buildings_max_level_factor=1.000
+	manpower=5000000
 	state_category=megalopolis
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -30,13 +30,14 @@ country_event = { #They deny
 	
 	option = {
 		name = Raven.2.a
-		    declare_war_on = {
-        target = HEX
-        type = annex_everything
+		declare_war_on = {
+        	target = HEX
+        	type = annex_everything
         }
 		add_timed_idea = {
 			idea = RNL_Planned_Offensive
 			days = 35
 		}  
+		activate_decision = war_with_Hexia
 	}
 }

@@ -1,6 +1,6 @@
 ﻿capital = 275
 
-oob = "RAS_1936"
+oob = "HEX_1936"
 
 # Starting tech
 set_technology = {
@@ -15,7 +15,7 @@ set_technology = {
 set_war_support = 0.3
 set_stability = 0.1
 
-recruit_character = RAS_IDK
+recruit_character = HEX_IDK
 
 set_politics = {
 	ruling_party = autocracy

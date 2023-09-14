@@ -1,0 +1,19 @@
+####################
+#### Raven Loft ####
+####################
+
+
+RNL_actions_category = {
+	icon = military_operation
+
+	picture = GFX_decision_cat_picture_ger_case_anton
+
+	allowed = {
+		original_tag = RNL
+	}
+
+	visible = {
+		original_tag = RNL
+		has_war_with = HEX
+	}
+}

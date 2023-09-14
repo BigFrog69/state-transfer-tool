@@ -15,7 +15,7 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = BTF_NPC_DUDE
+recruit_character = BTF_French_Man_Who_Likes_Oil
 
 
 
