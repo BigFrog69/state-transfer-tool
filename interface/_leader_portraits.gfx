@@ -3,6 +3,10 @@ spriteTypes = {
 
 
 
+	spriteType = {
+		name = "GFX_portrait_DMA_Douglas_McArthur"
+		texturefile = "gfx/leaders/DMA/Douglas_McArthur.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_BTF_French_Man_Who_Likes_Oil"

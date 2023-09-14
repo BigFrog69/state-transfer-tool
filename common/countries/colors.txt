@@ -247,6 +247,15 @@ HEX = {
 	color_ui = rgb { 0 0 0 }
 }
 
+DMA = {
+	color = rgb { 50 50 240 }
+	color_ui = rgb { 50 50 240 }
+}
+
+FQR = {
+	color = rgb { 75 75 75 }
+	color_ui = rgb { 75 75 75 }
+}
 # 150, 35, 56
 
 #ROO_FAS = {

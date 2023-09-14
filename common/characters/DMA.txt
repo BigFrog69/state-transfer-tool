@@ -1,0 +1,20 @@
+characters={
+	DMA_Douglas_McArthur={
+		name="Douglas McArthur"
+		portraits={
+			civilian={
+				large=GFX_portrait_DMA_Douglas_McArthur
+			}
+			army={
+				small="GFX_portrait_DMA_Douglas_McArthur"
+			}
+		}
+		country_leader={
+			ideology= alcoholism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

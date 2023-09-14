@@ -42,6 +42,8 @@ SRD = "countries/Raiders2.txt" #on bookmark - flag needed - focus tree needed - 
 WRD = "countries/Raiders3.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 ERD = "countries/Raiders4.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 HEX = "countries/Hexia.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+DMA = "countries/Protagonistan.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+FQR = "countries/FUCQR.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
 UHH = "countries/Uhh.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 

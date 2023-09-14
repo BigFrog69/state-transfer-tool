@@ -175,6 +175,16 @@
  HEX_DEF:0 "Hexia"
  HEX_ADJ:0 "Hexes"
  
+ #Douglas McArthur
+ DMA:0 "Protagonistan"
+ DMA_DEF:0 "Protagonistan"
+ DMA_ADJ:0 "Protagonistian"
+
+ #Fedeated Union of Canal & Quayworkers Republics
+ FQR:0 "F.U.C.Q.R."
+ FQR_DEF:0 "FUCQR"
+ FQR_ADJ:0 "FUCQR"
+ 
  #BOTS
  BTA:0 "Iabria"
  BTA_DEF:0 "Iabria"

@@ -1,0 +1,20 @@
+state={
+	id=289
+	name="STATE_289"
+	provinces={
+		1809 1875 2441 3268 3415 3749 4689 5178 5185 5197 5204 5228 5238 5244 5248 5257 
+	}
+	history={
+		owner = FQR
+		add_core_of = FQR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	manpower=5000000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=286
+	name="STATE_286"
+	provinces={
+		115 1149 2072 3264 4309 4469 6283 6295 
+	}
+	history={
+		owner = DMA
+		add_core_of = DMA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	manpower=5000000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

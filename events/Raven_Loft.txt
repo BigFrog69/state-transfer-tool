@@ -38,6 +38,7 @@ country_event = { #They deny
 			idea = RNL_Planned_Offensive
 			days = 35
 		}  
-		activate_decision = war_with_Hexia
+		activate_mission = war_with_Hexia
+		activate_mission = GER_mefo_bills_mission
 	}
 }
