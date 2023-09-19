@@ -106,6 +106,118 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.1
 			}
 		}
+		
+		RNL_Reds_On_The_Rise = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                socialism_drift = 0.1
+			}
+		}
+		
+		RNL_Quick_Research_Improvements = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                research_speed_factor = 0.15
+				drift_defence_factor = -0.2
+			}
+		}
+		
+		RNL_Steady_Research_Improvements = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                research_speed_factor = 0.05
+			}
+		}
+		
+		RNL_Steady_Economic_Improvements = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                industrial_capacity_factory = 0.03
+				production_factory_start_efficiency_factor = 0.05
+			}
+		}
+		
+		RNL_Quick_Economic_Improvements = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                industrial_capacity_factory = 0.1
+				production_factory_start_efficiency_factor = 0.1
+			}
+		}
+		
+		RNL_Quick_Rearmament = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                conscription_factor = 0.13
+				army_attack_factor = -0.02
+				army_org_factor = 0.05
+			}
+		}
+		
+		RNL_Steady_Rearmament = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                conscription_factor = 0.05
+				army_attack_factor = 0.02
+				army_org_factor = 0.03
+			}
+		}
 	}
 }
 

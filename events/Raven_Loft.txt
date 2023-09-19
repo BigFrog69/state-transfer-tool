@@ -15,7 +15,7 @@ country_event = {
 	option = {
 		name = Raven.1.a
 		RNL = {
-			country_event = { days = 5 id = Raven.2 }
+			country_event = { days = 2 id = Raven.2 }
 		}
 	}
 }
@@ -40,5 +40,21 @@ country_event = { #They deny
 		}  
 		activate_mission = war_with_Hexia
 		activate_mission = GER_mefo_bills_mission
+	}
+}
+
+country_event = {
+	id = Raven.3
+	title = Raven.3.t
+	desc = Raven.3.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Raven.3.a
+		RNL = {
+			complete_national_focus = RNL_Italy_Of_The_South_Emerges
+		}
 	}
 }

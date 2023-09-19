@@ -17,7 +17,9 @@ set_stability = 0.8
 
 recruit_character = RNL_JustinianFriend
 
-
+add_ideas = {
+	RNL_Reds_On_The_Rise
+}
 
 
 set_politics = {
@@ -29,12 +31,12 @@ set_politics = {
 set_popularities = {
 	chad = 0
 	totalism = 0
-	syndicalism = 0
-	socialism = 0
-	democracy = 0
+	syndicalism = 2
+	socialism = 10
+	democracy = 7
 	liberalism = 0
-	conservatism = 0
-	authoritarianism = 100
+	conservatism = 1
+	authoritarianism = 80
 	autocracy = 0
 	nationalist = 0
 }

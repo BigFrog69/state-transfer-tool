@@ -11,8 +11,8 @@ state={
 		add_core_of = SSB
 		buildings = {
 			infrastructure = 1
-			arms_factory = 3
-			industrial_complex = 7
+			arms_factory = 0
+			industrial_complex = 2
 
 		}
 	}

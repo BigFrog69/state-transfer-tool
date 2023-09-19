@@ -47,7 +47,7 @@ focus_tree = {
 
 		completion_reward = {
 		    HEX = {
-		    country_event = { days = 3 id = Raven.1 }
+		    country_event = { days = 1 id = Raven.1 }
 		    }
 		}
 	}
@@ -254,18 +254,28 @@ focus_tree = {
 		completion_reward = {
 		add_stability = -0.2
 		add_war_support = -0.1
+		add_popularity = {
+            ideology = socialism
+            popularity = 0.15
+            }
+		add_popularity = {
+            ideology = totalism
+            popularity = 0.03
+            }
+		add_popularity = {
+            ideology = syndicalism
+            popularity = 0.05
+            }
 		}
 	}
-
-
-#######################################
-
+	
 	focus = {
-		id = RNL_fun_focus_for_big_frog_1
+		id = RNL_Moving_On
 		icon = GFX_goal_generic_consumer_goods
-		x = 16
-		y = 0
-		cost = 10
+	    prerequisite = { focus = RNL_Puppet_Regime focus = RNL_Hexian_Fiasco }
+		x = 8
+		y = 5
+		cost = 5
 		ai_will_do = {
 			factor = 24
 			modifier = {
@@ -275,16 +285,42 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-            add_political_power = 10
+            country_event = { days = 1 id = Raven.3 }
+		}
+	}
+
+
+#######################################
+
+	focus = {
+		id = RNL_Italy_Of_The_South_Emerges
+		icon = GFX_goal_generic_consumer_goods
+		x = 16
+		y = 0
+		cost = 10
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_political_power = 100
 		}
 	}
 
 	focus = {
-		id = RNL_fun_focus_for_big_frog_2
+		id = RNL_Quick_Research_Improvements
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = RNL_fun_focus_for_big_frog_1 }
-		relative_position_id = RNL_fun_focus_for_big_frog_1
-		x = 0
+		prerequisite = { focus = RNL_Italy_Of_The_South_Emerges }
+		relative_position_id = RNL_Italy_Of_The_South_Emerges
+		mutually_exclusive = { focus = RNL_Steady_Research_Improvements }
+		x = -1
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -296,16 +332,43 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-            add_political_power = 10
+            add_ideas = RNL_Quick_Research_Improvements
+			add_popularity = {
+            ideology = socialism
+            popularity = 0.1
+            }
 		}
 	}
 
 	focus = {
-		id = RNL_fun_focus_for_big_frog_3
+		id = RNL_Steady_Research_Improvements
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = RNL_fun_focus_for_big_frog_2 }
-		relative_position_id = RNL_fun_focus_for_big_frog_1
-		x = 0
+		prerequisite = { focus = RNL_Italy_Of_The_South_Emerges }
+		relative_position_id = RNL_Italy_Of_The_South_Emerges
+		mutually_exclusive = { focus = RNL_Quick_Research_Improvements }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_ideas = RNL_Steady_Research_Improvements
+		}
+	}
+
+	focus = {
+		id = RNL_Steady_Economic_Improvements
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_Steady_Research_Improvements focus = RNL_Quick_Research_Improvements }
+		relative_position_id = RNL_Italy_Of_The_South_Emerges
+		mutually_exclusive = { focus = RNL_Quick_Economic_Improvements }
+		x = 1
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -317,16 +380,43 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-            add_political_power = 10
+            add_ideas = RNL_Steady_Economic_Improvements
 		}
 	}
 
 	focus = {
-		id = RNL_fun_focus_for_big_frog_4
+		id = RNL_Quick_Economic_Improvements
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = RNL_fun_focus_for_big_frog_3 }
-		relative_position_id = RNL_fun_focus_for_big_frog_1
-		x = 0
+		prerequisite = { focus = RNL_Steady_Research_Improvements focus = RNL_Quick_Research_Improvements }
+		relative_position_id = RNL_Italy_Of_The_South_Emerges
+		mutually_exclusive = { focus = RNL_Steady_Economic_Improvements }
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_ideas = RNL_Quick_Economic_Improvements
+			add_popularity = {
+            ideology = socialism
+            popularity = 0.1
+            }
+		}
+	}
+	
+	focus = {
+		id = RNL_Steady_Rearmament
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_Steady_Economic_Improvements focus = RNL_Quick_Economic_Improvements }
+		relative_position_id = RNL_Italy_Of_The_South_Emerges
+		mutually_exclusive = { focus = RNL_Quick_Rearmament }
+		x = 1
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -338,15 +428,41 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-            add_political_power = 10
+            add_ideas = RNL_Steady_Rearmament
 		}
 	}
 
 	focus = {
-		id = RNL_fun_focus_for_big_frog_5
+		id = RNL_Quick_Rearmament
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = RNL_fun_focus_for_big_frog_4 }
-		relative_position_id = RNL_fun_focus_for_big_frog_1
+		prerequisite = { focus = RNL_Steady_Economic_Improvements focus = RNL_Quick_Economic_Improvements }
+		relative_position_id = RNL_Italy_Of_The_South_Emerges
+		mutually_exclusive = { focus = RNL_Steady_Rearmament }
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_ideas = RNL_Quick_Rearmament
+			add_popularity = {
+            ideology = socialism
+            popularity = 0.2
+            }
+		}
+	}
+
+	focus = {
+		id = RNL_fun_focus_for_big_frog_6
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_Quick_Rearmament focus = RNL_Steady_Rearmament }
+		relative_position_id = RNL_Italy_Of_The_South_Emerges
 		x = 0
 		y = 4
 		cost = 10
@@ -360,27 +476,7 @@ focus_tree = {
 
 		completion_reward = {
             add_political_power = 10
-		}
-	}
-
-	focus = {
-		id = RNL_fun_focus_for_big_frog_6
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = RNL_fun_focus_for_big_frog_5 }
-		relative_position_id = RNL_fun_focus_for_big_frog_1
-		x = 0
-		y = 5
-		cost = 10
-		ai_will_do = {
-			factor = 24
-			modifier = {
-				factor = 3
-			}
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-            add_political_power = 10
+			load_focus_tree = Raven_Loft2
 		}
 	}
 }
