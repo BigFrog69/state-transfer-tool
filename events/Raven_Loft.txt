@@ -58,3 +58,31 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+    id = Raven.4
+    title = Raven.4.t
+    desc = Raven.4.d
+
+    hours = 6
+    days = 1
+
+	fire_only_once = yes
+    is_triggered_only = yes
+    trigger = {
+        AND = {
+            original_tag = RNL
+            socialism > 0.5
+        }
+    }
+    immediate = {
+        army_experience 10
+    }
+    option = {
+        name = Raven.4.a
+		load_focus_tree = Raven_Loft2
+    }
+	option = {
+        name = Raven.4.b
+    }
+}
