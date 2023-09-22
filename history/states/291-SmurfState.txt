@@ -1,0 +1,20 @@
+state={
+	id=291
+	name="STATE_291"
+	provinces={
+		148 172 322 753 757 957 1165 1382 1411 1446 1477 1517 1595 1599 1691 1707 1971 1995 2026 2216 2546 2601 2669 2743 2748 2805 2826 3251 3351 3364 3579 3607 3634 3731 3797 3910 3951 3986 4154 4290 4366 4631 4761 4892 5129 5151 5153 5171 5203 5215 5221 5242 5243 5258 5267 5269 5273 5276 5282 5283 5298 5308 5314 5317 5329 5338 5347 5359 
+	}
+	history={
+		owner = SMF
+		add_core_of = SMF
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 5
+		}
+	}
+	manpower=5000000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

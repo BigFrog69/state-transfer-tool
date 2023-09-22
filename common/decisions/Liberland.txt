@@ -1,0 +1,64 @@
+form_greater_Liberland_category = {
+
+	
+	form_greater_liberland = {
+
+		icon = generic_industry
+
+		available = {
+			292 = { is_owned_by = LLB }
+			267 = { is_owned_by = LLB }
+			268 = { is_owned_by = LLB }
+			271 = { is_owned_by = LLB }
+			266 = { is_owned_by = LLB }
+			269 = { is_owned_by = LLB }
+			272 = { is_owned_by = LLB }
+			270 = { is_owned_by = LLB }
+			222 = { is_owned_by = LLB }
+			127 = { is_owned_by = LLB }
+			284 = { is_owned_by = LLB }
+			283 = { is_owned_by = LLB }
+			125 = { is_owned_by = LLB }
+			282 = { is_owned_by = LLB }
+			126 = { is_owned_by = LLB }
+			124 = { is_owned_by = LLB }
+			123 = { is_owned_by = LLB }
+			281 = { is_owned_by = LLB }
+			280 = { is_owned_by = LLB }
+			279 = { is_owned_by = LLB }
+			275 = { is_owned_by = LLB }
+			276 = { is_owned_by = LLB }
+			277 = { is_owned_by = LLB }
+			273 = { is_owned_by = LLB }
+			274 = { is_owned_by = LLB }
+			278 = { is_owned_by = LLB }
+			290 = { is_owned_by = LLB }
+			if = {
+				tag = LLB
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 180
+		days_re_enable = 540
+
+		cost = 0
+
+		complete_effect = {
+			set_cosmetic_tag = LLB_Greater_Liberland
+		}
+
+		ai_will_do = {
+			base = 5
+		}
+	}
+}

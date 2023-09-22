@@ -1,0 +1,20 @@
+characters={
+	SMF_papa_smurf={
+		name="Papa Smurf"
+		portraits={
+			civilian={
+				large=GFX_portrait_SMF_papa_smurf
+			}
+			army={
+				small="GFX_portrait_SMF_papa_smurf"
+			}
+		}
+		country_leader={
+			ideology= nationalist
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

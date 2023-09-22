@@ -1,0 +1,20 @@
+characters={
+	GAN_Gandhi={
+		name="Gandhi"
+		portraits={
+			civilian={
+				large=GFX_portrait_GAN_Gandhi
+			}
+			army={
+				small="GFX_portrait_GAN_Gandhi"
+			}
+		}
+		country_leader={
+			ideology= totalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

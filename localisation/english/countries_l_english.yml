@@ -31,6 +31,10 @@
  LLB_DEF:0 "Liberland"
  LLB_ADJ:0 "Liberlandian"
 
+ LLB_Greater_Liberland:0 "Greater Liberland"
+ LLB_Greater_Liberland_DEF:0 "Greater Liberland"
+ LLB_Greater_Liberland_ADJ:0 "Greater Liberlandian"
+
  SSB:0 "Socialist State of Beyron"
  SSB_DEF:0 "State of Beyron"
  SSB_ADJ:0 "Beyronian"
@@ -185,6 +189,27 @@
  FQR_DEF:0 "FUCQR"
  FQR_ADJ:0 "FUCQR"
  
+
+ #Smurf Nation
+ SMF:0 "Smurfland"
+ SMF_DEF:0 "Smurf"
+ SMF_ADJ:0 "Smurf"
+
+ #Anti-Raider Coup
+ ARR:0 "Anti-Raider Coup"
+ ARR_DEF:0 "Anti-Raider"
+ ARR_ADJ:0 "Anti-raider"
+
+ #Gandhi Nation
+ GAN:0 "Gandhi"
+ GAN_DEF:0 "Gandhi"
+ GAN_ADJ:0 "Gandhi"
+
+ #Molossia
+ MSS:0 "Molossia"
+ MSS_DEF:0 "Molossia"
+ MSS_ADJ:0 "Molossian"
+
  #BOTS
  BTA:0 "Iabria"
  BTA_DEF:0 "Iabria"
@@ -297,3 +322,9 @@
  ROO_fascism:0 "Ostryian Empire"
  ROO_fascism_DEF:0 "Ostryian Empire"
  ROO_fascism_ADJ:0 "Ostryian"
+
+
+ #KiltedDungeoneer
+ KLT:0 "KiltedDungeoneer Place Holder Name"
+ KLT_DEF:0 "KiltedDungeoneer"
+ KLT_ADJ:0 "Kilted"

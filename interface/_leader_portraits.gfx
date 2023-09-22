@@ -2,6 +2,15 @@ spriteTypes = {
 
 
 
+	spriteType = {
+		name = "GFX_portrait_GAN_Gandhi"
+		texturefile = "gfx/leaders/GAN/Gandhi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SMF_papa_smurf"
+		texturefile = "gfx/leaders/SMF/papa_smurf.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_DMA_Douglas_McArthur"
@@ -121,6 +130,22 @@ spriteTypes = {
 		name = "GFX_portrait_WOD_woodcastle"
 		texturefile = "gfx/leaders/WOD/woodcastle.dds"
 	}
+
+
+
+
+
+	spriteType = {
+		name = "GFX_portrait_KLT_Arthur"
+		texturefile = "gfx/leaders/KLT/Arthur.dds"
+	}
+
+
+
+
+
+
+
 
 
 	spriteType = {

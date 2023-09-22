@@ -1,9 +1,0 @@
-on_actions = {
-    on_startup = {
-        effect = { 
-            RNL = {
-                country_event = { id = Raven.4 days = 2 }
-            }
-        }
-    }
-}

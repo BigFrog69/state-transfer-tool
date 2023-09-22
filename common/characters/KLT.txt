@@ -1,0 +1,20 @@
+characters={
+	KLT_Arthur={
+		name="Arthur"
+		portraits={
+			civilian={
+				large=GFX_portrait_KLT_Arthur
+			}
+			army={
+				small="GFX_portrait_KLT_Arthur"
+			}
+		}
+		country_leader={
+			ideology= authoritarianism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

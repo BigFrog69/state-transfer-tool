@@ -44,8 +44,12 @@ ERD = "countries/Raiders4.txt" #on bookmark - flag needed - focus tree needed - 
 HEX = "countries/Hexia.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 DMA = "countries/Protagonistan.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 FQR = "countries/FUCQR.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+SMF = "countries/Smurf.txt" #on bookmark  - focus tree needed - ideas needed
+ARR = "countries/AntiRaiderCoup.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+GAN = "countries/Gandhi.txt" #on bookmark - focus tree needed  - ideas needed
+MSS = "countries/Molossia.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
-UHH = "countries/Uhh.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+UHH = "countries/Uhh.txt" #on bookmark - flag needed - focus tree needed - ideas needed
 
 PPY	= "countries/Papyrus.txt"
 
@@ -75,3 +79,5 @@ BTW	= "countries/BotNation23.txt"
 BTX	= "countries/BotNation24.txt"
 BTY	= "countries/BotNation25.txt"
 BTZ	= "countries/BotNation26.txt"
+
+KLT	= "countries/KiltedDungeoneer.txt"

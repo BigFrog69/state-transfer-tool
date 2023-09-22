@@ -1,0 +1,20 @@
+state={
+	id=293
+	name="STATE_293"
+	provinces={
+		875 
+	}
+	history={
+		owner = MSS
+		add_core_of = MSS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 5
+		}
+	}
+	manpower=5000000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
