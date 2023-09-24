@@ -48,6 +48,7 @@ SMF = "countries/Smurf.txt" #on bookmark  - focus tree needed - ideas needed
 ARR = "countries/AntiRaiderCoup.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 GAN = "countries/Gandhi.txt" #on bookmark - focus tree needed  - ideas needed
 MSS = "countries/Molossia.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
+RRL = "countries/RevolutionaryRaven.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
 UHH = "countries/Uhh.txt" #on bookmark - flag needed - focus tree needed - ideas needed
 

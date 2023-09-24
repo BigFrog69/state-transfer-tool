@@ -45,6 +45,30 @@ units = {
 		location = 6628
 		division_template = "Hexia Brigade"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6628
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6628
+		division_template = "Hexia Brigade"
+		start_experience_factor = 0.1
 		start_equipment_factor = 0.9
 
 	}

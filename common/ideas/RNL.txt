@@ -119,6 +119,7 @@ ideas = {
 			
 			modifier = {
                 socialism_drift = 0.1
+				consumer_goods_factor = 0.02
 			}
 		}
 		
@@ -216,6 +217,100 @@ ideas = {
                 conscription_factor = 0.05
 				army_attack_factor = 0.02
 				army_org_factor = 0.03
+			}
+		}
+		
+		RNL_Reds_On_The_Rise_2 = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                socialism_drift = 0.05
+				consumer_goods_factor = 0.04
+			}
+		}
+		
+		RNL_Reds_On_The_Rise_3 = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                socialism_drift = 0.15
+			}
+		}
+		
+		Political_Violence = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		
+		RNL_Political_Violence_2 = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                political_power_gain = -0.5
+				stability_weekly_factor = -0.1
+			}
+		}
+		
+		RNL_Unstable_Army = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                army_defence_factor = -0.2
+				army_attack_factor = -0.2
+				army_org_factor = -0.1
+			}
+		}
+		
+		Heart_Of_The_Revolution = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                surrender_limit = 0.15
 			}
 		}
 	}

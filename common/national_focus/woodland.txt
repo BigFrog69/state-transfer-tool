@@ -57,17 +57,6 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			set_major = yes
-			add_threat = -100
-			every_state = {
-				add_manpower = 100000
-			}
-			every_country = { 
-				add_manpower = 2000000
-				add_political_power = 500
-				add_stability = 1.0
-				add_war_support = -1.0
-			}
 			custom_effect_tooltip = woodland_focus_3
 		}
 	}

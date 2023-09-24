@@ -1,0 +1,71 @@
+ideas = {
+
+	country = {
+		
+		RRL_Political_Violence = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		
+		RRL_Political_Violence_2 = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                political_power_gain = -0.5
+				stability_weekly_factor = -0.1
+			}
+		}
+		
+		RRL_Unstable_Army = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                army_defence_factor = -0.2
+				army_attack_factor = -0.2
+				army_org_factor = -0.1
+			}
+		}
+		
+		RRL_Heart_Of_The_Revolution = {
+			picture = SSB_MemoriesOfSpritekrieg
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+                surrender_limit = 0.15
+			}
+		}
+	}
+}
+
+
+

@@ -1,0 +1,38 @@
+﻿capital = 279
+
+oob = "RRL_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+}
+
+set_war_support = 0.5
+set_stability = 0.1
+
+recruit_character = RRL_RRL
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "1934.6.3"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	chad = 0
+	totalism = 4
+	syndicalism = 15
+	socialism = 65
+	democracy = 6
+	liberalism = 2
+	conservatism = 8
+	authoritarianism = 0
+	autocracy = 0
+	nationalist = 0
+}
+

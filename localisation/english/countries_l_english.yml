@@ -155,6 +155,10 @@
  ANC_DEF:0 "Anarchist State of Moravia"
  ANC_ADJ:0 "Moravians"
  
+ RRL:0 "Revolutionary Raven Loft"
+ RRL_DEF:0 "Revolutionary Raven Loft"
+ RRL_ADJ:0 "Ravens"
+ 
  RAS:0 "Raiders"
  RAS_DEF:0 "Raiders"
  RAS_ADJ:0 "Raiders"

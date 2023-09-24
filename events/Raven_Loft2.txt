@@ -1,0 +1,38 @@
+﻿###########################
+# RevRaven Events
+###########################
+
+add_namespace = RevolutionaryRaven
+
+country_event = {
+	id = RevRaven.1
+	title = RevRaven.1.t
+	desc = RevRaven.1.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RevRaven.1.a
+        add_ideas = RRL_Political_Violence_2
+		add_ideas = RRL_Unstable_Army
+		add_ideas = RRL_Heart_Of_The_Revolution
+	}
+}
+
+country_event = {
+	id = RevRaven.2
+	title = RevRaven.2.t
+	desc = RevRaven.2.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RevRaven.2.a
+	    hidden_effect = {
+			country_event = { days = 1 id = RevRaven.1 }
+		}
+	}
+}
+

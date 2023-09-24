@@ -22,7 +22,6 @@ RNL_actions_category = {
 			controls_state = 278
 			controls_state = 277
 			controls_state = 276
-			controls_state = 273
 			controls_state = 275
 			NOT = { has_war_with = HEX }
     	}
@@ -35,7 +34,7 @@ RNL_actions_category = {
 
 		cost = 0
 		complete_effect = {
-			complete_national_focus = RNL_Puppet_Regime
+			complete_national_focus = RNL_Hexian_Fiasco
 		}
 		timeout_effect = {
 			if = {
@@ -52,9 +51,7 @@ RNL_actions_category = {
 			}
 
 			
-
-			complete_national_focus = RNL_Hexian_Fiasco
-			#complete_national_focus = RNL_Puppet_Regime
+			complete_national_focus = RNL_Puppet_Regime
 		}
 		ai_will_do = {
 			base = 1

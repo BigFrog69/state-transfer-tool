@@ -252,6 +252,11 @@ DMA = {
 	color_ui = rgb { 50 50 240 }
 }
 
+RRL = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+
 FQR = {
 	color = rgb { 75 75 75 }
 	color_ui = rgb { 75 75 75 }

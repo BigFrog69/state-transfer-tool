@@ -72,7 +72,7 @@ country_event = {
     trigger = {
         AND = {
             original_tag = RNL
-            socialism > 0.5
+            socialism > 0.6
         }
     }
     immediate = {
@@ -80,9 +80,208 @@ country_event = {
     }
     option = {
         name = Raven.4.a
-		load_focus_tree = Raven_Loft2
-    }
+	RNL = {
+	remove_ideas = RNL_Quick_Rearmament
+	remove_ideas = RNL_Quick_Economic_Improvements
+	remove_ideas = RNL_Quick_Research_Improvements
+	remove_ideas = RNL_Steady_Rearmament
+	remove_ideas = RNL_Steady_Economic_Improvements
+	remove_ideas = RNL_Steady_Research_Improvements
+	remove_ideas = RNL_Hexia_Payments
+	remove_ideas = RNL_Reds_On_The_Rise_3
+	remove_ideas = RNL_Reds_On_The_Rise_2
+	remove_ideas = RNL_Reds_On_The_Rise
+	complete_national_focus = RNL_Political_Collapse
+	set_popularities = {
+	    Authoritarianism = 80
+	    Conservatism =  10
+	    Socialism = 2
+	    Autocracy = 8
+        }
+	}
+	
+	RRL = {
+	hidden_effect = {
+	    transfer_state = 279
+	    transfer_state = 280
+	    transfer_state = 281
+	    transfer_state = 282
+	    load_focus_tree = Raven_Loft2
+		set_capital = 279
+		complete_national_focus = RRL_Political_Collapse
+	    }
+	}
+	RRL = { change_tag_from = RNL }
+	}
+	#
+	#
+	#
 	option = {
         name = Raven.4.b
+	RNL = {
+	remove_ideas = RNL_Quick_Rearmament
+	remove_ideas = RNL_Quick_Economic_Improvements
+	remove_ideas = RNL_Quick_Research_Improvements
+	remove_ideas = RNL_Steady_Rearmament
+	remove_ideas = RNL_Steady_Economic_Improvements
+	remove_ideas = RNL_Steady_Research_Improvements
+	remove_ideas = RNL_Hexia_Payments
+	remove_ideas = RNL_Reds_On_The_Rise_3
+	remove_ideas = RNL_Reds_On_The_Rise_2
+	remove_ideas = RNL_Reds_On_The_Rise
+    complete_national_focus = RNL_Political_Collapse
+	set_popularities = {
+	    Authoritarianism = 80
+	    Conservatism =  10
+	    Socialism = 2
+	    Autocracy = 8
+        }
+	}
+	
+	RRL = {
+	hidden_effect = {
+	        transfer_state = 279
+	        transfer_state = 280
+	        transfer_state = 281
+	        transfer_state = 282
+	        load_focus_tree = Raven_Loft2
+			set_capital = 279
+			complete_national_focus = RRL_Political_Collapse
+		    }
+	    }
+	}
+}
+
+country_event = {
+	id = Raven.5
+	title = Raven.5.t
+	desc = Raven.5.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+option = {
+        name = Raven.5.a
+        swap_ideas = {
+            remove_idea = RNL_Reds_On_The_Rise
+            add_idea = RNL_Reds_On_The_Rise_2
+			}
+	}
+
+	option = {
+        name = Raven.5.b
+		swap_ideas = {
+            remove_idea = RNL_Reds_On_The_Rise
+            add_idea = RNL_Reds_On_The_Rise_3
+			}
+	}
+}
+
+country_event = { #The Elections
+    id = Raven.6
+    title = Raven.6.t
+    desc = Raven.6.d
+
+    hours = 6
+    days = 1
+
+	fire_only_once = yes
+    is_triggered_only = no
+    trigger = {
+        AND = {
+            original_tag = RNL
+            date > 2023.03.01
+        }
     }
+    immediate = {
+        army_experience 10
+    }
+    option = {
+        name = Raven.6.a
+		set_politics = {
+	        ruling_party = chad
+            elections_allowed = no
+            last_election = "1935.12.17"
+            election_frequency = 48
+            long_name = chadist
+            name = chad
+        }
+	unlock_national_focus = RNL_Chadist_Democracy
+	}
+	option = {
+        name = Raven.6.b
+		set_politics = {
+	        ruling_party = Conservatism
+            elections_allowed = no
+            last_election = "1935.12.17"
+            election_frequency = 48
+            long_name = Conservatism
+            name = Conservatism
+        }
+	unlock_national_focus = RNL_Conservatism
+	}
+	option = {
+        name = Raven.6.c
+		set_politics = {
+	        ruling_party = Authoritarianism
+            elections_allowed = no
+            last_election = "1935.12.17"
+            election_frequency = 48
+            long_name = Authoritarianism
+            name = Authoritarianism
+        }
+	unlock_national_focus = RNL_Who_Needs_A_Change
+	}
+	option = {
+        name = Raven.6.d
+		set_politics = {
+	        ruling_party = Autocracy
+            elections_allowed = no
+            last_election = "1935.12.17"
+            election_frequency = 48
+            long_name = Autocracy
+            name = Autocracy
+        }
+	unlock_national_focus = RNL_Autocracy
+	}
+}
+
+country_event = { #Before Elections "Elections are coming"
+    id = Raven.7
+    title = Raven.7.t
+    desc = Raven.7.d
+
+    hours = 6
+    days = 1
+
+	fire_only_once = yes
+    is_triggered_only = no
+    trigger = {
+        AND = {
+            original_tag = RNL
+            date > 2023.02.01
+        }
+    }
+    immediate = {
+        army_experience 10
+    }
+    option = {
+        name = Raven.7.a
+
+	}
+}
+
+country_event = {
+	id = Raven.8
+	title = Raven.8.t
+	desc = Raven.8.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Raven.8.a
+        add_ideas = RNL_Political_Violence_2
+		add_ideas = RNL_Unstable_Army
+	}
 }

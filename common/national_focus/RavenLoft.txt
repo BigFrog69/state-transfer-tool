@@ -453,18 +453,18 @@ focus_tree = {
             add_ideas = RNL_Quick_Rearmament
 			add_popularity = {
             ideology = socialism
-            popularity = 0.2
+            popularity = 0.1
             }
 		}
 	}
-
+	
 	focus = {
-		id = RNL_fun_focus_for_big_frog_6
+		id = RNL_Dealing_With_The_Socialist
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = RNL_Quick_Rearmament focus = RNL_Steady_Rearmament }
+		prerequisite = { focus = RNL_Italy_Of_The_South_Emerges }
 		relative_position_id = RNL_Italy_Of_The_South_Emerges
-		x = 0
-		y = 4
+		x = 4
+		y = 1
 		cost = 10
 		ai_will_do = {
 			factor = 24
@@ -475,11 +475,251 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
+            country_event = { days = 1 id = Raven.5 }
+		}
+	}
+
+	focus = {
+		id = RNL_2024_Elections
+		icon = GFX_goal_generic_consumer_goods
+		x = 32
+		y = 0
+		cost = 10
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
             add_political_power = 10
-			load_focus_tree = Raven_Loft2
+		}
+	}
+#########
+###CHAD###
+#########
+	focus = {
+		id = RNL_Chadist_Democracy
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_2024_Elections }
+		x = 24
+		y = 1
+		cost = 10
+		available = {
+			has_government = chad
+			always = no
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_political_power = 10
+		}
+	}
+	
+	focus = {
+		id = RNL_ass
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_Chadist_Democracy }
+		x = 24
+		y = 2
+		cost = 10
+		available = {
+			has_government = chad
+			NOT = {	country_exists = RRL }
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_political_power = 10
+		}
+	}
+#CONSERVATISM
+	focus = {
+		id = RNL_Conservatism
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_2024_Elections }
+		x = 29
+		y = 1
+		cost = 10
+		available = {
+			has_government = conservatism
+			always = no
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_political_power = 10
+		}
+	}
+	
+	focus = {
+		id = RNL_ass2
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_Conservatism }
+		x = 29
+		y = 2
+		cost = 10
+		available = {
+			has_government = conservatism
+			NOT = {	country_exists = RRL }
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_political_power = 10
+		}
+	}
+#Authoritarianism	
+	focus = {
+		id = RNL_Who_Needs_A_Change
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_2024_Elections }
+		x = 35
+		y = 1
+		cost = 10
+		available = {
+			has_government = Authoritarianism
+			always = no
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_political_power = 10
+		}
+	}
+	
+	focus = {
+		id = RNL_ass3
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_Who_Needs_A_Change }
+		x = 35
+		y = 2
+		cost = 10
+		available = {
+			has_government = Authoritarianism
+			NOT = {	country_exists = RRL }
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_political_power = 10
+		}
+	}
+#Autocracy	
+	focus = {
+		id = RNL_Autocracy
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_2024_Elections }
+		x = 40
+		y = 1
+		cost = 10
+		available = {
+			has_government = Autocracy
+			always = no
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_political_power = 10
+		}
+	}
+	
+	focus = {
+		id = RNL_ass4
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RNL_Autocracy }
+		x = 40
+		y = 2
+		cost = 10
+		available = {
+			has_government = Autocracy
+			NOT = {	country_exists = RRL }
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            add_political_power = 10
+		}
+	}
+#POLITICAL COLLAPSE
+	focus = {
+		id = RNL_Political_Collapse
+		icon = GFX_goal_generic_consumer_goods
+		x = 47
+		y = 0
+		cost = 10
+		available = {
+			AND = {	country_exists = RRL }
+			always = no
+		}
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            RNL = {
+	        hidden_effect = {
+			    country_event = { days = 1 id = Raven.8 }
+				}
+		    }
 		}
 	}
 }
 
-
-	
