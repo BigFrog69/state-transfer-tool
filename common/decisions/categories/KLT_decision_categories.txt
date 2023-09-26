@@ -1,0 +1,18 @@
+####################
+#### Kilted     ####
+####################
+
+
+kilted_state_decision_category = {
+	icon = military_operation
+
+	picture = GFX_decision_cat_picture_ger_case_anton
+
+	allowed = {
+		original_tag = KLT
+	}
+
+	visible = {
+		original_tag = KLT
+	}
+}

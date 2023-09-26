@@ -1,0 +1,42 @@
+kilted_state_decision_category = {
+
+	
+	hexia_state_decision = {
+
+		icon = generic_industry
+
+		available = {
+			273 = { is_fully_controlled_by = KLT }
+			
+			if = {
+				tag = KLT
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 180
+		days_re_enable = 540
+
+		cost = 0
+
+		complete_effect = {
+			white_peace = HEX
+			KLT = {
+				transfer_state = 279
+			}	
+		}
+
+		ai_will_do = {
+			base = 5
+		}
+	}
+}

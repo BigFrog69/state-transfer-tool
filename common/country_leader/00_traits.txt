@@ -79,7 +79,25 @@ leader_traits = {
 		}
 	}
 
-
+	Mentally_Insane = {
+		random = no
+		recruitable_population_factor = -0.35
+		stability_weekly_factor = -0.20
+		political_power_gain = -0.25
+		army_org_regain = -0.8
+		army_org_factor = -0.4
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Kat_Homoeans = {
+		random = no
+		monthly_population = 1.8
+		political_power_cost = 0.5
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 
 
