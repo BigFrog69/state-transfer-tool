@@ -1,0 +1,32 @@
+﻿
+focus_tree = {
+	id = KLT_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KLT
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = KLT_Prepare_An_Unexpected_Attack
+		icon = GFX_goal_TheGreatPurge
+		x = 5
+		y = 0
+		cost = 22
+
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			country_event = { days = 1 id = KLT.1 }
+		}
+	}
+}

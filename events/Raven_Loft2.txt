@@ -36,3 +36,46 @@ country_event = {
 	}
 }
 
+country_event = { #Win State 125
+	id = RevRaven.3
+	title = RevRaven.3.t
+	desc = RevRaven.3.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RevRaven.3.a
+        RRL = {
+	        transfer_state = 125
+	    }
+	}
+}
+
+country_event = { #Lose State 125
+	id = RevRaven.4
+	title = RevRaven.4.t
+	desc = RevRaven.4.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RevRaven.4.a
+
+	}
+}
+
+country_event = { #Cancel state 125
+	id = RevRaven.5
+	title = RevRaven.5.t
+	desc = RevRaven.5.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RevRaven.5.a
+
+	}
+}

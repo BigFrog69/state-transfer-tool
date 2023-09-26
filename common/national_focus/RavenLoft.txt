@@ -13,7 +13,7 @@ focus_tree = {
 
 	focus = {
 		id = RNL_Crazy_Adventure
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Adventure
 		x = 8
 		y = 0
 		cost = 10
@@ -32,7 +32,7 @@ focus_tree = {
 	
 	focus = {
 		id = RNL_Finishing_The_Cause
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_FinishingHEX
 	    prerequisite = { focus = RNL_Crazy_Adventure }
 		x = 8
 		y = 1
@@ -698,7 +698,7 @@ focus_tree = {
 	focus = {
 		id = RNL_Political_Collapse
 		icon = GFX_goal_generic_consumer_goods
-		x = 47
+		x = 45
 		y = 0
 		cost = 10
 		available = {

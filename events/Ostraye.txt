@@ -15,7 +15,7 @@ country_event = {
 	option = {
 		name = Ostraye.1.a
 		complete_national_focus = ROO_four_year_plan
-		set_cosmetic_tag = ROO_FAS
+		set_cosmetic_tag = ROO_FAS_fascism
 	}
 }
 

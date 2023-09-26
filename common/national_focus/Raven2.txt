@@ -49,6 +49,103 @@ focus_tree = {
             add_political_power = 100
 		}
 	}
+	
+	focus = {
+		id = RRL_Gaining_Control_Over_Raven
+		icon = GFX_goal_generic_consumer_goods
+		x = 12
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+            load_oob = "RRL_1936"
+		}
+	}
+	
+	focus = {
+		id = RRL_Spreading_Socialism_To_Other_States
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RRL_Gaining_Control_Over_Raven }
+		x = 12
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+        start_border_war = {
+        change_state_after_war = no
+        attacker = {
+            state = 282
+            num_provinces = 5
+            on_win = RevRaven.3
+            on_lose = RevRaven.4
+            on_cancel = RevRaven.5
+            modifier = 0.1
+            dig_in_factor = 0
+            terrain_factor = 0
+            }	
+            defender = {
+                state = 125
+                num_provinces = 4
+                on_win = RevRaven.4
+                on_lose = RevRaven.3
+                on_cancel = RevRaven.5
+                }
+            }
+		}
+	}
+	
+	focus = {
+		id = RRL_Spreading_Socialism_To_Other_States_2
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RRL_Spreading_Socialism_To_Other_States }
+		x = 12
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+        start_border_war = {
+        change_state_after_war = no
+        attacker = {
+            state = 282
+            num_provinces = 5
+            on_win = RevRaven.3
+            on_lose = RevRaven.4
+            on_cancel = RevRaven.5
+            modifier = 0.1
+            dig_in_factor = 0
+            terrain_factor = 0
+            }	
+            defender = {
+                state = 283
+                num_provinces = 4
+                on_win = RevRaven.4
+                on_lose = RevRaven.3
+                on_cancel = RevRaven.5
+                }
+            }
+		}
+	}
 }
 
 

@@ -40,6 +40,9 @@ country_event = { #They deny
 		}  
 		activate_mission = war_with_Hexia
 		activate_mission = GER_mefo_bills_mission
+	HEX = {
+        add_ideas = HEX_Surviving_At_All_Cost
+	    }
 	}
 }
 
@@ -92,6 +95,7 @@ country_event = {
 	remove_ideas = RNL_Reds_On_The_Rise_2
 	remove_ideas = RNL_Reds_On_The_Rise
 	complete_national_focus = RNL_Political_Collapse
+	set_cosmetic_tag = RNL_NEU_neutrality
 	set_popularities = {
 	    Authoritarianism = 80
 	    Conservatism =  10
@@ -130,6 +134,7 @@ country_event = {
 	remove_ideas = RNL_Reds_On_The_Rise_2
 	remove_ideas = RNL_Reds_On_The_Rise
     complete_national_focus = RNL_Political_Collapse
+	set_cosmetic_tag = RNL_NEU_neutrality
 	set_popularities = {
 	    Authoritarianism = 80
 	    Conservatism =  10
@@ -190,7 +195,7 @@ country_event = { #The Elections
     trigger = {
         AND = {
             original_tag = RNL
-            date > 2023.03.01
+            date > 2024.10.01
         }
     }
     immediate = {
@@ -259,7 +264,7 @@ country_event = { #Before Elections "Elections are coming"
     trigger = {
         AND = {
             original_tag = RNL
-            date > 2023.02.01
+            date > 2024.09.01
         }
     }
     immediate = {
@@ -285,3 +290,31 @@ country_event = {
 		add_ideas = RNL_Unstable_Army
 	}
 }
+
+country_event = { 
+    id = Raven.9
+    title = Raven.9.t
+    desc = Raven.9.d
+
+    hours = 6
+    days = 1
+
+	fire_only_once = yes
+    is_triggered_only = no
+    trigger = {
+		if = {
+		original_tag = RNL
+        date > 2024.08.01
+		NOT = { has_completed_focus = RNL_Political_Collapse }
+		RNL = { country_event = Raven.9 }
+		}
+    }
+    immediate = {
+        army_experience 10
+    }
+    option = {
+        name = Raven.9.a
+
+	}
+}
+

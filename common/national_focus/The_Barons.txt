@@ -14,7 +14,7 @@ focus_tree = {
 
 	focus = {
 		id = TBA_The_Baron
-		icon = GFX_goal_Big_Death_Knight
+		icon = GFX_goal_Barron
 		x = 12
 		y = 0
 		cost = 0#10

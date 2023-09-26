@@ -34,7 +34,7 @@ RNL_actions_category = {
 
 		cost = 0
 		complete_effect = {
-			complete_national_focus = RNL_Hexian_Fiasco
+			complete_national_focus = RNL_Puppet_Regime
 		}
 		timeout_effect = {
 			if = {
@@ -51,7 +51,11 @@ RNL_actions_category = {
 			}
 
 			
-			complete_national_focus = RNL_Puppet_Regime
+			complete_national_focus = RNL_Hexian_Fiasco
+			white_peace = {
+            tag = HEX
+            message = Are_you_fucking_serious_how_did_you_lose_that_war.
+            }
 		}
 		ai_will_do = {
 			base = 1

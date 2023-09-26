@@ -1,0 +1,23 @@
+﻿###########################
+# Raven Events
+###########################
+
+add_namespace = KLT
+
+country_event = {
+	id = KLT.1
+	title = KLT.1.t
+	desc = KLT.1.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KLT.1.a
+        declare_war_on = {
+        	target = HEX
+        	type = annex_everything
+        }
+	}
+}
+
