@@ -1,0 +1,20 @@
+state={
+	id=294
+	name="STATE_294"
+	provinces={
+		514 603 899 992 1051 1341 1528 1602 1667 1706 1731 1975 2151 2466 2479 3000 3455 3472 3776 3867 3891 3901 3912 3989 4033 4177 4439 4444 4463 4562 4628 4751 4754 4887 5028 5047 5067 5069 5094 5107 5108 5114 5124 5126 5132 5139 5145 5146 
+	}
+	history={
+		owner = BTN
+		add_core_of = BTN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 5
+		}
+	}
+	manpower=5000000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

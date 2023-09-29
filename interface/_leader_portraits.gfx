@@ -1,6 +1,15 @@
 spriteTypes = {
 
 
+	spriteType = {
+		name = "GFX_portrait_BTO_Norre_Weigh"
+		texturefile = "gfx/leaders/BTO/Norre_Weigh.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BTN_Wenceslaus"
+		texturefile = "gfx/leaders/BTN/King_Wenceslaus_The_Fourth_The_Idle_The_Shit_The_King_Of_Bohemia.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_GAN_Gandhi"

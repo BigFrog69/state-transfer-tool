@@ -270,14 +270,14 @@
  BTM:0 "Königreich Von Griechenland" #livershort187
  BTM_DEF:0 "Königreich Von Griechenland"
  BTM_ADJ:0 "Griechenlandian"
-
- BTN:0 "Bot Nation 14"
- BTN_DEF:0 "Bot Nation 14"
- BTN_ADJ:0 "Bot 14"
-
- BTO:0 "Bot Nation 15"
- BTO_DEF:0 "Bot Nation 15"
- BTO_ADJ:0 "Bot 15"
+ #Bohemia - King Wenceslas the Idle
+ BTN:0 "Kingdom of Bohemia"
+ BTN_DEF:0 "Bohemia"
+ BTN_ADJ:0 "Bohemian"
+ #No R Way
+ BTO:0 "No Way"
+ BTO_DEF:0 "No Way"
+ BTO_ADJ:0 "Nowegians"
 
  BTP:0 "Bot Nation 16"
  BTP_DEF:0 "Bot Nation 16"

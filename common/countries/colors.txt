@@ -116,6 +116,17 @@ BTB = {
 	color_ui = rgb { 61 114 91 }
 }
 
+#
+BTN = {
+	color = rgb { 186 43 26 }
+	color_ui = rgb { 186 43 26 }
+}
+#
+BTO = {
+	color = rgb { 255 140 140 }
+	color_ui = rgb { 255 140 140 }
+}
+
 BTJ = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }

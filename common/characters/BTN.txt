@@ -1,0 +1,20 @@
+characters={
+	BTN_Wenceslaus={
+		name="King Wenceslaus the Idle of the Kingdom of Bohemia"
+		portraits={
+			civilian={
+				large=GFX_portrait_BTN_Wenceslaus
+			}
+			army={
+				small="GFX_portrait_BTN_Wenceslaus"
+			}
+		}
+		country_leader={
+			ideology= authoritarianism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

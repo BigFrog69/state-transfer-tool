@@ -1,0 +1,20 @@
+characters={
+	BTO_Norre_Weigh={
+		name="King Norre Weigh"
+		portraits={
+			civilian={
+				large=GFX_portrait_BTO_Norre_Weigh
+			}
+			army={
+				small="GFX_portrait_BTO_Norre_Weigh"
+			}
+		}
+		country_leader={
+			ideology= authoritarianism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}
