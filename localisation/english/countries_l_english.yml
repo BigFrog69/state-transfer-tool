@@ -71,6 +71,10 @@
  IGA_DEF:0 "The Gulf Authority"
  IGA_ADJ:0 "Gulfron"
  
+ NRI:0 "Nova Exylum"
+ NRI_DEF:0 "Nova Exylum"
+ NRI_ADJ:0 "Exylums"
+
  FKD:0 "Fly Kingdom"
  FKD_DEF:0 "The Fly Kingdom"
  FKD_ADJ:0 "Flies"
@@ -98,6 +102,26 @@
  HUG:0 "Hungady"
  HUG_DEF:0 "Hungady"
  HUG_ADJ:0 "Hungadians"
+ 
+ RCC:0 "Republic Of Canterlot"
+ RCC_DEF:0 "Republic Of Canterlot"
+ RCC_ADJ:0 "Ponies"
+ 
+ REP:0 "Rome Empire"
+ REP_DEF:0 "Rome Empire"
+ REP_ADJ:0 "Romans"
+ 
+ FSR:0 "R.N. Free State Of Rome"
+ FSR_DEF:0 "R.N. Free State Of Rome"
+ FSR_ADJ:0 "Romans"
+ 
+ DRS:0 "Democratic Republic Of Saquantia"
+ DRS_DEF:0 "Democratic Republic Of Saquantia"
+ DRS_ADJ:0 "Saqautians"
+ 
+ SRP:0 "R.N. Southern Rome Empire"
+ SRP_DEF:0 "R.N. South Rome Empire"
+ SRP_ADJ:0 "Romans"
  
  CHK:0 "Cheek Kingdom"
  CHK_DEF:0 "Cheek Kingdom"
@@ -179,6 +203,10 @@
  UHH_DEF:0 "Uhhhhh..."
  UHH_ADJ:0 "Uhhhhh..."
  
+ NRP:0 "R.N. Northern Rome Empire"
+ NRP_DEF:0 "R.N. Northern Rome Empire"
+ NRP_ADJ:0 "Romans"
+ 
  HEX:0 "Hexia"
  HEX_DEF:0 "Hexia"
  HEX_ADJ:0 "Hexes"
@@ -187,6 +215,10 @@
  DMA:0 "Protagonistan"
  DMA_DEF:0 "Protagonistan"
  DMA_ADJ:0 "Protagonistian"
+ 
+ RMP:0 "R.N. Easten Rome Protocolen"
+ RMP_DEF:0 "R.N. Eastern Rome Protocolen"
+ RMP_ADJ:0 "Romans"
 
  #Fedeated Union of Canal & Quayworkers Republics
  FQR:0 "F.U.C.Q.R."

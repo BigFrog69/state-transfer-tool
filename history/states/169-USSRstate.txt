@@ -5,7 +5,7 @@ state={
 		644 1296 1342 3893 4194 4492 4517 4744 5749 5770 5773 5798 5803 5809 5818 5834 
 	}
 	history={
-		owner = USS
+		owner = RAS
 		add_core_of = USS
 		buildings = {
 			infrastructure = 3

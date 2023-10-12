@@ -17,6 +17,12 @@ set_stability = 0.1
 
 recruit_character = RAS_IDK
 
+declare_war_on = {
+    target = USS
+    type = annex_everything
+}
+
+add_manpower = 1000000
 
 puppet = WRD
 puppet = SRD

@@ -1,25 +1,21 @@
-
 state={
-	id=134
-	name="STATE_134"
-
+	id=309
+	name="STATE_309"
+	provinces={
+		447 5787 
+	}
 	history={
 		owner = RAS
 		add_core_of = USS
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 0
+			arms_factory = 4
+			industrial_complex = 5
 
 		}
 
 	}
-
-	provinces={
-		2839 3745 
-	}
-	manpower=500000
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
 	local_supplies=0.000
 }

@@ -1,0 +1,21 @@
+state={
+	id=299
+	name="STATE_299"
+	provinces={
+		6 2103 2351 2421 2474 2827 3092 4228 4306 5961 5972 6058 
+	}
+	history={
+		owner = NRP
+		add_core_of = NRP
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 5
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

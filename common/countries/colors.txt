@@ -65,6 +65,11 @@ FCM = {
 	color_ui = rgb { 65 105 225 }
 }
 
+RCC = {
+	color = rgb { 65 105 225 }
+	color_ui = rgb { 65 105 225 }
+}
+
 TDI = {
 	color = rgb { 100 20 20 }
 	color_ui = rgb { 100 20 20 }
@@ -73,6 +78,11 @@ TDI = {
 TSB = {
 	color = rgb { 240 3 26 }
 	color_ui = rgb { 240 3 26 }
+}
+
+DRS = {
+	color = rgb { 100 149 237 }
+	color_ui = rgb { 100 149 237 }
 }
 
 SLT = {
@@ -101,6 +111,31 @@ BBD = {
 }
 
 BCS = {
+	color = rgb { 120 120 0 }
+	color_ui = rgb { 120 120 0 }
+}
+
+RMP = {
+	color = rgb { 120 120 0 }
+	color_ui = rgb { 120 120 0 }
+}
+
+REP = {
+	color = rgb { 120 140 0 }
+	color_ui = rgb { 120 140 0 }
+}
+
+FSR = {
+	color = rgb { 120 120 0 }
+	color_ui = rgb { 120 120 0 }
+}
+
+NRP = {
+	color = rgb { 120 120 0 }
+	color_ui = rgb { 120 120 0 }
+}
+
+SRP = {
 	color = rgb { 120 120 0 }
 	color_ui = rgb { 120 120 0 }
 }
@@ -173,6 +208,11 @@ PPY = {
 }
 
 ANL = {
+	color = rgb { 139 69 19 }
+	color_ui = rgb { 139 69 19 }
+}
+
+NRI = {
 	color = rgb { 139 69 19 }
 	color_ui = rgb { 139 69 19 }
 }

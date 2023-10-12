@@ -4,7 +4,7 @@ state={
 	name="STATE_188"
 
 	history={
-		owner = USS
+		owner = RAS
 		add_core_of = USS
 		buildings = {
 			infrastructure = 3
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		93 288 590 723 785 1258 1745 2333 2529 2637 2881 3105 3247 4151 6034 6056 6092 6116 6133 6135 6158 
+		93 288 590 723 785 1258 2529 2881 3105 3247 6034 6092 6116 6133 6135 6158 
 	}
 	manpower=75000
 	buildings_max_level_factor=1.000

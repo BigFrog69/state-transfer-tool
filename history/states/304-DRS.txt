@@ -1,0 +1,21 @@
+state={
+	id=304
+	name="STATE_304"
+	provinces={
+		121 1482 1567 1656 2564 2679 3182 6312 6333 6372 
+	}
+	history={
+		owner = DRS
+		add_core_of = DRS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 5
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

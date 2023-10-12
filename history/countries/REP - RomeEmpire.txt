@@ -1,6 +1,6 @@
-﻿capital = 234
+﻿capital = 297
 
-oob = "WRD_1936"
+oob = "REP_1936"
 
 # Starting tech
 set_technology = {
@@ -15,9 +15,12 @@ set_technology = {
 set_war_support = 0.3
 set_stability = 0.1
 
-recruit_character = WRD_IDK
+recruit_character = REP_REP
 
-add_manpower = 200000
+puppet = NRP
+puppet = SRP
+puppet = RMP
+puppet = FSR
 
 set_politics = {
 	ruling_party = autocracy

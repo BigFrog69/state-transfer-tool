@@ -1,0 +1,25 @@
+
+state={
+	id=297
+	name="STATE_297"
+
+	history={
+		owner = REP
+		add_core_of = REP
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 5
+
+		}
+
+	}
+
+	provinces={
+		19 77 153 204 317 385 747 803 898 989 1087 1321 1617 1644 1955 2142 2191 2306 2312 2594 2691 2883 3037 3281 3308 3613 3647 3652 3773 3944 4061 4086 4355 4472 5940 6023 6108 6120 6130 6166 6169 6178 
+	}
+	manpower=5000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}
