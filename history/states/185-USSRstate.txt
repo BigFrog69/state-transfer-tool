@@ -11,6 +11,27 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
+          2282 = {
+                bunker = 3
+            }
+          1030 = {
+                bunker = 3
+            }
+          451 = {
+                bunker = 3
+            }
+          6246 = {
+                bunker = 3
+            }
+          263 = {
+                bunker = 3
+            }
+          6219 = {
+                bunker = 3
+            }
+          798 = {
+                bunker = 3
+            }
 		}
 	}
 	manpower=350000

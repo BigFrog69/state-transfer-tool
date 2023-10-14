@@ -1,0 +1,42 @@
+ideas = {
+
+	country = {
+
+
+		Old_Industry = {
+			picture = SSB_RedCouncil
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				supply_consumption_factor = 0.05
+				consumer_goods_factor = 0.2
+				production_speed_arms_factory_factor = -0.3
+				production_speed_industrial_complex_factor = -0.15
+			}
+		}
+		
+		Push_Back_The_Invaders = {
+			picture = SSB_RedCouncil
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			targeted_modifier = {
+				tag = RAS
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+	}
+}
+
+
+

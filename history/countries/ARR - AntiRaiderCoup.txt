@@ -1,4 +1,4 @@
-﻿capital = 40
+﻿capital = 212
 
 oob = "ARR_1936"
 
@@ -21,6 +21,8 @@ declare_war_on = {
     target = WRD
     type = annex_everything
 }
+
+add_manpower = 300000
 
 set_politics = {
 	ruling_party = socialism

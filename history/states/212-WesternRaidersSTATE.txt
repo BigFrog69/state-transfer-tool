@@ -12,7 +12,12 @@ state={
 			infrastructure = 1
 			arms_factory = 3
 			industrial_complex = 7
-
+          1812 = {
+                supply_node = 1
+            }
+          1901 = {
+                supply_node = 1
+            }
 		}
 
 	}

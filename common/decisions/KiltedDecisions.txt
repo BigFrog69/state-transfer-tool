@@ -31,7 +31,7 @@ kilted_state_decision_category = {
 		complete_effect = {
 			white_peace = HEX
 			KLT = {
-				transfer_state = 279
+				transfer_state = 273
 			}	
 		}
 

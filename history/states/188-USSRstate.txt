@@ -5,12 +5,14 @@ state={
 
 	history={
 		owner = RAS
-		add_core_of = USS
+		add_core_of = RAS
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0
 			industrial_complex = 0
-
+          6135 = {
+                supply_node = 1
+            }
 		}
 
 	}
