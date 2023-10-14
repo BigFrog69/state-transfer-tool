@@ -1,0 +1,46 @@
+USS_actions_category = {
+
+	
+	war_with_Raiders = {
+
+		allowed = { always = no }
+
+		icon = generic_industry
+
+		is_good = yes
+
+		activation = {
+        	has_war_with = RAS
+    	}	
+		available = {
+			USS = {
+				controls_state = 274
+			}
+    	}
+		fire_only_once = no
+		modifier = {
+			
+		}
+		days_mission_timeout = 120
+		#days_re_enable = 540
+
+		cost = 0
+		complete_effect = {
+			white_peace = {
+				tag = RAS
+				message = Are_you_fucking_serious_how_did_you_lose_that_war.
+            }
+			185 = { transfer_state_to = USS }
+		}
+		timeout_effect = {
+			white_peace = {
+				tag = RAS
+				message = Are_you_fucking_serious_how_did_you_lose_that_war.
+            }
+		}
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+}

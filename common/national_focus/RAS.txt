@@ -24,18 +24,22 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_building_construction = {
-				type = bunker
-				level = 3
-				province = 2045
-				instant_build = yes
+			223 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 2045
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 2221
+					instant_build = yes
+				}
 			}
-			add_building_construction = {
-				type = bunker
-				level = 3
-				province = 2221
-				instant_build = yes
-			}
+			
+			
 			add_building_construction = {
 			    type = bunker
 			    level = 3

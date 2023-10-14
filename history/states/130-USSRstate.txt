@@ -6,6 +6,9 @@ state={
 	history={
 		owner = USS
 		add_core_of = USS
+		victory_points = {
+			2090 20
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

@@ -8,11 +8,14 @@ state={
 	history={
 		owner = RAS
 		add_core_of = RAS
+		victory_points = {
+			637 80
+		}
 		buildings = {
 			infrastructure = 5
 			arms_factory = 8
 			industrial_complex = 9
-          637 = {
+          	637 = {
                 supply_node = 1
             }
 		}

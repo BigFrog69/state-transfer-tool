@@ -1,0 +1,19 @@
+####################
+#### USSR       ####
+####################
+
+
+USS_actions_category = {
+	icon = military_operation
+
+	picture = GFX_decision_cat_picture_ger_case_anton
+
+	allowed = {
+		original_tag = USS
+	}
+
+	visible = {
+		original_tag = USS
+		has_war_with = RAS
+	}
+}
