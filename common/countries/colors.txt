@@ -339,7 +339,10 @@ MSS = {
 	color_ui = rgb { 50 120 50 }
 }
 
-
+BTP = {
+	color = rgb { 50 50 255 }
+	color_ui = rgb { 50 50 255 }
+}
 
 
 

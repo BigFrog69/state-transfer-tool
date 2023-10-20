@@ -311,21 +311,28 @@
  BTO_DEF:0 "No Way"
  BTO_ADJ:0 "Nowegians"
 
- BTP:0 "Bot Nation 16"
- BTP_DEF:0 "Bot Nation 16"
- BTP_ADJ:0 "Bot 16"
 
- BTQ:0 "Bot Nation 17"
- BTQ_DEF:0 "Bot Nation 17"
- BTQ_ADJ:0 "Bot 17"
 
- BTR:0 "Bot Nation 18"
- BTR_DEF:0 "Bot Nation 18"
- BTR_ADJ:0 "Bot 18"
 
- BTS:0 "Bot Nation 19"
- BTS_DEF:0 "Bot Nation 19"
- BTS_ADJ:0 "Bot 19"
+
+ BTP:0 "American America"
+ BTP_DEF:0 "AMERICA"
+ BTP_ADJ:0 "American American"
+
+ BTQ:0 "Unholy Roman Empire"
+ BTQ_DEF:0 "Unholy Roman Empire"
+ BTQ_ADJ:0 "Unholy Roman"
+
+ BTR:0 "Birminghamish Empire"
+ BTR_DEF:0 "Birminghamish Empire"
+ BTR_ADJ:0 "Birminghamian"
+
+ BTS:0 "Ylati"
+ BTS_DEF:0 "Ylati"
+ BTS_ADJ:0 "Ylatian"
+
+
+
 
  BTT:0 "Bot Nation 20"
  BTT_DEF:0 "Bot Nation 20"
