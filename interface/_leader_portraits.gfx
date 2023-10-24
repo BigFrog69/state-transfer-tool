@@ -1,9 +1,18 @@
 spriteTypes = {
 
+	spriteType = {
+		name = "GFX_portrait_BTU_Leader"
+		texturefile = "gfx/leaders/BTU/Leader.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_BTO_Norre_Weigh"
 		texturefile = "gfx/leaders/BTO/Norre_Weigh.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BTW_GeneralGrievous"
+		texturefile = "gfx/leaders/BTW/GeneralGrievous.dds"
 	}
 
 	spriteType = {

@@ -1,0 +1,20 @@
+characters={
+	BTU_Leader={
+		name="Leader"
+		portraits={
+			civilian={
+				large=GFX_portrait_BTU_Leader
+			}
+			army={
+				small="GFX_portrait_BTU_Leader"
+			}
+		}
+		country_leader={
+			ideology= authoritarianism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+}

@@ -18,6 +18,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = 25
 		y = 0
+		mutually_exclusive = { focus = ROK_Align_with_Hans }
 		cost = 1
 		ai_will_do = {
 			factor = 12
@@ -145,6 +146,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = 10
 		y = 0
+		mutually_exclusive = { focus = ROK_Familial_Focus }
 		cost = 1
 		ai_will_do = {
 			factor = 12

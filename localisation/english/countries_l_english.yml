@@ -341,21 +341,28 @@
 
 
 
- BTV:0 "Bot Nation 22"
- BTV_DEF:0 "Bot Nation 22"
- BTV_ADJ:0 "Bot 22"
 
- BTW:0 "Bot Nation 23"
- BTW_DEF:0 "Bot Nation 23"
- BTW_ADJ:0 "Bot 23"
 
- BTX:0 "Bot Nation 24"
- BTX_DEF:0 "Bot Nation 24"
- BTX_ADJ:0 "Bot 24"
+ BTV:0 "Terran Alliance"
+ BTV_DEF:0 "Terran Alliance"
+ BTV_ADJ:0 "Terran"
 
- BTY:0 "Bot Nation 25"
- BTY_DEF:0 "Bot Nation 25"
- BTY_ADJ:0 "Bot 25"
+ BTW:0 "Zawarudoomaewamoushinderu"
+ BTW_DEF:0 "Zawarudoomaewamoushinderu"
+ BTW_ADJ:0 "Zawarudoomaewamoushinderu"
+
+ BTX:0 "Reinald Empire"
+ BTX_DEF:0 "Reinald Empire"
+ BTX_ADJ:0 "Reinald"
+
+ BTY:0 "Yiga Clan!"
+ BTY_DEF:0 "Yiga Clan!"
+ BTY_ADJ:0 "Yiga"
+
+
+
+
+
 
  BTZ:0 "Bot Nation 26"
  BTZ_DEF:0 "Bot Nation 26"

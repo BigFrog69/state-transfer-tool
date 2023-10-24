@@ -27,26 +27,26 @@ guiTypes = {
 			Orientation = "LOWER_RIGHT"
 		}	
 
-		iconType = {
-			name ="bg_ad_DUJO"
-			spriteType = "GFX_DUJO_Advert"
-			position = { x= 23 y = -800 }
-			Orientation = "LOWER_Left"
-		}
+		#iconType = {
+		#	name ="bg_ad_DUJO"
+		#	spriteType = "GFX_DUJO_Advert"
+		#	position = { x= 23 y = -800 }
+		#	Orientation = "LOWER_Left"
+		#}
 
-		iconType = {
-			name ="bg_ad_Memes_Endgame"
-			spriteType = "GFX_Memes_Endgame_ad"
-			position = { x= 1250 y = -900 }
-			Orientation = "LOWER_Left"
-		}
+		#iconType = {
+		#	name ="bg_ad_Memes_Endgame"
+		#	spriteType = "GFX_Memes_Endgame_ad"
+		#	position = { x= 1250 y = -900 }
+		#	Orientation = "LOWER_Left"
+		#}
 		
-		iconType = {
-			name ="bg_ad_Drip"
-			spriteType = "GFX_Drip_Frog"
-			position = { x= 700 y = -1000 }
-			Orientation = "LOWER_Left"
-		}
+		#iconType = {
+		#	name ="bg_ad_Drip"
+		#	spriteType = "GFX_Drip_Frog"
+		#	position = { x= 700 y = -1000 }
+		#	Orientation = "LOWER_Left"
+		#}
 		
 				
 		windowType = {

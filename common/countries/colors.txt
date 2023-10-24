@@ -344,6 +344,15 @@ BTP = {
 	color_ui = rgb { 50 50 255 }
 }
 
+BTW = {
+	color = rgb { 64 224 208 }
+	color_ui = rgb { 64 224 208 }
+}
+
+BTU = {
+	color = rgb { 80 0 0 }
+	color_ui = rgb { 80 0 0 }
+}
 
 
 
