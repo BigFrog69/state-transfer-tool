@@ -331,16 +331,15 @@
  BTS_DEF:0 "Ylati"
  BTS_ADJ:0 "Ylatian"
 
+ BTT:0 "Awesome Country of Fevnir"
+ BTT_DEF:0 "Awesome Country of Fevnir"
+ BTT_ADJ:0 "Fevnir"
+
+ BTU:0 "Country"
+ BTU_DEF:0 "Country"
+ BTU_ADJ:0 "Countries"
 
 
-
- BTT:0 "Bot Nation 20"
- BTT_DEF:0 "Bot Nation 20"
- BTT_ADJ:0 "Bot 20"
-
- BTU:0 "Bot Nation 21"
- BTU_DEF:0 "Bot Nation 21"
- BTU_ADJ:0 "Bot 21"
 
  BTV:0 "Bot Nation 22"
  BTV_DEF:0 "Bot Nation 22"

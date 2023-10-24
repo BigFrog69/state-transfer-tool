@@ -1,0 +1,21 @@
+state={
+	id=315
+	name="STATE_315"
+	provinces={
+		114 133 194 332 382 549 557 563 755 830 832 1127 1242 1461 1624 2046 2168 2412 2461 2595 2850 3058 3499 3581 3979 4269 4310 4680 4867 6638 6661 6671 6673 
+	}
+	history={
+		owner = BTU
+		add_core_of = BTU
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 5
+
+		}
+
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

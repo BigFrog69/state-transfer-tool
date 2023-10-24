@@ -298,7 +298,7 @@ focus_tree = {
 		cost = 10
 		
 		available = {
-			has_tech = suicide_craft 
+			has_tech = radio_detection
 		}
 
 		ai_will_do = {
