@@ -85,6 +85,10 @@ focus_tree = {
 		x = -3
 		y = 3
 		cost = 5
+		
+		available = {
+			always = no
+		}
 
 		prerequisite = { focus = SSB_Fix_The_Red_Council }
 		mutually_exclusive = { focus = SSB_Fascist_Route }
@@ -106,6 +110,10 @@ focus_tree = {
 		x = 0
 		y = 3
 		cost = 5
+		
+		available = {
+			always = no
+		}
 
 		prerequisite = { focus = SSB_Fix_The_Red_Council }
 		mutually_exclusive = { focus = SSB_Fascist_Route }
@@ -121,29 +129,6 @@ focus_tree = {
 		}
 	}
 
-
-	focus = {
-		id = SSB_Memories_Of_The_SpriteKrieg
-		icon = GFX_goal_MemoriesOfTheSpritekriegFocus
-		x = 0
-		y = 4
-		cost = 10
-
-		prerequisite = { focus = SSB_Red_Rule }
-		relative_position_id = SSB_The_Great_Purge
-
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_timed_idea = {
-				idea = SSB_Memories_of_SpriteKrieg_idea
-				days = 365
-			}
-		}
-	}
-
 	#############################################################################
 	focus = {
 		id = SSB_Fascist_Route
@@ -151,6 +136,10 @@ focus_tree = {
 		x = 3
 		y = 3
 		cost = 5
+
+		available = {
+			always = no
+		}
 
 		prerequisite = { focus = SSB_Fix_The_Red_Council }
 		mutually_exclusive = { focus = SSB_Red_Rule }
@@ -221,9 +210,9 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_timed_idea = {
-				idea = SSB_Farmland_Crisis
-				days = 35
+        swap_ideas = {
+            remove_idea = SSB_Farmland_Crisis
+            add_idea = SSB_Farmland_Crisis_Fixed
 			}
 		}
 	}
@@ -244,11 +233,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_timed_idea = {
-				idea = SSB_Farmland_Crisis_Fixed
-				days = 3652
-			}
-			country_event = Beyron.2
+		    add_ideas = SSB_Jungle_Excavation
 		}
 	}
 
@@ -266,10 +251,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_timed_idea = {
-				idea = Three_Year_Plan
-				days = 3652
-			}
+            add_ideas = Three_Year_Plan
 		}
 	}
 
@@ -307,20 +289,31 @@ focus_tree = {
 		}
 		
 	focus = {
-		id = SSB_More_Ass_Stuff
+		id = SSB_Radar_Tech
 		icon = GFX_goal_CivilianPlan
 		x = 4
 		y = 1
 		prerequisite = { focus = SSB_Planned_Economy }
 		relative_position_id = SSB_Planned_Economy
 		cost = 10
+		
+		available = {
+			has_tech = suicide_craft 
+		}
 
 		ai_will_do = {
 			factor = 12
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+				    76 = {
+				set_building_level = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
 			}
 		}
 		
@@ -381,7 +374,7 @@ focus_tree = {
 		}
 		
 	focus = {
-		id = SSB_More_stuff_here
+		id = SSB_Expand_BigSack
 		icon = GFX_goal_ArmsProduction
 		x = -4
 		y = 1
@@ -395,12 +388,19 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+					265 = {
+				set_building_level = {
+					type = fuel_silo
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
 			}
 		}	
 		
 	focus = {
-		id = SSB_More_stuff_here_BRU
+		id = SSB_Expand_Bonerville
 		icon = GFX_goal_ArmsProduction
 		x = -4
 		y = 2
@@ -414,7 +414,14 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+					263 = {
+				set_building_level = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
 			}
 		}	
 		
@@ -1322,27 +1329,6 @@ focus_tree = {
 			}
 	    }
 
-
-
-
-
-	focus = {
-		id = SSB_Generic_Focus_Tree_Change
-		icon = GFX_goal_Enemies
-		x = 35
-		y = 0
-		cost = 5
-		available = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-				load_focus_tree = generic_focus
-			}
-	}
 
 
 

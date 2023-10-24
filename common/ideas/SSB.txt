@@ -13,9 +13,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				supply_consumption_factor = 0.5
-				political_power_gain = -0.25
-				state_production_speed_infrastructure_factor = -0.2
+				supply_consumption_factor = 0.1
+				political_power_gain = -0.5
+				state_production_speed_infrastructure_factor = -0.1
 			}
 		}
 
@@ -112,14 +112,14 @@ ideas = {
 
 			targeted_modifier = {
 				tag = SPI
-				attack_bonus_against = -0.1
-				defense_bonus_against = 0.25
+				attack_bonus_against = -0.05
+				defense_bonus_against = 0.15
 			}
 				
 			targeted_modifier = {
 				tag = NLA
-				attack_bonus_against = -0.1
-				defense_bonus_against = 0.25
+				attack_bonus_against = -0.05
+				defense_bonus_against = 0.15
 			}
 		}
 
@@ -134,8 +134,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				monthly_population = -0.15
-				production_speed_buildings_factor = -0.20
+				monthly_population = -0.35
+				production_speed_buildings_factor = -0.05
 			}	
 		}
 
@@ -168,7 +168,6 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = 0.05
-				local_resources_factor = 0.1
 				monthly_population = 0.25
 			}	
 		}
@@ -223,7 +222,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.1
-				production_factory_efficiency_gain_factor = -0.2
+				industrial_capacity_factory = -0.1
 			}
 		}
 
@@ -666,7 +665,20 @@ ideas = {
 			}
 		}
 
+		SSB_Jungle_Excavation = {
+			picture = SSB_FarmlandFixed
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
 
+			modifier = {
+                local_resources_factor = 0.1
+			}	
+		}
 
 
 

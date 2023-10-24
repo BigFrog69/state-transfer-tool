@@ -36,11 +36,19 @@ country_event = {
 	desc = Beyron.2.d
 	picture = GFX_news_event_064
 	
-	is_triggered_only = yes
+	is_triggered_only = no
+    fire_only_once = yes
+	
+    trigger = {
+        AND = {
+            original_tag = SSB
+            date > 2024.02.01
+        }
+    }
 	
 	option = {
 		name = Beyron.2.a
-		add_political_power = -200
+		add_political_power = -100
 		swap_ideas = {
 			remove_idea = Old_Red_Army
 			add_idea = Old_Red_Army_2
@@ -48,17 +56,6 @@ country_event = {
 		add_timed_idea = {
 			idea = Strikes_1
 			days = 60
-		}
-	}
-	option = {
-		name = Beyron.2.b
-		swap_ideas = {
-			remove_idea = Old_Red_Army
-			add_idea = Old_Red_Army_3
-		}
-		add_timed_idea = {
-			idea = Strikes_2
-			days = 120
 		}
 	}
 }
@@ -114,6 +111,7 @@ country_event = { #They accept Annex!
 		name = Beyron.5.a
 		add_state_core = 101
 		add_state_core = 118
+        add_state_core = 315
 	}
 }
 

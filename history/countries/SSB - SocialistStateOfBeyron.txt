@@ -21,13 +21,10 @@ recruit_character = SSB_Clockwork_Engineer
 add_ideas = {
 	Red_council
 	Old_Red_Army
+    Economic_Stagnation
+	SSB_Farmland_Crisis
+	SSB_Memories_of_SpriteKrieg_idea
 }
-
-add_timed_idea = {
-	idea = Economic_Stagnation
-	days = 1095
-}
-
 
 set_politics = {
 	ruling_party = totalism
