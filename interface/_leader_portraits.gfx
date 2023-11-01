@@ -116,7 +116,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_FallenGovernment"
+		name = "GFX_portrait_SSB_FallenGovernment"
 		texturefile = "gfx/leaders/SSB/FallenGovernment.dds"
 	}
 
