@@ -37,6 +37,9 @@ country_event = {
 	option = {
 		name = Beyron.1.c
         complete_national_focus = SSB_Democracy_Route
+
+		retire_country_leader = yes 
+		
 		set_politics = {
 	        ruling_party = Conservatism
             elections_allowed = no
@@ -45,16 +48,16 @@ country_event = {
             long_name = Conservatism
             name = Conservatism
         }
-        retire_country_leader = yes 
+        
         add_country_leader_role = {
-        character = SSB_FallenGovernment
-        promote_leader = yes
-        country_leader = {
-        ideology = Conservatism
-        expire = "1984.1.1.1"
-        traits = { Cabinet_Crisis }
-        }
-    }
+			character = SSB_FallenGovernment
+			promote_leader = yes
+			country_leader = {
+				ideology = Conservatism
+				expire = "1984.1.1.1"
+				traits = { Cabinet_Crisis }
+        	}
+    	}
         add_popularity = {
             ideology = Conservatism
             popularity = 0.45
