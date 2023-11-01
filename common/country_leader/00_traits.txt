@@ -98,6 +98,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	Cabinet_Crisis = {
+		random = no
+		political_power_factor = -0.5
+		stability_factor = -0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 
 

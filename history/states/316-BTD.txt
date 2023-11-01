@@ -1,6 +1,6 @@
 state={
-	id=315
-	name="STATE_315"
+	id=316
+	name="STATE_316"
 	provinces={
 		351 1081 2181 2650 3219 5420 5494 5513 
 	}
@@ -9,13 +9,13 @@ state={
 		add_core_of = BTD
 		buildings = {
 			infrastructure = 3
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 4
+			industrial_complex = 5
 
 		}
 
 	}
-	manpower=680000
+	manpower=360000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

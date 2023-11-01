@@ -35,5 +35,22 @@ characters={
 			cost = 250
 		}
 	}
-
+	
+	SSB_FallenGovernment={
+		name="SSB_FallenGovernment"
+		portraits={
+			civilian={
+				large=GFX_portrait_SSB_FallenGovernment
+			}
+			army={
+				small="GFX_portrait_SSB_FallenGovernment"
+			}
+		}
+		country_leader={
+			ideology= Conservatism
+			traits = { Cabinet_Crisis }
+			expire="2069.1.1.1"
+			id=-1
+		}
+	}
 }

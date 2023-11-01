@@ -16,10 +16,12 @@ focus_tree = {
 	focus = {
 		id = SSB_The_Great_Purge
 		icon = GFX_goal_TheGreatPurge
-		x = 5
-		y = 0
+		x = 0
+		y = 1
 		cost = 5
 
+		prerequisite = { focus = SSB_Red_Rule }
+		relative_position_id = SSB_Red_Rule
 
 		ai_will_do = {
 			factor = 12
@@ -38,11 +40,11 @@ focus_tree = {
 		id = SSB_The_New_order
 		icon = GFX_goal_TheNewOrder
 		x = 0
-		y = 1
+		y = 2
 		cost = 10
 
 		prerequisite = { focus = SSB_The_Great_Purge }
-		relative_position_id = SSB_The_Great_Purge
+		relative_position_id = SSB_Red_Rule
 
 		ai_will_do = {
 			factor = 12
@@ -61,39 +63,221 @@ focus_tree = {
 		id = SSB_Fix_The_Red_Council
 		icon = GFX_goal_FixTheRedCouncil
 		x = 0
-		y = 2
+		y = 3
 		cost = 10
 
 		prerequisite = { focus = SSB_The_New_order }
-		relative_position_id = SSB_The_Great_Purge
+		relative_position_id = SSB_Red_Rule
 
 		ai_will_do = {
 			factor = 12
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			remove_ideas = Red_council
-			country_event = Beyron.1
+        swap_ideas = {
+            remove_idea = Red_council
+            add_idea = Red_council_2
+			}
 
 		}
 	}
-
-
+############################################################
 	focus = {
 		id = SSB_Democracy_Route
 		icon = GFX_goal_democratic_group
-		x = -3
-		y = 3
+		x = 39
+		y = 0
 		cost = 5
 		
 		available = {
 			always = no
 		}
 
-		prerequisite = { focus = SSB_Fix_The_Red_Council }
-		mutually_exclusive = { focus = SSB_Fascist_Route }
-		mutually_exclusive = { focus = SSB_Red_Rule }
-		relative_position_id = SSB_The_Great_Purge
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		    hidden_effect = {
+			    country_event = { days = 190 id = Beyron.20 }
+				
+				country_event = { days = 210 id = Beyron.21 }
+				
+                country_event = { days = 160 id = Beyron.23 }
+		    }
+		}
+	}
+	
+	focus = {
+		id = SSB_The_Minority_Wins
+		icon = GFX_goal_democratic_group
+		x = 0
+		y = 1
+		cost = 5
+		
+
+		prerequisite = { focus = SSB_Democracy_Route }
+		relative_position_id = SSB_Democracy_Route
+
+		ai_will_do = {
+			factor = 12
+		}
+		
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_timed_idea = {
+				idea = Democratic_Right
+				days = 90
+			}
+		    hidden_effect = {
+				country_event = { days = 130 id = Beyron.22 }
+			}
+		}
+	}
+	
+	focus = {
+		id = SSB_New_President
+		icon = GFX_goal_democratic_group
+		x = 0
+		y = 2
+		cost = 10
+		
+
+		prerequisite = { focus = SSB_The_Minority_Wins }
+		relative_position_id = SSB_Democracy_Route
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SSB_Suppress_The_Reds
+		icon = GFX_goal_democratic_group
+		x = 0
+		y = 3
+		cost = 5
+		
+
+		prerequisite = { focus = SSB_New_President }
+		relative_position_id = SSB_Democracy_Route
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SSB_Remove_The_Red_Council
+		icon = GFX_goal_democratic_group
+		x = 0
+		y = 4
+		cost = 5
+		
+
+		prerequisite = { focus = SSB_Suppress_The_Reds }
+		relative_position_id = SSB_Democracy_Route
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SSB_Elections
+		icon = GFX_goal_democratic_group
+		x = 0
+		y = 5
+		cost = 10
+		
+		available = {
+			always = no
+		}
+
+		prerequisite = { focus = SSB_Remove_The_Red_Council }
+		relative_position_id = SSB_Democracy_Route
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SSB_Small_Froggo
+		icon = GFX_goal_democratic_group
+		x = -4
+		y = 6
+		cost = 5
+		
+		available = {
+			always = no
+		}
+
+		prerequisite = { focus = SSB_Elections }
+		relative_position_id = SSB_Democracy_Route
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SSB_Lonely_Frog
+		icon = GFX_goal_democratic_group
+		x = 0
+		y = 6
+		cost = 5
+		
+		available = {
+			always = no
+		}
+
+		prerequisite = { focus = SSB_Elections }
+		relative_position_id = SSB_Democracy_Route
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SSB_Jump_Frog
+		icon = GFX_goal_democratic_group
+		x = 4
+		y = 6
+		cost = 5
+		
+		available = {
+			always = no
+		}
+
+		prerequisite = { focus = SSB_Elections }
+		relative_position_id = SSB_Democracy_Route
 
 		ai_will_do = {
 			factor = 12
@@ -107,25 +291,21 @@ focus_tree = {
 	focus = {
 		id = SSB_Red_Rule
 		icon = GFX_goal_RedRule
-		x = 0
-		y = 3
+		x = 48
+		y = 0
 		cost = 5
 		
 		available = {
 			always = no
 		}
 
-		prerequisite = { focus = SSB_Fix_The_Red_Council }
-		mutually_exclusive = { focus = SSB_Fascist_Route }
-		mutually_exclusive = { focus = SSB_Democracy_Route }
-		relative_position_id = SSB_The_Great_Purge
 
 		ai_will_do = {
 			factor = 12
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 10
 		}
 	}
 
@@ -133,18 +313,13 @@ focus_tree = {
 	focus = {
 		id = SSB_Fascist_Route
 		icon = GFX_goal_fascism_group
-		x = 3
-		y = 3
+		x = 56
+		y = 0
 		cost = 5
 
 		available = {
 			always = no
 		}
-
-		prerequisite = { focus = SSB_Fix_The_Red_Council }
-		mutually_exclusive = { focus = SSB_Red_Rule }
-		mutually_exclusive = { focus = SSB_Democracy_Route }
-		relative_position_id = SSB_The_Great_Purge
 
 		ai_will_do = {
 			factor = 12
@@ -167,7 +342,7 @@ focus_tree = {
 	focus = {
 		id = SSB_Starting_Economy
 		icon = GFX_goal_StartingEconomy
-		x = 14
+		x = 11
 		y = 0
 		cost = 5
 
@@ -1160,200 +1335,6 @@ focus_tree = {
 
 		}
 	}
-
-
-
-
-	focus = {
-		id = SSB_Generic_Focus_Tree_Change
-		icon = GFX_goal_Enemies
-		x = 35
-		y = 0
-		cost = 5
-		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-				load_focus_tree = Raven_Loft2
-			}
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	#focus = {
-		id = SSB_Our_Neighbours
-		icon = GFX_goal_Neighbours
-		x = 30
-		y = 3
-		prerequisite = { focus = SSB_Reintegrate_Old_Lands }
-		mutually_exclusive = { focus = SSB_Spritekrieg_Revenge }
-		cost = 10
-
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			create_wargoal = {
-			    type = annex_everything
-				target = BBD
-				expire = 0
-			}
-			create_wargoal = {
-			    type = annex_everything
-				target = BTC
-				expire = 0
-			}
-			create_wargoal = {
-			    type = annex_everything
-				target = NSA
-				expire = 0
-			}
-	    }
-
-	#focus = {
-		id = SSB_Second_SpriteKrieg
-		icon = GFX_goal_SpriteKrieg
-		x = 26
-		y = 3
-		prerequisite = { focus = SSB_Reintegrate_Old_Lands }
-		mutually_exclusive = { focus = SSB_Our_Neighbours }
-		cost = 10
-
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = NLA
-				expire = 0
-			}
-			create_wargoal = {
-			    type = annex_everything
-				target = SPI
-				expire = 0
-			}
-			add_timed_idea = {
-				idea = Second_SpriteKrieg
-				days = 120
-			}
-			add_state_core = 107
-			add_state_core = 200
-		}
-    }
-
-	#focus = {
-		id = SSB_Reintegrate_Old_Lands
-		icon = GFX_goal_Reintegrate
-		x = 28
-		y = 2
-		available = {
-		has_full_control_of_state = 61
-		}
-		prerequisite = { focus = SSB_Our_Old_Land }
-		cost = 5
-
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-		    add_state_core = 61
-			add_state_core = 86
-			add_state_core = 87
-			add_state_core = 88
-			}
-	    }
-
-	#focus = {
-		id = SSB_Our_Old_Land
-		icon = GFX_goal_Land
-		x = 28
-		y = 1
-		available = {
-			date > 2026.08.01
-		}
-		prerequisite = { focus = SSB_True_Enemies }
-		cost = 6
-
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = FKD
-				expire = 0
-			}
-			add_timed_idea = {
-				idea = Our_Old_Lands
-				days = 120
-			}
-	    }
-
-
-
-
-<<<<<<< HEAD
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -115,7 +115,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SKE/SKE.dds"
 	}
 
-
+	spriteType = {
+		name = "GFX_portrait_FallenGovernment"
+		texturefile = "gfx/leaders/SSB/FallenGovernment.dds"
+	}
 
 
 	spriteType = {
@@ -7648,11 +7651,6 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_portrait_Manuel_Azana
 		texturefile = gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds
-	}
-
-	spriteType = {
-		name = GFX_portrait_Fallen_Government
-		texturefile = gfx/leaders/ENG/portrait_eng_fallen_government.dds
 	}
 
 	spriteType = {

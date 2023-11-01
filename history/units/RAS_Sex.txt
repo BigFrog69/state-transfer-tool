@@ -190,66 +190,6 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 637
-		division_template = "Reserves"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 637
-		division_template = "Reserves"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 637
-		division_template = "Reserves"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 637
-		division_template = "Reserves"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 637
-		division_template = "Reserves"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
 
 	##### No Notable Naval Forces #####
 }

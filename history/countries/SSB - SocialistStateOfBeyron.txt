@@ -12,10 +12,11 @@ set_technology = {
 	basic_train = 1
 }
 
-set_war_support = 0.3
+set_war_support = 0.05
 set_stability = 0.5
 
 recruit_character = SSB_bigfrrog
+recruit_character = SSB_FallenGovernment
 recruit_character = SSB_Clockwork_Engineer
 
 add_ideas = {
@@ -24,6 +25,8 @@ add_ideas = {
     Economic_Stagnation
 	SSB_Farmland_Crisis
 	SSB_Memories_of_SpriteKrieg_idea
+	limited_conscription
+	low_economic_mobilisation
 }
 
 set_politics = {

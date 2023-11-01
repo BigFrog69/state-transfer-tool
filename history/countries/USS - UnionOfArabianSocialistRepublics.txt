@@ -26,6 +26,8 @@ add_ideas = {
 	Old_Industry
 }
 
+add_manpower = 300000
+
 
 set_politics = {
 	ruling_party = socialism
