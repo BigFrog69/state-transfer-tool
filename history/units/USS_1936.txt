@@ -115,18 +115,6 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 5571
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 2711
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
@@ -235,18 +223,6 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 5792
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 5814
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
@@ -331,18 +307,6 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 4673
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 46
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
@@ -380,18 +344,6 @@ units = {
 				name_order = 1
 		}
 		location = 4132
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 534
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -446,18 +398,6 @@ units = {
 
 	}
 	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 2554
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
 	division= {
 		division_name = {
 				is_name_ordered = yes
@@ -488,18 +428,6 @@ units = {
 				name_order = 1
 		}
 		location = 1745
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 6056
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -559,18 +487,6 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 721
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 1121
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
@@ -596,18 +512,6 @@ units = {
 				name_order = 1
 		}
 		location = 3103
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 5838
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -655,18 +559,6 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 5674
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 4660
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
@@ -680,18 +572,6 @@ units = {
 				name_order = 1
 		}
 		location = 2091
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 4495
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -728,30 +608,6 @@ units = {
 				name_order = 1
 		}
 		location = 5598
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 2514
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 4757
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -931,18 +787,6 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3685
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 141
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
@@ -956,30 +800,6 @@ units = {
 				name_order = 1
 		}
 		location = 5814
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 679
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 5953
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -1015,31 +835,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 46
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 534
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 122
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -1075,31 +871,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 5978
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 2554
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 2637
 		division_template = "USS Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -1142,29 +914,6 @@ units = {
 
 	}
 	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 2716
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 3240
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
 	
 	division= {	
 		division_name = {
@@ -1261,18 +1010,7 @@ units = {
 		start_equipment_factor = 1.0
 
 	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 2514
-		division_template = "USS Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
 
-	}
 	
 	division= {	
 		division_name = {

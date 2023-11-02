@@ -46,9 +46,11 @@ country_event = {
             last_election = "1935.12.17"
             election_frequency = 48
             long_name = Conservatism
-            name = Conservatism
+            name = SSB_democratic
         }
-        
+        SSB = {
+        set_cosmetic_tag = SSB_democratic
+        }
         add_country_leader_role = {
 			character = SSB_FallenGovernment
 			promote_leader = yes
@@ -394,4 +396,40 @@ country_event = { #Riots
 	}
 }
 
+country_event = { #Volunteer Program
+	id = Beyron.24
+	title = Beyron.24.t
+	desc = Beyron.24.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.24.a
+        swap_ideas = {
+            remove_idea = Old_Red_Army
+            add_idea = Volunteer_Program
+			}
+			add_ideas = volunteer_only
+			add_ideas = civilian_economy
+	}
+}
 
+country_event = { #Civilwar
+	id = Beyron.25
+	title = Beyron.25.t
+	desc = Beyron.25.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.25.a
+        start_civil_war = {
+	    ideology = totalism
+	    size = 0.4
+        }
+        load_focus_tree = beyronese_focus
+		complete_national_focus = SSB_Beyronese_Civilwar
+	}
+}

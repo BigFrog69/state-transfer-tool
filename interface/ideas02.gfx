@@ -127,11 +127,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SecSpriteKrieg.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_Democracy"
+		texturefile = "gfx/interface/ideas/Democracy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Volunteer"
+		texturefile = "gfx/interface/ideas/Volunteer.dds"
+	}
 
+	spriteType = {
+		name = "GFX_idea_Suppress"
+		texturefile = "gfx/interface/ideas/Suppress.dds"
+	}
 
-
-
-
+	spriteType = {
+		name = "GFX_idea_Riots"
+		texturefile = "gfx/interface/ideas/Riots.dds"
+	}
 
 
 

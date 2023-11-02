@@ -442,7 +442,31 @@ spriteTypes = {
 	name = "GFX_goal_Barron"
 	texturefile = "gfx/interface/goals/Barron.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_Elections"
+	texturefile = "gfx/interface/goals/Elections.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_Red_Council"
+	texturefile = "gfx/interface/goals/Red_Council.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Minority"
+	texturefile = "gfx/interface/goals/Minority.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Cabinet"
+	texturefile = "gfx/interface/goals/Cabinet.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_Suppress"
+	texturefile = "gfx/interface/goals/Suppress.dds"			
+	}
 
 
 

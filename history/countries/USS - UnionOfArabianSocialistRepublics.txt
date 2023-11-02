@@ -24,9 +24,10 @@ add_timed_idea = {
 
 add_ideas = {
 	Old_Industry
+	limited_conscription
+	partial_economic_mobilisation
 }
 
-add_manpower = 300000
 
 
 set_politics = {

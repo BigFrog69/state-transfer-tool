@@ -25,8 +25,9 @@ declare_war_on = {
 add_manpower = 1000000
 
 add_ideas = {
-	The_Turning_Tide
 	Lack_Of_Equipment
+	service_by_requirement
+	tot_economic_mobilisation
 }
 
 puppet = WRD

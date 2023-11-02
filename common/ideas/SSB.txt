@@ -30,6 +30,20 @@ ideas = {
 				political_power_gain = 0.1
 			}
 		}
+		
+		Suppress_The_Reds = {
+			picture = Suppress
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				totalism_drift = -0.05
+			}
+		}
 
 		Old_Red_Army = {
 
@@ -95,7 +109,7 @@ ideas = {
 		}
 		
 		Riots_1 = {
-			picture = SSB_Purge
+			picture = Riots
 			allowed = {
 				always = no
 			}
@@ -110,7 +124,7 @@ ideas = {
 		}
 		
 		Riots_2 = {
-			picture = SSB_Purge
+			picture = Riots
 			allowed = {
 				always = no
 			}
@@ -121,12 +135,12 @@ ideas = {
 			modifier = {
 				stability_weekly = -0.002
 				political_power_gain = -0.2
-				socialism_drift = 0.1
+				totalism_drift = 0.1
 			}
 		}
 		
 		Democratic_Right = {
-			picture = SSB_Purge
+			picture = Democracy
 			allowed = {
 				always = no
 			}
@@ -136,6 +150,22 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				stability_weekly = 0.001
+			}
+		}
+		
+		Volunteer_Program = {
+			picture = Volunteer
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.3
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
 			}
 		}
 

@@ -28,7 +28,7 @@ USS_actions_category = {
 		complete_effect = {
 			white_peace = {
 				tag = RAS
-				message = Are_you_fucking_serious_how_did_you_lose_that_war.
+				message = breh
             }
 			185 = { transfer_state_to = USS }
 		}

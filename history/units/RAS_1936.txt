@@ -117,18 +117,6 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 5857
-		division_template = "Raider Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 5865
 		division_template = "Raider Brigade"
 		start_experience_factor = 0.1
@@ -237,18 +225,6 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 6201
-		division_template = "Raider Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 2282
 		division_template = "Raider Brigade"
 		start_experience_factor = 0.1
@@ -262,18 +238,6 @@ units = {
 				name_order = 1
 		}
 		location = 451
-		division_template = "Raider Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 263
 		division_template = "Raider Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -310,18 +274,6 @@ units = {
 				name_order = 1
 		}
 		location = 590
-		division_template = "Raider Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 6116
 		division_template = "Raider Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -609,18 +561,6 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 4194
-		division_template = "Raider Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
 		location = 656
 		division_template = "Raider Brigade"
 		start_experience_factor = 0.1
@@ -634,30 +574,6 @@ units = {
 				name_order = 1
 		}
 		location = 3049
-		division_template = "Raider Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 1805
-		division_template = "Raider Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 4316
 		division_template = "Raider Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -693,10 +609,34 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 1113
+		location = 2266
 		division_template = "Raider Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4791
+		division_template = "Raider Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3805
+		division_template = "Raider Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
 
 	}
 	
@@ -720,22 +660,9 @@ units = {
 		location = 4791
 		division_template = "Raider Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.9
 
 	}
-	
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 3805
-		division_template = "Raider Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-
-	}
-	
 
 	##### No Notable Naval Forces #####
 }
