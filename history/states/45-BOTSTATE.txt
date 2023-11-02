@@ -1,7 +1,7 @@
 state={
 	id=45
 	name="STATE_45"
-	state_category = large_city
+	state_category=megalopolis
 	manpower=20000
 	history={
 		owner = BTP

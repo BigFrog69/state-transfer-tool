@@ -17,6 +17,12 @@ simple_category = {		#Name of category that decisions will appear under, decisio
 		days_re_enable = 5	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
 
 		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+
+			OR = {
+				original_tag = USS
+				original_tag = RAS
+			}
+			
 			ROOT = {
 				is_ai = no
 			}

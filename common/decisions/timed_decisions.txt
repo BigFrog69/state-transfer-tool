@@ -60,22 +60,25 @@ simple_category = {		#Name of category that decisions will appear under, decisio
 		
 		available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
 			#always = no
-			180 = { is_controlled_by = USS }
-			181 = { is_controlled_by = USS }
 			184 = { is_controlled_by = USS }
 			188 = { is_controlled_by = USS }
 			174 = { is_controlled_by = USS }
 			177 = { is_controlled_by = USS }
 			175 = { is_controlled_by = USS }
 			176 = { is_controlled_by = USS }
+			OR = {
+				original_tag = USS
+				original_tag = RAS
+			}
 		}
 		
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
 
 		visible = {		#Conditions to make this mission visible, can be left blank to make it always appear.
-			ROOT = {
-				is_ai = no
-			}		
+			OR = {
+				original_tag = USS
+				original_tag = RAS
+			}
 		}
 
 		# EFFECTS OF THIS DECISION/MISSION

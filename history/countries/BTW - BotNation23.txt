@@ -1,6 +1,6 @@
 ﻿capital = 315
 
-oob = "BTU_1936"
+oob = "BTW_1936"
 
 # Starting tech
 set_technology = {
@@ -15,26 +15,23 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = BTU_Leader
-
-
-
+recruit_character = BTW_GeneralGrievous
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = democracy
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	chad = 0
+	chad = 7
 	totalism = 0
 	syndicalism = 0
-	socialism = 0
-	democracy = 0
-	liberalism = 0
-	conservatism = 0
-	authoritarianism = 100
+	socialism = 5
+	democracy = 75
+	liberalism = 5
+	conservatism = 3
+	authoritarianism = 5
 	autocracy = 0
 	nationalist = 0
 }

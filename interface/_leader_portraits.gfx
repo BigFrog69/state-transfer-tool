@@ -1,5 +1,12 @@
 spriteTypes = {
 
+
+
+	spriteType = {
+		name = "GFX_portrait_BTS_BucketonTheFourth"
+		texturefile = "gfx/leaders/BTS/BucketonTheFourth.dds"
+	}
+
 	spriteType = {
 		name = "GFX_portrait_BTU_Leader"
 		texturefile = "gfx/leaders/BTU/Leader.dds"

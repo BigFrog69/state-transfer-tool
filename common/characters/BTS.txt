@@ -1,0 +1,18 @@
+characters={
+	BTS_BucketonTheFourth={
+		name="Bucketon IV"
+		portraits={
+			civilian={
+				large=GFX_portrait_BTS_BucketonTheFourth
+			}
+			army={
+				small="GFX_portrait_BTS_BucketonTheFourth"
+			}
+		}
+		country_leader={
+			ideology= authoritarianism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
