@@ -1,0 +1,21 @@
+state={
+	id=317
+	name="STATE_317"
+	provinces={
+		184 2545 2854 2863 3322 3798 4182 5050 5059 5075 5079 5080 
+	}
+	history={
+		owner = TUT
+		add_core_of = TUT
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 5
+
+		}
+
+	}
+	manpower=360000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

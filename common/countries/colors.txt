@@ -30,10 +30,6 @@ NLA = {
 	color_ui = rgb { 41 81 133 }
 }
 
-TST = {
-	color = rgb { 150 255 150 }
-	color_ui = rgb { 150 255 150 }
-}
 
 WOD = {
 	color = rgb { 120 120 0 }
@@ -432,6 +428,17 @@ BTD = {
 	color = rgb { 75 0 90 }
 	color_ui = rgb { 75 0 90 }
 }
+
+XON = {
+	color = rgb { 247 15 236 }
+	color_ui = rgb { 247 15 236 }
+}
+
+TUT = {
+	color = rgb { 0 80 0 }
+	color_ui = rgb { 0 80 0 }
+}
+
 
 
 

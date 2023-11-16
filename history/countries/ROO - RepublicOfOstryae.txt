@@ -16,6 +16,7 @@ set_war_support = 0.1
 set_stability = 0.8
 
 recruit_character = ROO_OverShadeShadow
+recruit_character = ROO_Neko_von_Arkenstein
 
 add_ideas = {
 	Sleeping_Giant

@@ -21,4 +21,23 @@ characters={
 		}
 	}
 
+	ROO_Neko_von_Arkenstein={
+		name="Neko von Arkenstein"
+		portraits={
+			civilian={
+				large=GFX_portrait_ROO_Neko_von_Arkenstein
+			}
+			army={
+				small="GFX_portrait_ROO_Neko_von_Arkenstein"
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 1
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
 }

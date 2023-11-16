@@ -311,7 +311,14 @@
  BTO_DEF:0 "No Way"
  BTO_ADJ:0 "Nowegians"
 
-
+ #
+ XON:0 "Xolonia"
+ XON_DEF:0 "Xolonia"
+ XON_ADJ:0 "Xolonians"
+ #
+ TUT:0 "Tutel Empire"
+ TUT_DEF:0 "Tutel"
+ TUT_ADJ:0 "Tutelian"
 
 
 
