@@ -1,0 +1,32 @@
+ideas = {
+    country = {
+        XOL_constructing_railways = {
+            picture = constructing_railways
+            modifier = {
+                democratic_drift = 0.01
+                production_speed_rail_way_factor = 1
+            }
+        
+        }
+        XOL_military_youth = {
+            picture = military_youth
+            modifier = {
+                recruitable_population_factor = 0.3
+            }
+        }
+        XOL_population_united = {
+            picture = HUN_treaty_of_triannon
+            modifier = {
+                consumer_goods_factor = -0.15
+            }
+
+    }
+        XOL_a_weak_currency = {
+            picture = a_weak_currency
+            modifier = {
+                industrial_capacity_factory = -0.25
+                production_speed_buildings_factor = -0.3 
+            }
+    }
+}
+}

@@ -1,0 +1,6 @@
+opinion_modifiers = {
+	
+	XOL_xolonian_foreign_policy = {
+		value = 15
+	}
+}
