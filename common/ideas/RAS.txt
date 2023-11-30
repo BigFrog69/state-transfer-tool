@@ -19,7 +19,7 @@ ideas = {
 			}
 		}
 		
-		The_Turning_Tide = {
+		Desertations = {
 			picture = SSB_RedCouncil
 			allowed = {
 				always = no
@@ -28,10 +28,8 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			targeted_modifier = {
-				tag = USS
-				attack_bonus_against = -0.1
-				defense_bonus_against = -0.1
+			modifier = {
+                weekly_manpower = -1500
 			}
 		}
 	}

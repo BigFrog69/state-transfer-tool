@@ -1,0 +1,521 @@
+﻿
+focus_tree = {
+	id = BRE_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BRE
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = BRE_The_Way_Of_The_Kaiser
+		icon = GFX_goal_TheGreatPurge
+		x = 45
+		y = 0
+		cost = 5
+		mutually_exclusive = { focus = BRE_Overthrow_The_Kaiser }
+		mutually_exclusive = { focus = BRE_The_Reichskanzler }
+
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+#############################################################################################
+	focus = {
+		id = BRE_The_Reichskanzler
+		icon = GFX_goal_TheGreatPurge
+		x = 15
+		y = 0
+		cost = 5
+		mutually_exclusive = { focus = BRE_Overthrow_The_Kaiser }
+		mutually_exclusive = { focus = BRE_The_Way_Of_The_Kaiser }
+
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+###############################################################################################
+	focus = {
+		id = BRE_Overthrow_The_Kaiser
+		icon = GFX_goal_TheGreatPurge
+		x = 30
+		y = 0
+		cost = 5
+        mutually_exclusive = { focus = BRE_The_Way_Of_The_Kaiser }
+		mutually_exclusive = { focus = BRE_The_Reichskanzler }
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Socialist_Society
+		icon = GFX_goal_TheGreatPurge
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BRE_Overthrow_The_Kaiser }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Boys_And_Girls_All_Friends_Of_Socialism
+		icon = GFX_goal_TheGreatPurge
+		x = -2
+		y = 2
+		cost = 5
+		prerequisite = { focus = BRE_Socialist_Society }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Speak_And_Talk_About_The_Organisation
+		icon = GFX_goal_TheGreatPurge
+		x = 2
+		y = 2
+		cost = 5
+		prerequisite = { focus = BRE_Socialist_Society }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Here_We're_All_So_Free_In_The_FDJ
+		icon = GFX_goal_TheGreatPurge
+		x = 6
+		y = 3
+		cost = 5
+		prerequisite = { focus = BRE_Boys_And_Girls_All_Friends_Of_Socialism }
+		prerequisite = { focus = BRE_Speak_And_Talk_About_The_Organisation }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Here_We're_All_So_German_In_The_FDJ
+		icon = GFX_goal_TheGreatPurge
+		x = 2
+		y = 3
+		cost = 5
+		prerequisite = { focus = BRE_Boys_And_Girls_All_Friends_Of_Socialism }
+		prerequisite = { focus = BRE_Speak_And_Talk_About_The_Organisation }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Here_We're_All_So_Young_In_The_FDJ
+		icon = GFX_goal_TheGreatPurge
+		x = -2
+		y = 3
+		cost = 5
+		prerequisite = { focus = BRE_Boys_And_Girls_All_Friends_Of_Socialism }
+		prerequisite = { focus = BRE_Speak_And_Talk_About_The_Organisation }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Here_We_All_Stand_With_You_In_The_FDJ
+		icon = GFX_goal_TheGreatPurge
+		x = -6
+		y = 3
+		cost = 5
+		prerequisite = { focus = BRE_Boys_And_Girls_All_Friends_Of_Socialism }
+		prerequisite = { focus = BRE_Speak_And_Talk_About_The_Organisation }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Eins_Zwei_Drei_Die_Beste_Partei
+		icon = GFX_goal_TheGreatPurge
+		x = 0
+		y = 4
+		cost = 5
+		prerequisite = { focus = BRE_Here_We're_All_So_Free_In_The_FDJ }
+		prerequisite = { focus = BRE_Here_We're_All_So_German_In_The_FDJ }
+		prerequisite = { focus = BRE_Here_We're_All_So_Young_In_The_FDJ }
+		prerequisite = { focus = BRE_Here_We_All_Stand_With_You_In_The_FDJ }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_And_Four_Five_Six_The_Best_Connections
+		icon = GFX_goal_TheGreatPurge
+		x = 0
+		y = 5
+		cost = 5
+		prerequisite = { focus = BRE_Eins_Zwei_Drei_Die_Beste_Partei }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_With_Seven_Eight_The_Beyron_Pact
+		icon = GFX_goal_TheGreatPurge
+		x = -1
+		y = 6
+		cost = 5
+		mutually_exclusive = { focus = BRE_With_Seven_Eight_The_FDJ_Pact }
+		prerequisite = { focus = BRE_And_Four_Five_Six_The_Best_Connections }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		SSB = {
+			country_event = { days = 1 id = BRE.1 }
+		    }
+		}
+	}
+	
+	focus = {
+		id = BRE_With_Seven_Eight_The_FDJ_Pact
+		icon = GFX_goal_TheGreatPurge
+		x = 1
+		y = 6
+		cost = 5
+		prerequisite = { focus = BRE_And_Four_Five_Six_The_Best_Connections }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+		mutually_exclusive = { focus = BRE_With_Seven_Eight_The_Beyron_Pact }
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			create_faction = FDJ_Pact
+		}
+	}
+
+	focus = {
+		id = BRE_And_Nine_Your_Best_Friend
+		icon = GFX_goal_TheGreatPurge
+		x = 0
+		y = 7
+		cost = 5
+		prerequisite = { focus = BRE_With_Seven_Eight_The_Beyron_Pact focus = BRE_With_Seven_Eight_The_FDJ_Pact }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRE_G_H_And_I_Stands_For_Democracy
+		icon = GFX_goal_TheGreatPurge
+		x = -1
+		y = 8
+		cost = 5
+		prerequisite = { focus = BRE_And_Nine_Your_Best_Friend }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRE_And_J_That's_The_FDJ
+		icon = GFX_goal_TheGreatPurge
+		x = 1
+		y = 8
+		cost = 5
+		prerequisite = { focus = BRE_And_Nine_Your_Best_Friend }
+		relative_position_id = BRE_Overthrow_The_Kaiser
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+#########################################################################################################################
+	focus = {
+		id = BRE_Army_Reform
+		icon = GFX_goal_TheGreatPurge
+		x = 60
+		y = 0
+		cost = 5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_The_SS_Corps
+		icon = GFX_goal_TheGreatPurge
+		x = -4
+		y = 2
+		cost = 5
+		prerequisite = { focus = BRE_Army_Reform }
+		mutually_exclusive = { focus = BRE_A_B_C_Die_Beste_Armee }
+		mutually_exclusive = { focus = BRE_The_Wehrmacht_Reborn }
+		relative_position_id = BRE_Army_Reform
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_A_B_C_Die_Beste_Armee
+		icon = GFX_goal_TheGreatPurge
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = { focus = BRE_Army_Reform }
+		mutually_exclusive = { focus = BRE_The_SS_Corps }
+		mutually_exclusive = { focus = BRE_The_Wehrmacht_Reborn }
+		relative_position_id = BRE_Army_Reform
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_And_D_E_F_An_Accurate_Shot
+		icon = GFX_goal_TheGreatPurge
+		x = 0
+		y = 3
+		cost = 5
+		prerequisite = { focus = BRE_A_B_C_Die_Beste_Armee }
+		relative_position_id = BRE_Army_Reform
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRE_The_Wehrmacht_Reborn
+		icon = GFX_goal_TheGreatPurge
+		x = 4
+		y = 2
+		cost = 5
+		prerequisite = { focus = BRE_Army_Reform }
+		mutually_exclusive = { focus = BRE_A_B_C_Die_Beste_Armee }
+		mutually_exclusive = { focus = BRE_The_SS_Corps }
+		relative_position_id = BRE_Army_Reform
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+###############################################################################################################
+	focus = {
+		id = BRE_The_2_Year_Plan
+		icon = GFX_goal_TheGreatPurge
+		x = 74
+		y = 0
+		cost = 5
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Out_With_The_Old_In_With_The_New
+		icon = GFX_goal_TheGreatPurge
+		x = -4
+		y = 2
+		cost = 5
+		prerequisite = { focus = BRE_The_2_Year_Plan }
+		relative_position_id = BRE_The_2_Year_Plan
+		mutually_exclusive = { focus = BRE_Socialist_Economy }
+		mutually_exclusive = { focus = BRE_Countinue_The_Civilian_Work }
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Socialist_Economy
+		icon = GFX_goal_TheGreatPurge
+		x = 4
+		y = 2
+		cost = 5
+		prerequisite = { focus = BRE_The_2_Year_Plan }
+		relative_position_id = BRE_The_2_Year_Plan
+		mutually_exclusive = { focus = BRE_Countinue_The_Civilian_Work }
+		mutually_exclusive = { focus = BRE_Out_With_The_Old_In_With_The_New }
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BRE_Countinue_The_Civilian_Work
+		icon = GFX_goal_TheGreatPurge
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = { focus = BRE_The_2_Year_Plan }
+		relative_position_id = BRE_The_2_Year_Plan
+		mutually_exclusive = { focus = BRE_Socialist_Economy }
+		mutually_exclusive = { focus = BRE_Out_With_The_Old_In_With_The_New }
+
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

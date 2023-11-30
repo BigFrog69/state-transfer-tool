@@ -1,25 +1,21 @@
-
 state={
-	id=249
-	name="STATE_249"
-
+	id=320
+	name="STATE_320"
+	provinces={
+		57 341 537 1211 1449 1499 1520 1965 2128 2215 2692 3148 3772 4002 4721 6581 6589 6619 
+	}
 	history={
 		owner = BRE
 		add_core_of = BRE
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
+			arms_factory = 3
 			industrial_complex = 2
 
 		}
 
 	}
-
-	provinces={
-		863 1850 2300 2434 3490 4056 4871 6600 
-	}
-	manpower=1000000
+	manpower=2000000
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
 	local_supplies=0.000
 }

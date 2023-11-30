@@ -19,6 +19,8 @@ recruit_character = SSB_bigfrrog
 recruit_character = SSB_FallenGovernment
 recruit_character = SSB_Clockwork_Engineer
 
+create_faction = Red_Front
+
 add_ideas = {
 	Red_council
 	Old_Red_Army

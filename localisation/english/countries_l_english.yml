@@ -295,9 +295,9 @@
  BTK_DEF:0 "Bot Nation 11"
  BTK_ADJ:0 "Bot 11"
 
- BRE:0 "The Best Reich Ever" #jorduuuuh
- BRE_DEF:0 "The Best Reich Ever"
- BRE_ADJ:0 "Best Reich"
+ BRE:0 "Prussian Federation" #jorduuuuh
+ BRE_DEF:0 "Prussian Federation"
+ BRE_ADJ:0 "Prussians"
 
  BTM:0 "Königreich Von Griechenland" #livershort187
  BTM_DEF:0 "Königreich Von Griechenland"

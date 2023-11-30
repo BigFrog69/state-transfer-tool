@@ -1,0 +1,21 @@
+state={
+	id=318
+	name="STATE_318"
+	provinces={
+		419 453 505 1365 1550 3246 4106 4796 6608 6617 6618 6624 
+	}
+	history={
+		owner = BRE
+		add_core_of = BRE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+
+		}
+
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

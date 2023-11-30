@@ -1,0 +1,54 @@
+###########################
+# BRE Events
+###########################
+
+add_namespace = BRE
+
+country_event = {
+	id = BRE.1
+	title = BRE.1.t
+	desc = BRE.1.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = BRE.1.a
+		SSB = { add_to_faction = BRE }
+		BRE = {
+			country_event = { days = 2 id = BRE.4 } 
+		}
+    }
+	option = {
+		name = BRE.1.b
+	    BRE = {
+			country_event = { days = 2 id = BRE.5 }
+		}
+	}
+}
+
+country_event = { #They Accept
+	id = BRE.4
+	title = BRE.4.t
+	desc = BRE.4.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = BRE.4.a
+	}
+}
+
+country_event = { #They Refuse
+	id = BRE.5
+	title = BRE.5.t
+	desc = BRE.5.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = BRE.5.a
+	}
+}

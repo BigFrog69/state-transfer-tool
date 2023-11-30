@@ -22,12 +22,15 @@ declare_war_on = {
     type = annex_everything
 }
 
-add_manpower = 1000000
+add_manpower = 600000
+
+create_faction = Raiders
 
 add_ideas = {
 	Lack_Of_Equipment
 	service_by_requirement
 	tot_economic_mobilisation
+	Desertations
 }
 
 puppet = WRD

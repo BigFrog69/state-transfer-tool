@@ -5,13 +5,12 @@ state={
 		240 784 2141 2778 2948 4442 4657 6536 6558 
 	}
 	history={
-		owner = RNL
-		add_core_of = RNL
-		add_core_of = ROO
+		owner = XON
+		add_core_of = XON
 		buildings = {
 			infrastructure = 1
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 3
+			industrial_complex = 5
 
 		}
 

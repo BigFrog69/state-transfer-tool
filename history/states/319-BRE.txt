@@ -1,8 +1,9 @@
-
 state={
-	id=249
-	name="STATE_249"
-
+	id=319
+	name="STATE_319"
+	provinces={
+		231 1441 1496 1742 2226 2227 3361 4320 6614 6629 
+	}
 	history={
 		owner = BRE
 		add_core_of = BRE
@@ -14,12 +15,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		863 1850 2300 2434 3490 4056 4871 6600 
-	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
 	local_supplies=0.000
 }
