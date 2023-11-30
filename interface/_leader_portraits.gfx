@@ -231,12 +231,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_XON_xonabyte"
-		texturefile = "gfx/leaders/XON/Xonabyte.dds"
+		name = "GFX_portrait_XOL_xonabyte"
+		texturefile = "gfx/leaders/XOL/Xonabyte.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_XON_blahaj"
-		texturefile = "gfx/leaders/XON/blahaj.dds"
+		name = "GFX_portrait_XOL_blahaj"
+		texturefile = "gfx/leaders/XOL/blahaj.dds"
 	}
 
 	spriteType = {

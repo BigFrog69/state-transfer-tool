@@ -312,9 +312,9 @@
  BTO_ADJ:0 "Nowegians"
 
  #
- XON:0 "Xolonia"
- XON_DEF:0 "Xolonia"
- XON_ADJ:0 "Xolonians"
+ XOL:0 "Xolonia"
+ XOL_DEF:0 "Xolonia"
+ XOL_ADJ:0 "Xolonians"
  #
  TUT:0 "Tutel Empire"
  TUT_DEF:0 "Tutel"

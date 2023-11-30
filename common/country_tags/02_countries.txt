@@ -59,7 +59,7 @@ RCC = "countries/RepublicOfCanterlot.txt" #on bookmark - flag needed - focus tre
 NRI = "countries/NovaExylum.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
 TUT = "countries/NovaExylum.txt" #on bookmark - focus tree needed - ideas needed
-XON = "countries/xolonia.txt" #on bookmark  - focus tree needed - ideas needed
+XOL = "countries/xolonia.txt" #on bookmark  - focus tree needed - ideas needed
 
 UHH = "countries/Uhh.txt" #on bookmark - flag needed - focus tree needed - ideas needed
 

@@ -1,0 +1,57 @@
+characters={
+	XOL_xonabyte={
+		name="Xonabyte"
+		portraits={
+			civilian={
+				large=GFX_portrait_XOL_xonabyte
+			}
+			army={
+				small="GFX_portrait_XOL_xonabyte"
+			}
+		}
+		country_leader={
+			ideology= democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	XOL_blahaj={
+		name="Blahaj"
+		portraits={
+			civilian={
+				large=GFX_portrait_XOL_blahaj
+			}
+			army={
+				small="GFX_portrait_XOL_blahaj"
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 5
+			attack_skill = 10
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
+		XOL_blahaj2={
+		name="Blahaj 2"
+		portraits={
+			civilian={
+				large=GFX_portrait_XOL_blahaj
+			}
+			army={
+				small="GFX_portrait_XOL_blahaj"
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 5
+			attack_skill = 10
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
+
+}
