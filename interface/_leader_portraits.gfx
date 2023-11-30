@@ -244,7 +244,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TUT/mosquito.dds"
 	}
 
-
+	spriteType = {
+		name = "GFX_portrait_BCS_saul"
+		texturefile = "gfx/leaders/BCS/SaulGoodman.dds"
+	}
 
 
 

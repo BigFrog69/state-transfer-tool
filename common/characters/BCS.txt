@@ -1,0 +1,18 @@
+characters={
+	BCS_saul={
+		name="Saul Goodman"
+		portraits={
+			civilian={
+				large=GFX_portrait_BCS_saul
+			}
+			army={
+				small="GFX_portrait_BCS_saul"
+			}
+		}
+		country_leader={
+			ideology= authoritarianism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
