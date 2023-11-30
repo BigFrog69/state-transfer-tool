@@ -5,8 +5,8 @@ state={
 		240 784 2141 2778 2948 4442 4657 6536 6558 
 	}
 	history={
-		owner = XON
-		add_core_of = XON
+		owner = XOL
+		add_core_of = XOL
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3

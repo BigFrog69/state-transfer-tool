@@ -1,6 +1,6 @@
 ﻿capital = 124
 
-oob = "XON_1936"
+oob = "XOL_1936"
 
 # Starting tech
 set_technology = {
@@ -16,8 +16,8 @@ add_ideas = XOL_a_weak_currency
 set_war_support = 0.5
 set_stability = 0.32
 
-recruit_character = XON_xonabyte
-recruit_character = XON_blahaj
+recruit_character = XOL_xonabyte
+recruit_character = XOL_blahaj
 
 set_politics = {
 	ruling_party = democracy

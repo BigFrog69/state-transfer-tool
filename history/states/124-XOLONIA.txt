@@ -5,8 +5,8 @@ state={
 		1226 1350 2370 6526 6528 
 	}
 	history={
-		owner = XON
-		add_core_of = XON
+		owner = XOL
+		add_core_of = XOL
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

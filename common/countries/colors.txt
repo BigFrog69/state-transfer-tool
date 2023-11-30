@@ -429,7 +429,7 @@ BTD = {
 	color_ui = rgb { 75 0 90 }
 }
 
-XON = {
+XOL = {
 	color = rgb { 247 15 236 }
 	color_ui = rgb { 247 15 236 }
 }
