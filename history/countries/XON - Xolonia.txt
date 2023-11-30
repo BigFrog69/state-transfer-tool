@@ -11,27 +11,28 @@ set_technology = {
 	tech_engineers = 1
 	basic_train = 1
 }
+add_ideas = XOL_a_weak_currency
 
-set_war_support = 0.1
-set_stability = 0.1
+set_war_support = 0.5
+set_stability = 0.32
 
 recruit_character = XON_xonabyte
 recruit_character = XON_blahaj
 
 set_politics = {
 	ruling_party = democracy
-	last_election = "1934.6.3"
+	last_election = "1932.6.3"
 	election_frequency = 36
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	chad = 0
 	totalism = 0
 	syndicalism = 0
 	socialism = 0
-	democracy = 100
-	liberalism = 0
-	conservatism = 0
+	democracy = 50
+	liberalism = 20
+	conservatism = 30
 	authoritarianism = 0
 	autocracy = 0
 	nationalist = 0

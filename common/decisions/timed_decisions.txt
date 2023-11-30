@@ -66,6 +66,11 @@ simple_category = {		#Name of category that decisions will appear under, decisio
 			177 = { is_controlled_by = USS }
 			175 = { is_controlled_by = USS }
 			176 = { is_controlled_by = USS }
+
+			191 = { is_controlled_by = USS }
+			309 = { is_controlled_by = USS }
+			134 = { is_controlled_by = USS }
+			169 = { is_controlled_by = USS }
 			OR = {
 				original_tag = USS
 				original_tag = RAS
@@ -110,6 +115,11 @@ simple_category = {		#Name of category that decisions will appear under, decisio
 			177 = { transfer_state_to = USS }
 			175 = { transfer_state_to = USS }
 			176 = { transfer_state_to = USS }
+
+			191 = { transfer_state_to = USS }
+			309 = { transfer_state_to = USS }
+			134 = { transfer_state_to = USS }
+			169 = { transfer_state_to = USS }
 
 			country_event = USSR.1
 		}
