@@ -1367,11 +1367,8 @@ focus_tree = {
 
 
 
-	focus = {
-=======
-	}
+
     focus = {
->>>>>>> 60aa035cbdea5fdc7e54f03768dc6a32ce301886
 		id = SSB_Befriend_Liberland
 		icon = GFX_goal_DealWithLiberland
 		x = 35
