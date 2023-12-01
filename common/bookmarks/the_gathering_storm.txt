@@ -85,7 +85,7 @@ bookmarks = {
 			}
 		}
 
-        #MINORS
+        #MINORS (SUS)
 
 		"WOD"={
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -156,8 +156,12 @@ bookmarks = {
 			ideology = "autocracy"
 			minor = yes
 		}
-
-
+	
+		"XOL"={
+			history = "XOL_BRIEF_HISTORY"
+			ideology = "socialism"
+			minor = yes
+		}
 
 
 		effect = {

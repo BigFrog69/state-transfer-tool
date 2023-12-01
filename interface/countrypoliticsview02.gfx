@@ -6,3 +6,12 @@ spriteTypes = {
 	}	
 	
 }
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_ideology_democracy"
+		texturefile = "gfx/interface/ideologies/socialism.dds"
+	}	
+	
+}
+

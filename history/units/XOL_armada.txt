@@ -1,0 +1,51 @@
+﻿division_template = {
+	name = "Xolonianska stráž"					# Infantry Division
+	division_names_group = CZE_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 3 }
+	}
+}
+
+
+	# VI Sbor
+#	division = {
+#		name = "4. jezdecká brigáda"
+#		location = 9539
+#		division_template = "Jezdecká brigáda"
+#		start_experience_factor = 0.2
+#		start_equipment_factor = 0.7
+#
+#	}
+
+
+### Air Wings
+#air_wings = {
+#	# Letectvo I.Armády -- Prague
+#	# Letectvo Hlavniho Velitelstivi -- Prague
+#	9 = { 
+#		fighter_equipment_0 = {		# Avia B.534
+#			owner = "CZE" 
+#			amount = 36
+#		}
+#		tac_bomber_equipment_0 =  {	# Bloch MB.200
+#			owner = "CZE" 
+#			amount = 72
+#		}
+#		CAS_equipment_1 =  {		# Aero A-101
+#			owner = "CZE" 
+#			amount = 24
+#		}
+#	}
+#
+#}

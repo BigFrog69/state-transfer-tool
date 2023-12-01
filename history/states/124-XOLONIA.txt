@@ -6,12 +6,17 @@ state={
 	}
 	history={
 		owner = XOL
-		add_core_of = XOL
+
+		victory_points = {
+			1350 50 
+		}
+		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
 		}
+		add_core_of = XOL
 	}
 	manpower=500000
 	state_category=megalopolis

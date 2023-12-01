@@ -680,6 +680,7 @@ focus = {
 			}
 #Approach Ostreya
 focus = {
+
 		id = XOL_approach_ostreya
 		icon = GFX_goal_approach_ostreya
 		relative_position_id = XOL_the_foreign_policy
@@ -724,50 +725,7 @@ focus = {
 			}
 	
 
-#Approach Ostreya
-focus = {
-		id = XOL_approach_ostreya
-		icon = GFX_goal_approach_ostreya
-		relative_position_id = XOL_the_foreign_policy
-		x = 1
-		y = 1.2
 
-		cost = 10
-
-		ai_will_do = {
-		   factor = 2
-                    		
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-		prerequisite = {	
-
-			focus = XOL_the_foreign_policy
-
-		}
-
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		completion_reward = 
-		{
-			diplomatic_relation = {
-				country = OST
-				relation = non_aggression_pact
-				active = no
-			}
-		}
-			}
-focus =	{
 		id = XOL_attack_ostreya
 		icon = GFX_goal_attack_ostreya
 		relative_position_id = XOL_the_foreign_policy
@@ -807,9 +765,99 @@ focus =	{
 				target = ROO
 			}
 		}
+#Approach Ostreya
+focus = {
+	
+		id = XOL_retake_thuyra
+		icon = GFX_goal_attack_ostreya
+		relative_position_id = XOL_the_foreign_policy
+		x = -1
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {	
+
+			focus = XOL_the_foreign_policy
+
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = 
+		{
+
+			
 			}
+		}
+			}
+	
 
 
-}
+		id = XOL_attack_ostreya
+		icon = GFX_goal_attack_ostreya
+		relative_position_id = XOL_the_foreign_policy
+		x = -1
+		y = 1.2
+
+		cost = 10
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+			fascism > 0.4
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {	
+
+			focus = XOL_the_foreign_policy
+
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = 
+		{
+			create_wargoal = {
+				type = annex_everything
+				target = ROO
+			}
+		}
+			
+
+
+
+
+
+			
+
+
+
 
 

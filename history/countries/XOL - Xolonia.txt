@@ -1,6 +1,6 @@
 ﻿capital = 124
 
-oob = "XOL_1936"
+oob = "XOL_armada"
 
 # Starting tech
 set_technology = {
@@ -12,7 +12,9 @@ set_technology = {
 	basic_train = 1
 }
 add_ideas = XOL_a_weak_currency
-
+every_owned_state = {
+	add_core_of = XOL
+}
 set_war_support = 0.5
 set_stability = 0.32
 
@@ -21,7 +23,7 @@ recruit_character = XOL_blahaj
 
 set_politics = {
 	ruling_party = democracy
-	last_election = "1932.6.3"
+	last_election = "2021.1.9"
 	election_frequency = 36
 	elections_allowed = yes
 }
