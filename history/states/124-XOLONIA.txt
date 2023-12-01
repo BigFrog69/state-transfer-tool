@@ -4,6 +4,13 @@ state={
 	provinces={
 		1226 1350 2370 6526 6528 
 	}
+	resources = {
+        oil = 10
+        chromium = 20
+		steel = 15
+		rubber = 5
+		tungsten = 5
+    }
 	history={
 		owner = XOL
 
@@ -18,7 +25,7 @@ state={
 		}
 		add_core_of = XOL
 	}
-	manpower=500000
+	manpower=1000000
 	state_category=megalopolis
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

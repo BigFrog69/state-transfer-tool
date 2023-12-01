@@ -4,6 +4,7 @@ state={
 	provinces={
 		57 341 537 1211 1449 1499 1520 1965 2128 2215 2692 3148 3772 4002 4721 6581 6589 6619 
 	}
+	state_category = megalopolis
 	history={
 		owner = BRE
 		add_core_of = BRE

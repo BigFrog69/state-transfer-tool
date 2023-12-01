@@ -1,6 +1,7 @@
 state={
 	id=319
 	name="STATE_319"
+	state_category = megalopolis
 	provinces={
 		231 1441 1496 1742 2226 2227 3361 4320 6614 6629 
 	}

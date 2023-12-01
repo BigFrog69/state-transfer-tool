@@ -12,15 +12,13 @@ set_technology = {
 	basic_train = 1
 }
 add_ideas = XOL_a_weak_currency
-every_owned_state = {
-	add_core_of = XOL
-}
+
 set_war_support = 0.5
 set_stability = 0.32
 
 recruit_character = XOL_xonabyte
 recruit_character = XOL_blahaj
-
+recruit_character = XOL_blahaj2
 set_politics = {
 	ruling_party = democracy
 	last_election = "2021.1.9"

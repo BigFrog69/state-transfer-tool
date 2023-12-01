@@ -34,7 +34,7 @@ characters={
 			logistics_skill = 5
 		}
 	}
-		XOL_blahaj2={
+	XOL_blahaj2={
 		name="Blahaj 2"
 		portraits={
 			civilian={
