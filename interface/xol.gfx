@@ -541,10 +541,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_goal_expand_the_military_industry_shine"
-		texturefile = "gfx/interface/goals/xol_icon_14.dds"			
+		texturefile = "gfx/interface/goals/xol_icon_13.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/xol_icon_14.dds"			
+			animationmaskfile = "gfx/interface/goals/xol_icon_13.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -652,10 +652,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_goal_attack_ostreya_shine"
-		texturefile = "gfx/interface/goals/xol_icon_16.dds"			
+		texturefile = "gfx/interface/goals/xol_icon_17.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/xol_icon_16.dds"			
+			animationmaskfile = "gfx/interface/goals/xol_icon_17.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -668,7 +668,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/xol_icon_16.dds"			
+			animationmaskfile = "gfx/interface/goals/xol_icon_17.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
