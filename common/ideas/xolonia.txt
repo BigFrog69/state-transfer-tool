@@ -1,5 +1,21 @@
 ideas = {
     country = {
+        XOL_g_g_goverment_corruption = {
+            picture = g_g_goverment_corruption
+            modifier = {
+                production_speed_buildings_factor = -0.1
+                research_speed_factor = -0.1
+                political_power_gain = -0.4
+            }
+        }
+        XOL_g_goverment_corruption = {
+            picture = g_g_goverment_corruption
+            modifier = {
+                production_speed_buildings_factor = -0.05
+                research_speed_factor = -0.05
+                political_power_gain = -0.2
+            }
+        }
         XOL_constructing_railways = {
             picture = constructing_railways
             modifier = {
@@ -8,12 +24,20 @@ ideas = {
             }
         
         }
+        XOL_loans = {
+                picture = loans
+                modifier = {
+                    civilian_factory_use = 1
+                    production_speed_buildings_factor = 0.2
+            }
+        }
         XOL_military_youth = {
             picture = military_youth
             modifier = {
                 recruitable_population_factor = 0.3
             }
         }
+
         XOL_population_united = {
             picture = HUN_treaty_of_triannon
             modifier = {
@@ -26,7 +50,40 @@ ideas = {
             modifier = {
                 industrial_capacity_factory = -0.25
                 production_speed_buildings_factor = -0.3 
+        }
+
+    }
+
+
+}
+        tank_manufacturer = { 
+            
+            designer = yes
+            
+            xfiat = {
+            
+
+                allowed = {
+                    original_tag = XOL
+                }
+                allowed_to_remove = {
+                    always = no
+                }
+                
+                research_bonus = {
+                    armor = 0.15
+                }
+                
+                traits = { medium_tank_manufacturer }
+
+                ai_will_do = {
+                    factor = 5
+                }
+            modifier = {
+               stability_weekly = -0.001
+               political_power_gain = -0.3
+               industrial_capacity_factory = -0.05
+            }
             }
     }
-}
 }

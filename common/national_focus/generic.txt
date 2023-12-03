@@ -2350,12 +2350,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = motorized_equipment
-				amount = 100
-				variant_name = "Du Joe"
-				producer = MRO
-			}
+			#add_equipment_to_stockpile = {
+			#	type = motorized_equipment
+			#	amount = 100
+			#	variant_name = "Du Joe"
+			#	producer = MRO
+			#}
 			MRO = {
 				add_political_power = 30
 			}

@@ -12,6 +12,8 @@ set_technology = {
 	basic_train = 1
 }
 add_ideas = XOL_a_weak_currency
+add_ideas = xfiat
+add_ideas = XOL_g_g_goverment_corruption
 
 set_war_support = 0.5
 set_stability = 0.32
@@ -19,6 +21,7 @@ set_stability = 0.32
 recruit_character = XOL_xonabyte
 recruit_character = XOL_blahaj
 recruit_character = XOL_blahaj2
+recruit_character = XOL_rick_astley
 set_politics = {
 	ruling_party = democracy
 	last_election = "2021.1.9"

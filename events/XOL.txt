@@ -1,0 +1,30 @@
+###########################
+# Xolonia Events
+###########################
+
+add_namespace = XOL
+
+news_event = {
+	id = XOL.1
+	title = XOL.1.t
+	desc = XOL.1.d
+	picture = GFX_XOL_event_fiat126x
+	is_triggered_only = no
+	mean_time_to_happen = {
+		days = 150
+	}
+	trigger = {
+		date > 2023.2.10	
+	}
+	option = {
+		name = XOL.1.a
+		add_war_support = -0.01
+		
+	}
+	#option = {
+	#	name = XOL.1.b
+	#}
+}
+
+
+

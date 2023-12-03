@@ -161,6 +161,10 @@ bookmarks = {
 			history = "XOL_BRIEF_HISTORY"
 			ideology = "socialism"
 			minor = yes
+			ideas = {
+				xfiat
+				XOL_a_weak_currency
+			}
 		}
 
 

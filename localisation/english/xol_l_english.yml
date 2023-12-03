@@ -1,13 +1,24 @@
 ﻿l_english:
     #Focuses
-    XOL_a_capitalist_utopia:0 "The Struggle for Independence"
+    XOL_xolonian_industry:0 "Focus on Industry"
+    XOL_develop_the_industry:0 "Develop the Industry"
     XOL_build_the_roads:0 "Build The Roads"
     XOL_reconnect_railways:0 "Reconnect Railways"
+    XOL_borrow_money:0 "Borrow Money"
+    XOL_expand_the_arms_industry:0 "Expand the Arms Industry"
+    XOL_invest_in_civilian_offices:0 "Invest in Civilian Offices"
+    XOL_industrialize_the_taken_lands:0 "Industrialize the Taken Lands"
     XOL_fund_an_army:0 "Fund An Army"
     XOL_recruit_the_youth:0 "Recruit The Youth"
     XOL_improve_research:0 "Improved Research"
-    XOL_unite_the_population:0 "Unite The Population"
-    XOL_rally_the_nation:0 "Rally The Nation"
+    XOL_the_airforce:0 "Focus on the Skies"
+    XOL_close_air_support:0 "Create Close Air Support Designs"
+    XOL_strategic_bombing:0 "Strategic Bombing"
+    XOL_adress_the_political_situation:0 "Adress The Political Situation"
+    XOL_xonabyte:0 "Xonabyte"
+    XOL_investigate_the_party:0 "Investigate the Party"
+    XOL_deal_with_the_corruption:0 "Deal with the Corruption"
+    XOL_attract_foreign_workers:0 "Attract Foreign Workers"
     XOL_mobilize_the_economy:0 "Mobilize The Economy"
     XOL_expand_the_military_industry:0 "Expand The Military Industry"
     XOL_build_dockyards:0 "Build Dockyards"
@@ -16,13 +27,41 @@
     XOL_the_xolonian_autobahn:0 "The Xolonian Autobahn"
     XOL_the_foreign_policy:0 "The Foreign Policy"
     XOL_approach_ostreya:0 "Approach Ostreya"
-    XOL_attack_ostreya:0 "Fight for the Indepence"
+    XOL_strike_the_ostreyaens:0 "Strike the Ostreyaens"
+    XOL_fiat_126x:0 "Fiat 126x"
+    XOL_xfiat_1:0 "Replace xFiat's directors"
+    XOL_strike_raven_loft:0 "Strike Raven Loft"
+    XOL_research_artillery:0 "Research Artillery"
     #Ideas
     XOL_population_united:0 "Population United"
+    XOL_g_g_goverment_corruption:0 "Goverment Corruption"
+    XOL_g_goverment_corruption:0 "Goverment Corruption"
     XOL_constructing_railways:0 "Constructing Railways"
+    XOL_loans:0 "Loans"
     XOL_a_weak_currency:0 "A weak currency"
     XOL_a_weak_currency_desc:0 "where did all the money go?? (the Ostreyans took it)"
     #Opinion Modifiers
     XOL_xolonian_foreign_policy:0 "Xolonian Foreign Policy"
     #BOOKMARK
     XOL_BRIEF_HISTORY:0 "In 1987 Xolonia regained independence from Ostryae but they have took a majority of the gold in those lands. Ostreya still doesn't recognize Xolonia as a indepent nation, and many Xolonians want to fight Ostreya for revenge and are angry because they left the country alone. In 2023 Xolonia is still recovering from that cultural and economical massacare but Ostreya claims the lands as theirs. "
+    #EVENTS
+
+    #Fiat126x
+    XOL.1.t:0 "The Fiat 126x"
+    XOL.1.d:0 "Do you need a main battle tank? Do you need a car? Well you can have both with the brand new Fiat 126x! You can finally experience the most impressive car in the world! \n The Fiat 126x can fit 4 people inside, so you can go out with all your friends. So this is the time to buy yourself the best car in the world!\n§O (Disclaimer- by buying the Fiat 126x or any other products made by xFiat LLC. you agree to the terms you can buy if you own any of our products)\n§R(Program sponsored by Xolonian goverment)"
+    XOL.1.a:1 "What is this crap? I don't want this!"
+    #Focus Descriptions (pain)
+    XOL_fiat_126x_desc:0 "The brillliant Fiat 126x made by §CxFIAT§T is a brilliant use of modern engineering, and we must use it ourselves! The car shall be used for military purposes!"
+    XOL_xfiat_1_desc:0 "The management at §CxFiat§T is corrupt and they are an unloyal leech! We must replace them as quikcly as we can. "
+    #Companies
+    xfiat:0 "xFIAT"
+    xfiat_desc:0 "§CxFiat§g is a corrupt company §Rstealing millions from the national treasury§g, but we can not shut them down because of their ties with a major portion of the Parlament§R"
+    #character Traits
+    ikea_plushie:0 "Ikea Plushie"
+    #Parties
+    XOL_democracy_party:0 "Xolonian Social Party"
+    #Menu Stuff
+    MENU_DISCORD_WOOD:0 "Wood's Discord"
+    MENU_TWITCH_WOOD:0 "Wood's Twitch"
+    MENU_YOUTUBE_WOOD:0 "Wood's Youtube Channel'
+"

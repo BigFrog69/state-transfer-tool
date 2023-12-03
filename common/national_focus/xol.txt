@@ -32,11 +32,9 @@ focus_tree = {
 	}
 #ECO 1
 focus = {
-
-	
-		id = XOL_a_capitalist_utopia
-		icon = GFX_goal_a_capitalist_utopia
-		x = 7
+		id = XOL_xolonian_industry
+		icon = GFX_focus_generic_industry_3
+		x = 6
 		y = 0
 		#relative_position_id =
 		cost = 5
@@ -68,8 +66,8 @@ focus = {
 focus = {
 		id = XOL_build_the_roads
 		icon = GFX_goal_build_the_roads
-		relative_position_id = XOL_a_capitalist_utopia
-		x = 0
+		relative_position_id = XOL_xolonian_industry
+		x = -2
 		y = 1.2
 
 		cost = 5
@@ -88,7 +86,7 @@ focus = {
 		}
 
 		prerequisite = {
-			focus = XOL_a_capitalist_utopia
+			focus = XOL_xolonian_industry
 		}
 
 		cancel_if_invalid = yes
@@ -111,10 +109,11 @@ focus = {
 
 #ECO 3
 focus = {
+
 		id = XOL_reconnect_railways
 		icon = GFX_goal_reconnect_railways
-		relative_position_id = XOL_build_the_roads
-		x = 0
+		relative_position_id = XOL_xolonian_industry
+		x = -4
 		y = 1.2
 
 		cost = 5
@@ -133,7 +132,7 @@ focus = {
 		}
 
 		prerequisite = {
-			focus = XOL_build_the_roads
+			focus = XOL_xolonian_industry
 		}
 
 		cancel_if_invalid = yes
@@ -151,12 +150,94 @@ focus = {
 				
 			}
 		}
+#ECO 4
+focus = {
+
+		id = XOL_develop_the_industry
+		icon = GFX_goal_develop_the_industry
+		relative_position_id = XOL_xolonian_industry
+		x = 2
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = XOL_xolonian_industry
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			
+				add_tech_bonus = {
+					bonus = 2
+					uses = 3
+					category = industry
+				}
+			}
+		}
+#Borrow Money
+focus = {
+
+		id = XOL_borrow_money
+		icon = GFX_goal_borrow_money
+		relative_position_id = XOL_develop_the_industry
+		x = -1
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = XOL_develop_the_industry
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				add_timed_idea = {
+					idea = XOL_loans
+					days = 60
+				}
+			}
+		}
 #Mil 1
 focus = {
 		id = XOL_fund_an_army
 		icon = GFX_goal_fund_an_army
 		#relative_position_id = 
-		x = 11
+		x = 13
 		y = 0 
 
 		cost = 4
@@ -234,7 +315,7 @@ focus = {
 #MIL3
 focus = {
 		id = XOL_improve_research
-		icon = GFX_goal_improve_research
+		icon = GFX_focus_research
 		relative_position_id = XOL_recruit_the_youth
 		x = 0
 		y = 1.2
@@ -267,13 +348,187 @@ focus = {
 				
 			}
 		}
+#AIR 1
+focus = {
+	
+		id = XOL_the_airforce
+		icon = GFX_goal_generic_air_fighter2
+		relative_position_id = XOL_improve_research
+		x = -2
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+				any_state = {
+					is_coastal = yes
+					is_capital = no
+					}
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_improve_research
+		}
+		
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			air_experience = 50
+			add_tech_bonus = {
+			bonus = 1
+			uses = 3
+			category = light_air
+		}
+			}
+		}
+#AIR 2
+focus = {
+	
+		id = XOL_close_air_support
+		icon = GFX_focus_generic_cas_aircraft
+		relative_position_id = XOL_the_airforce
+		x = -0
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+				any_state = {
+					is_coastal = yes
+					is_capital = no
+					}
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_the_airforce
+		}
+		
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			air_experience = 50
+			add_tech_bonus = {
+			bonus = 0.75
+			uses = 2
+			category = medium_air
+		}
+			}
+		}
+#AIR 3
+focus = {
+	
+		id = XOL_strategic_bombing
+		icon = GFX_focus_generic_long_range_aircraft
+		relative_position_id = XOL_close_air_support
+		x = -0
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+				any_state = {
+					is_coastal = yes
+					is_capital = no
+					}
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_close_air_support
+		}
+		
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			air_experience = 50
+			add_tech_bonus = {
+			bonus = 0.75
+			uses = 2
+			category = medium_air
+		}
+			}
+		}
 #Pol 1
 focus = {
-		id = XOL_unite_the_population
-		icon = GFX_goal_unite_the_population
-		relative_position_id = XOL_reconnect_railways
-		x = 2
-		y = 1.2
+		id = XOL_adress_the_political_situation
+		icon = GFX_goal_adress_the_political_situation
+	#	relative_position_id = XOL_reconnect_railways
+		x = 30
+		y = 0
+
+		cost = 7
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	#	prerequisite = {
+	#		focus = XOL_improve_research
+	#	}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				add_stability = 0.25
+			}
+		}
+#Pol 1
+focus = {
+		id = XOL_xonabyte
+		icon = GFX_goal_xonabyte
+		relative_position_id = XOL_adress_the_political_situation
+		x = -5
+		y = 1
 
 		cost = 7
 
@@ -290,11 +545,9 @@ focus = {
 
 		}
 		prerequisite = {
-			focus = XOL_improve_research
+			focus = XOL_adress_the_political_situation
 		}
-		prerequisite = {
-			focus = XOL_reconnect_railways
-		}
+
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -302,19 +555,16 @@ focus = {
 
 
 		completion_reward = {
-				add_ideas = XOL_population_united
-				remove_ideas = XOL_a_weak_currency
 				add_stability = 0.25
 			}
 		}
-#Pol 2
+#Pol 4 (lol bro)
 focus = {
-
-		id = XOL_rally_the_nation
-		icon = GFX_goal_rally_the_nation
-		relative_position_id = XOL_unite_the_population
-		x = -2
-		y = 1.2
+		id = XOL_attract_foreign_workers
+		icon = GFX_goal_attract_foreign_workers
+		relative_position_id = XOL_xonabyte
+		x = 1
+		y = 1
 
 		cost = 5
 
@@ -331,7 +581,7 @@ focus = {
 
 		}
 		prerequisite = {
-			focus = XOL_unite_the_population
+			focus = XOL_xonabyte
 		}
 
 
@@ -341,8 +591,81 @@ focus = {
 
 
 		completion_reward = {
-				add_war_support = 0.30
-				
+			}
+		}
+#Pol 3 (corruption 2)
+focus = {
+		id = XOL_investigate_the_party
+		icon = GFX_goal_investigate_the_party
+		relative_position_id = XOL_xonabyte
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_xonabyte
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				swap_ideas = {
+					remove_idea = XOL_g_g_goverment_corruption
+					add_idea = XOL_g_goverment_corruption
+				}
+			}
+		}
+#Pol 3 (corruption 2)
+focus = {
+		id = XOL_deal_with_the_corruption
+		icon = GFX_goal_deal_with_the_corruption_1
+		relative_position_id = XOL_investigate_the_party
+		x = -0
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_investigate_the_party
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				remove_ideas = XOL_g_goverment_corruption
 			}
 		}
 #NAVY 1
@@ -350,8 +673,8 @@ focus = {
 	
 		id = XOL_build_dockyards
 		icon = GFX_goal_build_dockyards
-		relative_position_id = XOL_unite_the_population
-		x = 2
+		relative_position_id = XOL_improve_research
+		x = 0
 		y = 1.2
 
 		cost = 10
@@ -372,7 +695,7 @@ focus = {
 
 		}
 		prerequisite = {
-			focus = XOL_unite_the_population
+			focus = XOL_improve_research
 		}
 		
 
@@ -402,7 +725,355 @@ focus = {
 					}
 				}
 			}
-		}		
+		}
+#MILITARY 4
+focus = {
+	
+		id = XOL_research_artillery
+		icon = GFX_goal_research_artillery
+		relative_position_id = XOL_improve_research
+		x = 2
+		y = 1.2
+
+		cost = 10
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+				any_state = {
+					is_coastal = yes
+					is_capital = no
+					}
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_improve_research
+		}
+		
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			set_technology = {
+				interwar_artillery = 1
+				artillery1 = 1
+			}
+		}
+		}
+#MILITARY 5 FIAT 126x
+focus = {
+	
+		id = XOL_fiat_126x
+		icon = GFX_goal_fiat_126x
+		relative_position_id = XOL_research_artillery
+		x = 0
+		y = 1.2
+
+		cost = 10
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_research_artillery
+		}
+		
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			set_technology = {
+				improved_medium_tank_chassis = 1
+			}
+		}
+
+		}
+#MILITARY 5 FIAT 126x
+focus = {
+	
+		id = XOL_xfiat_1
+		icon = GFX_goal_xfiat_1
+		relative_position_id = XOL_fiat_126x
+		x = 0
+		y = 1.2
+
+		cost = 10
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = { NOT = { has_government = conservatism } }
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_fiat_126x
+		}
+		
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			remove_ideas = xfiat
+		}
+
+		}
+#Expand the Arms Industry
+focus = {
+	
+		id = XOL_expand_the_arms_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = XOL_build_the_roads
+		x = 0
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_build_the_roads focus = XOL_reconnect_railways
+		}
+
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			120 = { add_building_construction = {type = arms_factory level = 3 instant_build = yes} }
+		}
+
+		}
+
+#Industrialize the Taken Lands
+focus = {
+	
+		id = XOL_industrialize_the_taken_lands
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = XOL_expand_the_arms_industry
+		x = 2
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+			123 = {
+			CONTROLLER = {
+				tag = ROOT
+			}
+        }
+			 }
+		
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_invest_in_civilian_offices
+		}
+		prerequisite = {
+			focus = XOL_expand_the_arms_industry
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			123 = { add_building_construction = {type = industrial_complex level = 3 instant_build = yes} }
+		}
+
+		}
+#Invest in Civilian Offices
+focus = {
+	
+		id = XOL_invest_in_civilian_offices
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = XOL_xolonian_industry
+		x = 0
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+			123 = {
+			CONTROLLER = {
+				tag = ROOT
+			}
+        }
+			 }
+		
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_xolonian_industry
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			123 = { add_building_construction = {type = industrial_complex level = 3 instant_build = yes} }
+		}
+
+		}
+#Pol 3
+focus = {
+		id = XOL_expand_the_military_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = XOL_expand_the_arms_industry
+		x = -2
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_expand_the_arms_industry
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			random_state = {
+				limit = {
+					is_capital = no
+					controller = { tag = ROOT }
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+                    level = 4
+                    instant_build = yes
+				}
+			}
+		}
+}
+#Industry 2.1
+focus = {
+		id = XOL_the_xolonian_autobahn
+		icon = GFX_goal_the_xolonian_autobahn
+		relative_position_id = XOL_reconnect_railways
+		x = 0
+		y = 1.2
+
+		cost = 5
+
+
+
+
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+	prerequisite = {
+		focus = XOL_build_the_roads focus = XOL_reconnect_railways
+
+	}
+
+
+		completion_reward = 
+		{
+			random_state = {
+				limit = {
+					is_capital = no
+					level = 2
+					controller = { tag = ROOT }
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				}
+			capital_scope = {
+				add_extra_state_shared_building_slots = 3
+			}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+}
+		
+
 #NAVY 2
 focus = {
 	
@@ -499,9 +1170,9 @@ focus = {
 focus = {
 		id = XOL_mobilize_the_economy
 		icon = GFX_goal_mobilize_the_economy
-		relative_position_id = XOL_rally_the_nation
+		relative_position_id = XOL_expand_the_arms_industry
 		x = 0
-		y = 1.2
+		y = 1
 
 		cost = 5
 
@@ -518,7 +1189,7 @@ focus = {
 
 		}
 		prerequisite = {
-			focus = XOL_rally_the_nation
+			focus = XOL_expand_the_arms_industry
 		}
 
 
@@ -532,115 +1203,14 @@ focus = {
 			add_ideas = partial_economic_mobilisation
 		}
 }
-#Pol 3
-focus = {
-		id = XOL_expand_the_military_industry
-		icon = GFX_goal_expand_the_military_industry
-		relative_position_id = XOL_mobilize_the_economy
-		x = 0
-		y = 1.2
 
-		cost = 5
-
-		ai_will_do = {
-		   factor = 2
-                    		
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-		prerequisite = {
-			focus = XOL_mobilize_the_economy
-		}
-
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		completion_reward = {
-			random_state = {
-				limit = {
-					is_capital = no
-					controller = { tag = ROOT }
-				}
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-                    level = 4
-                    instant_build = yes
-				}
-			}
-		}
-}
-#Industry 2.1
-focus = {
-		id = XOL_the_xolonian_autobahn
-		icon = GFX_goal_the_xolonian_autobahn
-		relative_position_id = XOL_mobilize_the_economy
-		x = -2
-		y = 1.2
-
-		cost = 5
-
-		ai_will_do = {
-		   factor = 2
-                    		
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-		prerequisite = {	
-
-			focus = XOL_mobilize_the_economy
-
-		}
-
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		completion_reward = 
-		{
-			random_state = {
-				limit = {
-					is_capital = no
-					level = 2
-					controller = { tag = ROOT }
-				}
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-				}
-			capital_scope = {
-				add_extra_state_shared_building_slots = 3
-			}
-		}
-			}
-		
 #Foreign Policy
 focus = {
 		id = XOL_the_foreign_policy
 		icon = GFX_goal_the_foreign_policy
-		relative_position_id = XOL_unite_the_population
-		x = -7
-		y = 1.2
+		#relative_position_id = XOL_adress_the_political_situation
+		x = 17
+		y = 0
 
 		cost = 5
 
@@ -656,11 +1226,7 @@ focus = {
 		bypass = {
 
 		}
-		prerequisite = {	
 
-			focus = XOL_unite_the_population
-
-		}
 
 
 		cancel_if_invalid = yes
@@ -694,19 +1260,19 @@ focus = {
                     		
 		}
 
-		available = {
-
-		}
+		available = {}
 
 		bypass = {
 
 		}
 		prerequisite = {	
-
+		
 			focus = XOL_the_foreign_policy
 
 		}
+		prerequisite = {	
 
+		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -765,59 +1331,17 @@ focus = {
 				target = ROO
 			}
 		}
-#Approach Ostreya
+#Strik the Ostreyaens
 focus = {
-	
-		id = XOL_retake_thuyra
-		icon = GFX_goal_attack_ostreya
-		relative_position_id = XOL_the_foreign_policy
-		x = -1
-		y = 1.2
 
-		cost = 5
-
-		ai_will_do = {
-		   factor = 2
-                    		
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-		prerequisite = {	
-
-			focus = XOL_the_foreign_policy
-
-		}
-
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		completion_reward = 
-		{
-
-			
-			}
-		}
-			}
-	
-
-
-		id = XOL_attack_ostreya
-		icon = GFX_goal_attack_ostreya
+		id = XOL_strike_the_ostreyaens
+		icon = GFX_goal_strike_the_ostreyaens
 		relative_position_id = XOL_the_foreign_policy
 		x = -1
 		y = 1.2
 
 		cost = 10
-
+		mutually_exclusive = { focus = XOL_approach_ostreya }
 		ai_will_do = {
 		   factor = 2
                     		
@@ -849,15 +1373,61 @@ focus = {
 				target = ROO
 			}
 		}
+
+	}
+#Strike Raven Loft
+focus = {
+
+		id = XOL_strike_raven_loft
+		icon = GFX_goal_strike_raven_loft
+		relative_position_id = XOL_the_foreign_policy
+		x = -0
+		y = 2.4
+
+		cost = 10
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {	
+
+			focus = XOL_the_foreign_policy
+
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = 
+		{
+			create_wargoal = {
+				type = annex_everything
+				target = RNL
+			}
+		}
+}
+
+
+
+
+
+
 			
 
 
 
 
 
-			
-
-
-
-
-
+}

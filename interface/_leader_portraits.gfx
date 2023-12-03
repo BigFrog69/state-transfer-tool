@@ -234,10 +234,7 @@ spriteTypes = {
 		name = "GFX_portrait_XOL_xonabyte"
 		texturefile = "gfx/leaders/XOL/Xonabyte.dds"
 	}
-	spriteType = {
-		name = "GFX_portrait_XOL_blahaj"
-		texturefile = "gfx/leaders/XOL/blahaj.dds"
-	}
+
 
 	spriteType = {
 		name = "GFX_portrait_TUT_mosquito"

@@ -22,11 +22,11 @@ characters={
 				large=GFX_portrait_XOL_blahaj
 			}
 			army={
-				small="GFX_portrait_XOL_blahaj"
+				small="GFX_portrait_XOL_blahaj_small"
 			}
 		}
 		field_marshal = {
-			traits = {  }
+			traits = { ikea_plushie }
 			skill = 5
 			attack_skill = 10
 			defense_skill = 5
@@ -41,11 +41,11 @@ characters={
 				large=GFX_portrait_XOL_blahaj
 			}
 			army={
-				small="GFX_portrait_XOL_blahaj"
+				small="GFX_portrait_XOL_blahaj_small"
 			}
 		}
 		field_marshal = {
-			traits = {  }
+			traits = { ikea_plushie }
 			skill = 5
 			attack_skill = 10
 			defense_skill = 5
@@ -53,5 +53,25 @@ characters={
 			logistics_skill = 5
 		}
 	}
-
+	XOL_rick_astley={
+		name="Rick Astley"
+		
+		portraits={
+			civilian={
+				large=GFX_portrait_XOL_rick
+			}
+			army={
+				small="GFX_portrait_XOL_rick"
+			}
+			
+		}
+		corps_commander = {
+			traits = { brilliant_strategist }
+			skill = 5
+			attack_skill = 10
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
 }
