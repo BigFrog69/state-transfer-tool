@@ -34,10 +34,10 @@ set_popularities = {
 	syndicalism = 0
 	socialism = 0
 	democracy = 50
-	liberalism = 20
+	liberalism = 19
+	nationalist = 1
 	conservatism = 30
 	authoritarianism = 0
 	autocracy = 0
-	nationalist = 0
 }
 

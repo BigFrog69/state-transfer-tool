@@ -54,7 +54,7 @@ focus_tree = {
 	
 	focus = {
 		id = RNL_Continue_The_Offensive
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_continue_the_offensive
 	    prerequisite = { focus = RNL_Finishing_The_Cause }
 		mutually_exclusive = { focus = RNL_Strategic_Plan }
 		x = 6
@@ -129,7 +129,7 @@ focus_tree = {
 	
 	focus = {
 		id = RNL_Strategic_Plan
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_strategic_plan
 	    prerequisite = { focus = RNL_Finishing_The_Cause }
 		mutually_exclusive = { focus = RNL_Continue_The_Offensive }
 		x = 10
@@ -166,7 +166,7 @@ focus_tree = {
 		
 	focus = {
 		id = RNL_Strategic_Offensive
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_strategic_offensive
 	    prerequisite = { focus = RNL_Strategic_Plan }
 		x = 10
 		y = 3
@@ -316,7 +316,7 @@ focus_tree = {
 
 	focus = {
 		id = RNL_Quick_Research_Improvements
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Quick_Research_Improvements
 		prerequisite = { focus = RNL_Italy_Of_The_South_Emerges }
 		relative_position_id = RNL_Italy_Of_The_South_Emerges
 		mutually_exclusive = { focus = RNL_Steady_Research_Improvements }
@@ -342,7 +342,7 @@ focus_tree = {
 
 	focus = {
 		id = RNL_Steady_Research_Improvements
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Steady_Research_Improvements
 		prerequisite = { focus = RNL_Italy_Of_The_South_Emerges }
 		relative_position_id = RNL_Italy_Of_The_South_Emerges
 		mutually_exclusive = { focus = RNL_Quick_Research_Improvements }
@@ -364,7 +364,7 @@ focus_tree = {
 
 	focus = {
 		id = RNL_Steady_Economic_Improvements
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Steady_Economic_Improvements
 		prerequisite = { focus = RNL_Steady_Research_Improvements focus = RNL_Quick_Research_Improvements }
 		relative_position_id = RNL_Italy_Of_The_South_Emerges
 		mutually_exclusive = { focus = RNL_Quick_Economic_Improvements }
@@ -386,7 +386,7 @@ focus_tree = {
 
 	focus = {
 		id = RNL_Quick_Economic_Improvements
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Quick_Economic_Improvements
 		prerequisite = { focus = RNL_Steady_Research_Improvements focus = RNL_Quick_Research_Improvements }
 		relative_position_id = RNL_Italy_Of_The_South_Emerges
 		mutually_exclusive = { focus = RNL_Steady_Economic_Improvements }

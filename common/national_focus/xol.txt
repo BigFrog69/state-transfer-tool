@@ -502,7 +502,7 @@ focus = {
 		}
 
 		available = {
-
+			date > 2024.1.9
 		}
 
 		bypass = {
@@ -560,6 +560,7 @@ focus = {
 		}
 #Pol 4 (lol bro)
 focus = {
+
 		id = XOL_attract_foreign_workers
 		icon = GFX_goal_attract_foreign_workers
 		relative_position_id = XOL_xonabyte
@@ -591,6 +592,118 @@ focus = {
 
 
 		completion_reward = {
+			124 = {add_manpower = 2130000}
+			}
+		}
+#Build The Sosnoviec University
+focus = {
+		id = XOL_build_the_sosnovec_university
+		icon = GFX_focus_research
+		relative_position_id = XOL_strategic_bombing
+		x = 0
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_strategic_bombing
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				add_research_slot = 1
+				
+			}
+		}
+#The kaboom project
+focus = {
+		id = XOL_the_special_project
+		icon = GFX_goal_atomic_project
+		relative_position_id = XOL_build_the_sosnovec_university
+		x = 0
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_build_the_sosnovec_university
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				add_research_slot = 1
+				
+			}
+		}
+#Pol 4 (preserve_xolonian_democracy)
+focus = {
+		id = XOL_preserve_xolonian_democracy
+		icon = GFX_goal_preserve_xolonian_democracy
+		relative_position_id = XOL_xonabyte
+		x = -3
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_xonabyte
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				add_popularity = {
+					ideology = conservatism
+					popularity = -0.15
+				}
 			}
 		}
 #Pol 3 (corruption 2)
@@ -708,7 +821,7 @@ focus = {
 		completion_reward = {
 				random_state = {
 					limit = {
-						controller = { tag = ROOT }
+						CONTROLLER = { tag = ROOT }
 						free_building_slots = {
 							building = dockyard
 							size > 2
@@ -938,7 +1051,7 @@ focus = {
 focus = {
 	
 		id = XOL_invest_in_civilian_offices
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_focus_spa_the_spanish_miracle
 		relative_position_id = XOL_xolonian_industry
 		x = 0
 		y = 1.2
@@ -1343,7 +1456,7 @@ focus = {
 		cost = 10
 		mutually_exclusive = { focus = XOL_approach_ostreya }
 		ai_will_do = {
-		   factor = 2
+		   factor = 1
                     		
 		}
 

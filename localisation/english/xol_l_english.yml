@@ -14,7 +14,7 @@
     XOL_the_airforce:0 "Focus on the Skies"
     XOL_close_air_support:0 "Create Close Air Support Designs"
     XOL_strategic_bombing:0 "Strategic Bombing"
-    XOL_adress_the_political_situation:0 "Adress The Political Situation"
+    XOL_adress_the_political_situation:0 "2024 Elections"
     XOL_xonabyte:0 "Xonabyte"
     XOL_investigate_the_party:0 "Investigate the Party"
     XOL_deal_with_the_corruption:0 "Deal with the Corruption"
@@ -32,6 +32,9 @@
     XOL_xfiat_1:0 "Replace xFiat's directors"
     XOL_strike_raven_loft:0 "Strike Raven Loft"
     XOL_research_artillery:0 "Research Artillery"
+    XOL_preserve_xolonian_democracy:0 "Safeguard Xolonian Democracy"
+    XOL_build_the_sosnovec_university:0 "Build The Sosnovec University"
+    XOL_the_special_project:0 "§RTHE SPECIAL PROJECT"
     #Ideas
     XOL_population_united:0 "Population United"
     XOL_g_g_goverment_corruption:0 "Goverment Corruption"
@@ -60,6 +63,14 @@
     ikea_plushie:0 "Ikea Plushie"
     #Parties
     XOL_democracy_party:0 "Xolonian Social Party"
+    XOL_conservatism_party:0 "NJP"
+    XOL_conservatism_party_long:0 "National Justice Party"
+    XOL_liberalism_party:0 "FPX"
+    XOL_liberalism_party_long:0 "Free Party of Xolonia"
+    XOL_totalism_party:0 "Equal Workers Party"
+    XOL_totalism_party_long:0 "§REqual Workers Party"
+    XOL_nationalist_party:0 "XNJ"
+    XOL_nationalist_party_long:0 "Xolonian Nationalist Junta"
     #Menu Stuff
     MENU_DISCORD_WOOD:0 "Wood's Discord"
     MENU_TWITCH_WOOD:0 "Wood's Twitch"
