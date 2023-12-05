@@ -747,6 +747,43 @@ focus = {
 		}
 #Pol 3 (corruption 2)
 focus = {
+		id = XOL_Colonize
+		icon = GFX_goal_investigate_the_party
+		relative_position_id = XOL_preserve_xolonian_democracy
+		x = 0
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {	focus = XOL_preserve_xolonian_democracy		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+					XOL = {
+						set_state_owner = 322
+					}
+				
+			}
+		}
+#Pol 3 (corruption 2)
+focus = {
 		id = XOL_deal_with_the_corruption
 		icon = GFX_goal_deal_with_the_corruption_1
 		relative_position_id = XOL_investigate_the_party

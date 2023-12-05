@@ -1,0 +1,18 @@
+state={
+	id=322
+	name="Novurice"
+	provinces={
+		6538 
+	}
+	manpower=1
+	history = {
+		owner = BTV
+		add_core_of = BTV
+		buildings = {
+			infrastructure = 4
+
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
