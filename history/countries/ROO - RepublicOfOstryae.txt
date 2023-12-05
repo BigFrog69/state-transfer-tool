@@ -21,6 +21,7 @@ recruit_character = ROO_Neko_von_Arkenstein
 add_ideas = {
 	Sleeping_Giant
 	Overpopulated
+	Ostreyan_Army
 }
 
 

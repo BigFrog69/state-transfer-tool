@@ -20,7 +20,24 @@ ideas = {
 			monthly_population = -0.35
 			}
 		}
-	
+		Ostreyan_Army = {
+
+			picture = ROO_Ostreyan_Army
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				offence = 0.25
+			}
+		}
 		Sleeping_Giant = {
 
 			picture = ROO_Eagle

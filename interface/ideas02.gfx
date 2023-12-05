@@ -29,7 +29,10 @@ spriteTypes = {
 		name = "GFX_idea_ROO_Eagle"
 		texturefile = "gfx/interface/ideas/Eagle.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_idea_ROO_Ostreyan_Army"
+		texturefile = "gfx/interface/ideas/ROO_Ostreyan_Army.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_SSB_OldRedArmy"

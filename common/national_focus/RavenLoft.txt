@@ -92,7 +92,7 @@ focus_tree = {
 	
 	focus = {
 		id = RNL_Last_Chance
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Last_Chance
 	    prerequisite = { focus = RNL_Continue_The_Offensive }
 		x = 6
 		y = 3
@@ -202,7 +202,7 @@ focus_tree = {
 	
 	focus = {
 		id = RNL_Puppet_Regime
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Puppet_Regime
 	    prerequisite = { focus = RNL_Strategic_Offensive focus = RNL_Last_Chance }
 		mutually_exclusive = { focus = RNL_Peace_But_At_What_Cost }
 		x = 9
@@ -234,7 +234,7 @@ focus_tree = {
 	
 	focus = {
 		id = RNL_Hexian_Fiasco
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Hexian_Fiasco
 	    prerequisite = { focus = RNL_Strategic_Offensive focus = RNL_Last_Chance }
 		mutually_exclusive = { focus = RNL_Puppet_Regime }
 		x = 7
@@ -271,7 +271,7 @@ focus_tree = {
 	
 	focus = {
 		id = RNL_Moving_On
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Moving_On
 	    prerequisite = { focus = RNL_Puppet_Regime focus = RNL_Hexian_Fiasco }
 		x = 8
 		y = 5
@@ -294,7 +294,7 @@ focus_tree = {
 
 	focus = {
 		id = RNL_Italy_Of_The_South_Emerges
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Italy_Of_The_South_Emerges
 		x = 16
 		y = 0
 		cost = 10
@@ -412,7 +412,7 @@ focus_tree = {
 	
 	focus = {
 		id = RNL_Steady_Rearmament
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Steady_Rearmament
 		prerequisite = { focus = RNL_Steady_Economic_Improvements focus = RNL_Quick_Economic_Improvements }
 		relative_position_id = RNL_Italy_Of_The_South_Emerges
 		mutually_exclusive = { focus = RNL_Quick_Rearmament }
@@ -434,7 +434,7 @@ focus_tree = {
 
 	focus = {
 		id = RNL_Quick_Rearmament
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Quick_Rearmament
 		prerequisite = { focus = RNL_Steady_Economic_Improvements focus = RNL_Quick_Economic_Improvements }
 		relative_position_id = RNL_Italy_Of_The_South_Emerges
 		mutually_exclusive = { focus = RNL_Steady_Rearmament }
@@ -460,7 +460,7 @@ focus_tree = {
 	
 	focus = {
 		id = RNL_Dealing_With_The_Socialist
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_Dealing_With_The_Socialists
 		prerequisite = { focus = RNL_Italy_Of_The_South_Emerges }
 		relative_position_id = RNL_Italy_Of_The_South_Emerges
 		x = 4
@@ -481,7 +481,7 @@ focus_tree = {
 
 	focus = {
 		id = RNL_2024_Elections
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_2024_Elections
 		x = 32
 		y = 0
 		cost = 10
