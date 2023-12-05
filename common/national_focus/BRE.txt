@@ -71,7 +71,7 @@ focus_tree = {
 
 	focus = {
 		id = BRE_Socialist_Society
-		icon = GFX_goal_TheGreatPurge
+		icon = GFX_goal_Socialist_Society
 		x = 0
 		y = 1
 		cost = 5
@@ -89,7 +89,7 @@ focus_tree = {
 
 	focus = {
 		id = BRE_Boys_And_Girls_All_Friends_Of_Socialism
-		icon = GFX_goal_TheGreatPurge
+		icon = GFX_goal_Boys_and_girls
 		x = -2
 		y = 2
 		cost = 5
@@ -107,7 +107,7 @@ focus_tree = {
 
 	focus = {
 		id = BRE_Speak_And_Talk_About_The_Organisation
-		icon = GFX_goal_TheGreatPurge
+		icon = GFX_goal_Speak_And_Talk_About_The_Organisation
 		x = 2
 		y = 2
 		cost = 5
@@ -125,7 +125,7 @@ focus_tree = {
 
 	focus = {
 		id = BRE_Here_We're_All_So_Free_In_The_FDJ
-		icon = GFX_goal_TheGreatPurge
+		icon = GFX_goal_Here_Were_All_So_German_In_The_FDJ
 		x = 6
 		y = 3
 		cost = 5

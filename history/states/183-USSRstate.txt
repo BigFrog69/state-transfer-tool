@@ -13,8 +13,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			arms_factory = 8
-			industrial_complex = 9
+			arms_factory = 6
+			industrial_complex = 6
           	637 = {
                 supply_node = 1
             }

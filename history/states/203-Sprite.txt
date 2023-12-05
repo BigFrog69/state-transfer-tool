@@ -9,8 +9,8 @@ state={
 		add_core_of = SPI
 		buildings = {
 			infrastructure = 3
-			arms_factory = 9
-			industrial_complex = 9
+			arms_factory = 6
+			industrial_complex = 6
 		}
 	}
 	manpower=752630

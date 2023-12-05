@@ -8,9 +8,9 @@ state={
 		owner = RAS
 		add_core_of = USS
 		buildings = {
-			infrastructure = 3
-			arms_factory = 4
-			industrial_complex = 5
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 3
 
 		}
 
