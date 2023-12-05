@@ -22,6 +22,8 @@ recruit_character = XOL_xonabyte
 recruit_character = XOL_blahaj
 recruit_character = XOL_blahaj2
 recruit_character = XOL_rick_astley
+recruit_character = XOL_Djungelskog
+
 set_politics = {
 	ruling_party = democracy
 	last_election = "2021.1.9"

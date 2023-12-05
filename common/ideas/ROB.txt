@@ -147,7 +147,7 @@ ideas = {
 			}
 		}
 		
-		ROB_Selling_Food = {
+		ROB_Selling_Stuff_1 = {
 			allowed = {
 				always = no
 			}
@@ -160,7 +160,7 @@ ideas = {
 			}
 		}	
 
-		ROB_Selling_Resources = {
+		ROB_Selling_Stuff_2 = {
 			allowed = {
 				always = no
 			}
@@ -169,11 +169,11 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-                consumer_goods_factor = -0.02
+                consumer_goods_factor = -0.04
 			}
 		}	
 
-		ROB_Selling_Drinks = {
+		ROB_Selling_Stuff_3 = {
 			allowed = {
 				always = no
 			}
@@ -182,11 +182,11 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-                consumer_goods_factor = -0.02
+                consumer_goods_factor = -0.06
 			}
 		}	
 
-		ROB_Selling_Coffee_Beans = {
+		ROB_Selling_Stuff_4 = {
 			allowed = {
 				always = no
 			}
@@ -195,7 +195,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-                consumer_goods_factor = -0.02
+                consumer_goods_factor = -0.08
 			}
 		}	
 
@@ -219,7 +219,22 @@ ideas = {
 				production_speed_arms_factory_factor = 0.03
 				consumer_goods_factor = 0.05
 			}
-		}					
+		}
+
+		ROB_building_costal_forts_or_smth = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                repair_speed_coastal_bunker_factor = 0.1
+				state_production_speed_coastal_bunker_factor = 0.1
+			}
+		}	
+
 	}
 }
 

@@ -74,4 +74,25 @@ characters={
 			logistics_skill = 5
 		}
 	}
+	XOL_Djungelskog={
+		name="Djungelskog"
+		
+		portraits={
+			civilian={
+				large=GFX_portrait_XOL_Djungelskog
+			}
+			army={
+				small="GFX_portrait_XOL_Djungelskog"
+			}
+			
+		}
+		corps_commander = {
+			traits = { ikea_plushie }
+			skill = 5
+			attack_skill = 10
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
 }

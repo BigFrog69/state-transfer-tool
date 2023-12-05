@@ -82,6 +82,4 @@ leader_traits = {
 		}
 		
 	}
-	
-
 }

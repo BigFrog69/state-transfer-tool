@@ -15,7 +15,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_Fortify_The_East
-		icon = GFX_goal_TheGreatPurge
+		icon = GFX_goal_focus_WoodTest
 		x = 6
 		y = 0
 		cost = 5
@@ -57,7 +57,7 @@ focus_tree = {
 	
 	focus = {
 		id = RAS_Resrves
-		icon = GFX_goal_TheGreatPurge
+		icon = GFX_goal_focus_RAS_Reserve
 		prerequisite = { focus = RAS_Fortify_The_East }
 		x = 6
 		y = 1

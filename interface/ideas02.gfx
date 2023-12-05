@@ -4,6 +4,7 @@ spriteTypes = {
 
 
 
+
 	SpriteType = {
 		name = "GFX_idea_SAS_Hot_Dog"
 		texturefile = "gfx/interface/ideas/Hot_Dog.dds"

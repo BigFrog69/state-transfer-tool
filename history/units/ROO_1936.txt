@@ -16,6 +16,370 @@
 }
 
 units = {
-	##### EEE ####
+
+	##### ROO #####
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3850
+		division_template = "Ostreyan Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
 
 }

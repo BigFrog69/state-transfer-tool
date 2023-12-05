@@ -4,8 +4,25 @@ spriteTypes = {
 
 
 
+	SpriteType = {
+		name = "GFX_goal_focus_RAS_Reserve"
+		texturefile = "gfx/interface/goals/RAS_Reserve.dds"		
+	}
 
+	SpriteType = {
+		name = "GFX_goal_focus_WoodTest"
+		texturefile = "gfx/interface/goals/WoodTest.dds"		
+	}
 
+	SpriteType = {
+		name = "GFX_goal_focus_FIN_coastal_defense"
+		texturefile = "gfx/interface/goals/focus_FIN_coastal_defense.dds"		
+	}
+
+	SpriteType = {
+		name = "GFX_goal_focus_FIN_foreign_anti_air"
+		texturefile = "gfx/interface/goals/focus_FIN_foreign_anti_air.dds"		
+	}
 
 	SpriteType = {
 		name = "GFX_goal_ROK_Paving_The_Way_For_Totality"

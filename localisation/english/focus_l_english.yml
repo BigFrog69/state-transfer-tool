@@ -245,7 +245,18 @@
  Rob_No_More_Army_Restrictions_desc:0 ""
 
 
-
+ NLA_MIL_Industry_1:0 "Military Industry!"
+ NLA_MIL_Industry_1_desc:0 ""
+ NLA_MIL_Industry_2:0 "Military Industry!!"
+ NLA_MIL_Industry_2_desc:0 ""
+ NLA_MIL_Industry_3:0 "Military Industry!!!"
+ NLA_MIL_Industry_3_desc:0 ""
+ NLA_Civ_Industry_1:0 "Civilian Industry!"
+ NLA_Civ_Industry_1_desc:0 ""
+ NLA_Civ_Industry_2:0 "Civilian Industry!!"
+ NLA_Civ_Industry_2_desc:0 ""
+ NLA_Civ_Industry_3:0 "Civilian Industry!!!"
+ NLA_Civ_Industry_3_desc:0 ""
 
 
 
