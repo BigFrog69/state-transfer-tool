@@ -109,7 +109,7 @@ spriteTypes = {
 	}
  SpriteType = {
 	name = "GFX_goal_Here_Were_All_So_German_In_The_FDJ"
-	texturefile = "gfx/interface/goals/BRE_Here_We're_All_So_German_In_The_FDJ.dds"			
+	texturefile = "gfx/interface/goals/BRE_Here_Were_All_So_German_In_The_FDJ.dds"			
 	}
 	
 	SpriteType = {
