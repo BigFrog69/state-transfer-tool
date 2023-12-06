@@ -125,7 +125,7 @@ focus_tree = {
 
 	focus = {
 		id = BRE_Here_We're_All_So_Free_In_The_FDJ
-		icon = GFX_goal_Here_Were_All_So_German_In_The_FDJ
+		icon = GFX_goal_Here_Were_All_So_Free_In_The_FDJ
 		x = 6
 		y = 3
 		cost = 5
@@ -144,7 +144,7 @@ focus_tree = {
 
 	focus = {
 		id = BRE_Here_We're_All_So_German_In_The_FDJ
-		icon = GFX_goal_TheGreatPurge
+		icon = GFX_goal_Here_Were_All_So_German_In_The_FDJ
 		x = 2
 		y = 3
 		cost = 5
