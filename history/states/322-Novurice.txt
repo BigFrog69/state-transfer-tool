@@ -10,7 +10,9 @@ state={
 		add_core_of = BTV
 		buildings = {
 			infrastructure = 4
-
+		6538 = {
+			naval_base = 2
+		}
 		}
 	}
 	buildings_max_level_factor=1.000

@@ -748,7 +748,7 @@ focus = {
 #Pol 3 (corruption 2)
 focus = {
 		id = XOL_Colonize
-		icon = GFX_goal_investigate_the_party
+		icon = GFX_goal_colonisation
 		relative_position_id = XOL_preserve_xolonian_democracy
 		x = 0
 		y = 1
@@ -777,7 +777,7 @@ focus = {
 
 		completion_reward = {
 					XOL = {
-						set_state_owner = 322
+						set_state_owner = 321
 					}
 				
 			}
