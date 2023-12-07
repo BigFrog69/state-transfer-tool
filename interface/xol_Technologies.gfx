@@ -1,0 +1,8 @@
+spriteTypes = {
+# MODDED #
+#XOLONIA
+    SpriteType = {
+            name = "GFX_XOL_motorised_infantry_medium"
+            texturefile = "gfx/interface/technologies/XOL_motorized_equipment_1.dds"
+	}
+}

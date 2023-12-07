@@ -164,6 +164,7 @@ bookmarks = {
 			ideas = {
 				xfiat
 				XOL_a_weak_currency
+				XOL_g_g_goverment_corruption
 			}
 		}
 

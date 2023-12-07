@@ -10,6 +10,9 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	basic_train = 1
+	motorized_equipment_0 = 1
+	motorized_equipment_1 = 1
+	tech_logistics_company = 1
 }
 
 set_war_support = 0.1

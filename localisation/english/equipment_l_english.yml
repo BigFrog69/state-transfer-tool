@@ -2641,6 +2641,8 @@
  SOV_mechanized_equipment_2_short:0 "BTR M1943"
  SOV_mechanized_equipment_3:0 "BTR-152"
  SOV_mechanized_equipment_3_short:0 "BTR-152"
+ 
+ 
 
  CAN_mechanized_equipment_1:0 "Stuart Kangaroo"
  CAN_mechanized_equipment_1_short:0 "Stuart Kangaroo"
@@ -3923,3 +3925,8 @@
  LAT_scout_plane_equipment_2_short:0 "KOD-2"
  ##### Train Equipment #####
  LAT_train_equipment_1:0 "Type 1-1-1"
+
+
+#Modded
+
+ XOL_motorized_equipment_1:0 "Fiat 126x"

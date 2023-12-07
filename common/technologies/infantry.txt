@@ -1784,7 +1784,44 @@ technologies = {
 			}
 		}
 	}
+	XOL_fiat_armored_car = {
 
+ 		allow = { always = no }
+		enable_equipments = {
+			#armored_car_at_equipment
+		}
+
+		research_cost = 1
+		start_year = 1942
+		sub_tech_index = 1
+		
+		categories = {
+			motorized_equipment
+			armor
+			cat_armored_cars
+		}
+
+		armored_car = {
+			max_organisation = 5
+			ap_attack = 0.1
+			hard_attack = 0.1
+			#hardness = 1
+			plains = {
+		    	attack = 0.5
+				movement = 0.75
+			}
+			desert = {
+		    	attack = -0.2
+				movement = -0.55
+			}
+
+			snow = {
+				attack = 0.6
+				movement = 0.5
+			}
+		}
+
+	}
 	armored_car2 = {
 
 		enable_equipments = {

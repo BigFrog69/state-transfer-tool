@@ -956,7 +956,7 @@ focus = {
 
 		completion_reward = {
 			set_technology = {
-				improved_medium_tank_chassis = 1
+				XOL_fiat_armored_car = 1
 			}
 		}
 
