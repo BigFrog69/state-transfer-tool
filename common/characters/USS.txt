@@ -1,0 +1,18 @@
+characters={
+	USS_stahovani={
+		name="Stahovani"
+		portraits={
+			civilian={
+				large=GFX_portrait_USS_stahovani
+			}
+			army={
+				small="GFX_portrait_USS_stahovani"
+			}
+		}
+		country_leader={
+			ideology= socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

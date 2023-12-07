@@ -15,7 +15,7 @@ set_technology = {
 set_war_support = 0.3
 set_stability = 0.6
 
-recruit_character = USS_SUS
+recruit_character = USS_stahovani
 
 add_timed_idea = {
 	idea = Push_Back_The_Invaders

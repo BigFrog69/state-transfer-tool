@@ -3,6 +3,15 @@ spriteTypes = {
 
 
 
+	spriteType = {
+		name = "GFX_portrait_ERD_Ferdinand_II"
+		texturefile = "gfx/leaders/ERD/Ferdinand_II.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USS_stahovani"
+		texturefile = "gfx/leaders/USS/stahovani.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_XOL_Djungelskog"

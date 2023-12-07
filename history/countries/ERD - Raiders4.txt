@@ -15,7 +15,7 @@ set_technology = {
 set_war_support = 0.3
 set_stability = 0.1
 
-recruit_character = ERD_IDK
+recruit_character = ERD_Ferdinand_II
 
 set_politics = {
 	ruling_party = autocracy

@@ -1,0 +1,18 @@
+characters={
+	ERD_Ferdinand_II={
+		name="Ferdinand II"
+		portraits={
+			civilian={
+				large=GFX_portrait_ERD_Ferdinand_II
+			}
+			army={
+				small="GFX_portrait_ERD_Ferdinand_II"
+			}
+		}
+		country_leader={
+			ideology= autocracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

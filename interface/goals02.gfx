@@ -52,6 +52,15 @@ spriteTypes = {
 
 
 
+
+
+	#USS
+	SpriteType = {
+		name = "GFX_goal_focus_USS_Air_Bus"
+		texturefile = "gfx/interface/goals/Air_Bus.dds"		
+	}
+
+
 	#MRO, generic
 	SpriteType = {
 	name = "GFX_goal_MRO_Du_Joe"
