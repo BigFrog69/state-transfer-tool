@@ -107,6 +107,13 @@ simple_category = {		#Name of category that decisions will appear under, decisio
 				tag = RAS
 				message = Are_you_fucking_serious_how_did_you_lose_that_war.
             }
+			ARR = {
+				white_peace = {
+					tag = RAS
+					message = Are_you_fucking_serious_how_did_you_lose_that_war.
+            	}
+				248 = { transfer_state_to = ARR }
+			}
 			180 = { transfer_state_to = USS }
 			181 = { transfer_state_to = USS }
 			184 = { transfer_state_to = USS }

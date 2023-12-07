@@ -16,5 +16,22 @@ characters={
 		}
 	}
 
-
+	RAJ_mahatma_mohandas_gandhi={
+		name=RAJ_mahatma_mohandas_gandhi
+		portraits={
+			army={
+				small="GFX_idea_RAJ_mahatma_mohandas_gandhi" #small="GFX_idea_generic_political_advisor_arab_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = RAJ_mahatma_mohandas_gandhi
+			allowed = {
+				original_tag = RAJ
+			}
+			traits = {
+				compassionate_gentleman 
+			}
+		}		
+	}
 }

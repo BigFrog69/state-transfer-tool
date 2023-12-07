@@ -14,6 +14,9 @@ state={
 	history={
 		owner = NLA
 		add_core_of = NLA
+		victory_points = {
+			5239 40
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
