@@ -7,6 +7,9 @@ state={
 	history={
 		owner = ROB
 		add_core_of = ROB
+		victory_points = {
+			6087 40
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

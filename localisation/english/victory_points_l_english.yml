@@ -71,6 +71,15 @@
  VICTORY_POINTS_6592:0 "Milanny"
 
  #Elysium cities
+<<<<<<< Updated upstream
  VICTORY_POINTS_5239:0 "Grand Nova Lake"
  VICTORY_POINTS_5134:0 "Griffonium"
  VICTORY_POINTS_1023:0 "Elysium-Unia"
+=======
+ VICTORY_POINTS_5239:0 "Big Frog fix this. Thanks :)"
+ VICTORY_POINTS_5134:0 "Big Frog fix this. Thanks :)"
+ VICTORY_POINTS_1023:0 "Big Frog fix this. Thanks :)"
+
+ #Bretain
+ VICTORY_POINTS_6087:0 "Bretain City"
+>>>>>>> Stashed changes
