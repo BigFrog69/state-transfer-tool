@@ -16,7 +16,7 @@
  VICTORY_POINTS_1487:0 "Beyron"
  VICTORY_POINTS_5300:0 "Picin"
  VICTORY_POINTS_2083:0 "Ostrov"
- VICTORY_POINTS_2032:0 "Kototnik"
+ VICTORY_POINTS_2032:0 "Heimeria"
  VICTORY_POINTS_3741:0 "Cigánov"
 
  VICTORY_POINTS_6660:0 "West Side"
@@ -53,25 +53,24 @@
  VICTORY_POINTS_6645:0 "Big Frog fix this. Thanks :)"
 
  #Raider cities
- VICTORY_POINTS_637:0 "Big Frog fix this. Thanks :)"
- VICTORY_POINTS_1293:0 "Big Frog fix this. Thanks :)"
- #VICTORY_POINTS_637:0 "Big Frog fix this. Thanks :)"
+ VICTORY_POINTS_637:0 "Las Raidas"
+ VICTORY_POINTS_1293:0 "Bonrat"
 
  #USSR cities
- VICTORY_POINTS_4806:0 "Big Frog fix this. Thanks :)"
- VICTORY_POINTS_1412:0 "Big Frog fix this. Thanks :)"
- VICTORY_POINTS_2928:0 "Big Frog fix this. Thanks :)"
- VICTORY_POINTS_2090:0 "Big Frog fix this. Thanks :)"
+ VICTORY_POINTS_4806:0 "Red Moscowien"
+ VICTORY_POINTS_1412:0 "Piskotgrad"
+ VICTORY_POINTS_2928:0 "Bloodyvostok"
+ VICTORY_POINTS_2090:0 "Minskov"
  #xolonia cities
  VICTORY_POINTS_1350:0 "Sosnovec"
  VICTORY_POINTS_2141:0 "Větrnévice"
 
  #Raven Loft cities
- VICTORY_POINTS_2624:0 "Big Frog fix this. Thanks :)"
- VICTORY_POINTS_3327:0 "Big Frog fix this. Thanks :)"
- VICTORY_POINTS_6592:0 "Big Frog fix this. Thanks :)"
+ VICTORY_POINTS_2624:0 "Siciliano"
+ VICTORY_POINTS_3327:0 "Ravenow"
+ VICTORY_POINTS_6592:0 "Milanny"
 
  #Elysium cities
- VICTORY_POINTS_5239:0 "Big Frog fix this. Thanks :)"
- VICTORY_POINTS_5134:0 "Big Frog fix this. Thanks :)"
- VICTORY_POINTS_1023:0 "Big Frog fix this. Thanks :)"
+ VICTORY_POINTS_5239:0 "Grand Nova Lake"
+ VICTORY_POINTS_5134:0 "Griffonium"
+ VICTORY_POINTS_1023:0 "Elysium-Unia"
