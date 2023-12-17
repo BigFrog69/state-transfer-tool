@@ -35,6 +35,7 @@
     XOL_preserve_xolonian_democracy:0 "Safeguard Xolonian Democracy"
     XOL_build_the_sosnovec_university:0 "Build The Sosnovec University"
     XOL_the_special_project:0 "§RTHE SPECIAL PROJECT"
+    XOL_the_formation:0 "§b<GLORIA FORMATION§r>"
     #Ideas
     XOL_population_united:0 "Population United"
     XOL_g_g_goverment_corruption:0 "Goverment Corruption"
@@ -54,6 +55,7 @@
     XOL.1.d:0 "Do you need a main battle tank? Do you need a car? Well you can have both with the brand new Fiat 126x! You can finally experience the most impressive car in the world! \n The Fiat 126x can fit 4 people inside, so you can go out with all your friends. So this is the time to buy yourself the best car in the world!\n§O (Disclaimer- by buying the Fiat 126x or any other products made by xFiat LLC. you agree to the terms you can buy if you own any of our products)\n§R(Program sponsored by Xolonian goverment)"
     XOL.1.a:1 "What is this crap? I don't want this!"
     #Focus Descriptions (pain)
+    XOL_the_formation_desc:0 "As the country bursts into chaos a dark and shadowy force begins to rise. This cold feeling of unrest and the scent of death surrounds the country. The Formation must Strike and restore glory to the world once and for all. \n§b|Gloria Formation§b|"
     XOL_fiat_126x_desc:0 "The brillliant Fiat 126x made by §CxFIAT§T is a brilliant use of modern engineering, and we must use it ourselves! The car shall be used for military purposes!"
     XOL_xfiat_1_desc:0 "The management at §CxFiat§T is corrupt and they are an unloyal leech! We must replace them as quikcly as we can. "
     #Companies
@@ -61,6 +63,7 @@
     xfiat_desc:0 "§CxFiat§g is a corrupt company §Rstealing millions from the national treasury§g, but we can not shut them down because of their ties with a major portion of the Parlament§R"
     #character Traits
     ikea_plushie:0 "Ikea Plushie"
+    totalist_revolutionary:0 "Totalist Reviolutionary"
     #Parties
     XOL_democracy_party:0 "Xolonian Social Party"
     XOL_conservatism_party:0 "NJP"
@@ -71,8 +74,10 @@
     XOL_totalism_party_long:0 "§REqual Workers Party"
     XOL_nationalist_party:0 "XNJ"
     XOL_nationalist_party_long:0 "Xolonian Nationalist Junta"
+    XOL_autocracy_party:0 "The Formation"
     #Menu Stuff
     MENU_DISCORD_WOOD:0 "Wood's Discord"
     MENU_TWITCH_WOOD:0 "Wood's Twitch"
-    MENU_YOUTUBE_WOOD:0 "Wood's Youtube Channel'
-"
+    MENU_YOUTUBE_WOOD:0 "Wood's Youtube Channel"
+    #FORMATION
+    XOL_FORMATION:0 "Formation"

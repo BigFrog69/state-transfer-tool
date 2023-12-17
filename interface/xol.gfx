@@ -1171,6 +1171,43 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+#Formation
+		SpriteType = {
+		name = "GFX_goal_formation"
+		texturefile = "gfx/interface/goals/XOL_formation.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_formation_shine"
+		texturefile = "gfx/interface/goals/XOL_formation.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/XOL_formation.dds"			
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/XOL_formation.dds"			
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
 #Loans
 	SpriteType = {
 		name = "GFX_idea_loans"
@@ -1204,4 +1241,11 @@ spriteTypes = {
 #Fiat 126x
 spriteType = { name = "GFX_div_templ_72_large" textureFile = "gfx/interface/bruh_mate.dds" }
 spriteType = { name = "GFX_div_templ_72_small" textureFile = "gfx/interface/bruh_mate_small.dds" }
+#genghis 
+spriteType = { name = "GFX_portrait_XOL_Genghis_Khan_small" textureFile = "gfx/interface/advisors/XOL_Genghis_Khan.dds"}
+spriteType = { name = "GFX_portrait_XOL_lenin_small" textureFile = "gfx/interface/advisors/XOL_Vladimir_Lenin.dds"}
+#Lenin
+spriteType = { name = "GFX_portrait_XOL_lenin" textureFile = "gfx/leaders/XOL/Vladimir_Lenin.dds"}
+spriteType = { name = "GFX_idea_ostreyan_culture" textureFile = "gfx/interface/ideas/ostreyan_culture.dds"}
+spriteType = { name = "GFX_idea_xolonian_culture" textureFile = "gfx/interface/ideas/xolonian_culture.dds"}
 }	

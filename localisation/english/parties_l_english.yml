@@ -1,9 +1,4 @@
 ﻿l_english:
-
- Socio-Democraticorepublican_Focatourisian_Capitalism:0 "Socio-Democraticorepublican Focatourisian Capitalism"
- Socio-Democraticorepublican_Focatourisian_Capitalism_noun:0 "Socio-Democraticorepublican Focatourisian Capitalist"
- Socio-Democraticorepublican_Focatourisian_Capitalism_desc:0 "Socio-Democraticorepublican Focatourisian Capitalism"
-
  democratic-monarchy:0 "Democratic-Monarchy"
  democratic-monarchy_noun:0 "Democratic-Monarchist"
  democratic-monarchy_desc:0 "Democratic-Monarchy"
@@ -17,6 +12,9 @@
  Syndicalism_desc:0 "Syndicalism"
 
  #CUSTOM IDEOLOGIES
+ long:0 "Socio-Democraticorepublican Focalotourisian Capitalist"
+ long_noun:0 "Socio-Democraticorepublican Focalotourisian Capitalism"
+ long_desc:0 "Socio-Democraticorepublican Focatourisian Capitalism"
 
  chad:0 "Chadist"
  chad_noun:0 "Chadism"

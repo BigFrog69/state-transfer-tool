@@ -627,6 +627,56 @@ ideologies = {
 		}
 		ai_fascist = yes
 	}
+	long = {
+	
+		types = {
+			long = { # Used when assigning ideologies to leaders. Eg. democratic has conservatism, liberalism, and socialism. One value can be defined (yes/no)
+				can_be_randomly_selected = no # If no, the subideology will not be randomly selected when creating a new random leader
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_TOTALISM_1" # Faction names used by the ai when an ai with this ideology creates a faction. Can be defined in any localisation file.
+		}
+		
+		color = { 245 76 228 } # RGB ideology colour, used in the political pie chart or next to the chart.
+		
+		rules = { # Rules for the ideology.  (yes/no)
+            can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+
+        can_host_government_in_exile = no #Can host a government in exile
+		
+		war_impact_on_world_tension = 1 # Goes from -1 to 1. Increases or decreases the world tension created by this nation
+		faction_impact_on_world_tension = 1 # Goes from -1 to 1. Increases or decreases a faction of this ideologies impact on tension
+		
+		modifiers = { # More rules for the ideology. Every country [[Modifiers|modifier]] can apply.
+			generate_wargoal_tension = 0
+			join_faction_tension = 0
+			lend_lease_tension = 0
+			send_volunteers_tension = 0
+			guarantee_tension = 0
+			annex_cost_factor = 0
+			justify_war_goal_when_in_major_war_time = 0
+			drift_defence_factor = 1
+			puppet_cost_factor = 0
+		}
+
+		can_be_boosted = no # Can you boost this ideologies popularity in another country (yes/no)
+		can_collaborate = yes # Can create collaboration governments
+		
+		faction_modifiers = {    # Applies to the entire faction if the faction leader has this ideology. Every country [[Modifiers|modifier]] can apply.
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_fascist = yes
+	}
 
 	
 }
