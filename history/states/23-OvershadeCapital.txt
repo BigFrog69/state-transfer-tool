@@ -16,7 +16,10 @@ state={
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 9
-
+			dockyard = 1
+			3850 = {
+				naval_base = 2
+			}
 		}
 	}
 	buildings_max_level_factor=1.000

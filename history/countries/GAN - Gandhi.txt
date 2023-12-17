@@ -16,6 +16,7 @@ set_war_support = 0.1
 set_stability = 0.1
 
 recruit_character = GAN_Gandhi
+recruit_character = RAJ_mahatma_mohandas_gandhi
 
 set_politics = {
 	ruling_party = totalism

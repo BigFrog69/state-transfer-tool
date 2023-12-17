@@ -18,7 +18,9 @@ state={
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 8
-
+			2523 = {
+				naval_base = 2
+			}
 		}
 	}
 	buildings_max_level_factor=1.000

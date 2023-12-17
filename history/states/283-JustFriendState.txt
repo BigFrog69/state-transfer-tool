@@ -7,6 +7,9 @@ state={
 	history={
 		owner = RNL
 		add_core_of = RNL
+		victory_points = {
+			3327 40
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
