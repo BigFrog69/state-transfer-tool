@@ -95,4 +95,55 @@ characters={
 			logistics_skill = 5
 		}
 	}
+	XOL_Genghis_Khan={
+			name="Genghis Khan"
+			portraits={ civilian={ small=GFX_portrait_XOL_Genghis_Khan_small } }
+			advisor={
+			
+			
+			slot = army_chief
+			idea_token = XOL_Genghis_Khan
+			allowed = {
+					original_tag = XOL
+				}
+				traits = {
+					army_chief_offensive_3
+				}
+				cost = 130
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		}
+	XOL_Vladimir_Lenin={
+			name="Vladimir Lenin"
+			portraits={
+				civilian={
+					large=GFX_portrait_XOL_lenin
+				}
+				army={
+					small="GFX_portrait_XOL_lenin_small"
+				}
+			}
+
+			country_leader = {
+				ideology = totalism
+			}
+			
+			advisor={
+
+			slot = political_advisor
+			idea_token = XOL_Vladimir_Lenin
+			allowed = {
+					original_tag = XOL
+				}
+				traits = {
+					totalist_revolutionary
+				}
+				cost = 130
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		}
 }

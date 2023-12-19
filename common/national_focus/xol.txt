@@ -365,10 +365,6 @@ focus = {
 		}
 
 		available = {
-				any_state = {
-					is_coastal = yes
-					is_capital = no
-					}
 		}
 
 		bypass = {
@@ -411,10 +407,7 @@ focus = {
 		}
 
 		available = {
-				any_state = {
-					is_coastal = yes
-					is_capital = no
-					}
+
 		}
 
 		bypass = {
@@ -457,10 +450,6 @@ focus = {
 		}
 
 		available = {
-				any_state = {
-					is_coastal = yes
-					is_capital = no
-					}
 		}
 
 		bypass = {
@@ -530,13 +519,13 @@ focus = {
 		x = -5
 		y = 1
 
-		cost = 7
+		cost = 0.6
 
 		ai_will_do = {
 		   factor = 2
                     		
 		}
-
+		mutually_exclusive = { focus = XOL_the_formation }
 		available = {
 
 		}
@@ -595,78 +584,7 @@ focus = {
 			124 = {add_manpower = 2130000}
 			}
 		}
-#Build The Sosnoviec University
-focus = {
-		id = XOL_build_the_sosnovec_university
-		icon = GFX_focus_research
-		relative_position_id = XOL_strategic_bombing
-		x = 0
-		y = 1.2
 
-		cost = 5
-
-		ai_will_do = {
-		   factor = 2
-                    		
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-		prerequisite = {
-			focus = XOL_strategic_bombing
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		completion_reward = {
-				add_research_slot = 1
-				
-			}
-		}
-#The kaboom project
-focus = {
-		id = XOL_the_special_project
-		icon = GFX_goal_atomic_project
-		relative_position_id = XOL_build_the_sosnovec_university
-		x = 0
-		y = 1.2
-
-		cost = 5
-
-		ai_will_do = {
-		   factor = 2
-                    		
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-		prerequisite = {
-			focus = XOL_build_the_sosnovec_university
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		completion_reward = {
-				add_research_slot = 1
-				
-			}
-		}
 #Pol 4 (preserve_xolonian_democracy)
 focus = {
 		id = XOL_preserve_xolonian_democracy
@@ -816,6 +734,135 @@ focus = {
 
 		completion_reward = {
 				remove_ideas = XOL_g_goverment_corruption
+			}
+		}
+#Pol 1 (Paternal Autocracy)
+focus = {
+		id = XOL_the_formation
+		icon = GFX_goal_formation
+		relative_position_id = XOL_adress_the_political_situation
+		x = 5
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_adress_the_political_situation
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			start_civil_war = {
+				ruling_party = autocracy
+				ideology = ROOT
+				size = 0.3
+				capital = 124
+				states = {
+					124
+				}
+				keep_unit_leaders = {
+				}
+				keep_political_leader = no
+				keep_political_party_members = yes
+			}
+			hidden_effect = {
+				XOL = {
+					set_cosmetic_tag = XOL_FORMATION
+				}
+				PREV = {
+					set_cosmetic_tag = XOL_CIVIL_WAR
+				}
+			}
+			}
+			}
+		
+#Pol 4 (lol bro)
+#Build The Sosnoviec University
+focus = {
+		id = XOL_build_the_sosnovec_university
+		icon = GFX_focus_research
+		relative_position_id = XOL_strategic_bombing
+		x = 0
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_strategic_bombing
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				add_research_slot = 1
+				
+			}
+		}
+#The kaboom project
+focus = {
+		id = XOL_the_special_project
+		icon = GFX_goal_atomic_project
+		relative_position_id = XOL_build_the_sosnovec_university
+		x = 0
+		y = 1.2
+
+		cost = 5
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_build_the_sosnovec_university
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				add_research_slot = 1
+				
 			}
 		}
 #NAVY 1
@@ -1101,11 +1148,6 @@ focus = {
 		}
 
 		available = {
-			123 = {
-			CONTROLLER = {
-				tag = ROOT
-			}
-        }
 			 }
 		
 
@@ -1359,8 +1401,8 @@ focus = {
 		id = XOL_the_foreign_policy
 		icon = GFX_goal_the_foreign_policy
 		#relative_position_id = XOL_adress_the_political_situation
-		x = 17
-		y = 0
+		x = 14
+		y = 8
 
 		cost = 5
 
@@ -1368,9 +1410,10 @@ focus = {
 		   factor = 2
                     		
 		}
+		prerequisite = {}
 
 		available = {
-
+			has_completed_focus = XOL_adress_the_political_situation
 		}
 
 		bypass = {

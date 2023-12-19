@@ -165,6 +165,7 @@ bookmarks = {
 				xfiat
 				XOL_a_weak_currency
 				XOL_g_g_goverment_corruption
+				XOL_ostreyan_culture
 			}
 		}
 

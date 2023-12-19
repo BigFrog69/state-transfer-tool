@@ -1,0 +1,12 @@
+leader_traits = {
+    totalist_revolutionary = {
+		random = no
+		# Boosts Communism
+		sprite = 13
+		totalism_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

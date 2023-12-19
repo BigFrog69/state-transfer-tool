@@ -8,6 +8,7 @@ ideas = {
                 political_power_gain = -0.4
             }
         }
+
         XOL_g_goverment_corruption = {
             picture = g_g_goverment_corruption
             modifier = {

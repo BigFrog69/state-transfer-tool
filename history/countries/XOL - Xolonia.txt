@@ -17,15 +17,18 @@ set_technology = {
 add_ideas = XOL_a_weak_currency
 add_ideas = xfiat
 add_ideas = XOL_g_g_goverment_corruption
+add_ideas = cultures_xolonian_culture
 
 set_war_support = 0.5
 set_stability = 0.32
-
-recruit_character = XOL_xonabyte
-recruit_character = XOL_blahaj
-recruit_character = XOL_blahaj2
-recruit_character = XOL_rick_astley
-recruit_character = XOL_Djungelskog
+#Characters btw
+	recruit_character = XOL_xonabyte
+	recruit_character = XOL_blahaj
+	recruit_character = XOL_blahaj2
+	recruit_character = XOL_rick_astley
+	recruit_character = XOL_Djungelskog
+	recruit_character = XOL_Genghis_Khan
+	recruit_character = XOL_Vladimir_Lenin
 
 set_politics = {
 	ruling_party = democracy

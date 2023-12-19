@@ -1,0 +1,12 @@
+ideas = {
+    country = {
+        cultures_ostreyan_culture = {
+            picture = ostreyan_culture
+        }
+    }
+    country = {
+        cultures_xolonian_culture = {
+            picture = xolonian_culture
+        }
+    }
+}
