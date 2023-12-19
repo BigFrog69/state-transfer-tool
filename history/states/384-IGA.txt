@@ -1,0 +1,21 @@
+state={
+	id=384
+	name="STATE_384"
+	provinces={
+		583 1008 1399 1684 2815 3437 4568 
+	}
+	history={
+		owner = IGA
+		add_core_of = IGA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

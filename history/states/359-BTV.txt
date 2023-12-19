@@ -1,0 +1,21 @@
+state={
+	id=359
+	name="STATE_359"
+	provinces={
+		219 378 1322 2570 3845 4326 4440 4471 4626 6506 
+	}
+	history={
+		owner = BTV
+		add_core_of = BTV
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,9 +1,8 @@
+
 state={
 	id=186
 	name="STATE_186"
-	provinces={
-		9 17 138 203 230 273 435 481 482 582 1062 1143 1147 1249 1408 2047 2116 2203 2239 2483 2667 2753 2773 2795 2974 3030 3118 3130 3423 3530 3720 4077 4296 4325 4554 4702 6390 6410 6412 6423 6441 6469 6479 6499 
-	}
+
 	history={
 		owner = RAS
 		add_core_of = RAS
@@ -11,7 +10,13 @@ state={
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 5
+
 		}
+
+	}
+
+	provinces={
+		9 435 482 2795 3530 6390 6410 
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000

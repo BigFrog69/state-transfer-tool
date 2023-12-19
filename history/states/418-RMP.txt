@@ -1,0 +1,21 @@
+state={
+	id=418
+	name="STATE_418"
+	provinces={
+		1829 2690 3457 3939 6254 
+	}
+	history={
+		owner = RMP
+		add_core_of = RMP
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

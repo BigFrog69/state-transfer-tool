@@ -1,0 +1,21 @@
+state={
+	id=375
+	name="STATE_375"
+	provinces={
+		121 1482 3182 6372 
+	}
+	history={
+		owner = DRS
+		add_core_of = DRS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

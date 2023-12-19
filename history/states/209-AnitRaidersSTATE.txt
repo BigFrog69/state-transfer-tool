@@ -16,10 +16,10 @@ state={
 	}
 
 	provinces={
-		72 390 642 763 816 1245 1529 1931 2112 2354 2653 2940 2971 3862 4168 4364 4780 5748 5868 
+		390 642 816 1529 1931 2112 2971 3862 4168 4780 5748 5868 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	state_category=megalopolis
+	local_supplies=0.000
 }

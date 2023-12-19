@@ -1,0 +1,21 @@
+state={
+	id=386
+	name="STATE_386"
+	provinces={
+		1218 3006 3414 6174 
+	}
+	history={
+		owner = NRI
+		add_core_of = NRI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

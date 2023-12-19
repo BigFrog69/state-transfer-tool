@@ -2,9 +2,7 @@
 state={
 	id=208
 	name="STATE_208"
-	provinces={
-		1218 1255 1312 2329 2452 2769 3006 3096 3414 3929 6089 6097 6122 6174 
-	}
+
 	history={
 		owner = NRI
 		add_core_of = NRI
@@ -16,8 +14,12 @@ state={
 		}
 
 	}
+
+	provinces={
+		1255 1312 2329 2452 6097 
+	}
 	manpower=500000
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	state_category=megalopolis
+	local_supplies=0.000
 }

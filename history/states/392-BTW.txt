@@ -1,0 +1,21 @@
+state={
+	id=392
+	name="STATE_392"
+	provinces={
+		83 1031 2658 3655 4509 5926 
+	}
+	history={
+		owner = BTW
+		add_core_of = BTW
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

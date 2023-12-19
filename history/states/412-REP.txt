@@ -1,0 +1,21 @@
+state={
+	id=412
+	name="STATE_412"
+	provinces={
+		153 385 747 2594 4472 
+	}
+	history={
+		owner = REP
+		add_core_of = REP
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

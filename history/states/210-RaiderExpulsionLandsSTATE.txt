@@ -16,10 +16,10 @@ state={
 	}
 
 	provinces={
-		1364 2075 2232 2324 2899 4035 6005 6180 
+		2075 2232 2324 2899 4035 6005 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	state_category=megalopolis
+	local_supplies=0.000
 }

@@ -1,0 +1,21 @@
+state={
+	id=362
+	name="STATE_362"
+	provinces={
+		308 716 1344 1469 6532 
+	}
+	history={
+		owner = ARR
+		add_core_of = ARR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

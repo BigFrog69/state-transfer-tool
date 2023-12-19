@@ -1,9 +1,8 @@
+
 state={
 	id=296
 	name="STATE_296"
-	provinces={
-		401 494 987 1435 1635 1636 1829 2690 2870 3457 3692 3939 4036 4143 4238 4558 6184 6254 
-	}
+
 	history={
 		owner = RMP
 		add_core_of = RMP
@@ -11,10 +10,16 @@ state={
 			infrastructure = 3
 			arms_factory = 4
 			industrial_complex = 5
+
 		}
+
+	}
+
+	provinces={
+		494 987 1635 1636 4036 4143 
 	}
 	manpower=5000000
-	state_category=megalopolis
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

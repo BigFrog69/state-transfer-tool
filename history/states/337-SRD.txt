@@ -1,0 +1,21 @@
+state={
+	id=337
+	name="STATE_337"
+	provinces={
+		224 1347 1639 3662 3822 4589 4656 6512 6527 
+	}
+	history={
+		owner = SRD
+		add_core_of = SRD
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

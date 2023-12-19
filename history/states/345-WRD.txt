@@ -1,0 +1,21 @@
+state={
+	id=345
+	name="STATE_345"
+	provinces={
+		1236 2696 3177 6434 6454 6467 
+	}
+	history={
+		owner = WRD
+		add_core_of = WRD
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

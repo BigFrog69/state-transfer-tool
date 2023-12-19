@@ -1,0 +1,21 @@
+state={
+	id=396
+	name="STATE_396"
+	provinces={
+		430 2263 2751 4650 5558 5592 5619 5692 
+	}
+	history={
+		owner = SPI
+		add_core_of = SPI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

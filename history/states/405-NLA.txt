@@ -1,0 +1,21 @@
+state={
+	id=405
+	name="STATE_405"
+	provinces={
+		48 245 3563 3633 3753 4070 5357 
+	}
+	history={
+		owner = NLA
+		add_core_of = NLA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

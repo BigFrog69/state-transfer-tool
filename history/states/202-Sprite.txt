@@ -1,9 +1,8 @@
+
 state={
 	id=202
 	name="STATE_202"
-	provinces={
-		430 848 1596 2263 2751 4107 4650 5558 5592 5619 5647 5692 
-	}
+
 	history={
 		owner = SPI
 		add_core_of = SPI
@@ -11,7 +10,13 @@ state={
 			infrastructure = 3
 			arms_factory = 6
 			industrial_complex = 6
+
 		}
+
+	}
+
+	provinces={
+		848 1596 4107 5647 
 	}
 	manpower=752630
 	buildings_max_level_factor=1.000

@@ -1,9 +1,8 @@
+
 state={
 	id=185
 	name="STATE_185"
-	provinces={
-		263 451 687 798 1030 1067 1358 1387 1600 1621 2282 3305 3838 3853 4251 4284 4659 6219 6246 6309 6323 6351 
-	}
+
 	history={
 		owner = RAS
 		add_core_of = RAS
@@ -11,28 +10,41 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
-          2282 = {
-                bunker = 3
-            }
-          1030 = {
-                bunker = 3
-            }
-          451 = {
-                bunker = 3
-            }
-          6246 = {
-                bunker = 3
-            }
-          263 = {
-                bunker = 3
-            }
-          6219 = {
-                bunker = 3
-            }
-          798 = {
-                bunker = 3
-            }
+			2282 = {
+				bunker = 3
+
+			}
+			1030 = {
+				bunker = 3
+
+			}
+			451 = {
+				bunker = 3
+
+			}
+			6246 = {
+				bunker = 3
+
+			}
+			263 = {
+				bunker = 3
+
+			}
+			6219 = {
+				bunker = 3
+
+			}
+			798 = {
+				bunker = 3
+
+			}
+
 		}
+
+	}
+
+	provinces={
+		687 1030 1358 1387 2282 3838 4251 4659 6323 
 	}
 	manpower=350000
 	buildings_max_level_factor=1.000

@@ -2,9 +2,7 @@
 state={
 	id=207
 	name="STATE_207"
-	provinces={
-		65 83 268 515 685 1031 1167 1440 1571 1767 2267 2658 2677 2747 2765 3090 3172 3379 3567 3644 3655 4509 4524 4632 4726 4750 4801 5874 5889 5926 5934 5952 5958 5959 5983 5990 6016 6041 6044 6055 6067 6079 6115 6138 
-	}
+
 	history={
 		owner = BTW
 		add_core_of = BTW
@@ -16,8 +14,12 @@ state={
 		}
 
 	}
+
+	provinces={
+		1767 4524 5983 5990 
+	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	state_category=megalopolis
+	local_supplies=0.000
 }

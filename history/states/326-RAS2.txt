@@ -1,0 +1,21 @@
+state={
+	id=326
+	name="STATE_326"
+	provinces={
+		488 750 1276 1329 2000 3479 4029 
+	}
+	history={
+		owner = ERD
+		add_core_of = ERD
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

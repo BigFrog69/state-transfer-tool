@@ -1,0 +1,21 @@
+state={
+	id=408
+	name="STATE_408"
+	provinces={
+		70 1689 3518 6033 
+	}
+	history={
+		owner = HUG
+		add_core_of = HUG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

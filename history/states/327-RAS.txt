@@ -1,0 +1,21 @@
+state={
+	id=327
+	name="STATE_327"
+	provinces={
+		263 451 798 1067 1600 1621 3305 3853 4284 6219 6246 6309 6351 
+	}
+	history={
+		owner = RAS
+		add_core_of = RAS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

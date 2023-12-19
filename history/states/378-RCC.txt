@@ -1,0 +1,21 @@
+state={
+	id=378
+	name="STATE_378"
+	provinces={
+		119 1041 2223 4160 4824 6196 6261 6285 
+	}
+	history={
+		owner = RCC
+		add_core_of = RCC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
