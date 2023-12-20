@@ -1,0 +1,42 @@
+RRL_actions_category = {
+
+	civil_war_RNL = {
+
+		allowed = { always = no }
+
+		icon = generic_industry
+
+		is_good = yes
+
+		activation = {
+        	has_completed_focus = RRL_Political_Collapse
+    	}	
+		available = {
+			USS = {
+				controls_state = 274
+			}
+    	}
+		fire_only_once = yes
+		modifier = {
+			
+		}
+		days_mission_timeout = 60
+
+		cost = 0
+		complete_effect = {
+			
+		}
+		timeout_effect = {
+			RNL = {
+				declare_war_on = {
+					target = RRL
+					type = annex_everything
+				}
+			}
+		}
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+}
