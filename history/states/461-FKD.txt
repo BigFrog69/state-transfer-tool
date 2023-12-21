@@ -1,22 +1,18 @@
-
 state={
-	id=422
-	name="STATE_422"
-
+	id=461
+	name="STATE_461"
+	provinces={
+		363 1212 1948 5240 5247 
+	}
 	history={
-		owner = NRP
-		add_core_of = NRP
+		owner = FKD
+		add_core_of = FKD
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 
 		}
-
-	}
-
-	provinces={
-		2653 2940 4364 
 	}
 	manpower=250000
 	buildings_max_level_factor=1.000

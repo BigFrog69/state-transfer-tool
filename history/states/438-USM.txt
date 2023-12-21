@@ -1,22 +1,18 @@
-
 state={
-	id=422
-	name="STATE_422"
-
+	id=438
+	name="STATE_438"
+	provinces={
+		499 683 1046 1208 2437 2782 3483 
+	}
 	history={
-		owner = NRP
-		add_core_of = NRP
+		owner = USM
+		add_core_of = USM
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 3
 
 		}
-
-	}
-
-	provinces={
-		2653 2940 4364 
 	}
 	manpower=250000
 	buildings_max_level_factor=1.000

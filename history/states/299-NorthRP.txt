@@ -1,9 +1,8 @@
+
 state={
 	id=299
 	name="STATE_299"
-	provinces={
-		6 2103 2351 2421 2474 2827 3092 4228 4306 5961 5972 6058 
-	}
+
 	history={
 		owner = NRP
 		add_core_of = NRP
@@ -15,9 +14,12 @@ state={
 		}
 
 	}
+
+	provinces={
+		6 2421 2474 3092 4228 5961 5972 
+	}
 	manpower=500000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
-	
-	state_category = megalopolis
 }

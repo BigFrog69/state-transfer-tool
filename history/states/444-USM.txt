@@ -1,0 +1,20 @@
+state={
+	id=444
+	name="STATE_444"
+	provinces={
+		420 1814 2359 4584 5433 5444 
+	}
+	history={
+		owner = USM
+		add_core_of = USM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

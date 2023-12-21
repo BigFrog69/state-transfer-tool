@@ -1,24 +1,20 @@
-
 state={
-	id=422
-	name="STATE_422"
-
+	id=426
+	name="STATE_426"
+	provinces={
+		72 763 1245 2354 
+	}
 	history={
 		owner = NRP
 		add_core_of = NRP
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 3
 
 		}
-
 	}
-
-	provinces={
-		2653 2940 4364 
-	}
-	manpower=250000
+	manpower=350000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
