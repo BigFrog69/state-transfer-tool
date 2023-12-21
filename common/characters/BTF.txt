@@ -11,6 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology= authoritarianism
+			desc = BTF_PIERRE_DESC
 			expire="1965.1.1.1"
 			id=-1
 		}

@@ -1,0 +1,19 @@
+characters={
+	BTX_agnes={
+		name="Empress Agnes"
+		portraits={
+			civilian={
+				large=GFX_portrait_BTX_agnes
+			}
+			army={
+				small="GFX_portrait_BTX_agnes"
+			}
+		}
+		country_leader={
+			ideology= authoritarianism
+			desc = BTX_AGNES_DESC
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

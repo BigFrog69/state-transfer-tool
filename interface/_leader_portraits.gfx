@@ -265,8 +265,11 @@ spriteTypes = {
 
 
 
-
-
+	#Reinald
+	spriteType = {
+		name = "GFX_portrait_BTX_agnes"
+		texturefile = "gfx/leaders/BTX/agnes.dds"
+	}
 
 
 
