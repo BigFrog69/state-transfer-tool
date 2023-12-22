@@ -6,6 +6,7 @@ form_greater_Liberland_category = {
 		icon = generic_industry
 
 		available = {
+			original_tag = LLB
 			292 = { is_owned_by = LLB }
 			267 = { is_owned_by = LLB }
 			268 = { is_owned_by = LLB }
@@ -33,13 +34,10 @@ form_greater_Liberland_category = {
 			274 = { is_owned_by = LLB }
 			278 = { is_owned_by = LLB }
 			290 = { is_owned_by = LLB }
-			if = {
-				tag = LLB
-			}
 		}
 
 		visible = {
-			always = yes
+			original_tag = LLB
 		}
 
 		fire_only_once = no

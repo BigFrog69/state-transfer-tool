@@ -1,0 +1,40 @@
+form_union_of_Beyron_category = {
+
+	
+	form_union_of_Beyron = {
+
+		icon = generic_industry
+
+		available = {
+			226 = { is_owned_by = SSB }
+			316 = { is_owned_by = SSB }
+			if = {
+				tag = SSB
+				has_completed_focus = SSB_True_Enemies
+			}
+		}
+
+		visible = {
+			has_completed_focus = SSB_True_Enemies
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 180
+		days_re_enable = 540
+
+		cost = 0
+
+		complete_effect = {
+			set_cosmetic_tag = SSB_Union_of_Beyron
+		}
+
+		ai_will_do = {
+			base = 5
+		}
+	}
+}

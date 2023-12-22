@@ -7,9 +7,16 @@ simple_category = {		#ID of category
 	icon = GFX_category_icon	#Icon to be used for the category, defined in decisions_graphics.gfx or other .gfx file you create
 	
 	allowed = {
-		always = yes
+		OR = {
+			original_tag = USS
+			original_tag = RAS
+		}
 	}
 	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+		OR = {
+			original_tag = USS
+			original_tag = RAS
+		}
 	}
 }
 
@@ -19,7 +26,7 @@ simple_category_with_picture = {
 	priority = 9		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
 	
 	allowed = {
-		always = yes
+		always = no
 	}
 	visible = {
 	}
