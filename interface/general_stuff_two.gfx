@@ -1,4 +1,8 @@
 spriteTypes = {	
+	spriteType = {
+		name = "GFX_generic_bg_307x113"
+		texturefile = "gfx/interface/generic_bg_307x113.dds"
+	}
 
 	spriteType = {
 		name = "GFX_leader_frame_0_6"

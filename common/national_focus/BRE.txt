@@ -1,5 +1,4 @@
-﻿
-focus_tree = {
+﻿focus_tree = {
 	id = BRE_focus
 	
 	country = {
@@ -53,7 +52,7 @@ focus_tree = {
 ###############################################################################################
 	focus = {
 		id = BRE_Overthrow_The_Kaiser
-		icon = GFX_goal_TheGreatPurge
+		icon = GFX_goal_overthrow_the_kaiser
 		x = 30
 		y = 0
 		cost = 5
