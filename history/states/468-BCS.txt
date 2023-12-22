@@ -1,13 +1,13 @@
 
 state={
-	id=228
-	name="STATE_228"
+	id=468
+	name="STATE_468"
 
 	history={
 		owner = BCS
 		add_core_of = BCS
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 
@@ -16,10 +16,9 @@ state={
 	}
 
 	provinces={
-		13 2708 4358 4443 4736 4768 4802 5416 5448 5451 
+		713 941 2036 3075 5653 5663 5727 
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
 	local_supplies=0.000
 }

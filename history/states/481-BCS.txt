@@ -1,25 +1,20 @@
-
 state={
-	id=228
-	name="STATE_228"
-
+	id=481
+	name="STATE_481"
+	provinces={
+		1327 3162 4559 5501 
+	}
 	history={
 		owner = BCS
 		add_core_of = BCS
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 
 		}
-
 	}
-
-	provinces={
-		13 2708 4358 4443 4736 4768 4802 5416 5448 5451 
-	}
-	manpower=500000
+	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
 	local_supplies=0.000
 }

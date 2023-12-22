@@ -1,0 +1,20 @@
+state={
+	id=494
+	name="STATE_494"
+	provinces={
+		1042 2067 2561 3792 5901 5931 5938 
+	}
+	history={
+		owner = TBA
+		add_core_of = BTS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

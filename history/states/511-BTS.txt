@@ -1,0 +1,20 @@
+state={
+	id=511
+	name="STATE_511"
+	provinces={
+		328 334 424 652 996 3315 3480 4060 4216 4365 5935 5956 5976 6007 6011 6046 6091 
+	}
+	history={
+		owner = BTS
+		add_core_of = BTS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

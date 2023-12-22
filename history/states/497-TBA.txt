@@ -1,7 +1,7 @@
 
 state={
-	id=12
-	name="STATE_12"
+	id=497
+	name="STATE_497"
 
 	history={
 		owner = TBA
@@ -9,17 +9,16 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 1
 
 		}
 
 	}
 
 	provinces={
-		1133 1359 2336 2687 3133 3875 4052 6127 6148 6167 6182 
+		786 2079 2344 3582 4169 4733 6111 
 	}
-	manpower=620000
+	manpower=2500000
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
 	local_supplies=0.000
 }

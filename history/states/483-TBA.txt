@@ -1,0 +1,20 @@
+state={
+	id=483
+	name="STATE_483"
+	provinces={
+		621 3750 6290 6291 6299 6301 6308 6317 
+	}
+	history={
+		owner = TBA
+		add_core_of = TBA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 2
+
+		}
+	}
+	manpower=12000000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
