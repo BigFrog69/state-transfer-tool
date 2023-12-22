@@ -421,7 +421,7 @@ focus_tree = {
 
 	focus = {
 		id = Rob_No_More_Army_Restrictions
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_No_More_Army_Restrictions
 		prerequisite = { focus = Rob_Bretain_Rules_The_Waves focus = Rob_Final_Army_Wave }
 		x = 19
 		y = 6
