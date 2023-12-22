@@ -15,6 +15,13 @@ form_greater_Liberland_category = {
 
 }
 
+form_union_of_Beyron_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_scandinavia
+
+}
 
 
 

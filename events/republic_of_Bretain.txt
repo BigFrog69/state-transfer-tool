@@ -73,3 +73,18 @@ country_event = {
 		add_ideas = ROB_New_Deal
 	}
 }
+
+#Navy Event
+country_event = {
+	id = Bretain.5
+	title = Bretain.5.t
+	desc = Bretain.5.d
+	picture = GFX_Familial_Promotion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Bretain.5.a
+		add_ideas = ROB_New_Deal
+	}
+}

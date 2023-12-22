@@ -60,6 +60,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/Air_Bus.dds"		
 	}
 
+	#ROB
+	SpriteType = {
+		name = "GFX_goal_focus_ROB_BretainNavyFocus"
+		texturefile = "gfx/interface/goals/BretainNavyFocus.dds"		
+	}
+	SpriteType = {
+		name = "GFX_goal_focus_ROB_Army_Focus"
+		texturefile = "gfx/interface/goals/ROB_Army_Focus.dds"		
+	}
+	
+
 
 	#MRO, generic
 	SpriteType = {

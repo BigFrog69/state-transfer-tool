@@ -39,6 +39,10 @@
  SSB_DEF:0 "State of Beyron"
  SSB_ADJ:0 "Beyronian"
 
+ SSB_Union_of_Beyron:0 "Union of Beyron"
+ SSB_Union_of_Beyron_DEF:0 "Union of Beyron"
+ SSB_Union_of_Beyron_ADJ:0 "Beyronian"
+
  CSS:0 "People's Republic of Coso"
  CSS_DEF:0 "Coso"
  CSS_ADJ:0 "Cosoian"
