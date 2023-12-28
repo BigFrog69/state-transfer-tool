@@ -1,0 +1,19 @@
+characters={
+	SEA_michael_bates={
+		name="Michael Bates"
+		portraits={
+			civilian={
+				large=GFX_portrait_SEA_michael_bates
+			}
+			army={
+				small="GFX_portrait_SEA_michael_bates"
+			}
+		}
+		country_leader={
+			ideology= democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}
