@@ -92,4 +92,6 @@ BTX	= "countries/BotNation24.txt"
 BTY	= "countries/BotNation25.txt"
 BTZ	= "countries/BotNation26.txt"
 
-KLT	= "countries/KiltedDungeoneer.txt"
+KLT	= "countries/KiltedDungeoneer.txt"  
+
+SEA = "countries/Sealand.txt"

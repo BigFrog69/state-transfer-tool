@@ -271,8 +271,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BTX/agnes.dds"
 	}
 
-
-
+	#SEALAND
+	spriteType = {
+		name = "GFX_portrait_SEA_michael_bates"
+		texturefile = "gfx/leaders/SEA/michael_bates.dds"
+	}
 
 
 
