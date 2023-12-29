@@ -1,12 +1,12 @@
 state={
-	id=494
-	name="STATE_494"
+	id=528
+	name="STATE_528"
 	provinces={
-		1042 2067 2561 3792 5901 5931 5938 
+		1366 1729 3309 5541 5549 5564 5589 5599 
 	}
 	history={
-		owner = TBA
-		add_core_of = BTS
+		owner = BTT
+		add_core_of = BTT
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

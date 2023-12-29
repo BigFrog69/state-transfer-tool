@@ -1,20 +1,21 @@
 state={
-	id=494
-	name="STATE_494"
+	id=550
+	name="STATE_550"
 	provinces={
-		1042 2067 2561 3792 5901 5931 5938 
+		1128 1138 2071 2885 3032 3841 4101 4538 4758 5894 5905 5916 5968 5994 6008 
 	}
 	history={
-		owner = TBA
-		add_core_of = BTS
+		owner = BTT
+		add_core_of = BTT
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 
 		}
+
 	}
-	manpower=1500000
+	manpower=2500000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
