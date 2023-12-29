@@ -751,7 +751,7 @@ focus = {
                     		
 		}
 		available = {
-
+			NOT = {has_completed_focus = XOL_xonabyte}
 		}
 
 		bypass = {
@@ -1453,7 +1453,11 @@ focus = {
                     		
 		}
 
-		available = {}
+		available = {
+			NOT = {
+				has_completed_focus = XOL_strike_the_ostreyaens
+			}
+		}
 
 		bypass = {
 

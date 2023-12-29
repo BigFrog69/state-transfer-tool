@@ -9,4 +9,9 @@ ideas = {
             picture = xolonian_culture
         }
     }
+    country = {
+        BUL_army_restrictions = {
+        }
+    }
+
 }

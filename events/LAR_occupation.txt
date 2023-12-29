@@ -1,0 +1,37 @@
+﻿
+add_namespace = occupied_countries
+
+#instantiate a collabration government
+country_event = {
+	id = occupied_countries.1
+
+	is_triggered_only = yes
+
+	hidden = yes
+
+	option = {
+		name = occupied_countries.1.a
+		# do nothing
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+
+# create uprising
+country_event = {
+	id = occupied_countries.2
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = occupied_countries.1.a
+		# do nothing
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}

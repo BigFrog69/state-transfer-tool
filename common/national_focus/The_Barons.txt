@@ -62,9 +62,6 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			every_unit_leader = { 
-				add_logistics = 1
-			}
 			random_other_country = {  
 				add_manpower = -5000
 			}
