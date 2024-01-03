@@ -1146,11 +1146,80 @@ SpriteType = {
 	texturefile = "gfx/interface/goals/Suppress.dds"			
 	}
 
+	SpriteType = {
+	name = "GFX_goal_Organize_Kukuro"
+	texturefile = "gfx/interface/goals/Organize_Kukuro.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_Expand_Kukuro"
+	texturefile = "gfx/interface/goals/Expand_Kukuro.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_SSB_Organized_Influence"
+	texturefile = "gfx/interface/goals/SSB_Organized_Influence.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_SSB_Centralization"
+	texturefile = "gfx/interface/goals/SSB_Centralization.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_SSB_Socialist_Frog"
+	texturefile = "gfx/interface/goals/SSB_Socialist_Frog.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_SSB_Civilization_Process"
+	texturefile = "gfx/interface/goals/SSB_Civilization_Process.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_SSB_Expand_The_Farmer_Union"
+	texturefile = "gfx/interface/goals/SSB_Expand_The_Farmer_Union.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_SSB_The_Defender_Of_The_Nation"
+	texturefile = "gfx/interface/goals/SSB_The_Defender_Of_The_Nation.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_SSB_The_Heart_Of_Totalism"
+	texturefile = "gfx/interface/goals/SSB_The_Heart_Of_Totalism.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_SSB_Suderenlund_For_Investments"
+	texturefile = "gfx/interface/goals/SSB_Suderenlund_For_Investments.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_SSB_Frogland"
+	texturefile = "gfx/interface/goals/SSB_Frogland.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_SSB_Lethalia_For_Economic_Help"
+	texturefile = "gfx/interface/goals/SSB_Lethalia_For_Economic_Help.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_SSB_Memal_For_Protection"
+	texturefile = "gfx/interface/goals/SSB_Memal_For_Protection.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_SSB_Denounced"
+	texturefile = "gfx/interface/goals/SSB_Denounced.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_SSB_Defender"
+	texturefile = "gfx/interface/goals/SSB_Defender.dds"			
+	}
 
 	#Baron's Goal Icons
 	SpriteType = {

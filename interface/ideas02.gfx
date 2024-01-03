@@ -151,9 +151,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Riots.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_Elysium_Treaty"
+		texturefile = "gfx/interface/ideas/Elysium_Treaty.dds"
+	}
 
-
-
+	spriteType = {
+		name = "GFX_idea_Elysium_Treaty_Denounced"
+		texturefile = "gfx/interface/ideas/Elysium_Treaty_Denounced.dds"
+	}
 
 
 	spriteType = {

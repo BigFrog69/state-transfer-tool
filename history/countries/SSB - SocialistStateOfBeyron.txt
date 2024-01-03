@@ -26,8 +26,8 @@ add_ideas = {
 	Old_Red_Army
     Economic_Stagnation
 	SSB_Farmland_Crisis
-	SSB_Memories_of_SpriteKrieg_idea
 	limited_conscription
+	Elysium_Treaty
 	low_economic_mobilisation
 }
 

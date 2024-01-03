@@ -15,7 +15,7 @@ form_union_of_Beyron_category = {
 			225 = { is_owned_by = SSB }
 			if = {
 				tag = SSB
-				has_completed_focus = SSB_True_Enemies
+				has_completed_focus = SSB_Western_Frogland_For_The_Continuation_Of_The_Elysium_Treaty
 			}
 		}
 
