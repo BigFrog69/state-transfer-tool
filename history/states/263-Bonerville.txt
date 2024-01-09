@@ -13,7 +13,7 @@ state={
 			industrial_complex = 1
 
 		}
-
+    set_demilitarized_zone = yes
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

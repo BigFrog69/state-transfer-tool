@@ -14,6 +14,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				political_power_gain = -0.5
+				stability_factor = -0.15
 			}
 		}
 		
@@ -27,7 +28,38 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				political_power_gain = 0.1
+				political_power_gain = -0.24
+				stability_factor = -0.12
+			}
+		}
+		
+		Red_council_3 = {
+			picture = SSB_RedCouncil
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.18
+				stability_factor = -0.09
+			}
+		}
+		
+		Red_council_4 = {
+			picture = SSB_RedCouncil
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.06
+				stability_factor = -0.03
 			}
 		}
 		
@@ -78,14 +110,156 @@ ideas = {
 				production_speed_buildings_factor = -0.1
 				production_factory_efficiency_gain_factor = -0.1
 				production_speed_arms_factory_factor = -0.20
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.5
 				industrial_capacity_factory = -0.1
-				#-10% fighter production
+			}
+		}
+		
+		Economic_Stagnation_2 = {
+
+			picture = SSB_Stagnation
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.08
+				production_factory_efficiency_gain_factor = -0.08
+				production_speed_arms_factory_factor = -0.16
+				consumer_goods_factor = 0.4
+				industrial_capacity_factory = -0.08
+			}
+		}
+		
+		Economic_Stagnation_3 = {
+
+			picture = SSB_Stagnation
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.06
+				production_factory_efficiency_gain_factor = -0.06
+				production_speed_arms_factory_factor = -0.12
+				consumer_goods_factor = 0.3
+				industrial_capacity_factory = -0.06
+			}
+		}
+		
+		Relaxed_Industry = {
+
+			picture = SSB_Stagnation
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.04
+				production_factory_efficiency_gain_factor = -0.04
+				production_speed_arms_factory_factor = -0.08
+				consumer_goods_factor = 0.2
+				industrial_capacity_factory = -0.04
+			}
+		}
+		
+		Relaxed_Industry_2 = {
+
+			picture = SSB_Stagnation
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.02
+				production_factory_efficiency_gain_factor = -0.02
+				production_speed_arms_factory_factor = -0.04
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.02
+			}
+		}
+		
+		Loans = {
+
+			picture = SSB_Stagnation
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                consumer_goods_factor = -0.1
+			}
+		}
+		
+		Selling_Civilian_Goods = {
+
+			picture = SSB_Stagnation
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                consumer_goods_factor = -0.15
 			}
 		}
 
+		Elysium_Treaty = {
 
+			picture = Elysium_Treaty
 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+                conscription = -0.005
+				industrial_capacity_factory = -0.1
+				war_support_factor = -0.05
+			}
+		}
+
+		Elysium_Treaty_Denounced = {
+
+			picture = Elysium_Treaty_Denounced
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
 
 
 
@@ -101,9 +275,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				fascism_drift = 0.05
-				democratic_drift = 0.05
-				stability_weekly = 0.001
+				totalism_drift = 0.05
+				stability_weekly = 0.003
 				political_power_gain = -0.15
 			}
 		}
@@ -238,7 +411,6 @@ ideas = {
 
 			modifier = {
 				monthly_population = 0.25
-				local_resources_factor = 0.1
 				production_speed_buildings_factor = 0.05
 			}	
 		}
@@ -256,6 +428,7 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.05
 				monthly_population = 0.25
+				local_resources_factor = 0.1
 			}	
 		}
 

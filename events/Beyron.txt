@@ -433,3 +433,65 @@ country_event = { #Civilwar
 		complete_national_focus = SSB_Beyronese_Civilwar
 	}
 }
+
+country_event = {
+	id = Beyron.26
+	title = Beyron.26.t
+	desc = Beyron.26.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.26.a
+		SSB = {
+			country_event = Beyron.27
+			annex_country = {
+				target = BTD
+				transfer_troops = yes
+			}
+		}
+	}
+	option = {
+		name = Beyron.26.b
+	    SSB = {
+			country_event = Beyron.28
+			create_wargoal = {
+			    type = annex_everything
+				target = BTD
+				expire = 0
+		    }
+		}
+	}
+}
+
+country_event = { #They accept Annex!
+	id = Beyron.27
+	title = Beyron.27.t
+	desc = Beyron.27.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.27.a
+	}
+}
+
+country_event = { #They Refuse Annex!
+	id = Beyron.28
+	title = Beyron.28.t
+	desc = Beyron.28.d
+	picture = GFX_news_event_064
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Beyron.28.a
+			create_wargoal = {
+			    type = annex_everything
+				target = BTD
+				expire = 0
+		}
+	}
+}
