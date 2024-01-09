@@ -1,0 +1,46 @@
+﻿
+focus_tree = {
+	id = aurora_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BTK
+		}
+	}
+	
+	default = no
+#Politics
+	focus = {
+		id = BTK_Honor_the_Technate
+		icon = GFX_goal_btk_technate
+		x = 5
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { }
+		completion_reward = {
+			country_event = Aurora.1
+		}
+	}
+#ECONOMY
+	focus = {
+		id = BTK_Reindustrialize
+		icon = GFX_focus_generic_modernize_industry
+		x = 11
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { }
+		completion_reward = {
+			country_event = Aurora.2
+		}
+	}
+		}
+

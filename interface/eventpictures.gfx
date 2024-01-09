@@ -14,15 +14,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/FBA.dds"
 	}
 
-
-
-
-
-
-
-
-
-
+	spriteType = {
+		name = "GFX_Aurora_flag_event"
+		texturefile = "gfx/event_pictures/aurora_flag_event.dds"
+	}
 
 
 

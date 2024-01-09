@@ -16,7 +16,7 @@
  Liberland.1.d:0 "In the heart of the nation, a pivotal moment has arrived that will shape the future of your country's ideology. The prevailing winds of change have led the population down two distinct paths; one guided by the resolute principles of Chadist ideology and the other by the allure of liberal ideals. As the leader of your nation, you stand at a crossroads, tasked with making a weighty decision that will define the course of your nation's destiny."
  Liberland.1.a:0 "Majority Chadist Ideology"
  Liberland.1.b:0 "Majority Liberal Ideology"
-
+ 
  Beyron.1.t:0 "The Coup"
  Beyron.1.d:0 "The Unpopular Parties are trying to overthrow our government. What do we do?"
  Beyron.1.a:0 "Get Them Arrested!"
@@ -199,3 +199,7 @@
  LiberlandFrogFriendship.1.d:0 "I get oil, you get friendship."
  LiberlandFrogFriendship.1.a:0 "Allies are always needed!"
  LiberlandFrogFriendship.1.b:0 "We will never trade with those Red Scum!"
+ #Aurora
+ Aurora.1.t: "Political Situtation: §RReport"
+ Aurora.1.d: "Our country has experienced a civil war almost twenty years ago. Most of the lands are still under military occupation. The rebels never give up. There are 9 main rebel groups terrorizing and pillaging our new state, so we must respond quickly and crush the resistance. Every day a new village burns down or blows up from the air strikes from foreign countries. The civil war has started around November 2006 and it stabilizied around May 2007. When it was going good for our Great Technocratic State suddenly Xolonia decided to bomb our capital and since then they have been bombing our lands every two days."
+ Aurora.1.a: "Let's get this country back together."

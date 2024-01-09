@@ -943,7 +943,7 @@ focus_tree = {
 	focus = {
 		id = industrial_effort
 		icon = GFX_goal_generic_production
-		x = 13
+		x = 15
 		y = 0
 		cost = 10
 
@@ -1057,7 +1057,149 @@ focus_tree = {
 			}
 		}
 	}
+focus = {
+		id = rural_industry
+		icon = GFX_focus_generic_farmland
+		prerequisite = { focus = industrial_effort }
+		x = -3
+		y = 1
+		relative_position_id = industrial_effort
+		cost = 10
 
+		search_filters = { FOCUS_FILTER_INDUSTRY  }
+		
+		available_if_capitulated = yes
+
+
+		
+		ai_will_do = {
+			factor = 2
+		}
+
+
+
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure_effort
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+									add_resource = {
+										type = oil
+										amount = 50
+										state = ROOT
+									}			
+								}
+							}
+						}	
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_resource = {
+					type = steel
+					amount = 5
+				}	
+			}
+		}
+	}
+focus = {
+		id = mining_industry
+		icon = GFX_focus_generic_mining_industry
+		prerequisite = { focus = rural_industry }
+		x = 0
+		y = 1
+		relative_position_id = rural_industry
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY  }
+		
+		available_if_capitulated = yes
+
+
+		
+		ai_will_do = {
+			factor = 2
+		}
+
+
+
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+
+									is_in_home_area = yes
+									add_resource = {
+										type = oil
+										amount = 50
+										state = ROOT
+									}			
+								}
+							}
+						}	
+					}
+				}
+				add_resource = {
+					type = chromium
+					amount = 5
+				}	
+			}
+		}
+	}
+focus = {
+		id = expand_synthethic_rubber_technology
+		icon = GFX_focus_generic_rubber
+		prerequisite = { focus = mining_industry }
+		x = 0
+		y = 1
+		relative_position_id = mining_industry
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY  }
+		
+		available_if_capitulated = yes
+
+
+		
+		ai_will_do = {
+			factor = 2
+		}
+
+
+
+
+		completion_reward = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+	}
 	focus = {
 		id = production_effort
 		icon = GFX_goal_generic_construct_mil_factory
@@ -1315,63 +1457,6 @@ focus_tree = {
 				type = infrastructure
 				level = 1
 				instant_build = yes
-			}
-		}
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 1
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
 			}
 		}
 	}
@@ -1727,7 +1812,7 @@ focus_tree = {
 	focus = {
 		id = political_effort
 		icon = GFX_goal_generic_demand_territory
-		x = 19
+		x = 23
 		y = 0
 		cost = 10
 	
@@ -1741,18 +1826,15 @@ focus_tree = {
 	}
 
 	focus = {
-		id = collectivist_ethos
-		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
+		id = military_dictatorship
+		icon = GFX_goal_establish_a_dictatorship #icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = political_effort }
-		mutually_exclusive = { focus = liberty_ethos}
+		mutually_exclusive = { focus = a_free_democracy}
 		available = {
-			OR = {
-				has_government = fascism
-				has_government = communism
-				has_government = neutrality
-			}
+
+				NOT ={has_government = democratic}
 		}
-		x = -1
+		x = -3
 		y = 1
 		relative_position_id = political_effort
 		cost = 10
@@ -1781,14 +1863,26 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_timed_idea = { idea = collectivist_ethos_focus days = 1095 }
+			add_war_support = 0.20
+			add_popularity = {
+				ideology = democracy
+				popularity = -0.15
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.15
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.15
+			}
 		}
 	}
 
 	focus = {
 		id = nationalism_focus
 		icon = GFX_goal_support_fascism #icon = GFX_goal_tripartite_pact
-		prerequisite = { focus = collectivist_ethos }
+		prerequisite = { focus = military_dictatorship }
 		mutually_exclusive = { focus = internationalism_focus }
 		available = {
 			OR = {
@@ -1798,7 +1892,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		relative_position_id = collectivist_ethos
+		relative_position_id = military_dictatorship
 		cost = 10
 	
 		search_filters = { FOCUS_FILTER_POLITICAL  }
@@ -1839,7 +1933,7 @@ focus_tree = {
 	focus = {
 		id = internationalism_focus
 		icon = GFX_goal_support_communism #icon = GFX_goal_tripartite_pact
-		prerequisite = { focus = collectivist_ethos }
+		prerequisite = { focus = military_dictatorship }
 		mutually_exclusive = { focus = nationalism_focus }
 		available = {
 			if = {
@@ -1855,7 +1949,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		relative_position_id = collectivist_ethos
+		relative_position_id = military_dictatorship
 		cost = 10
 	
 		search_filters = { FOCUS_FILTER_POLITICAL  }
@@ -1890,17 +1984,17 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = liberty_ethos
-		icon = GFX_goal_support_democracy
+		id = a_free_democracy
+		icon = GFX_goal_voting_poll
 		prerequisite = { focus = political_effort }
-		mutually_exclusive = { focus = collectivist_ethos }
+		mutually_exclusive = { focus = military_dictatorship }
 		available = {
 			OR = {
 				has_government = democratic
 				has_government = neutrality
 			}
 		}
-		x = 1
+		x = 3
 		y = 1
 		relative_position_id = political_effort
 		cost = 10
@@ -1931,7 +2025,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = liberty_ethos_focus
+			add_ideas = a_free_democracy_focus
 		}
 	}
 
@@ -1960,8 +2054,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = political_correctness
-		icon = GFX_goal_generic_dangerous_deal
+		id = socialist_economy
+		icon = GFX_goal_socialist_economy
 		prerequisite = { focus = internationalism_focus }
 		x = 0
 		y = 1
@@ -1978,18 +2072,18 @@ focus_tree = {
 				remove_ideas = neutrality_idea
 			}		
 			add_political_power = 200
-			add_ideas = idea_political_correctness
+			add_ideas = idea_generic_planned_economy
 		}
 	}
 
 	focus = {
-		id = neutrality_focus
-		icon = GFX_goal_generic_neutrality_focus
-		prerequisite = { focus = liberty_ethos }
-		mutually_exclusive = { focus = interventionism_focus }
+		id = liberalism
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = a_free_democracy }
+		mutually_exclusive = { focus = democracy }
 		x = 0
 		y = 1
-		relative_position_id = liberty_ethos
+		relative_position_id = a_free_democracy
 		cost = 10
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -1998,16 +2092,6 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				tag = AUS
-			}
-			modifier = {
-				factor = 0
-				tag = SAU
-				is_in_faction_with = SOV
-				SOV = { has_government = communism }
-			}
 		}
 
 		completion_reward = {
@@ -2020,13 +2104,43 @@ focus_tree = {
 	}
 
 	focus = {
-		id = interventionism_focus
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = liberty_ethos }
-		mutually_exclusive = { focus = neutrality_focus }
+		id = democracy
+		icon = GFX_goal_generic_social_democracy
+		prerequisite = { focus = a_free_democracy }
+		mutually_exclusive = { focus = liberalism }
 		x = 2
 		y = 1
-		relative_position_id = liberty_ethos
+		relative_position_id = a_free_democracy
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_popularity = {
+				ideology = democracy
+				popularity = 0.3
+			}
+			set_politics = {
+				ruling_party = democracy
+				elections_allowed = yes
+			}
+			add_political_power = 150
+		}
+	}
+focus = {
+		id = equalize_the_classes
+		icon = GFX_goal_generic_equalize_the_classes
+		prerequisite = { focus = democracy }
+		x = 0
+		y = 1
+		relative_position_id = democracy
 		cost = 10
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -2043,11 +2157,77 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			if = {
-				limit = { has_idea = neutrality_idea }
-				remove_ideas = neutrality_idea
-			}	
-			set_rule = { can_send_volunteers = yes }
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.3
+			}
+			set_politics = {
+				ruling_party = liberalism
+				elections_allowed = yes
+			}
+			add_political_power = 150
+		}
+	}
+focus = {
+		id = liberalism
+		icon = GFX_goal_generic_liberalism
+		prerequisite = { focus = a_free_democracy }
+		mutually_exclusive = { focus = democracy }
+		x = 0
+		y = 1
+		relative_position_id = a_free_democracy
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		completion_reward = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.3
+			}
+			set_politics = {
+				ruling_party = conservatism
+				elections_allowed = yes
+			}
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = conservatism
+		icon = GFX_goal_generic_conservatism
+		prerequisite = { focus = a_free_democracy }
+		mutually_exclusive = { focus = liberalism }
+		x = -2
+		y = 1
+		relative_position_id = a_free_democracy
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.3
+			}
+			set_politics = {
+				ruling_party = conservatism
+				elections_allowed = yes
+			}
 			add_political_power = 150
 		}
 	}
@@ -2084,41 +2264,10 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = deterrence
-		icon = GFX_goal_generic_defence
-		prerequisite = { focus = neutrality_focus }
-		x = 0
-		y = 1
-		relative_position_id = neutrality_focus
-		cost = 10
-	
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			add_ideas = deterrence
-		}
-	}
 
-	focus = {
-		id = volunteer_corps
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = interventionism_focus }
-		x = 0
-		y = 1
-		relative_position_id = interventionism_focus
-		cost = 10
-	
-		search_filters = { FOCUS_FILTER_POLITICAL }
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = volunteer_corps_focus
-		}
-	}
 
 	focus = {
 		id = paramilitarism
@@ -2140,11 +2289,11 @@ focus_tree = {
 
 	focus = {
 		id = indoctrination_focus
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = political_correctness }
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = socialist_economy }
 		x = 0
 		y = 1
-		relative_position_id = political_correctness
+		relative_position_id = socialist_economy
 		cost = 10
 	
 		search_filters = { FOCUS_FILTER_POLITICAL  }
@@ -2157,23 +2306,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = foreign_expeditions
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = { focus = volunteer_corps }
-		x = 0
-		y = 1
-		relative_position_id = volunteer_corps
-		cost = 10
-	
-		search_filters = { FOCUS_FILTER_POLITICAL }
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = foreign_expeditions_focus
-		}
-	}
 
 	focus = {
 		id = why_we_fight
@@ -2341,21 +2474,22 @@ focus_tree = {
 	focus = {
 		id = dujo_car_buy
 		icon = GFX_goal_MRO_Du_Joe
-		x = 27
-		y = 0
+		x = 3
+		y = 1
 		cost = 10
-	
+		prerequisite = {focus = industrial_effort }
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		relative_position_id = industrial_effort
 	
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_equipment_to_stockpile = {
-			#	type = motorized_equipment
-			#	amount = 100
-			#	variant_name = "Du Joe"
-			#	producer = MRO
-			#}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 100
+				variant_name = "Du Joe"
+				producer = MRO
+			}
 			MRO = {
 				add_political_power = 30
 			}

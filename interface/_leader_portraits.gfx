@@ -1,7 +1,8 @@
 spriteTypes = {
-
-
-
+	spriteType = {
+		name = "GFX_portrait_BTK_Council"
+		texturefile = "gfx/leaders/BTK/Auroran Expertise Council.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_ERD_Ferdinand_II"

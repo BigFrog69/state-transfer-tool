@@ -1,4 +1,4 @@
-﻿capital = 31
+﻿capital = 554
 
 oob = "BTK_1936"
 
@@ -15,27 +15,28 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = BTK_NPC_DUDE
+recruit_character = GFX_portrait_BTK_Council
 
 
 
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = technocracy
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
 	chad = 0
-	totalism = 0
+	totalism = 3
 	syndicalism = 0
-	socialism = 0
+	socialism = 1
 	democracy = 0
-	liberalism = 0
+	liberalism = 20
 	conservatism = 0
-	authoritarianism = 100
-	autocracy = 0
+	authoritarianism = 6
+	technocracy = 60
+	autocracy = 10
 	nationalist = 0
 }
 

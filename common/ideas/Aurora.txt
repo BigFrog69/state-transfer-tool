@@ -1,0 +1,10 @@
+ideas = {
+    country = {
+        recent_civil_war = {
+            picture = generic_recent_civil_war
+        }
+        xolonian_bombings = {
+            picture = BTK_xolonian_bombings
+        }
+    }
+}

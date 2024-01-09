@@ -1,0 +1,25 @@
+###########################
+# Xolonia Events
+###########################
+
+add_namespace = Aurora
+
+country_event = {
+	id = Aurora.1
+	title = Aurora.1.t
+	desc = Aurora.1.d
+	picture = GFX_Aurora_flag_event
+	is_triggered_only = yes
+
+	option = {
+		name = Aurora.1.a
+		add_war_support = -0.01
+		
+	}
+	#option = {
+	#	name = Aurora.1.b
+	#}
+}
+
+
+

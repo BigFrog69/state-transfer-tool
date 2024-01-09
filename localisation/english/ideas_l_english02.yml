@@ -177,5 +177,6 @@
   cultures_ostreyan_culture:0 "Ostreyan Culture"
   cultures_xolonian_culture:0 "Xolonian Culture"
   cultures_xolonian_culture_desc:0 "§gXolonia has been ruled by Ostreya for a long time and the native culture has been strongly influenced with the Ostreyans, but in some parts of the country people still pray to Ostreyan gods. When Xolonia gained independence in 1987 they moved away from Ostreyan beliefs and traditions. Now the people want to have peace in the world and good relations with other ethnicities and cultures."
-
-
+#Aurora
+  recent_civil_war: "Recent Civil War"
+  xolonian_bombings: "Xolonian Bombings"

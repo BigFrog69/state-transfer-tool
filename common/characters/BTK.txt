@@ -1,0 +1,19 @@
+characters={
+	GFX_portrait_BTK_Council={
+		name="Auroran Expertise Council"
+		portraits={
+			civilian={
+				large=GFX_portrait_BTK_Council
+			}
+			army={
+				small="GFX_portrait_BTK_Council"
+			}
+		}
+		country_leader={
+			ideology= technocratic
+			desc = BTK_Council_desc
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

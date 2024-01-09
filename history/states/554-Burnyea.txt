@@ -1,0 +1,28 @@
+
+state={
+	id=554
+	name="STATE_554"
+
+	history={
+		owner = BTK
+		add_core_of = BTK
+		add_core_of = ROO
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+
+		}
+		victory_points = { 2942 15 }
+		victory_points = { 12975 1 }
+	}
+
+	provinces={
+		2942
+	}
+	
+	manpower=878000
+	buildings_max_level_factor=0.700
+	state_category=town
+	local_supplies=0.000
+}

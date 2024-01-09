@@ -7370,5 +7370,12 @@ spriteTypes = {
 		name = "GFX_idea_generic_democracy_banned"
 		texturefile = "gfx/interface/ideas/idea_generic_democracy_banned.dds"
 	}
-			
+	spriteType = {
+		name = "GFX_idea_generic_recent_civil_war"
+		texturefile = "gfx/interface/ideas/recent_civil_war.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_BTK_xolonian_bombings"
+		texturefile = "gfx/interface/ideas/xolonian_bombings.dds"
+	}	
 }

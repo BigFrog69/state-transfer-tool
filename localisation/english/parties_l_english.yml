@@ -1,15 +1,5 @@
 ﻿l_english:
- democratic-monarchy:0 "Democratic-Monarchy"
- democratic-monarchy_noun:0 "Democratic-Monarchist"
- democratic-monarchy_desc:0 "Democratic-Monarchy"
 
- Socialist_Frogism:0 "Socialist-Frogism"
- Socialist_Frogism_noun:0 "Socialist-Frogist"
- Socialist_Frogism_desc:0 "Socialist-Frogism"
-
- Syndicalism:0 "Syndicalism"
- Syndicalism_noun:0 "Syndicalist"
- Syndicalism_desc:0 "Syndicalism"
 
  #CUSTOM IDEOLOGIES
  long:0 "Socio-Democraticorepublican Focalotourisian Capitalist"
@@ -56,7 +46,9 @@
  nationalist_noun:0 "Nationalist"
  nationalist_desc:0 "Nationalism"
 
-
+ technocracy:0 "Technocracy"
+ technocracy_noun:0 "Technocratic"
+ technocracy:0 "Technocracy"
  #VANILLA IDEOLOGIES
 
  communism:0 "Communist"
@@ -1060,5 +1052,3 @@
  TTS_neutrality_party:0 "Kings Party"
  transylvania_fascism_party_long:0 "Fascist"
  transylvania_fascism_party:0 "Fascist"
- 
- 
