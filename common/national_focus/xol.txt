@@ -491,7 +491,7 @@ focus = {
 		}
 
 		available = {
-			date > 2024.1.9
+			always = no
 		}
 
 		bypass = {

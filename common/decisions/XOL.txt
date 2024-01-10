@@ -1,0 +1,214 @@
+#Category only allowed for GER
+XOL_elections_category = {
+
+	XOL_elections_decision_XSP = {
+
+		allowed = { always = yes }
+
+		icon = eng_propaganda_campaigns
+
+		available = {
+
+		}
+
+		is_good = yes
+		days_re_enable = 0
+		cost = 50
+		days_remove = 10
+		cancel_trigger = {
+		}
+
+		remove_effect = {
+			add_popularity = {
+				ideology = democracy
+				popularity = 0.1
+			}
+		}
+
+		complete_effect = {
+			
+		}
+
+		timeout_effect = {
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	XOL_elections_decision_FPX = {
+
+		allowed = { always = yes }
+
+		icon = eng_propaganda_campaigns
+
+		available = {
+
+		}
+
+		is_good = yes
+		days_re_enable = 0
+		cost = 50
+		days_remove = 10
+		cancel_trigger = {
+		}
+
+		remove_effect = {
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.1
+			}
+		}
+
+		complete_effect = {
+			
+		}
+
+		timeout_effect = {
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	XOL_elections_decision_NJP = {
+
+		allowed = { always = yes }
+
+		icon = eng_propaganda_campaigns
+
+		available = {
+
+		}
+
+		is_good = yes
+		days_re_enable = 0
+		cost = 50
+		days_remove = 10
+		cancel_trigger = {
+		}
+
+		remove_effect = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.1
+			}
+		}
+
+		complete_effect = {
+			
+		}
+
+		timeout_effect = {
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	XOL_elections_decision_coup = {
+
+		allowed = { always = yes }
+
+		icon = SWI_consolidate_council_power
+
+		available = {
+
+		}
+
+		is_good = no
+		days_re_enable = 0
+		cost = 50
+		days_remove = 10
+		cancel_trigger = {
+
+		}
+
+		remove_effect = {
+			add_command_power = 10
+		}
+
+		complete_effect = {
+			
+		}
+
+		timeout_effect = {
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	XOL_elections_countdown = {
+
+		allowed = {date > 2024.1.9 }
+
+		icon = eng_propaganda_campaigns
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+
+		is_good = yes
+		days_re_enable = 0 
+		cost = 50
+		days_mission_timeout = 374
+		cancel_trigger = {
+
+		}
+
+		remove_effect = {
+			
+		}
+
+		complete_effect = {
+			
+		}
+
+		timeout_effect = {
+			complete_national_focus = XOL_adress_the_political_situation
+			if = {
+				limit = {
+				AND = {
+					democracy > party_popularity@liberalism
+					democracy > party_popularity@conservatism
+				}
+				}
+				complete_national_focus = XOL_xonabyte
+				custom_effect_tooltip = XSP_wins
+			}
+			else_if = {
+				limit = {
+				AND = {
+					liberalism > party_popularity@democracy
+					liberalism > party_popularity@conservatism
+				}
+				}
+				custom_effect_tooltip = FPX_wins
+			}
+			else_if = {
+				limit = {
+				AND = {
+					conservatism > party_popularity@democracy
+					conservatism > party_popularity@liberalism
+				}
+				}
+				custom_effect_tooltip = NJP_wins
+			}
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+
+
+}
+

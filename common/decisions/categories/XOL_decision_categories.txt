@@ -1,0 +1,17 @@
+#################
+#### XOLONIA ####
+#################
+
+XOL_elections_category = {
+	icon = GFX_decision_category_generic_propaganda
+
+	picture = GFX_decision_cat_picture_xol_election
+
+	visible = {
+			original_tag = XOL
+		NOT = {
+			has_completed_focus = XOL_adress_the_political_situation
+		}
+	}
+}
+

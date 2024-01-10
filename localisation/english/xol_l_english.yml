@@ -81,3 +81,14 @@
     MENU_YOUTUBE_WOOD:0 "Wood's Youtube Channel"
     #FORMATION
     XOL_FORMATION:0 "Formation"
+    #Decisions
+    XOL_elections_decision_XSP: "Support the §4XSP§!"
+    XOL_elections_decision_FPX: "Support the §YFPX§!"
+    XOL_elections_decision_NJP: "Support the §5NJP§!"
+    XOL_elections_decision_coup: "Organize a §gCoup§!"
+    XOL_elections_category: "Upcoming Elections"
+    XOL_elections_countdown: "2024 Elections"
+    XOL_elections_category_desc: "The 2024 Elections will decide the future of the nation on the 9th of Janurary, the new goverment will decide the new direction of Xolonia. \n§gCurrent Vote Predictions:  \n    §4XSP Popularity: [?party_popularity@democracy|%0]§!\n    §YFPX Popularity: [?party_popularity@liberalism|%0]§! \n    §5NJP Popularity: [?party_popularity@conservatism|%0]§!"
+    NJP_wins: "§5NJP§! wins elections"
+    XSP_wins: "§4XSP§! wins elections"
+    FPX_wins: "§YFPX §!wins elections"
