@@ -52,4 +52,38 @@ political_actions = {
 			}
 		}
 	}
+	redirect_the_army_budget = {
+
+		icon = gre_investment_decisions
+
+		available = {
+			has_stability < 1.0
+		}
+
+		visible = {
+			original_tag = XOL
+		}
+
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_remove = 20
+		fire_only_once = yes
+
+		cost = 0
+
+		complete_effect = {
+			add_stability = -0.05
+			add_war_support = -0.15
+			add_political_power = 120
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
 }

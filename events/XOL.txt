@@ -25,6 +25,49 @@ news_event = {
 	#	name = XOL.1.b
 	#}
 }
+country_event = {
+	id = XOL.2
+	title = XOL.2.t
+	desc = XOL.2.d
+	
+	picture = GFX_xol_coup_event
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 0
+	}
+	option = {
+		name = XOL.2.a
+		set_variable = {coup_ideology = 1}
+		
+	}
+	option = {
+		name = XOL.2.b
+		set_variable = {coup_ideology = 2}
+	}
+	option = {
+		name = XOL.2.c
+		set_variable = {coup_ideology = 2}
+	}
+}
 
-
-
+news_event = {
+	id = XOL.3
+	title = XOL.3.t
+	desc = XOL.3.d
+	picture = GFX_xol_formation_victory
+	is_triggered_only = no
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		has_war = no
+		original_tag = XOL
+		has_completed_focus = XOL_the_formation
+	}
+	option = {
+		name = XOL.3.a
+		add_stability = 0.27
+		
+	}
+}

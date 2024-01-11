@@ -35,7 +35,8 @@
     XOL_preserve_xolonian_democracy:0 "Safeguard Xolonian Democracy"
     XOL_build_the_sosnovec_university:0 "Build The Sosnovec University"
     XOL_the_special_project:0 "§RTHE SPECIAL PROJECT"
-    XOL_the_formation:0 "§b<GLORIA FORMATION§r>"
+    XOL_the_formation:0 "§g<GLORIA FORMATION>§!"
+    XOL_liberalist_victory:0 "FJP Victory"
     #Ideas
     XOL_population_united:0 "Population United"
     XOL_g_g_goverment_corruption:0 "Goverment Corruption"
@@ -49,7 +50,9 @@
     #BOOKMARK
     XOL_BRIEF_HISTORY:0 "In 1987 Xolonia regained independence from Ostryae but they have took a majority of the gold in those lands. Ostreya still doesn't recognize Xolonia as a indepent nation, and many Xolonians want to fight Ostreya for revenge and are angry because they left the country alone. In 2023 Xolonia is still recovering from that cultural and economical massacare but Ostreya claims the lands as theirs. "
     #EVENTS
-
+    XOL.3.t: "Formationist Victory"
+    XOL.3.d: "As divisions of the Formation march in Sosnovec the people are worrying about the future of the nation. The Council is in chaos, everyone arguing about who will rule the country. Soldiers parading are being screamed at by angry protesters. Gunshots are still heard across the nation, even though the war was supposed to end. What happened? Why are they still fightning? Will it ever stop? Well we know nothing except for chaos."
+    XOL.3.a: "Gloria Formation..."
     #Fiat126x
     XOL.1.t:0 "The Fiat 126x"
     XOL.1.d:0 "Do you need a main battle tank? Do you need a car? Well you can have both with the brand new Fiat 126x! You can finally experience the most impressive car in the world! \n The Fiat 126x can fit 4 people inside, so you can go out with all your friends. So this is the time to buy yourself the best car in the world!\n§O (Disclaimer- by buying the Fiat 126x or any other products made by xFiat LLC. you agree to the terms you can buy if you own any of our products)\n§R(Program sponsored by Xolonian goverment)"
@@ -80,15 +83,28 @@
     MENU_TWITCH_WOOD:0 "Wood's Twitch"
     MENU_YOUTUBE_WOOD:0 "Wood's Youtube Channel"
     #FORMATION
-    XOL_FORMATION:0 "Formation"
+    XOL_autocracy:0 "Formation"
     #Decisions
+    redirect_the_army_budget: "Redirect the Army Budget"
     XOL_elections_decision_XSP: "Support the §4XSP§!"
-    XOL_elections_decision_FPX: "Support the §YFPX§!"
+    XOL_elections_decision_FPX: "Support the §8FPX§!"
     XOL_elections_decision_NJP: "Support the §5NJP§!"
     XOL_elections_decision_coup: "Organize a §gCoup§!"
     XOL_elections_category: "Upcoming Elections"
     XOL_elections_countdown: "2024 Elections"
-    XOL_elections_category_desc: "The 2024 Elections will decide the future of the nation on the 9th of Janurary, the new goverment will decide the new direction of Xolonia. \n§gCurrent Vote Predictions:  \n    §4XSP Popularity: [?party_popularity@democracy|%0]§!\n    §YFPX Popularity: [?party_popularity@liberalism|%0]§! \n    §5NJP Popularity: [?party_popularity@conservatism|%0]§!"
+    XOL_elections_category_desc: "The 2024 Elections will decide the future of the nation on the 9th of Janurary, the new goverment will decide the new direction of Xolonia. \n§gCurrent Vote Predictions:  \n    §4XSP Popularity: [?party_popularity@democracy|%0]§!\n    §8FPX Popularity: [?party_popularity@liberalism|%0]§! \n    §5NJP Popularity: [?party_popularity@conservatism|%0]§!"
     NJP_wins: "§5NJP§! wins elections"
     XSP_wins: "§4XSP§! wins elections"
     FPX_wins: "§YFPX §!wins elections"
+     XOL_elections_decision_coup.tt: "Unlocks decisions to organize a §Ycoup§! and overthrow the goverment."
+    XOL_civil_war_decision: "Ignite the Civil War"
+    formationist_coup_tt: "§!The §gFormationist§! supporterts will start a civil war."
+    liberalism_coup_tt: "§TThe §8Liberal§! supporterts will start a civil war."
+    #Events
+    XOL.2.t: "Organizing a Coup"
+    XOL.2.a: "The Formation - only they can rule Xolonia and it's people correctly."
+    XOL.2.b: "The FPX - the only free democratic party."
+    XOL.2.c: "The NJP - the party that will guarantee a Greater Future."
+    XOL.2.d: "The cuurrent goverment of Xolonia is illegitimate and the upcoming elections will not guarantee a better future for our nation. The people can be easily lied to by the liars that are XSP's politics, so we must secure power in the goverment once and for all. But the importnat question is "Who will lead the new state?""
+    XOL_slander_goverment: "Slander the goverment"
+    

@@ -526,7 +526,9 @@ focus = {
                     		
 		}
 		mutually_exclusive = { focus = XOL_the_formation }
+		mutually_exclusive = { focus = XOL_liberalist_victory }
 		available = {
+
 
 		}
 
@@ -741,7 +743,7 @@ focus = {
 		id = XOL_the_formation
 		icon = GFX_goal_formation
 		relative_position_id = XOL_adress_the_political_situation
-		x = 5
+		x = 10
 		y = 1
 
 		cost = 10
@@ -792,6 +794,51 @@ focus = {
 			}
 			}
 		
+#Pol 4 (lol bro)
+#Pol 1 (Liberalism)
+focus = {
+		id = XOL_liberalist_victory
+		icon = GFX_goal_FJP_victory
+		relative_position_id = XOL_adress_the_political_situation
+		mutually_exclusive = {
+			focus = XOL_the_formation
+		}
+		mutually_exclusive = {
+			focus = XOL_xonabyte
+		}
+		x = 5
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+		   factor = 2
+                    		
+		}
+		available = {
+			NOT = {has_completed_focus = XOL_xonabyte}
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = XOL_adress_the_political_situation
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			set_political_party = {
+				ideology = liberalism
+				popularity = 50
+			}
+			}
+}
 #Pol 4 (lol bro)
 #Build The Sosnoviec University
 focus = {

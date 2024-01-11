@@ -1,7 +1,7 @@
 ﻿capital = 124
 
 oob = "XOL_armada"
-
+set_variable = { organizing_coup = 0 }
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

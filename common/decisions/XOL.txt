@@ -120,15 +120,17 @@ XOL_elections_category = {
 		}
 
 		is_good = no
-		days_re_enable = 0
 		cost = 50
-		days_remove = 10
+		days_remove = 10 
+		fire_only_once = yes
 		cancel_trigger = {
 
 		}
 
 		remove_effect = {
-			add_command_power = 10
+			set_variable = { organizing_coup = 1 }
+			country_event = XOL.2
+			custom_effect_tooltip = XOL_elections_decision_coup.tt
 		}
 
 		complete_effect = {
@@ -145,21 +147,23 @@ XOL_elections_category = {
 	}
 	XOL_elections_countdown = {
 
-		allowed = {date > 2024.1.9 }
+		allowed = { }
 
 		icon = eng_propaganda_campaigns
 
 		available = {
-			hidden_trigger = {
-				always = no
+			not = {
+				has_government = democracy
 			}
 		}
 
 		is_good = yes
-		days_re_enable = 0 
 		cost = 50
 		days_mission_timeout = 374
+		fire_only_once = yes
 		cancel_trigger = {
+
+
 
 		}
 
@@ -190,7 +194,10 @@ XOL_elections_category = {
 					liberalism > party_popularity@conservatism
 				}
 				}
+				complete_national_focus = XOL_liberalist_victory
 				custom_effect_tooltip = FPX_wins
+
+
 			}
 			else_if = {
 				limit = {
@@ -202,13 +209,109 @@ XOL_elections_category = {
 				custom_effect_tooltip = NJP_wins
 			}
 		}
-
+		set_variable = {organizing_coup = 0}
 		ai_will_do = {
 
 		}
 	}
-
-
-
 }
 
+XOL_civil_war_category = {
+
+	XOL_civil_war_decision = {
+
+		allowed = { ruling_party = democracy }
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			democracy < 0.3
+
+		}
+
+		is_good = yes
+		cost = 100
+		days_remove = 45
+		cancel_trigger = {
+		}
+
+		remove_effect = {
+			
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+				AND = {
+					check_variable = {coup_ideology = 2}
+				}
+				}
+				custom_effect_tooltip = liberalism_coup_tt
+				complete_national_focus = XOL_liberalist_victory
+				hidden_effect = {
+					complete_national_focus = XOL_adress_the_political_situation
+				}
+			}
+			else_if = {
+				limit = {
+				AND = {
+					check_variable = {coup_ideology = 1}
+				}
+				}
+				complete_national_focus = XOL_the_formation
+				custom_effect_tooltip = formationist_coup_tt
+				hidden_effect = {
+					complete_national_focus = XOL_adress_the_political_situation
+				}
+			}
+
+		}
+
+		timeout_effect = {
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+
+XOL_slander_goverment = {
+
+		allowed = { ruling_party = democracy }
+
+		icon = generic_speech
+
+		available = {
+			democracy < 0.3
+
+		}
+
+		is_good = yes
+		cost = 10
+		days_remove = 24
+		cancel_trigger = {
+		}
+
+		remove_effect = {
+			
+		}
+
+		complete_effect = {
+			add_stability = -10
+			add_popularity = {
+				ideology = democracy
+				popularity = -0.1
+			}
+		}
+
+		timeout_effect = {
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

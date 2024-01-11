@@ -18,13 +18,14 @@ spriteTypes = {
 		name = "GFX_Aurora_flag_event"
 		texturefile = "gfx/event_pictures/aurora_flag_event.dds"
 	}
-
-
-
-
-
-
-
+	spriteType = {
+		name = "GFX_xol_coup_event"
+		texturefile = "gfx/event_pictures/event_xol_coup_planning_ikea.dds"
+	}
+	spriteType = {
+		name = "GFX_xol_formation_victory"
+		texturefile = "gfx/event_pictures/xol_fall_of_sosnovec.dds"
+	}
 
 
 

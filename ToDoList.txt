@@ -9,6 +9,3 @@ Wood:
 Alurch:
  FIX ERRORS
 
-Foxterius:
- Focus tree
- fix the 00_traits.txt errors
