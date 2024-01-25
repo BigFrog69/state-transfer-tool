@@ -51,7 +51,7 @@ focus_tree = {
 	######################################################################################
 	focus = {
 		id = ROK_Diplomatic_Investment
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_ROK_Diplomatic_Investment_White
 		x = -4
 		y = 1
 		cost = 10
@@ -69,7 +69,7 @@ focus_tree = {
 
 	focus = {
 		id = ROK_Sky_Scraping
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_ROK_Sky_Scraping_White
 		x = -4
 		y = 4
 		cost = 10
@@ -89,7 +89,7 @@ focus_tree = {
 
 	focus = {
 		id = ROK_Clean_Up_The_Mess
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_ROK_Cleaning_Up_The_Mess_White
 		x = 2
 		y = 2
 		cost = 10
@@ -143,7 +143,7 @@ focus_tree = {
 	#######################################################################
 	focus = {
 		id = ROK_Align_with_Hans
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_ROK_Align_With_Hans_Trans
 		x = 10
 		y = 0
 		mutually_exclusive = { focus = ROK_Familial_Focus }
@@ -159,7 +159,7 @@ focus_tree = {
 
 	focus = {
 		id = ROK_Diplomatic_Investment
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_ROK_Diplomatic_Investment_White
 		x = 2
 		y = 1
 		cost = 10

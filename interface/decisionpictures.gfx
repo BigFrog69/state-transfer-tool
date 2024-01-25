@@ -1,0 +1,14 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_Union_of_Beyron"
+		texturefile = "gfx/interface/decisions/UnionOfBeyron.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Union_of_Beyron2"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_arabia.dds"
+	}
+	
+}

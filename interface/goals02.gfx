@@ -24,34 +24,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_FIN_foreign_anti_air.dds"		
 	}
 
-	SpriteType = {
-		name = "GFX_goal_ROK_Paving_The_Way_For_Totality"
-		texturefile = "gfx/interface/goals/Paving_The_Way_For_Totality_White.dds"		
-	}
-
-	SpriteType = {
-		name = "GFX_goal_ROK_Ostraeyan_Agreement"
-		texturefile = "gfx/interface/goals/Ostraeyan_Agreement_White.dds"		
-	}
-
-	SpriteType = {
-		name = "GFX_goal_ROK_Military_Planning"
-		texturefile = "gfx/interface/goals/Military_Planning_White.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_goal_ROK_Kustenian_Nationalism"
-		texturefile = "gfx/interface/goals/Kustenian_Nationalism_White.dds"			
-	}
-
-	SpriteType = {
-		name = "GFX_goal_ROK_Every_Pag_A_Champ_White"
-		texturefile = "gfx/interface/goals/Every_Pag_A_Champ_White.dds"			
-	}
-
-
-
-
 
 
 	#USS
@@ -489,6 +461,197 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+
+
+
+
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Paving_The_Way_For_Totality"
+		texturefile = "gfx/interface/goals/Paving_The_Way_For_Totality_White.dds"		
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Ostraeyan_Agreement"
+		texturefile = "gfx/interface/goals/Ostraeyan_Agreement_White.dds"		
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Military_Planning"
+		texturefile = "gfx/interface/goals/Military_Planning_White.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Kustenian_Nationalism"
+		texturefile = "gfx/interface/goals/Kustenian_Nationalism_White.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Every_Pag_A_Champ_White"
+		texturefile = "gfx/interface/goals/Every_Pag_A_Champ_White.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Cleaning_Up_The_Mess_White"
+		texturefile = "gfx/interface/goals/Cleaning_Up_The_Mess_White.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Align_With_Hans_Trans"
+		texturefile = "gfx/interface/goals/Align_With_Hans_Trans.dds"			
+	}
+
+    SpriteType = {
+        name = "GFX_goal_ROK_Align_With_Hans_Trans_shine"
+        texturefile = "gfx/interface/goals/Align_With_Hans_Trans.dds"            
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/Align_With_Hans_Trans.dds"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/Align_With_Hans_Trans.dds"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Diplomatic_Investment_White"
+		texturefile = "gfx/interface/goals/Diplomatic_Investment_White.dds"			
+	}
+
+    SpriteType = {
+        name = "GFX_goal_ROK_Diplomatic_Investment_White_shine"
+        texturefile = "gfx/interface/goals/Diplomatic_Investment_White.dds"            
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/Diplomatic_Investment_White.dds"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/Diplomatic_Investment_White.dds"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	SpriteType = {
+		name = "GFX_goal_ROK_Sky_Scraping_White"
+		texturefile = "gfx/interface/goals/Sky_Scraping_White.dds"			
+	}
+
+    SpriteType = {
+        name = "GFX_goal_ROK_Sky_Scraping_White_shine"
+        texturefile = "gfx/interface/goals/Sky_Scraping_White.dds"            
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/Sky_Scraping_White.dds"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/Sky_Scraping_White.dds"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	SpriteType = {
 	name = "GFX_goal_Money"
 	texturefile = "gfx/interface/goals/Money.dds"			

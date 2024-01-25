@@ -110,7 +110,7 @@ focus_tree = {
 	focus = {
 		id = Rob_Market_Drop
 		icon = GFX_goal_generic_construction
-		x = 35
+		x = 45
 		y = 0
 		available = {
 	    has_idea = ROB_Busted_Economy
@@ -439,10 +439,10 @@ focus_tree = {
 
 
 
-###Air Tree
+###Polotical Tree
 
 	focus = {
-		id = Rob_Air_Tree_Start
+		id = Rob_Political_Start
 		icon = GFX_goal_ArmyRest
 		x = 29
 		y = 0
@@ -458,12 +458,71 @@ focus_tree = {
 
 
 	focus = {
-		id = Rob_Air_Busses
+		id = Rob_Army_Fight_Dripoll
 		icon = GFX_goal_ArmyRest
-		x = 27
+		x = -2
 		y = 1
 		cost = 5
+		relative_position_id = Rob_Political_Start
+		prerequisite = { focus = Rob_Political_Start }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			air_experience = 5
+		}
+	}
 
+	focus = {
+		id = Rob_Air_Stuff
+		icon = GFX_goal_FRA_Danzig_Or_War
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = Rob_Political_Start
+		prerequisite = { focus = Rob_Political_Start }
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			air_experience = 5
+		}
+	}
+
+
+
+
+
+
+
+
+###Air Tree
+
+	focus = {
+		id = Rob_Air_Tree_Start
+		icon = GFX_goal_ArmyRest
+		x = 37
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			air_experience = 50
+		}
+	}
+
+
+	focus = {
+		id = Rob_Air_Busses
+		icon = GFX_goal_ArmyRest
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = Rob_Air_Tree_Start
 		prerequisite = { focus = Rob_Air_Tree_Start }
 		ai_will_do = {
 			factor = 12
@@ -477,10 +536,10 @@ focus_tree = {
 	focus = {
 		id = Rob_Air_Fighters
 		icon = GFX_goal_FRA_Danzig_Or_War
-		x = 31
+		x = 2
 		y = 1
 		cost = 5
-
+		relative_position_id = Rob_Air_Tree_Start
 		prerequisite = { focus = Rob_Air_Tree_Start }
 		ai_will_do = {
 			factor = 12
@@ -500,7 +559,7 @@ focus_tree = {
 	focus = {
 		id = Rob_Navy_Defense_Tree_Start
 		icon = GFX_goal_focus_FIN_coastal_defense
-		x = 29
+		x = 37
 		y = 4
 		cost = 5
 		ai_will_do = {
