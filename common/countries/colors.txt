@@ -56,8 +56,8 @@ CSS = {
 }
 
 PUP = {
-	color = rgb { 48 69 41 }
-	color_ui = rgb { 48 69 41 }
+	color = rgb { 62 77 19 }
+	color_ui = rgb { 62 77 19 }
 }
 
 FCM = {
