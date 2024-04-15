@@ -16,4 +16,96 @@ characters={
 			id=-1
 		}
 	}
+
+
+
+    BTX_baldur = {
+        name="Imperial Wizard Baldur"
+        portraits = {
+            army = {
+                small = "GFX_portrait_BTX_baldur"
+                large = "GFX_portrait_BTX_baldur"
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill = 2
+            attack_skill = 5
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 4
+            legacy_id = 500
+            #visible = { NOT = { has_character_flag = BTX_exiled_flag } }
+        }
+        advisor = {
+            slot = theorist
+            idea_token = baldur_idea
+            ledger = army
+            allowed = { original_tag = BTX } # Optional, doesn't change anything.
+            available = {
+                #has_completed_focus = BTX_positive_heroism
+            }
+            traits = { mass_assault_expert }
+        }
+    }
+
+    BTX_diethard = {
+        name="Imperial Knight Commander Diethard"
+        portraits = {
+            army = {
+                small = "GFX_portrait_BTX_diethard"
+                large = "GFX_portrait_BTX_diethard"
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill = 3
+            attack_skill = 7
+            defense_skill = 6
+            planning_skill = 1
+            logistics_skill = 1
+            legacy_id = 501
+            #visible = { NOT = { has_character_flag = BTX_exiled_flag } }
+        }
+        advisor = {
+            slot = theorist
+            idea_token = diethard_idea
+            ledger = army
+            allowed = { original_tag = BTX } # Optional, doesn't change anything.
+            available = {
+                #has_completed_focus = BTX_positive_heroism
+            }
+            traits = { mass_assault_expert }
+        }
+    }
+
+    BTX_gereon = {
+        name="Deputy Prime Minister Gereon"
+        portraits = {
+            army = {
+                small = "GFX_portrait_BTX_gereon"
+                large = "GFX_portrait_BTX_gereon"
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 7
+            legacy_id = 501
+            #visible = { NOT = { has_character_flag = BTX_exiled_flag } }
+        }
+        advisor = {
+            slot = theorist
+            idea_token = gereon_idea
+            ledger = army
+            allowed = { original_tag = BTX } # Optional, doesn't change anything.
+            available = {
+                #has_completed_focus = BTX_positive_heroism
+            }
+            traits = { mass_assault_expert }
+        }
+    }
 }

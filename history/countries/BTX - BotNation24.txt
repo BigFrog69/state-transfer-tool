@@ -16,8 +16,8 @@ set_war_support = 0.1
 set_stability = 0.8
 
 recruit_character = BTX_agnes
-
-
+recruit_character = BTX_baldur
+recruit_character = BTX_diethard
 
 
 set_politics = {

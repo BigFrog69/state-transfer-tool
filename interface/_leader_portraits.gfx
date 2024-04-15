@@ -269,8 +269,42 @@ spriteTypes = {
 	#Reinald
 	spriteType = {
 		name = "GFX_portrait_BTX_agnes"
-		texturefile = "gfx/leaders/BTX/agnes.dds"
+		texturefile = "gfx/leaders/BTX/Agnes.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_BTX_baldur"
+		texturefile = "gfx/leaders/BTX/Baldur.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BTX_diethard"
+		texturefile = "gfx/leaders/BTX/Diethard.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BTX_gereon"
+		texturefile = "gfx/leaders/BTX/Gereon.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BTX_horaz"
+		texturefile = "gfx/leaders/BTX/Horaz.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BTX_jared"
+		texturefile = "gfx/leaders/BTX/Jared.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BTX_stig"
+		texturefile = "gfx/leaders/BTX/Stig.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BTX_thaddeus"
+		texturefile = "gfx/leaders/BTX/Thaddeus.dds"
+	}
+
+
+
+
+
+
 
 	#SEALAND
 	spriteType = {
