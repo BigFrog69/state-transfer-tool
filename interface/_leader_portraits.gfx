@@ -188,6 +188,22 @@ spriteTypes = {
 
 
 
+	spriteType = {
+		name = "GFX_portrait_CYD_Clyde"
+		texturefile = "gfx/leaders/CYD/Clyde.dds"
+	}
+
+
+
+
+
+
+	spriteType = {
+		name = "GFX_portrait_MOD_zoinks"
+		texturefile = "gfx/leaders/MOD/zoinks.dds"
+	}
+
+
 
 
 

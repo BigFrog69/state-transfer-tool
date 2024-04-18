@@ -147,9 +147,9 @@
  ANL_DEF:0 "AntLand"
  ANL_ADJ:0 "Ants"
  
- MOD:0 "Mountain Dictatorship"
- MOD_DEF:0 "Mountain Dictatorship"
- MOD_ADJ:0 "Mountainers"
+ MOD:0 "IRELAND"
+ MOD_DEF:0 "IRELAND"
+ MOD_ADJ:0 "IRISH"
  
  SOS:0 "Sausage"
  SOS_DEF:0 "Sausage"
@@ -388,6 +388,11 @@
  KLT:0 "KiltedDungeoneer Place Holder Name"
  KLT_DEF:0 "KiltedDungeoneer"
  KLT_ADJ:0 "Kilted"
+
+ CYD:0 "ClydeLand"
+ CYD_DEF:0 "ClydeLand"
+ CYD_ADJ:0 "ClydeLandian"
+
 
  SEA: "Sealand"
  SEA_DEF: "Sealand"

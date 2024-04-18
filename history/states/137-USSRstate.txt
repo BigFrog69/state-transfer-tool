@@ -5,8 +5,8 @@ state={
 		201 658 891 1145 1867 3132 5046 5117 
 	}
 	history={
-		owner = USS
-		add_core_of = USS
+		owner = CYD
+		add_core_of = CYD
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2

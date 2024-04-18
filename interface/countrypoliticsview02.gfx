@@ -4,7 +4,11 @@ spriteTypes = {
 		name = "GFX_ideology_chad_group"
 		texturefile = "gfx/interface/ideologies/chad_group.dds"
 	}	
-	
+	spriteType = {
+		name = "GFX_ideology_jerg"
+		texturefile = "gfx/interface/ideologies/jerg.dds"
+	}	
+
 }
 spriteTypes = {
 	

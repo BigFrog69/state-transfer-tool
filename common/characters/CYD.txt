@@ -1,12 +1,12 @@
 characters={
-	BTW_GeneralGrievous={
-		name="General Grievous"
+	CYD_Clydeguy={
+		name="Clydeguy"
 		portraits={
 			civilian={
-				large=GFX_portrait_BTW_GeneralGrievous
+				large=GFX_portrait_CYD_Clyde
 			}
 			army={
-				small="GFX_portrait_BTW_GeneralGrievous"
+				small="GFX_portrait_CYD_Clyde"
 			}
 		}
 		country_leader={
@@ -15,6 +15,4 @@ characters={
 			id=-1
 		}
 	}
-
-
 }

@@ -58,6 +58,7 @@ DRS = "countries/DemocraticRepublicOfS.txt" #on bookmark - flag needed - focus t
 RCC = "countries/RepublicOfCanterlot.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 NRI = "countries/NovaExylum.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
+
 TUT = "countries/NovaExylum.txt" #on bookmark - focus tree needed - ideas needed
 XOL = "countries/xolonia.txt" #on bookmark  - focus tree needed - ideas needed
 
@@ -93,5 +94,6 @@ BTY	= "countries/BotNation25.txt"
 BTZ	= "countries/BotNation26.txt"
 
 KLT	= "countries/KiltedDungeoneer.txt"  
+CYD = "countries/ClydeLand.txt" #on bookmark - flag needed - focus tree needed - leader portrait needed - ideas needed
 
 SEA = "countries/Sealand.txt"

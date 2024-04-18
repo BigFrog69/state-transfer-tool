@@ -1,0 +1,18 @@
+characters={
+	MOD_zoinks={
+		name="zoinksss" #zoinksss123
+		portraits={
+			civilian={
+				large=GFX_portrait_MOD_zoinks
+			}
+			army={
+				small="GFX_portrait_MOD_zoinks"
+			}
+		}
+		country_leader={
+			ideology= jerg
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
